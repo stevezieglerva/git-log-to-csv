@@ -24,9 +24,9 @@ def process_git_log(log):
             tmsp = commit_basics_parts[1]
             # 2019-12-17T09:16:10-05:00
             # yyyy-mm-ddT
-            tmsp_date = datetime.strptime(
-                tmsp.replace("-05:00", ""), "%Y-%m-%dT%H:%M:%S"
-            )
+            tmsp = tmsp.replace("-04:00", "")
+            tmsp = tmsp.replace("-05:00", "")
+            tmsp_date = datetime.strptime(tmsp, "%Y-%m-%dT%H:%M:%S")
             year = tmsp_date.year
             month = tmsp_date.month
             day = tmsp_date.day
