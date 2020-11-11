@@ -22,10 +22,10 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,author,file,churn_count
-1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,8
-1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,1
-1576592605,2019-12-17T09:23:25-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,3
+        expected = """epoch,timestamp,author,file,churn_count,dir_1
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,8,
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,1,
+1576592605,2019-12-17T09:23:25-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,3,
 """
         self.assertEqual(results, expected)
 
@@ -42,8 +42,26 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,author,file,churn_count
-1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,2
+        expected = """epoch,timestamp,author,file,churn_count,dir_1
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,2,
+"""
+        self.assertEqual(results, expected)
+
+    def test_process__given_file_in_one_dir__then_dir_1_correct(self):
+        # Arrange
+        input = """^^1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
+
+
+-	-	test1/README.md
+"""
+
+        # Act
+        results = process_git_log(input)
+        print(results)
+
+        # Assert
+        expected = """epoch,timestamp,author,file,churn_count,dir_1
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",test1/README.md,2,test1
 """
         self.assertEqual(results, expected)
 
