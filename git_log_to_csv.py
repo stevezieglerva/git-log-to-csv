@@ -1,4 +1,5 @@
 import sys
+from datetime import datetime
 
 
 def main(filename):
@@ -21,6 +22,11 @@ def process_git_log(log):
             commit_basics_parts = commit_basics.split("--")
             epoch = commit_basics_parts[0]
             tmsp = commit_basics_parts[1]
+            # 2019-12-17T09:16:10-05:00
+            # yyyy-mm-ddT
+            tmsp_date = datetime.strptime(
+                tmsp.replace("-05:00", ""), "%Y-%m-%dT%H:%M:%S"
+            )
             author = commit_basics_parts[2]
             total_lines = len(commit_lines)
             for row_index in range(3, total_lines - 1):
