@@ -1,4 +1,4 @@
---1576172319--2019-12-12T12:38:39-05:00--Steve Ziegler
+^^1576172319--2019-12-12T12:38:39-05:00--Steve Ziegler
 
 
 3	0	.gitignore
@@ -78,12 +78,12 @@
 5	0	sam-app/send_sns_to_email/run_tests.sh
 51	0	sam-app/send_sns_to_email/tests/test_integration_send_sns_to_email.py
 444	0	sam-app/template.yaml
---1576268528--2019-12-13T15:22:08-05:00--Steve Ziegler
+^^1576268528--2019-12-13T15:22:08-05:00--Steve Ziegler
 
 
 1	1	initial_setup/initial_infra.yaml
 0	138	sam-app/README.md
---1576268822--2019-12-13T15:27:02-05:00--Steve Ziegler
+^^1576268822--2019-12-13T15:27:02-05:00--Steve Ziegler
 
 
 1	3	README.md
@@ -93,127 +93,127 @@
 0	5	sam-app/send_sns_to_email/run_tests.sh
 0	51	sam-app/send_sns_to_email/tests/test_integration_send_sns_to_email.py
 0	25	sam-app/template.yaml
---1576269068--2019-12-13T15:31:08-05:00--Steve Ziegler
+^^1576269068--2019-12-13T15:31:08-05:00--Steve Ziegler
 
 
 1	2	accounts_config/accounts_config.json
 3	28	sam-app/template.yaml
---1576330558--2019-12-14T08:35:58-05:00--Steve Ziegler
+^^1576330558--2019-12-14T08:35:58-05:00--Steve Ziegler
 
 
 -	-	.DS_Store
 12	0	accounts_config/accounts_config.json
---1576330617--2019-12-14T08:36:57-05:00--GitHub
+^^1576330617--2019-12-14T08:36:57-05:00--GitHub
 
---1576330856--2019-12-14T08:40:56-05:00--Steve Ziegler
+^^1576330856--2019-12-14T08:40:56-05:00--Steve Ziegler
 
 
 1	1	accounts_config/accounts_config.json
---1576330884--2019-12-14T08:41:24-05:00--GitHub
+^^1576330884--2019-12-14T08:41:24-05:00--GitHub
 
---1576331603--2019-12-14T08:53:23-05:00--Steve Ziegler
+^^1576331603--2019-12-14T08:53:23-05:00--Steve Ziegler
 
 
 2	2	accounts_config/accounts_config.json
---1576331672--2019-12-14T08:54:32-05:00--GitHub
+^^1576331672--2019-12-14T08:54:32-05:00--GitHub
 
---1576331840--2019-12-14T08:57:20-05:00--Steve Ziegler
+^^1576331840--2019-12-14T08:57:20-05:00--Steve Ziegler
 
 
 12	0	sam-app/template.yaml
---1576335519--2019-12-14T09:58:39-05:00--Steve Ziegler
+^^1576335519--2019-12-14T09:58:39-05:00--Steve Ziegler
 
 
 18	11	sam-app/template.yaml
---1576338146--2019-12-14T10:42:26-05:00--Steve Ziegler
+^^1576338146--2019-12-14T10:42:26-05:00--Steve Ziegler
 
 
 0	1	sam-app/process_cw_log_error_metric_alarm/tests/test_integration_process_cw_log_error.py
 0	5	sam-app/process_pipeline_successful_events/app.py
 1	25	sam-app/template.yaml
---1576341159--2019-12-14T11:32:39-05:00--GitHub
+^^1576341159--2019-12-14T11:32:39-05:00--GitHub
 
---1576371012--2019-12-14T19:50:12-05:00--Steve Ziegler
+^^1576371012--2019-12-14T19:50:12-05:00--Steve Ziegler
 
 
 1	4	sam-app/process_cw_log_error_metric_alarm/app.py
---1576371334--2019-12-14T19:55:34-05:00--GitHub
+^^1576371334--2019-12-14T19:55:34-05:00--GitHub
 
---1576416584--2019-12-15T08:29:44-05:00--Steve Ziegler
+^^1576416584--2019-12-15T08:29:44-05:00--Steve Ziegler
 
 
 3	2	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/add_cw_log_error_metric/requirements.txt
 3	0	sam-app/template.yaml
---1576417008--2019-12-15T08:36:48-05:00--Steve Ziegler
+^^1576417008--2019-12-15T08:36:48-05:00--Steve Ziegler
 
 
 0	2	sam-app/template.yaml
---1576417260--2019-12-15T08:41:00-05:00--GitHub
+^^1576417260--2019-12-15T08:41:00-05:00--GitHub
 
---1576515460--2019-12-16T11:57:40-05:00--Butler, Ken
+^^1576515460--2019-12-16T11:57:40-05:00--Butler, Ken
 
 
 11	1	accounts_config/accounts_config.json
 33	0	initial_setup/inital_deploy.ps1
---1576521718--2019-12-16T13:41:58-05:00--Butler, Ken
+^^1576521718--2019-12-16T13:41:58-05:00--Butler, Ken
 
 
 3	1	initial_setup/inital_deploy.ps1
---1576527425--2019-12-16T15:17:05-05:00--Butler, Ken
+^^1576527425--2019-12-16T15:17:05-05:00--Butler, Ken
 
 
 5	2	initial_setup/inital_deploy.ps1
---1576528167--2019-12-16T15:29:27-05:00--GitHub
+^^1576528167--2019-12-16T15:29:27-05:00--GitHub
 
---1576529669--2019-12-16T15:54:29-05:00--Steve Ziegler
+^^1576529669--2019-12-16T15:54:29-05:00--Steve Ziegler
 
 
 7	0	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
 1	3	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/add_cw_log_error_metric/requirements.txt
 18	0	sam-app/add_cw_log_error_metric/tests/test_unit_CloudFormationReplicator.py
---1576529674--2019-12-16T15:54:34-05:00--Steve Ziegler
+^^1576529674--2019-12-16T15:54:34-05:00--Steve Ziegler
 
---1576529922--2019-12-16T15:58:42-05:00--Steve Ziegler
+^^1576529922--2019-12-16T15:58:42-05:00--Steve Ziegler
 
 
 1	0	buildspec.yml
---1576530338--2019-12-16T16:05:38-05:00--Steve Ziegler
+^^1576530338--2019-12-16T16:05:38-05:00--Steve Ziegler
 
 
 2	0	buildspec.yml
---1576530834--2019-12-16T16:13:54-05:00--Butler, Ken
+^^1576530834--2019-12-16T16:13:54-05:00--Butler, Ken
 
 
 11	1	accounts_config/accounts_config.json
 33	0	initial_setup/inital_deploy.ps1
---1576530834--2019-12-16T16:13:54-05:00--Butler, Ken
+^^1576530834--2019-12-16T16:13:54-05:00--Butler, Ken
 
 
 3	1	initial_setup/inital_deploy.ps1
---1576530834--2019-12-16T16:13:54-05:00--Butler, Ken
+^^1576530834--2019-12-16T16:13:54-05:00--Butler, Ken
 
 
 5	2	initial_setup/inital_deploy.ps1
---1576530835--2019-12-16T16:13:55-05:00--Butler, Ken
+^^1576530835--2019-12-16T16:13:55-05:00--Butler, Ken
 
 
 20	6	initial_setup/inital_deploy.ps1
---1576531259--2019-12-16T16:20:59-05:00--Butler, Ken
+^^1576531259--2019-12-16T16:20:59-05:00--Butler, Ken
 
 
 1	1	accounts_config/accounts_config.json
 1	1	initial_setup/inital_deploy.ps1
---1576531456--2019-12-16T16:24:16-05:00--Steve Ziegler
+^^1576531456--2019-12-16T16:24:16-05:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1576533264--2019-12-16T16:54:24-05:00--Steve Ziegler
+^^1576533264--2019-12-16T16:54:24-05:00--Steve Ziegler
 
 
 3	3	buildspec.yml
---1576591813--2019-12-17T09:10:13-05:00--Steve Ziegler
+^^1576591813--2019-12-17T09:10:13-05:00--Steve Ziegler
 
 
 4	0	initial_setup/initial_infra.yaml
@@ -224,31 +224,31 @@
 28	6	sam-app/add_cw_log_error_metric/tests/test_unit_CloudFormationReplicator.py
 8	3	sam-app/process_selected_infra_change_events/app.py
 1	1	sam-app/template.yaml
---1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
+^^1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
 
 
 3	5	README.md
 0	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
---1576592605--2019-12-17T09:23:25-05:00--Steve Ziegler
+^^1576592605--2019-12-17T09:23:25-05:00--Steve Ziegler
 
 
 2	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
---1576594090--2019-12-17T09:48:10-05:00--GitHub
+^^1576594090--2019-12-17T09:48:10-05:00--GitHub
 
---1576596010--2019-12-17T10:20:10-05:00--Steve Ziegler
+^^1576596010--2019-12-17T10:20:10-05:00--Steve Ziegler
 
 
 4	2	sam-app/process_selected_infra_change_events/app.py
 3	64	sam-app/process_selected_infra_change_events/tests/test_unit_process_selected_infra_change_events.py
---1576596481--2019-12-17T10:28:01-05:00--GitHub
+^^1576596481--2019-12-17T10:28:01-05:00--GitHub
 
---1576596588--2019-12-17T10:29:48-05:00--Steve Ziegler
+^^1576596588--2019-12-17T10:29:48-05:00--Steve Ziegler
 
 
 2	2	accounts_config/accounts_config.json
---1576596650--2019-12-17T10:30:50-05:00--GitHub
+^^1576596650--2019-12-17T10:30:50-05:00--GitHub
 
---1576602207--2019-12-17T12:03:27-05:00--Butler, Ken
+^^1576602207--2019-12-17T12:03:27-05:00--Butler, Ken
 
 
 2	2	accounts_config/accounts_config.json
@@ -257,65 +257,65 @@
 7	0	initial_setup/initial_infra.yaml
 16	5	sam-app/add_cw_log_error_metric/app.py
 5	1	sam-app/template.yaml
---1576609688--2019-12-17T14:08:08-05:00--Butler, Ken
+^^1576609688--2019-12-17T14:08:08-05:00--Butler, Ken
 
---1576610787--2019-12-17T14:26:27-05:00--Butler, Ken
+^^1576610787--2019-12-17T14:26:27-05:00--Butler, Ken
 
 
 1	1	buildspec.yml
 4	6	initial_setup/inital_deploy.ps1
---1576611029--2019-12-17T14:30:29-05:00--Steve Ziegler
+^^1576611029--2019-12-17T14:30:29-05:00--Steve Ziegler
 
 
 5	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
 1	1	sam-app/add_cw_log_error_metric/tests/test_integration_add_cw_log_error_metric.py
---1576611586--2019-12-17T14:39:46-05:00--GitHub
+^^1576611586--2019-12-17T14:39:46-05:00--GitHub
 
---1576621730--2019-12-17T17:28:50-05:00--Butler, Ken
+^^1576621730--2019-12-17T17:28:50-05:00--Butler, Ken
 
 
 11	14	initial_setup/inital_deploy.ps1
---1576621932--2019-12-17T17:32:12-05:00--Butler, Ken
+^^1576621932--2019-12-17T17:32:12-05:00--Butler, Ken
 
 
 1	1	initial_setup/inital_deploy.ps1
---1576767694--2019-12-19T10:01:34-05:00--Steve Ziegler
+^^1576767694--2019-12-19T10:01:34-05:00--Steve Ziegler
 
 
 1	3	buildspec.yml
 2	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
 2	30	sam-app/template.yaml
---1576769061--2019-12-19T10:24:21-05:00--Steve Ziegler
+^^1576769061--2019-12-19T10:24:21-05:00--Steve Ziegler
 
 
 1	1	buildspec.yml
 3	3	initial_setup/initial_deploy.sh
 1	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
---1576769398--2019-12-19T10:29:58-05:00--Butler, Ken
+^^1576769398--2019-12-19T10:29:58-05:00--Butler, Ken
 
 
 50	3	README.md
 9	9	initial_setup/inital_deploy.ps1
---1576772971--2019-12-19T11:29:31-05:00--Steve Ziegler
+^^1576772971--2019-12-19T11:29:31-05:00--Steve Ziegler
 
 
 0	2	initial_setup/initial_infra.yaml
---1576773912--2019-12-19T11:45:12-05:00--GitHub
+^^1576773912--2019-12-19T11:45:12-05:00--GitHub
 
---1576775639--2019-12-19T12:13:59-05:00--Steve Ziegler
+^^1576775639--2019-12-19T12:13:59-05:00--Steve Ziegler
 
 
 1	0	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
---1576779370--2019-12-19T13:16:10-05:00--Steve Ziegler
+^^1576779370--2019-12-19T13:16:10-05:00--Steve Ziegler
 
 
 1	1	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
---1576779925--2019-12-19T13:25:25-05:00--Steve Ziegler
+^^1576779925--2019-12-19T13:25:25-05:00--Steve Ziegler
 
 
 3	0	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
 3	3	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
---1576854186--2019-12-20T10:03:06-05:00--Butler, Ken
+^^1576854186--2019-12-20T10:03:06-05:00--Butler, Ken
 
 
 1	21	README.md
@@ -323,45 +323,45 @@
 4	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
 4	4	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
 1	1	sam-app/template.yaml
---1576855052--2019-12-20T10:17:32-05:00--Butler, Ken
+^^1576855052--2019-12-20T10:17:32-05:00--Butler, Ken
 
 
 1	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
---1576861742--2019-12-20T12:09:02-05:00--Butler, Ken
+^^1576861742--2019-12-20T12:09:02-05:00--Butler, Ken
 
 
 1	1	initial_setup/initial_infra.yaml
 7	20	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
 1	1	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/template.yaml
---1576868163--2019-12-20T13:56:03-05:00--Butler, Ken
+^^1576868163--2019-12-20T13:56:03-05:00--Butler, Ken
 
---1576870102--2019-12-20T14:28:22-05:00--GitHub
+^^1576870102--2019-12-20T14:28:22-05:00--GitHub
 
---1576873146--2019-12-20T15:19:06-05:00--Steve Ziegler
+^^1576873146--2019-12-20T15:19:06-05:00--Steve Ziegler
 
 
 2	2	accounts_config/accounts_config.json
 1	1	initial_setup/initial_deploy.sh
---1576873241--2019-12-20T15:20:41-05:00--Steve Ziegler
+^^1576873241--2019-12-20T15:20:41-05:00--Steve Ziegler
 
 
 0	2	sam-app/template.yaml
---1576873890--2019-12-20T15:31:30-05:00--Steve Ziegler
+^^1576873890--2019-12-20T15:31:30-05:00--Steve Ziegler
 
 
 8	4	sam-app/template.yaml
---1576875117--2019-12-20T15:51:57-05:00--Steve Ziegler
+^^1576875117--2019-12-20T15:51:57-05:00--Steve Ziegler
 
 
 8	1	sam-app/process_pipeline_successful_events/ProjectInfo.py
 21	2	sam-app/process_pipeline_successful_events/app.py
 1	0	sam-app/process_pipeline_successful_events/tests/test_unit_process_pipeline_successes.py
---1576875439--2019-12-20T15:57:19-05:00--Steve Ziegler
+^^1576875439--2019-12-20T15:57:19-05:00--Steve Ziegler
 
 
 6	0	sam-app/template.yaml
---1576875719--2019-12-20T16:01:59-05:00--Steve Ziegler
+^^1576875719--2019-12-20T16:01:59-05:00--Steve Ziegler
 
 
 36	0	sam-app/process_pipeline_failures/EventInfo.py
@@ -369,84 +369,84 @@
 50	5	sam-app/process_pipeline_failures/app.py
 1	1	sam-app/process_pipeline_successful_events/app.py
 17	0	sam-app/template.yaml
---1576875773--2019-12-20T16:02:53-05:00--Steve Ziegler
+^^1576875773--2019-12-20T16:02:53-05:00--Steve Ziegler
 
 
 2	0	sam-app/process_pipeline_failures/app.py
 2	0	sam-app/process_pipeline_successful_events/app.py
---1576876035--2019-12-20T16:07:15-05:00--Steve Ziegler
+^^1576876035--2019-12-20T16:07:15-05:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1576876335--2019-12-20T16:12:15-05:00--Steve Ziegler
+^^1576876335--2019-12-20T16:12:15-05:00--Steve Ziegler
 
 
 1	0	buildspec.yml
---1576876530--2019-12-20T16:15:30-05:00--Steve Ziegler
+^^1576876530--2019-12-20T16:15:30-05:00--Steve Ziegler
 
 
 0	1	buildspec.yml
---1576876659--2019-12-20T16:17:39-05:00--Steve Ziegler
+^^1576876659--2019-12-20T16:17:39-05:00--Steve Ziegler
 
 
 1	0	buildspec.yml
 2	2	sam-app/template.yaml
---1576877015--2019-12-20T16:23:35-05:00--Steve Ziegler
+^^1576877015--2019-12-20T16:23:35-05:00--Steve Ziegler
 
 
 0	1	buildspec.yml
 1	2	sam-app/process_pipeline_failures/app.py
---1576877234--2019-12-20T16:27:14-05:00--Steve Ziegler
+^^1576877234--2019-12-20T16:27:14-05:00--Steve Ziegler
 
 
 1	0	buildspec.yml
---1576882663--2019-12-20T17:57:43-05:00--Steve Ziegler
+^^1576882663--2019-12-20T17:57:43-05:00--Steve Ziegler
 
 
 0	1	buildspec.yml
---1576883065--2019-12-20T18:04:25-05:00--Steve Ziegler
+^^1576883065--2019-12-20T18:04:25-05:00--Steve Ziegler
 
 
 0	6	accounts_config/accounts_config.json
 1	3	buildspec.yml
 0	6	sam-app/template.yaml
---1576883229--2019-12-20T18:07:09-05:00--GitHub
+^^1576883229--2019-12-20T18:07:09-05:00--GitHub
 
---1576884873--2019-12-20T18:34:33-05:00--Steve Ziegler
+^^1576884873--2019-12-20T18:34:33-05:00--Steve Ziegler
 
 
 1	0	initial_setup/initial_iam_group.yaml
 9	0	useful_scripts/mac/find_resources_by_tag.sh
---1576885283--2019-12-20T18:41:23-05:00--Steve Ziegler
+^^1576885283--2019-12-20T18:41:23-05:00--Steve Ziegler
 
 
 9	0	initial_setup/initial_iam_group.yaml
---1576885729--2019-12-20T18:48:49-05:00--Steve Ziegler
+^^1576885729--2019-12-20T18:48:49-05:00--Steve Ziegler
 
 
 0	7	initial_setup/initial_iam_group.yaml
 5	0	initial_setup/initial_infra.yaml
---1576934344--2019-12-21T08:19:04-05:00--Steve Ziegler
+^^1576934344--2019-12-21T08:19:04-05:00--Steve Ziegler
 
 
 1	0	.gitignore
 10	0	initial_setup/initial_iam_group.yaml
 6	1	initial_setup/initial_infra.yaml
---1576939505--2019-12-21T09:45:05-05:00--Steve Ziegler
+^^1576939505--2019-12-21T09:45:05-05:00--Steve Ziegler
 
 
 3	0	initial_setup/initial_iam_group.yaml
 2	1	initial_setup/initial_infra.yaml
---1576945942--2019-12-21T11:32:22-05:00--Steve Ziegler
+^^1576945942--2019-12-21T11:32:22-05:00--Steve Ziegler
 
 
 2	0	initial_setup/initial_infra.yaml
 10	0	useful_scripts/mac/add_tag.sh
 9	0	useful_scripts/mac/remove_tag.sh
 0	0	useful_scripts/mac/{find_resources_by_tag.sh => search_tag.sh}
---1576947998--2019-12-21T12:06:38-05:00--GitHub
+^^1576947998--2019-12-21T12:06:38-05:00--GitHub
 
---1577394587--2019-12-26T16:09:47-05:00--Steve Ziegler
+^^1577394587--2019-12-26T16:09:47-05:00--Steve Ziegler
 
 
 0	1	README.md
@@ -454,7 +454,7 @@
 10	1	sam-app/add_cw_log_error_metric/tests/test_integration_add_cw_log_error_metric.py
 10	6	sam-app/add_cw_log_error_metric/tests/test_unit_CloudFormationReplicator.py
 201	108	sam-app/add_cw_log_error_metric/tests/test_unit_add_cw_log_error_metric.py
---1577454191--2019-12-27T08:43:11-05:00--Steve Ziegler
+^^1577454191--2019-12-27T08:43:11-05:00--Steve Ziegler
 
 
 19	0	sam-app/add_cw_log_error_metric/AbstractResourceFunctions.py
@@ -464,7 +464,7 @@
 0	7	sam-app/add_cw_log_error_metric/tests/test_integration_add_cw_log_error_metric.py
 15	0	sam-app/add_cw_log_error_metric/tests/test_unit_LogMetricFilters.py
 98	139	sam-app/add_cw_log_error_metric/tests/test_unit_add_cw_log_error_metric.py
---1577458289--2019-12-27T09:51:29-05:00--Steve Ziegler
+^^1577458289--2019-12-27T09:51:29-05:00--Steve Ziegler
 
 
 25	0	sam-app/add_cw_log_error_metric/AbstractResourceFunctions.py
@@ -473,18 +473,18 @@
 33	0	sam-app/add_cw_log_error_metric/filter_list_by_regexs.py
 0	93	sam-app/add_cw_log_error_metric/tests/test_unit_add_cw_log_error_metric.py
 55	0	sam-app/add_cw_log_error_metric/tests/test_unit_filter_list_by_regex_pattern.py
---1577538226--2019-12-28T08:03:46-05:00--Steve Ziegler
+^^1577538226--2019-12-28T08:03:46-05:00--Steve Ziegler
 
 
 0	8	sam-app/add_cw_log_error_metric/app.py
---1577538636--2019-12-28T08:10:36-05:00--GitHub
+^^1577538636--2019-12-28T08:10:36-05:00--GitHub
 
---1577538810--2019-12-28T08:13:30-05:00--Steve Ziegler
+^^1577538810--2019-12-28T08:13:30-05:00--Steve Ziegler
 
 
 2	1	sam-app/add_cw_log_error_metric/app.py
 1	0	sam-app/template.yaml
---1577548623--2019-12-28T10:57:03-05:00--Steve Ziegler
+^^1577548623--2019-12-28T10:57:03-05:00--Steve Ziegler
 
 
 0	0	sam-app/auto_tagger/__init__.py
@@ -496,7 +496,7 @@
 209	0	sam-app/auto_tagger/tests/test_unit_auto_tagger.py
 107	0	sam-app/auto_tagger/tests/test_unit_auto_tagger_classes.py
 10	0	sam-app/template.yaml
---1577625355--2019-12-29T08:15:55-05:00--Steve Ziegler
+^^1577625355--2019-12-29T08:15:55-05:00--Steve Ziegler
 
 
 1	0	sam-app/auto_tagger/@test_66023_tmp
@@ -505,13 +505,13 @@
 0	1	sam-app/auto_tagger/requirements.txt
 1592	0	sam-app/auto_tagger/results.txt
 41	26	sam-app/auto_tagger/tests/test_unit_auto_tagger.py
---1577647038--2019-12-29T14:17:18-05:00--Steve Ziegler
+^^1577647038--2019-12-29T14:17:18-05:00--Steve Ziegler
 
 
 42	12	sam-app/auto_tagger/app.py
 3	0	sam-app/auto_tagger/requirements.txt
 110	11	sam-app/auto_tagger/tests/test_unit_auto_tagger.py
---1577713293--2019-12-30T08:41:33-05:00--Steve Ziegler
+^^1577713293--2019-12-30T08:41:33-05:00--Steve Ziegler
 
 
 14	0	sam-app/auto_tagger/accounts_config/706415383428.json
@@ -519,86 +519,86 @@
 1	1	sam-app/auto_tagger/auto_tagger_classes.py
 20	0	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
 11	11	sam-app/auto_tagger/tests/test_unit_auto_tagger.py
---1577714259--2019-12-30T08:57:39-05:00--Steve Ziegler
+^^1577714259--2019-12-30T08:57:39-05:00--Steve Ziegler
 
 
 10	1	sam-app/template.yaml
---1577715533--2019-12-30T09:18:53-05:00--Steve Ziegler
+^^1577715533--2019-12-30T09:18:53-05:00--Steve Ziegler
 
 
 3	3	sam-app/template.yaml
---1577716382--2019-12-30T09:33:02-05:00--Steve Ziegler
+^^1577716382--2019-12-30T09:33:02-05:00--Steve Ziegler
 
 
 6	3	sam-app/auto_tagger/app.py
---1577716418--2019-12-30T09:33:38-05:00--Steve Ziegler
+^^1577716418--2019-12-30T09:33:38-05:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1577716586--2019-12-30T09:36:26-05:00--Steve Ziegler
+^^1577716586--2019-12-30T09:36:26-05:00--Steve Ziegler
 
 
 9	0	sam-app/template.yaml
---1577717362--2019-12-30T09:49:22-05:00--Steve Ziegler
+^^1577717362--2019-12-30T09:49:22-05:00--Steve Ziegler
 
 
 0	1	sam-app/auto_tagger/app.py
---1577721997--2019-12-30T11:06:37-05:00--Steve Ziegler
+^^1577721997--2019-12-30T11:06:37-05:00--Steve Ziegler
 
 
 6	0	sam-app/auto_tagger/accounts_config/706415383428.json
---1577723607--2019-12-30T11:33:27-05:00--Steve Ziegler
+^^1577723607--2019-12-30T11:33:27-05:00--Steve Ziegler
 
 
 7	0	sam-app/template.yaml
---1577726893--2019-12-30T12:28:13-05:00--Steve Ziegler
+^^1577726893--2019-12-30T12:28:13-05:00--Steve Ziegler
 
 
 2	2	sam-app/auto_tagger/accounts_config/706415383428.json
 1	1	sam-app/auto_tagger/app.py
 4	1	sam-app/template.yaml
---1577727981--2019-12-30T12:46:21-05:00--Steve Ziegler
+^^1577727981--2019-12-30T12:46:21-05:00--Steve Ziegler
 
 
 2	2	sam-app/auto_tagger/accounts_config/706415383428.json
---1577728616--2019-12-30T12:56:56-05:00--Steve Ziegler
+^^1577728616--2019-12-30T12:56:56-05:00--Steve Ziegler
 
 
 2	2	sam-app/template.yaml
---1577729766--2019-12-30T13:16:06-05:00--Steve Ziegler
+^^1577729766--2019-12-30T13:16:06-05:00--Steve Ziegler
 
 
 2	2	sam-app/auto_tagger/accounts_config/706415383428.json
---1577730425--2019-12-30T13:27:05-05:00--GitHub
+^^1577730425--2019-12-30T13:27:05-05:00--GitHub
 
---1577730677--2019-12-30T13:31:17-05:00--Steve Ziegler
+^^1577730677--2019-12-30T13:31:17-05:00--Steve Ziegler
 
 
 0	8	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
 1	1	sam-app/auto_tagger/accounts_config/706415383428.json
 16	0	sam-app/auto_tagger/app.py
---1577730771--2019-12-30T13:32:51-05:00--GitHub
+^^1577730771--2019-12-30T13:32:51-05:00--GitHub
 
---1577799351--2019-12-31T08:35:51-05:00--Steve Ziegler
+^^1577799351--2019-12-31T08:35:51-05:00--Steve Ziegler
 
 
 15	4	sam-app/auto_tagger/app.py
---1577799809--2019-12-31T08:43:29-05:00--Steve Ziegler
+^^1577799809--2019-12-31T08:43:29-05:00--Steve Ziegler
 
 
 5	1	sam-app/template.yaml
---1577890213--2020-01-01T09:50:13-05:00--Steve Ziegler
+^^1577890213--2020-01-01T09:50:13-05:00--Steve Ziegler
 
 
 21	8	sam-app/auto_tagger/app.py
---1577890753--2020-01-01T09:59:13-05:00--Steve Ziegler
+^^1577890753--2020-01-01T09:59:13-05:00--Steve Ziegler
 
 
 1	1	sam-app/auto_tagger/app.py
---1577971607--2020-01-02T08:26:47-05:00--GitHub
+^^1577971607--2020-01-02T08:26:47-05:00--GitHub
 
---1578326835--2020-01-06T11:07:15-05:00--Steve Ziegler
+^^1578326835--2020-01-06T11:07:15-05:00--Steve Ziegler
 
 
 5	0	sam-app/README.md
@@ -606,13 +606,13 @@
 19	0	sam-app/auto_tagger/README.md
 13	0	sam-app/process_cw_log_error_metric_alarm/README.md
 6	0	sam-app/template.yaml
---1578328630--2020-01-06T11:37:10-05:00--Steve Ziegler
+^^1578328630--2020-01-06T11:37:10-05:00--Steve Ziegler
 
 
 34	1	sam-app/auto_tagger/README.md
---1578328704--2020-01-06T11:38:24-05:00--GitHub
+^^1578328704--2020-01-06T11:38:24-05:00--GitHub
 
---1578329899--2020-01-06T11:58:19-05:00--Steve Ziegler
+^^1578329899--2020-01-06T11:58:19-05:00--Steve Ziegler
 
 
 20	0	sam-app/fake_cw_log_errors/README.md
@@ -620,7 +620,7 @@
 34	0	sam-app/process_pipeline_failures/README.md
 1	1	sam-app/process_pipeline_failures/app.py
 36	0	sam-app/process_pipeline_successful_events/README.md
---1578335489--2020-01-06T13:31:29-05:00--Steve Ziegler
+^^1578335489--2020-01-06T13:31:29-05:00--Steve Ziegler
 
 
 36	0	sam-app/auto_tagger/EventInfo.py
@@ -628,7 +628,7 @@
 4	2	sam-app/auto_tagger/filter_list_by_regexs.py
 1	1	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
 3	0	sam-app/template.yaml
---1578338872--2020-01-06T14:27:52-05:00--Steve Ziegler
+^^1578338872--2020-01-06T14:27:52-05:00--Steve Ziegler
 
 
 27	0	initial_setup/initial_iam_group.yaml
@@ -640,30 +640,30 @@
 1	1	sam-app/process_pipeline_failures/EventInfo.py
 1	1	sam-app/process_pipeline_successful_events/EventInfo.py
 1	1	sam-app/process_selected_infra_change_events/EventInfo.py
---1578339679--2020-01-06T14:41:19-05:00--GitHub
+^^1578339679--2020-01-06T14:41:19-05:00--GitHub
 
---1578341169--2020-01-06T15:06:09-05:00--Steve Ziegler
+^^1578341169--2020-01-06T15:06:09-05:00--Steve Ziegler
 
 
 9	0	sam-app/auto_tagger/app.py
 2	1	sam-app/template.yaml
---1578341445--2020-01-06T15:10:45-05:00--Steve Ziegler
+^^1578341445--2020-01-06T15:10:45-05:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1578341920--2020-01-06T15:18:40-05:00--Steve Ziegler
+^^1578341920--2020-01-06T15:18:40-05:00--Steve Ziegler
 
 
 8	0	sam-app/auto_tagger/README.md
 1	1	sam-app/auto_tagger/app.py
 1	1	sam-app/template.yaml
---1578342000--2020-01-06T15:20:00-05:00--Steve Ziegler
+^^1578342000--2020-01-06T15:20:00-05:00--Steve Ziegler
 
 
 1	1	sam-app/process_pipeline_failures/app.py
---1578342844--2020-01-06T15:34:04-05:00--GitHub
+^^1578342844--2020-01-06T15:34:04-05:00--GitHub
 
---1578345258--2020-01-06T16:14:18-05:00--Steve Ziegler
+^^1578345258--2020-01-06T16:14:18-05:00--Steve Ziegler
 
 
 348	3	sam-app/auto_tagger/README.md
@@ -671,49 +671,49 @@
 9	2	sam-app/process_cw_log_error_metric_alarm/Alert.py
 1	21	sam-app/process_cw_log_error_metric_alarm/tests/test_integration_process_cw_log_error.py
 21	0	sam-app/process_cw_log_error_metric_alarm/tests/test_unit_process_cw_log_error.py
---1578407025--2020-01-07T09:23:45-05:00--Steve Ziegler
+^^1578407025--2020-01-07T09:23:45-05:00--Steve Ziegler
 
 
 8	0	sam-app/auto_tagger/accounts_config/112280397275.json
 1	1	sam-app/process_cw_log_error_metric_alarm/Alert.py
---1578410000--2020-01-07T10:13:20-05:00--Steve Ziegler
+^^1578410000--2020-01-07T10:13:20-05:00--Steve Ziegler
 
 
 9	0	accounts_config/accounts_config.json
---1578410303--2020-01-07T10:18:23-05:00--GitHub
+^^1578410303--2020-01-07T10:18:23-05:00--GitHub
 
---1578410643--2020-01-07T10:24:03-05:00--Steve Ziegler
+^^1578410643--2020-01-07T10:24:03-05:00--Steve Ziegler
 
 
 1	1	accounts_config/accounts_config.json
 1	0	buildspec.yml
---1578410915--2020-01-07T10:28:35-05:00--GitHub
+^^1578410915--2020-01-07T10:28:35-05:00--GitHub
 
---1578422291--2020-01-07T13:38:11-05:00--Steve Ziegler
+^^1578422291--2020-01-07T13:38:11-05:00--Steve Ziegler
 
 
 23	20	README.md
 -	-	docs/alert_email_example.png
 -	-	docs/s3_events_history.png
 24	0	sam-app/process_selected_infra_change_events/README.md
---1578422327--2020-01-07T13:38:47-05:00--GitHub
+^^1578422327--2020-01-07T13:38:47-05:00--GitHub
 
---1578430926--2020-01-07T16:02:06-05:00--Steve Ziegler
+^^1578430926--2020-01-07T16:02:06-05:00--Steve Ziegler
 
 
 18	0	sam-app/template.yaml
---1578431006--2020-01-07T16:03:26-05:00--Steve Ziegler
+^^1578431006--2020-01-07T16:03:26-05:00--Steve Ziegler
 
 
 1	1	accounts_config/accounts_config.json
---1578431423--2020-01-07T16:10:23-05:00--GitHub
+^^1578431423--2020-01-07T16:10:23-05:00--GitHub
 
---1578431908--2020-01-07T16:18:28-05:00--Steve Ziegler
+^^1578431908--2020-01-07T16:18:28-05:00--Steve Ziegler
 
 
 2	2	sam-app/process_selected_infra_change_events/app.py
 2	1	sam-app/process_selected_infra_change_events/tests/test_unit_process_selected_infra_change_events.py
---1578583753--2020-01-09T10:29:13-05:00--Steve Ziegler
+^^1578583753--2020-01-09T10:29:13-05:00--Steve Ziegler
 
 
 44	0	sam-app/add_ec2_alarms/AbstractResourceFunctions.py
@@ -733,7 +733,7 @@
 118	0	sam-app/add_ec2_alarms/tests/test_unit_add_ec2_alarms.py
 55	0	sam-app/add_ec2_alarms/tests/test_unit_filter_list_by_regex_pattern.py
 46	1	sam-app/template.yaml
---1578595925--2020-01-09T13:52:05-05:00--Steve Ziegler
+^^1578595925--2020-01-09T13:52:05-05:00--Steve Ziegler
 
 
 1	1	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
@@ -745,7 +745,7 @@
 0	27	sam-app/add_ec2_alarms/tests/test_integration_EC2Alarms.py
 72	91	sam-app/add_ec2_alarms/tests/test_unit_add_ec2_alarms.py
 7	0	sam-app/template.yaml
---1578924582--2020-01-13T09:09:42-05:00--Steve Ziegler
+^^1578924582--2020-01-13T09:09:42-05:00--Steve Ziegler
 
 
 1	0	sam-app/add_ec2_alarms/AbstractResourceFunctions.py
@@ -755,121 +755,121 @@
 2	3	sam-app/add_ec2_alarms/tests/{test_integration_add_cw_log_error_metric.py => test_integration_add_ec2_alarms.py}
 1	1	sam-app/add_ec2_alarms/tests/test_unit_EC2Alarms.py
 35	34	sam-app/add_ec2_alarms/tests/test_unit_add_ec2_alarms.py
---1578929048--2020-01-13T10:24:08-05:00--Steve Ziegler
+^^1578929048--2020-01-13T10:24:08-05:00--Steve Ziegler
 
 
 1	1	accounts_config/accounts_config.json
 1	1	sam-app/process_pipeline_successful_events/app.py
---1578933489--2020-01-13T11:38:09-05:00--Steve Ziegler
+^^1578933489--2020-01-13T11:38:09-05:00--Steve Ziegler
 
 
 10	0	accounts_config/accounts_config.json
 1	1	initial_setup/initial_deploy.sh
 4	4	sam-app/template.yaml
---1578933563--2020-01-13T11:39:23-05:00--GitHub
+^^1578933563--2020-01-13T11:39:23-05:00--GitHub
 
---1578934125--2020-01-13T11:48:45-05:00--Steve Ziegler
+^^1578934125--2020-01-13T11:48:45-05:00--Steve Ziegler
 
 
 3	3	sam-app/template.yaml
---1578934564--2020-01-13T11:56:04-05:00--GitHub
+^^1578934564--2020-01-13T11:56:04-05:00--GitHub
 
---1578935774--2020-01-13T12:16:14-05:00--Steve Ziegler
+^^1578935774--2020-01-13T12:16:14-05:00--Steve Ziegler
 
 
 1	1	initial_setup/initial_infra.yaml
 2	1	sam-app/template.yaml
---1578936222--2020-01-13T12:23:42-05:00--Steve Ziegler
+^^1578936222--2020-01-13T12:23:42-05:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1578936883--2020-01-13T12:34:43-05:00--Steve Ziegler
+^^1578936883--2020-01-13T12:34:43-05:00--Steve Ziegler
 
 
 1	1	sam-app/add_ec2_alarms/ec2_alarm_snippet.yaml
---1578936951--2020-01-13T12:35:51-05:00--GitHub
+^^1578936951--2020-01-13T12:35:51-05:00--GitHub
 
---1578942879--2020-01-13T14:14:39-05:00--Steve Ziegler
+^^1578942879--2020-01-13T14:14:39-05:00--Steve Ziegler
 
 
 27	13	sam-app/add_ec2_alarms/ec2_alarm_snippet.yaml
---1578942949--2020-01-13T14:15:49-05:00--GitHub
+^^1578942949--2020-01-13T14:15:49-05:00--GitHub
 
---1578948147--2020-01-13T15:42:27-05:00--Steve Ziegler
+^^1578948147--2020-01-13T15:42:27-05:00--Steve Ziegler
 
 
 2	1	sam-app/add_ec2_alarms/EC2Alarms.py
 1	0	sam-app/add_ec2_alarms/ec2_alarm_snippet.yaml
---1578948778--2020-01-13T15:52:58-05:00--GitHub
+^^1578948778--2020-01-13T15:52:58-05:00--GitHub
 
---1579202585--2020-01-16T14:23:05-05:00--Steve Ziegler
+^^1579202585--2020-01-16T14:23:05-05:00--Steve Ziegler
 
 
 2	2	accounts_config/accounts_config.json
---1579202625--2020-01-16T14:23:45-05:00--GitHub
+^^1579202625--2020-01-16T14:23:45-05:00--GitHub
 
---1579649847--2020-01-21T18:37:27-05:00--Steve Ziegler
+^^1579649847--2020-01-21T18:37:27-05:00--Steve Ziegler
 
 
 6	0	sam-app/template.yaml
---1579650097--2020-01-21T18:41:37-05:00--Steve Ziegler
+^^1579650097--2020-01-21T18:41:37-05:00--Steve Ziegler
 
 
 3	2	sam-app/template.yaml
---1579650251--2020-01-21T18:44:11-05:00--Steve Ziegler
+^^1579650251--2020-01-21T18:44:11-05:00--Steve Ziegler
 
 
 3	0	sam-app/template.yaml
---1579650576--2020-01-21T18:49:36-05:00--GitHub
+^^1579650576--2020-01-21T18:49:36-05:00--GitHub
 
---1579650835--2020-01-21T18:53:55-05:00--Steve Ziegler
+^^1579650835--2020-01-21T18:53:55-05:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1579650910--2020-01-21T18:55:10-05:00--Steve Ziegler
+^^1579650910--2020-01-21T18:55:10-05:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1579650973--2020-01-21T18:56:13-05:00--GitHub
+^^1579650973--2020-01-21T18:56:13-05:00--GitHub
 
---1579701271--2020-01-22T08:54:31-05:00--Steve Ziegler
+^^1579701271--2020-01-22T08:54:31-05:00--Steve Ziegler
 
 
 4	4	sam-app/auto_tagger/accounts_config/112280397275.json
 3	0	sam-app/template.yaml
---1579711439--2020-01-22T11:43:59-05:00--Steve Ziegler
+^^1579711439--2020-01-22T11:43:59-05:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1579711824--2020-01-22T11:50:24-05:00--Steve Ziegler
+^^1579711824--2020-01-22T11:50:24-05:00--Steve Ziegler
 
 
 6	3	sam-app/template.yaml
---1579712366--2020-01-22T11:59:26-05:00--Steve Ziegler
+^^1579712366--2020-01-22T11:59:26-05:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1579713133--2020-01-22T12:12:13-05:00--GitHub
+^^1579713133--2020-01-22T12:12:13-05:00--GitHub
 
---1579717349--2020-01-22T13:22:29-05:00--Steve Ziegler
+^^1579717349--2020-01-22T13:22:29-05:00--Steve Ziegler
 
 
 1	0	.gitignore
 0	8	sam-app/auto_tagger/accounts_config/112280397275.json
---1579719532--2020-01-22T13:58:52-05:00--Steve Ziegler
+^^1579719532--2020-01-22T13:58:52-05:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1579719846--2020-01-22T14:04:06-05:00--GitHub
+^^1579719846--2020-01-22T14:04:06-05:00--GitHub
 
---1579722809--2020-01-22T14:53:29-05:00--Steve Ziegler
+^^1579722809--2020-01-22T14:53:29-05:00--Steve Ziegler
 
 
 327	0	docs/cross_account_templates.md
 4	0	sam-app/auto_tagger/app.py
 9	0	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
 3	0	sam-app/template.yaml
---1579726214--2020-01-22T15:50:14-05:00--Steve Ziegler
+^^1579726214--2020-01-22T15:50:14-05:00--Steve Ziegler
 
 
 1	1	initial_setup/initial_deploy.sh
@@ -877,110 +877,110 @@
 33	2	sam-app/auto_tagger/app.py
 12	1	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
 4	0	sam-app/template.yaml
---1579727191--2020-01-22T16:06:31-05:00--Steve Ziegler
+^^1579727191--2020-01-22T16:06:31-05:00--Steve Ziegler
 
 
 1	1	accounts_config/accounts_config.json
---1579727322--2020-01-22T16:08:42-05:00--GitHub
+^^1579727322--2020-01-22T16:08:42-05:00--GitHub
 
---1579790374--2020-01-23T09:39:34-05:00--Steve Ziegler
+^^1579790374--2020-01-23T09:39:34-05:00--Steve Ziegler
 
 
 8	3	README.md
---1579790695--2020-01-23T09:44:55-05:00--GitHub
+^^1579790695--2020-01-23T09:44:55-05:00--GitHub
 
---1580239050--2020-01-28T14:17:30-05:00--Les Green
+^^1580239050--2020-01-28T14:17:30-05:00--Les Green
 
 
 10	1	accounts_config/accounts_config.json
---1580252545--2020-01-28T18:02:25-05:00--Steve Ziegler
+^^1580252545--2020-01-28T18:02:25-05:00--Steve Ziegler
 
 
 31	7	initial_setup/initial_iam_group.yaml
---1580254771--2020-01-28T18:39:31-05:00--GitHub
+^^1580254771--2020-01-28T18:39:31-05:00--GitHub
 
---1580304879--2020-01-29T08:34:39-05:00--rdiveley
+^^1580304879--2020-01-29T08:34:39-05:00--rdiveley
 
 
 10	0	accounts_config/accounts_config.json
---1580305138--2020-01-29T08:38:58-05:00--rdiveley
+^^1580305138--2020-01-29T08:38:58-05:00--rdiveley
 
---1580314715--2020-01-29T11:18:35-05:00--Steve Ziegler
+^^1580314715--2020-01-29T11:18:35-05:00--Steve Ziegler
 
 
 9	1	accounts_config/accounts_config.json
 -	-	docs/baseline-initial-iam-groups-cloudformation.png
 -	-	docs/baseline-initial-iam-groups.png
---1580314813--2020-01-29T11:20:13-05:00--GitHub
+^^1580314813--2020-01-29T11:20:13-05:00--GitHub
 
---1580316006--2020-01-29T11:40:06-05:00--Steve Ziegler
+^^1580316006--2020-01-29T11:40:06-05:00--Steve Ziegler
 
 
 -	-	docs/baseline-initial-infra-cloudformation.png
 -	-	docs/baseline-successful-pipeline-build.png
 1	0	sam-app/process_selected_infra_change_events/app.py
---1580316146--2020-01-29T11:42:26-05:00--GitHub
+^^1580316146--2020-01-29T11:42:26-05:00--GitHub
 
---1580317047--2020-01-29T11:57:27-05:00--Steve Ziegler
+^^1580317047--2020-01-29T11:57:27-05:00--Steve Ziegler
 
 
 -	-	docs/baseline-s3-deployment-artifacts.png
 -	-	docs/baseline-s3-events-bucket.png
 -	-	docs/baseline-sam-app-monitoring.png
 9	2	sam-app/auto_tagger/app.py
---1580317122--2020-01-29T11:58:42-05:00--GitHub
+^^1580317122--2020-01-29T11:58:42-05:00--GitHub
 
---1580321333--2020-01-29T13:08:53-05:00--rdiveley
+^^1580321333--2020-01-29T13:08:53-05:00--rdiveley
 
---1580321506--2020-01-29T13:11:46-05:00--lesgreen
+^^1580321506--2020-01-29T13:11:46-05:00--lesgreen
 
---1580321527--2020-01-29T13:12:07-05:00--lesgreen
+^^1580321527--2020-01-29T13:12:07-05:00--lesgreen
 
 
 2	2	initial_setup/initial_deploy.sh
---1580322319--2020-01-29T13:25:19-05:00--GitHub
+^^1580322319--2020-01-29T13:25:19-05:00--GitHub
 
---1580328702--2020-01-29T15:11:42-05:00--Steve Ziegler
+^^1580328702--2020-01-29T15:11:42-05:00--Steve Ziegler
 
 
 2	2	accounts_config/accounts_config.json
 26	0	sam-app/auto_tagger/accounts_config/851035652284.json
 6	0	sam-app/template.yaml
---1580328750--2020-01-29T15:12:30-05:00--GitHub
+^^1580328750--2020-01-29T15:12:30-05:00--GitHub
 
---1580330645--2020-01-29T15:44:05-05:00--Steve Ziegler
+^^1580330645--2020-01-29T15:44:05-05:00--Steve Ziegler
 
 
 6	0	sam-app/auto_tagger/app.py
 8	13	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
---1580330756--2020-01-29T15:45:56-05:00--GitHub
+^^1580330756--2020-01-29T15:45:56-05:00--GitHub
 
---1580331819--2020-01-29T16:03:39-05:00--Steve Ziegler
+^^1580331819--2020-01-29T16:03:39-05:00--Steve Ziegler
 
 
 2	2	sam-app/auto_tagger/accounts_config/851035652284.json
 8	0	sam-app/template.yaml
---1580331898--2020-01-29T16:04:58-05:00--GitHub
+^^1580331898--2020-01-29T16:04:58-05:00--GitHub
 
---1580339069--2020-01-29T18:04:29-05:00--Steve Ziegler
+^^1580339069--2020-01-29T18:04:29-05:00--Steve Ziegler
 
 
 1	1	sam-app/auto_tagger/accounts_config/851035652284.json
---1580339156--2020-01-29T18:05:56-05:00--GitHub
+^^1580339156--2020-01-29T18:05:56-05:00--GitHub
 
---1580405339--2020-01-30T12:28:59-05:00--rdiveley
+^^1580405339--2020-01-30T12:28:59-05:00--rdiveley
 
---1580407731--2020-01-30T13:08:51-05:00--rdiveley
+^^1580407731--2020-01-30T13:08:51-05:00--rdiveley
 
 
 2	2	initial_setup/initial_deploy.sh
---1580407823--2020-01-30T13:10:23-05:00--rdiveley
+^^1580407823--2020-01-30T13:10:23-05:00--rdiveley
 
 
 1	1	accounts_config/accounts_config.json
---1580407867--2020-01-30T13:11:07-05:00--GitHub
+^^1580407867--2020-01-30T13:11:07-05:00--GitHub
 
---1580417803--2020-01-30T15:56:43-05:00--Steve Ziegler
+^^1580417803--2020-01-30T15:56:43-05:00--Steve Ziegler
 
 
 2	1	.gitignore
@@ -989,179 +989,179 @@
 1	1	sam-app/auto_tagger/run_tests.sh
 37	0	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
 13	1	sam-app/auto_tagger/tests/test_unit_auto_tagger.py
---1580420352--2020-01-30T16:39:12-05:00--Steve Ziegler
+^^1580420352--2020-01-30T16:39:12-05:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1580420917--2020-01-30T16:48:37-05:00--GitHub
+^^1580420917--2020-01-30T16:48:37-05:00--GitHub
 
---1580438030--2020-01-30T21:33:50-05:00--Steve Ziegler
+^^1580438030--2020-01-30T21:33:50-05:00--Steve Ziegler
 
 
 50	0	sam-app/auto_tagger/accounts_config/318775028588.json
 2	0	sam-app/template.yaml
---1580438351--2020-01-30T21:39:11-05:00--GitHub
+^^1580438351--2020-01-30T21:39:11-05:00--GitHub
 
---1580481411--2020-01-31T09:36:51-05:00--Steve Ziegler
+^^1580481411--2020-01-31T09:36:51-05:00--Steve Ziegler
 
 
 9	9	accounts_config/accounts_config.json
 4666	334	sam-app/auto_tagger/README.md
 26	0	sam-app/auto_tagger/accounts_config/702489600387.json
 3	3	sam-app/template.yaml
---1580482764--2020-01-31T09:59:24-05:00--Steve Ziegler
+^^1580482764--2020-01-31T09:59:24-05:00--Steve Ziegler
 
 
 33	0	sam-app/template.yaml
---1580492634--2020-01-31T12:43:54-05:00--Steve Ziegler
+^^1580492634--2020-01-31T12:43:54-05:00--Steve Ziegler
 
 
 10	0	initial_setup/initial_infra.yaml
 3	1	sam-app/template.yaml
---1580493637--2020-01-31T13:00:37-05:00--GitHub
+^^1580493637--2020-01-31T13:00:37-05:00--GitHub
 
---1580494090--2020-01-31T13:08:10-05:00--Steve Ziegler
+^^1580494090--2020-01-31T13:08:10-05:00--Steve Ziegler
 
 
 8	2	sam-app/template.yaml
---1580495434--2020-01-31T13:30:34-05:00--Steve Ziegler
+^^1580495434--2020-01-31T13:30:34-05:00--Steve Ziegler
 
 
 1	1	sam-app/add_ec2_alarms/ec2_alarm_snippet.yaml
 1	13	sam-app/auto_tagger/app.py
---1580503758--2020-01-31T15:49:18-05:00--Butler, Ken
+^^1580503758--2020-01-31T15:49:18-05:00--Butler, Ken
 
 
 2	2	accounts_config/accounts_config.json
---1580504584--2020-01-31T16:03:04-05:00--GitHub
+^^1580504584--2020-01-31T16:03:04-05:00--GitHub
 
---1580506504--2020-01-31T16:35:04-05:00--Steve Ziegler
+^^1580506504--2020-01-31T16:35:04-05:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1580506967--2020-01-31T16:42:47-05:00--GitHub
+^^1580506967--2020-01-31T16:42:47-05:00--GitHub
 
---1580508269--2020-01-31T17:04:29-05:00--Steve Ziegler
+^^1580508269--2020-01-31T17:04:29-05:00--Steve Ziegler
 
 
 2	1	sam-app/auto_tagger/app.py
 1	0	sam-app/template.yaml
---1580508814--2020-01-31T17:13:34-05:00--Steve Ziegler
+^^1580508814--2020-01-31T17:13:34-05:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1580509046--2020-01-31T17:17:26-05:00--Steve Ziegler
+^^1580509046--2020-01-31T17:17:26-05:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1580509333--2020-01-31T17:22:13-05:00--Steve Ziegler
+^^1580509333--2020-01-31T17:22:13-05:00--Steve Ziegler
 
 
 4	2	sam-app/template.yaml
---1580874392--2020-02-04T22:46:32-05:00--Steve Ziegler
+^^1580874392--2020-02-04T22:46:32-05:00--Steve Ziegler
 
 
 3	1	.gitignore
 12	2	sam-app/process_selected_infra_change_events/app.py
 62	1	sam-app/process_selected_infra_change_events/tests/test_unit_process_selected_infra_change_events.py
---1580875038--2020-02-04T22:57:18-05:00--GitHub
+^^1580875038--2020-02-04T22:57:18-05:00--GitHub
 
---1580875717--2020-02-04T23:08:37-05:00--GitHub
+^^1580875717--2020-02-04T23:08:37-05:00--GitHub
 
---1580876333--2020-02-04T23:18:53-05:00--Steve Ziegler
+^^1580876333--2020-02-04T23:18:53-05:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1580876788--2020-02-04T23:26:28-05:00--GitHub
+^^1580876788--2020-02-04T23:26:28-05:00--GitHub
 
---1580877138--2020-02-04T23:32:18-05:00--Steve Ziegler
+^^1580877138--2020-02-04T23:32:18-05:00--Steve Ziegler
 
 
 2	1	sam-app/auto_tagger/EventInfo.py
---1580877456--2020-02-04T23:37:36-05:00--GitHub
+^^1580877456--2020-02-04T23:37:36-05:00--GitHub
 
---1580878086--2020-02-04T23:48:06-05:00--Steve Ziegler
+^^1580878086--2020-02-04T23:48:06-05:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
---1580878132--2020-02-04T23:48:52-05:00--GitHub
+^^1580878132--2020-02-04T23:48:52-05:00--GitHub
 
---1580878505--2020-02-04T23:55:05-05:00--GitHub
+^^1580878505--2020-02-04T23:55:05-05:00--GitHub
 
---1580933148--2020-02-05T15:05:48-05:00--Steve Ziegler
+^^1580933148--2020-02-05T15:05:48-05:00--Steve Ziegler
 
 
 0	0	sam-app/auto_tagger/accounts_config/{702489600387.json => _702489600387.json}
---1580933340--2020-02-05T15:09:00-05:00--GitHub
+^^1580933340--2020-02-05T15:09:00-05:00--GitHub
 
---1580933874--2020-02-05T15:17:54-05:00--GitHub
+^^1580933874--2020-02-05T15:17:54-05:00--GitHub
 
---1580939336--2020-02-05T16:48:56-05:00--Steve Ziegler
+^^1580939336--2020-02-05T16:48:56-05:00--Steve Ziegler
 
 
 0	124	sam-app/template.yaml
---1580940126--2020-02-05T17:02:06-05:00--GitHub
+^^1580940126--2020-02-05T17:02:06-05:00--GitHub
 
---1580940229--2020-02-05T17:03:49-05:00--GitHub
+^^1580940229--2020-02-05T17:03:49-05:00--GitHub
 
---1581181832--2020-02-08T12:10:32-05:00--Steve Ziegler
+^^1581181832--2020-02-08T12:10:32-05:00--Steve Ziegler
 
 
 15	1	sam-app/auto_tagger/README.md
 17	0	sam-app/auto_tagger/app.py
 5	14	sam-app/auto_tagger/tests/test_unit_auto_tagger.py
 122	0	sam-app/template.yaml
---1581182480--2020-02-08T12:21:20-05:00--GitHub
+^^1581182480--2020-02-08T12:21:20-05:00--GitHub
 
---1581346498--2020-02-10T09:54:58-05:00--Steve Ziegler
+^^1581346498--2020-02-10T09:54:58-05:00--Steve Ziegler
 
 
 1	0	sam-app/auto_tagger/app.py
---1581346640--2020-02-10T09:57:20-05:00--GitHub
+^^1581346640--2020-02-10T09:57:20-05:00--GitHub
 
---1581349906--2020-02-10T10:51:46-05:00--Steve Ziegler
+^^1581349906--2020-02-10T10:51:46-05:00--Steve Ziegler
 
 
 4	2	sam-app/auto_tagger/app.py
---1581350754--2020-02-10T11:05:54-05:00--GitHub
+^^1581350754--2020-02-10T11:05:54-05:00--GitHub
 
---1581352120--2020-02-10T11:28:40-05:00--Steve Ziegler
+^^1581352120--2020-02-10T11:28:40-05:00--Steve Ziegler
 
 
 7	7	sam-app/auto_tagger/app.py
---1581352169--2020-02-10T11:29:29-05:00--GitHub
+^^1581352169--2020-02-10T11:29:29-05:00--GitHub
 
---1581354477--2020-02-10T12:07:57-05:00--Steve Ziegler
+^^1581354477--2020-02-10T12:07:57-05:00--Steve Ziegler
 
 
 2	1	sam-app/auto_tagger/app.py
---1581354550--2020-02-10T12:09:10-05:00--GitHub
+^^1581354550--2020-02-10T12:09:10-05:00--GitHub
 
---1581355137--2020-02-10T12:18:57-05:00--Steve Ziegler
+^^1581355137--2020-02-10T12:18:57-05:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1581355208--2020-02-10T12:20:08-05:00--Steve Ziegler
+^^1581355208--2020-02-10T12:20:08-05:00--Steve Ziegler
 
 
 0	2	sam-app/template.yaml
---1581355513--2020-02-10T12:25:13-05:00--GitHub
+^^1581355513--2020-02-10T12:25:13-05:00--GitHub
 
---1581378311--2020-02-10T18:45:11-05:00--Steve Ziegler
-
-
-1	1	sam-app/auto_tagger/README.md
---1581378505--2020-02-10T18:48:25-05:00--GitHub
-
---1581378873--2020-02-10T18:54:33-05:00--Steve Ziegler
+^^1581378311--2020-02-10T18:45:11-05:00--Steve Ziegler
 
 
 1	1	sam-app/auto_tagger/README.md
---1581378936--2020-02-10T18:55:36-05:00--GitHub
+^^1581378505--2020-02-10T18:48:25-05:00--GitHub
 
---1581378992--2020-02-10T18:56:32-05:00--GitHub
+^^1581378873--2020-02-10T18:54:33-05:00--Steve Ziegler
 
---1581724695--2020-02-14T18:58:15-05:00--Steve Ziegler
+
+1	1	sam-app/auto_tagger/README.md
+^^1581378936--2020-02-10T18:55:36-05:00--GitHub
+
+^^1581378992--2020-02-10T18:56:32-05:00--GitHub
+
+^^1581724695--2020-02-14T18:58:15-05:00--Steve Ziegler
 
 
 -	-	.DS_Store
@@ -1175,23 +1175,23 @@
 -	-	docs/baseline-sns-topics.png
 158	0	install.md
 30	0	useful_scripts/mac/tag_report.sh
---1581724997--2020-02-14T19:03:17-05:00--Steve Ziegler
+^^1581724997--2020-02-14T19:03:17-05:00--Steve Ziegler
 
 
 1	1	install.md
---1581725170--2020-02-14T19:06:10-05:00--Steve Ziegler
+^^1581725170--2020-02-14T19:06:10-05:00--Steve Ziegler
 
 
 1	1	install.md
---1581775587--2020-02-15T09:06:27-05:00--Steve Ziegler
+^^1581775587--2020-02-15T09:06:27-05:00--Steve Ziegler
 
 
 83	0	sam-app/template.yaml
---1581775939--2020-02-15T09:12:19-05:00--GitHub
+^^1581775939--2020-02-15T09:12:19-05:00--GitHub
 
---1581946998--2020-02-17T08:43:18-05:00--GitHub
+^^1581946998--2020-02-17T08:43:18-05:00--GitHub
 
---1583266154--2020-03-03T15:09:14-05:00--rdiveley
+^^1583266154--2020-03-03T15:09:14-05:00--rdiveley
 
 
 20	13	sam-app/process_cw_log_error_metric_alarm/Alert.py
@@ -1199,16 +1199,16 @@
 22	6	sam-app/process_cw_log_error_metric_alarm/app.py
 9	20	sam-app/process_cw_log_error_metric_alarm/tests/test_integration_process_cw_log_error.py
 17	13	sam-app/process_cw_log_error_metric_alarm/tests/test_unit_process_cw_log_error.py
---1583330590--2020-03-04T09:03:10-05:00--rdiveley
+^^1583330590--2020-03-04T09:03:10-05:00--rdiveley
 
 
 5	5	sam-app/process_cw_log_error_metric_alarm/Alert.py
 3	3	sam-app/process_cw_log_error_metric_alarm/app.py
---1583365579--2020-03-04T18:46:19-05:00--rdiveley
+^^1583365579--2020-03-04T18:46:19-05:00--rdiveley
 
 
 0	1	sam-app/process_cw_log_error_metric_alarm/app.py
---1583417786--2020-03-05T09:16:26-05:00--Steve Ziegler
+^^1583417786--2020-03-05T09:16:26-05:00--Steve Ziegler
 
 
 4	1	.gitignore
@@ -1220,14 +1220,14 @@
 4	0	sam-app/process_cw_log_error_metric_alarm/EventContext.py
 6	14	sam-app/process_cw_log_error_metric_alarm/tests/test_integration_process_cw_log_error.py
 4	1	sam-app/process_cw_log_error_metric_alarm/tests/test_unit_process_cw_log_error.py
---1583437977--2020-03-05T14:52:57-05:00--Steve Ziegler
+^^1583437977--2020-03-05T14:52:57-05:00--Steve Ziegler
 
 
 5	5	sam-app/auto_tagger/app.py
 1	1	sam-app/auto_tagger/run_tests.sh
 1	16	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
 80	13	sam-app/auto_tagger/tests/test_unit_auto_tagger.py
---1583439030--2020-03-05T15:10:30-05:00--Steve Ziegler
+^^1583439030--2020-03-05T15:10:30-05:00--Steve Ziegler
 
 
 3	3	sam-app/auto_tagger/app.py
@@ -1235,26 +1235,26 @@
 0	0	sam-app/tests/integration/__init__.py
 0	0	sam-app/tests/unit/__init__.py
 433	0	sam-app/tests/unit/test_unit_auto_tagger.py
---1583443867--2020-03-05T16:31:07-05:00--Steve Ziegler
+^^1583443867--2020-03-05T16:31:07-05:00--Steve Ziegler
 
 
 0	1	sam-app/auto_tagger/@test_66023_tmp
 4	3	sam-app/auto_tagger/app.py
 0	0	sam-app/tests/__init__.py
 9	5	sam-app/tests/unit/test_unit_auto_tagger.py
---1583501706--2020-03-06T08:35:06-05:00--rdiveley
+^^1583501706--2020-03-06T08:35:06-05:00--rdiveley
 
 
 3	3	sam-app/process_cw_log_error_metric_alarm/Alert.py
 5	6	sam-app/process_cw_log_error_metric_alarm/app.py
 2	1	sam-app/process_cw_log_error_metric_alarm/tests/test_unit_process_cw_log_error.py
---1583501848--2020-03-06T08:37:28-05:00--rdiveley
+^^1583501848--2020-03-06T08:37:28-05:00--rdiveley
 
 
 3	2	sam-app/process_cw_log_error_metric_alarm/Alert.py
---1583510332--2020-03-06T10:58:52-05:00--GitHub
+^^1583510332--2020-03-06T10:58:52-05:00--GitHub
 
---1583517666--2020-03-06T13:01:06-05:00--Steve Ziegler
+^^1583517666--2020-03-06T13:01:06-05:00--Steve Ziegler
 
 
 4	0	.gitignore
@@ -1265,64 +1265,64 @@
 63	0	sam-app/tests/integration/test_integration_auto_tagger.py
 414	308	sam-app/tests/unit/test_unit_auto_tagger.py
 106	0	sam-app/tests/unit/test_unit_auto_tagger_classes.py
---1583517892--2020-03-06T13:04:52-05:00--Steve Ziegler
+^^1583517892--2020-03-06T13:04:52-05:00--Steve Ziegler
 
 
 2	1	buildspec.yml
---1583518188--2020-03-06T13:09:48-05:00--Steve Ziegler
+^^1583518188--2020-03-06T13:09:48-05:00--Steve Ziegler
 
 
 2	1	buildspec.yml
---1583518552--2020-03-06T13:15:52-05:00--Steve Ziegler
+^^1583518552--2020-03-06T13:15:52-05:00--Steve Ziegler
 
 
 3	2	buildspec.yml
---1583518794--2020-03-06T13:19:54-05:00--Steve Ziegler
+^^1583518794--2020-03-06T13:19:54-05:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1583519059--2020-03-06T13:24:19-05:00--Steve Ziegler
+^^1583519059--2020-03-06T13:24:19-05:00--Steve Ziegler
 
 
 2	1	sam-app/requirements_ci_testing.txt
---1583519519--2020-03-06T13:31:59-05:00--Steve Ziegler
+^^1583519519--2020-03-06T13:31:59-05:00--Steve Ziegler
 
 
 0	2	buildspec.yml
 6	0	sam-app/run_tests_ci.sh
---1583523620--2020-03-06T14:40:20-05:00--Steve Ziegler
+^^1583523620--2020-03-06T14:40:20-05:00--Steve Ziegler
 
 
 4	0	initial_setup/initial_infra.yaml
---1583523928--2020-03-06T14:45:28-05:00--Steve Ziegler
+^^1583523928--2020-03-06T14:45:28-05:00--Steve Ziegler
 
 
 6	0	initial_setup/initial_infra.yaml
---1583526081--2020-03-06T15:21:21-05:00--Steve Ziegler
+^^1583526081--2020-03-06T15:21:21-05:00--Steve Ziegler
 
 
 4	0	buildspec.yml
---1583527864--2020-03-06T15:51:04-05:00--Steve Ziegler
+^^1583527864--2020-03-06T15:51:04-05:00--Steve Ziegler
 
 
 1	0	initial_setup/initial_infra.yaml
---1583528386--2020-03-06T15:59:46-05:00--Steve Ziegler
+^^1583528386--2020-03-06T15:59:46-05:00--Steve Ziegler
 
 
 8	3	buildspec.yml
---1583528593--2020-03-06T16:03:13-05:00--Steve Ziegler
+^^1583528593--2020-03-06T16:03:13-05:00--Steve Ziegler
 
 
 0	1	buildspec.yml
---1583538597--2020-03-06T18:49:57-05:00--Steve Ziegler
+^^1583538597--2020-03-06T18:49:57-05:00--Steve Ziegler
 
 
 1	0	buildspec.yml
---1583593169--2020-03-07T09:59:29-05:00--Steve Ziegler
+^^1583593169--2020-03-07T09:59:29-05:00--Steve Ziegler
 
 
 5	5	buildspec.yml
---1583596636--2020-03-07T10:57:16-05:00--Steve Ziegler
+^^1583596636--2020-03-07T10:57:16-05:00--Steve Ziegler
 
 
 6	4	sam-app/add_cw_log_error_metric/tests/test_unit_add_cw_log_error_metric.py
@@ -1333,83 +1333,83 @@
 63	0	sam-app/tests/unit/test_unit_add_cw_log_error_metric_filter_list_by_regex_pattern.py
 376	376	sam-app/tests/unit/test_unit_auto_tagger.py
 63	0	sam-app/tests/unit/test_unit_auto_tagger_filter_list_by_regex_pattern.py
---1583605436--2020-03-07T13:23:56-05:00--Steve Ziegler
+^^1583605436--2020-03-07T13:23:56-05:00--Steve Ziegler
 
 
 28	1	sam-app/template.yaml
---1583606219--2020-03-07T13:36:59-05:00--GitHub
+^^1583606219--2020-03-07T13:36:59-05:00--GitHub
 
---1583606600--2020-03-07T13:43:20-05:00--GitHub
+^^1583606600--2020-03-07T13:43:20-05:00--GitHub
 
---1583606748--2020-03-07T13:45:48-05:00--GitHub
+^^1583606748--2020-03-07T13:45:48-05:00--GitHub
 
---1583609840--2020-03-07T14:37:20-05:00--Steve Ziegler
+^^1583609840--2020-03-07T14:37:20-05:00--Steve Ziegler
 
---1583609939--2020-03-07T14:38:59-05:00--Steve Ziegler
+^^1583609939--2020-03-07T14:38:59-05:00--Steve Ziegler
 
---1583610571--2020-03-07T14:49:31-05:00--Steve Ziegler
+^^1583610571--2020-03-07T14:49:31-05:00--Steve Ziegler
 
 
 7	0	sam-app/template.yaml
---1583611025--2020-03-07T14:57:05-05:00--Steve Ziegler
+^^1583611025--2020-03-07T14:57:05-05:00--Steve Ziegler
 
 
 0	1	sam-app/template.yaml
---1583611239--2020-03-07T15:00:39-05:00--Steve Ziegler
+^^1583611239--2020-03-07T15:00:39-05:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1583611659--2020-03-07T15:07:39-05:00--Steve Ziegler
+^^1583611659--2020-03-07T15:07:39-05:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1583616434--2020-03-07T16:27:14-05:00--GitHub
+^^1583616434--2020-03-07T16:27:14-05:00--GitHub
 
---1583616655--2020-03-07T16:30:55-05:00--Steve Ziegler
+^^1583616655--2020-03-07T16:30:55-05:00--Steve Ziegler
 
---1583617639--2020-03-07T16:47:19-05:00--GitHub
+^^1583617639--2020-03-07T16:47:19-05:00--GitHub
 
---1583617705--2020-03-07T16:48:25-05:00--Steve Ziegler
+^^1583617705--2020-03-07T16:48:25-05:00--Steve Ziegler
 
---1583671463--2020-03-08T08:44:23-04:00--Steve Ziegler
+^^1583671463--2020-03-08T08:44:23-04:00--Steve Ziegler
 
 
 16	2	sam-app/fake_cw_log_errors/app.py
 3	2	sam-app/fake_cw_log_errors/tests/test_integration_fake_cw_log_errors.py
 8	3	sam-app/run_tests_ci.sh
 30	0	sam-app/tests/integration/test_integration_fake_cw_log_errors.py
---1583673232--2020-03-08T09:13:52-04:00--Steve Ziegler
+^^1583673232--2020-03-08T09:13:52-04:00--Steve Ziegler
 
 
 3	1	sam-app/requirements_ci_testing.txt
 2	2	sam-app/run_tests_ci.sh
 1	1	sam-app/tests/integration/test_integration_fake_cw_log_errors.py
 88	0	sam-app/tests/unit/test_unit_process_cw_log_error.py
---1583673917--2020-03-08T09:25:17-04:00--Steve Ziegler
+^^1583673917--2020-03-08T09:25:17-04:00--Steve Ziegler
 
 
 2	0	initial_setup/initial_infra.yaml
---1583677398--2020-03-08T10:23:18-04:00--Steve Ziegler
+^^1583677398--2020-03-08T10:23:18-04:00--Steve Ziegler
 
 
 1	1	sam-app/auto_tagger/{EventInfo.py => AutoTaggerEventInfo.py}
 1	1	sam-app/auto_tagger/app.py
 0	1	sam-app/process_cw_log_error_metric_alarm/Alert.py
 5	6	sam-app/tests/unit/test_unit_process_cw_log_error.py
---1583772437--2020-03-09T12:47:17-04:00--Steve Ziegler
+^^1583772437--2020-03-09T12:47:17-04:00--Steve Ziegler
 
 
 7	0	sam-app/template.yaml
---1583773388--2020-03-09T13:03:08-04:00--Steve Ziegler
+^^1583773388--2020-03-09T13:03:08-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
 4	1	sam-app/template.yaml
---1583776308--2020-03-09T13:51:48-04:00--Steve Ziegler
+^^1583776308--2020-03-09T13:51:48-04:00--Steve Ziegler
 
 
 27	2	sam-app/template.yaml
---1583777940--2020-03-09T14:19:00-04:00--Steve Ziegler
+^^1583777940--2020-03-09T14:19:00-04:00--Steve Ziegler
 
 
 64	0	sam-app/process_alarms/Alert.py
@@ -1422,115 +1422,115 @@
 58	0	sam-app/process_alarms/app.py
 4	0	sam-app/process_alarms/requirements.txt
 48	5	sam-app/template.yaml
---1583778503--2020-03-09T14:28:23-04:00--Steve Ziegler
+^^1583778503--2020-03-09T14:28:23-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
 1	1	sam-app/template.yaml
---1583779242--2020-03-09T14:40:42-04:00--Steve Ziegler
+^^1583779242--2020-03-09T14:40:42-04:00--Steve Ziegler
 
 
 4	0	sam-app/template.yaml
---1583793445--2020-03-09T18:37:25-04:00--Steve Ziegler
+^^1583793445--2020-03-09T18:37:25-04:00--Steve Ziegler
 
 
 2	0	sam-app/log_sns_message/app.py
 13	8	sam-app/process_alarms/app.py
 76	9	sam-app/tests/unit/{test_unit_process_cw_log_error.py => test_unit_process_alarms.py}
 1	1	sam-app/tests/unit/test_unit_process_cw_log_error.py
---1583808387--2020-03-09T22:46:27-04:00--Steve Ziegler
+^^1583808387--2020-03-09T22:46:27-04:00--Steve Ziegler
 
 
 30	3	sam-app/process_alarms/app.py
 82	53	sam-app/tests/unit/test_unit_process_alarms.py
---1583809780--2020-03-09T23:09:40-04:00--Steve Ziegler
+^^1583809780--2020-03-09T23:09:40-04:00--Steve Ziegler
 
 
 21	15	sam-app/process_alarms/Alert.py
 1	3	sam-app/process_alarms/app.py
 1	1	sam-app/tests/unit/test_unit_process_alarms.py
---1583810541--2020-03-09T23:22:21-04:00--Steve Ziegler
+^^1583810541--2020-03-09T23:22:21-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
 2	2	sam-app/tests/unit/test_unit_process_alarms.py
 1	1	sam-app/tests/unit/test_unit_process_cw_log_error.py
---1583934675--2020-03-11T09:51:15-04:00--GitHub
+^^1583934675--2020-03-11T09:51:15-04:00--GitHub
 
---1583938931--2020-03-11T11:02:11-04:00--Steve Ziegler
+^^1583938931--2020-03-11T11:02:11-04:00--Steve Ziegler
 
 
 1	0	sam-app/process_alarms/app.py
 11	2	sam-app/run_tests_ci.sh
 7	1	sam-app/template.yaml
 0	0	sam-app/tests/unit/{test_unit_process_cw_log_error.py => test_unit_process_cw_log_error.py_}
---1583939989--2020-03-11T11:19:49-04:00--GitHub
+^^1583939989--2020-03-11T11:19:49-04:00--GitHub
 
---1583948830--2020-03-11T13:47:10-04:00--Steve Ziegler
+^^1583948830--2020-03-11T13:47:10-04:00--Steve Ziegler
 
 
 1	0	sam-app/process_alarms/EventContext.py
---1583948936--2020-03-11T13:48:56-04:00--GitHub
+^^1583948936--2020-03-11T13:48:56-04:00--GitHub
 
---1583956490--2020-03-11T15:54:50-04:00--Steve Ziegler
+^^1583956490--2020-03-11T15:54:50-04:00--Steve Ziegler
 
 
 3	1	sam-app/process_alarms/EventContext.py
 38	0	sam-app/tests/integration/test_integration_process_alarms.py
---1583957095--2020-03-11T16:04:55-04:00--Steve Ziegler
+^^1583957095--2020-03-11T16:04:55-04:00--Steve Ziegler
 
 
 0	38	sam-app/tests/integration/test_integration_process_alarms.py
---1583957391--2020-03-11T16:09:51-04:00--GitHub
+^^1583957391--2020-03-11T16:09:51-04:00--GitHub
 
---1583959883--2020-03-11T16:51:23-04:00--Steve Ziegler
+^^1583959883--2020-03-11T16:51:23-04:00--Steve Ziegler
 
 
 9	7	sam-app/process_alarms/Alert.py
 0	1	sam-app/process_alarms/EventContext.py
 1	1	sam-app/process_alarms/app.py
---1583964750--2020-03-11T18:12:30-04:00--Steve Ziegler
+^^1583964750--2020-03-11T18:12:30-04:00--Steve Ziegler
 
 
 3	0	buildspec.yml
 1	0	sam-app/add_ec2_alarms/EC2Alarms.py
---1583966825--2020-03-11T18:47:05-04:00--GitHub
+^^1583966825--2020-03-11T18:47:05-04:00--GitHub
 
---1584144673--2020-03-13T20:11:13-04:00--Steve Ziegler
+^^1584144673--2020-03-13T20:11:13-04:00--Steve Ziegler
 
 
 1	1	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
 1	3	sam-app/add_ec2_alarms/AbstractResourceFunctions.py
 0	34	sam-app/template.yaml
---1584147594--2020-03-13T20:59:54-04:00--Steve Ziegler
+^^1584147594--2020-03-13T20:59:54-04:00--Steve Ziegler
 
 
 1	56	sam-app/template.yaml
---1584149147--2020-03-13T21:25:47-04:00--Steve Ziegler
+^^1584149147--2020-03-13T21:25:47-04:00--Steve Ziegler
 
 
 7	3	sam-app/process_alarms/app.py
---1584156912--2020-03-13T23:35:12-04:00--Steve Ziegler
+^^1584156912--2020-03-13T23:35:12-04:00--Steve Ziegler
 
 
 2	2	sam-app/process_selected_infra_change_events/app.py
---1584157453--2020-03-13T23:44:13-04:00--Steve Ziegler
+^^1584157453--2020-03-13T23:44:13-04:00--Steve Ziegler
 
 
 4	4	sam-app/template.yaml
---1584158829--2020-03-14T00:07:09-04:00--Steve Ziegler
+^^1584158829--2020-03-14T00:07:09-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/Alert.py
---1584159464--2020-03-14T00:17:44-04:00--GitHub
+^^1584159464--2020-03-14T00:17:44-04:00--GitHub
 
---1584160921--2020-03-14T00:42:01-04:00--GitHub
+^^1584160921--2020-03-14T00:42:01-04:00--GitHub
 
---1584192053--2020-03-14T09:20:53-04:00--Steve Ziegler
+^^1584192053--2020-03-14T09:20:53-04:00--Steve Ziegler
 
 
 3	5	sam-app/process_alarms/app.py
---1584198004--2020-03-14T11:00:04-04:00--Steve Ziegler
+^^1584198004--2020-03-14T11:00:04-04:00--Steve Ziegler
 
 
 26	14	sam-app/fake_cw_log_errors/app.py
@@ -1550,100 +1550,100 @@
 13	0	sam-app/tests/end_to_end/test_end_to_end.py
 12	8	sam-app/tests/integration/test_integration_fake_cw_log_errors.py
 40	2	sam-app/tests/unit/test_unit_process_alarms.py
---1584198054--2020-03-14T11:00:54-04:00--Steve Ziegler
+^^1584198054--2020-03-14T11:00:54-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1584200353--2020-03-14T11:39:13-04:00--Steve Ziegler
+^^1584200353--2020-03-14T11:39:13-04:00--Steve Ziegler
 
 
 21	6	sam-app/process_alarms/app.py
 8	2	sam-app/tests/end_to_end/test_end_to_end.py
 40	13	sam-app/tests/unit/test_unit_process_alarms.py
---1584237560--2020-03-14T21:59:20-04:00--Steve Ziegler
+^^1584237560--2020-03-14T21:59:20-04:00--Steve Ziegler
 
 
 2	0	buildspec.yml
 55	1	sam-app/tests/end_to_end/test_end_to_end.py
---1584283085--2020-03-15T10:38:05-04:00--Steve Ziegler
+^^1584283085--2020-03-15T10:38:05-04:00--Steve Ziegler
 
 
 2	0	buildspec.yml
 2	1	initial_setup/initial_infra.yaml
---1584283556--2020-03-15T10:45:56-04:00--Steve Ziegler
+^^1584283556--2020-03-15T10:45:56-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1584285413--2020-03-15T11:16:53-04:00--Steve Ziegler
+^^1584285413--2020-03-15T11:16:53-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
 1	1	initial_setup/initial_deploy.sh
 30	0	initial_setup/initial_infra.yaml
---1584285813--2020-03-15T11:23:33-04:00--Steve Ziegler
+^^1584285813--2020-03-15T11:23:33-04:00--Steve Ziegler
 
 
 4	10	buildspec.yml
 1	1	initial_setup/initial_deploy.sh
---1584286124--2020-03-15T11:28:44-04:00--Steve Ziegler
+^^1584286124--2020-03-15T11:28:44-04:00--Steve Ziegler
 
 
 4	0	initial_setup/initial_infra.yaml
---1584288362--2020-03-15T12:06:02-04:00--Steve Ziegler
+^^1584288362--2020-03-15T12:06:02-04:00--Steve Ziegler
 
 
 2	0	buildspec.yml
 10	1	initial_setup/initial_infra.yaml
---1584288535--2020-03-15T12:08:55-04:00--Steve Ziegler
+^^1584288535--2020-03-15T12:08:55-04:00--Steve Ziegler
 
 
 2	2	buildspec.yml
---1584288815--2020-03-15T12:13:35-04:00--Steve Ziegler
+^^1584288815--2020-03-15T12:13:35-04:00--Steve Ziegler
 
 
 1	0	buildspec.yml
---1584289036--2020-03-15T12:17:16-04:00--Steve Ziegler
+^^1584289036--2020-03-15T12:17:16-04:00--Steve Ziegler
 
 
 1	0	buildspec.yml
---1584289560--2020-03-15T12:26:00-04:00--Steve Ziegler
+^^1584289560--2020-03-15T12:26:00-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1584289728--2020-03-15T12:28:48-04:00--Steve Ziegler
+^^1584289728--2020-03-15T12:28:48-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1584290785--2020-03-15T12:46:25-04:00--Steve Ziegler
+^^1584290785--2020-03-15T12:46:25-04:00--Steve Ziegler
 
 
 6	6	sam-app/tests/end_to_end/test_end_to_end.py
---1584291469--2020-03-15T12:57:49-04:00--Steve Ziegler
+^^1584291469--2020-03-15T12:57:49-04:00--Steve Ziegler
 
 
 10	10	initial_setup/initial_infra.yaml
---1584294896--2020-03-15T13:54:56-04:00--Steve Ziegler
+^^1584294896--2020-03-15T13:54:56-04:00--Steve Ziegler
 
 
 2	0	initial_setup/initial_infra.yaml
---1584295344--2020-03-15T14:02:24-04:00--Steve Ziegler
+^^1584295344--2020-03-15T14:02:24-04:00--Steve Ziegler
 
 
 2	2	initial_setup/initial_infra.yaml
---1584295666--2020-03-15T14:07:46-04:00--Steve Ziegler
+^^1584295666--2020-03-15T14:07:46-04:00--Steve Ziegler
 
 
 0	4	buildspec.yml
---1584300902--2020-03-15T15:35:02-04:00--GitHub
+^^1584300902--2020-03-15T15:35:02-04:00--GitHub
 
---1584302596--2020-03-15T16:03:16-04:00--Steve Ziegler
+^^1584302596--2020-03-15T16:03:16-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
 1	1	initial_setup/initial_infra.yaml
---1584303390--2020-03-15T16:16:30-04:00--GitHub
+^^1584303390--2020-03-15T16:16:30-04:00--GitHub
 
---1584329627--2020-03-15T23:33:47-04:00--Steve Ziegler
+^^1584329627--2020-03-15T23:33:47-04:00--Steve Ziegler
 
 
 1	0	.gitignore
@@ -1654,13 +1654,13 @@
 2	1	sam-app/requirements_ci_testing.txt
 4	0	sam-app/run_tests_ci.sh
 503	0	sam-app/tests/.pylintrc
---1584330169--2020-03-15T23:42:49-04:00--Steve Ziegler
+^^1584330169--2020-03-15T23:42:49-04:00--Steve Ziegler
 
 
 1	1	.gitignore
 3	2	build/build_pre_run_tests.sh
 3	3	sam-app/run_tests_ci.sh
---1584330639--2020-03-15T23:50:39-04:00--Steve Ziegler
+^^1584330639--2020-03-15T23:50:39-04:00--Steve Ziegler
 
 
 7	0	build/build_sam_app.sh
@@ -1669,54 +1669,54 @@
 0	0	build/{build_pre_run_tests.sh => pre_run_tests.sh}
 0	0	build/{build_pre_set_env_variables.sh => pre_set_env_variables.sh}
 5	14	buildspec.yml
---1584331083--2020-03-15T23:58:03-04:00--Steve Ziegler
+^^1584331083--2020-03-15T23:58:03-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1584331484--2020-03-16T00:04:44-04:00--Steve Ziegler
+^^1584331484--2020-03-16T00:04:44-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1584391118--2020-03-16T16:38:38-04:00--GitHub
+^^1584391118--2020-03-16T16:38:38-04:00--GitHub
 
---1584471614--2020-03-17T15:00:14-04:00--Steve Ziegler
+^^1584471614--2020-03-17T15:00:14-04:00--Steve Ziegler
 
 
 4	2	sam-app/process_pipeline_failures/app.py
 0	87	sam-app/tests/unit/test_unit_process_cw_log_error.py_
 60	0	sam-app/tests/unit/test_unit_process_pipeline_failures.py
---1584478449--2020-03-17T16:54:09-04:00--GitHub
+^^1584478449--2020-03-17T16:54:09-04:00--GitHub
 
---1584484073--2020-03-17T18:27:53-04:00--Steve Ziegler
+^^1584484073--2020-03-17T18:27:53-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
 1	1	sam-app/tests/unit/test_unit_process_pipeline_failures.py
 51	0	sam-app/tests/unit/test_unit_process_pipeline_successful_events.py
---1584543856--2020-03-18T11:04:16-04:00--Steve Ziegler
+^^1584543856--2020-03-18T11:04:16-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
 2	1	.gitignore
 1	1	sam-app/fake_cw_log_errors/app.py
---1584544873--2020-03-18T11:21:13-04:00--Steve Ziegler
+^^1584544873--2020-03-18T11:21:13-04:00--Steve Ziegler
 
 
 1	0	.gitignore
---1584544896--2020-03-18T11:21:36-04:00--Steve Ziegler
+^^1584544896--2020-03-18T11:21:36-04:00--Steve Ziegler
 
---1584546640--2020-03-18T11:50:40-04:00--Steve Ziegler
+^^1584546640--2020-03-18T11:50:40-04:00--Steve Ziegler
 
 
 1	1	sam-app/fake_cw_log_errors/app.py
---1584547315--2020-03-18T12:01:55-04:00--GitHub
+^^1584547315--2020-03-18T12:01:55-04:00--GitHub
 
---1584642624--2020-03-19T18:30:24+00:00--Gompper, Nick
+^^1584642624--2020-03-19T18:30:24+00:00--Gompper, Nick
 
 
 10	0	accounts_config/accounts_config.json
 2	2	initial_setup/initial_deploy.sh
---1584653986--2020-03-19T17:39:46-04:00--Steve Ziegler
+^^1584653986--2020-03-19T17:39:46-04:00--Steve Ziegler
 
 
 1	1	initial_setup/initial_deploy.sh
@@ -1733,33 +1733,33 @@
 7	7	sam-app/tests/unit/test_unit_process_alarms.py
 16	2	sam-app/tests/unit/test_unit_process_pipeline_failures.py
 49	7	sam-app/tests/unit/test_unit_process_pipeline_successful_events.py
---1584654343--2020-03-19T17:45:43-04:00--Steve Ziegler
+^^1584654343--2020-03-19T17:45:43-04:00--Steve Ziegler
 
 
 24	0	sam-app/template.yaml
---1584655160--2020-03-19T17:59:20-04:00--Steve Ziegler
+^^1584655160--2020-03-19T17:59:20-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
 4	17	sam-app/template.yaml
---1584657664--2020-03-19T18:41:04-04:00--Steve Ziegler
+^^1584657664--2020-03-19T18:41:04-04:00--Steve Ziegler
 
 
 10	2	sam-app/process_alarms/app.py
 29	0	sam-app/tests/unit/test_unit_process_alarms.py
---1584658446--2020-03-19T18:54:06-04:00--GitHub
+^^1584658446--2020-03-19T18:54:06-04:00--GitHub
 
---1584718929--2020-03-20T11:42:09-04:00--GitHub
+^^1584718929--2020-03-20T11:42:09-04:00--GitHub
 
---1584719661--2020-03-20T11:54:21-04:00--Daniel Chang
+^^1584719661--2020-03-20T11:54:21-04:00--Daniel Chang
 
 
 1	1	sam-app/add_cw_log_error_metric/AbstractResourceFunctions.py
---1584730341--2020-03-20T14:52:21-04:00--GitHub
+^^1584730341--2020-03-20T14:52:21-04:00--GitHub
 
---1584730544--2020-03-20T14:55:44-04:00--Steve Ziegler
+^^1584730544--2020-03-20T14:55:44-04:00--Steve Ziegler
 
---1584742573--2020-03-20T18:16:13-04:00--Steve Ziegler
+^^1584742573--2020-03-20T18:16:13-04:00--Steve Ziegler
 
 
 11	7	README.md
@@ -1771,17 +1771,17 @@
 1	1	sam-app/fake_cw_log_errors/README.md
 18	3	sam-app/process_alarms/README.md
 1	1	sam-app/process_selected_infra_change_events/README.md
---1584743534--2020-03-20T18:32:14-04:00--Steve Ziegler
+^^1584743534--2020-03-20T18:32:14-04:00--Steve Ziegler
 
 
 5	0	development.md
---1584743549--2020-03-20T18:32:29-04:00--Steve Ziegler
+^^1584743549--2020-03-20T18:32:29-04:00--Steve Ziegler
 
 
 31	2	development.md
---1584743676--2020-03-20T18:34:36-04:00--GitHub
+^^1584743676--2020-03-20T18:34:36-04:00--GitHub
 
---1584979403--2020-03-23T12:03:23-04:00--Steve Ziegler
+^^1584979403--2020-03-23T12:03:23-04:00--Steve Ziegler
 
 
 20	0	sam-app/analyze_metric_frequency/README.md
@@ -1792,14 +1792,14 @@
 1	0	sam-app/analyze_metric_frequency/requirements.txt
 4	4	sam-app/run_tests_ci.sh
 1789	0	sam-app/tests/unit/test_unit_analyze_metrics.py
---1584998388--2020-03-23T17:19:48-04:00--Steve Ziegler
+^^1584998388--2020-03-23T17:19:48-04:00--Steve Ziegler
 
 
 75	26	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 14	0	sam-app/analyze_metric_frequency/outliers.py
 70	0	sam-app/tests/integration/test_integration_analyze_metrics.py
 178	68	sam-app/tests/unit/test_unit_analyze_metrics.py
---1585021674--2020-03-23T23:47:54-04:00--Steve Ziegler
+^^1585021674--2020-03-23T23:47:54-04:00--Steve Ziegler
 
 
 38	7	sam-app/analyze_metric_frequency/aws_metric_statistics.py
@@ -1807,7 +1807,7 @@
 12	48	sam-app/tests/integration/test_integration_analyze_metrics.py
 3	3	sam-app/tests/integration/test_integration_auto_tagger.py
 0	59	sam-app/tests/unit/test_unit_analyze_metrics.py
---1585022852--2020-03-24T00:07:32-04:00--Steve Ziegler
+^^1585022852--2020-03-24T00:07:32-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
@@ -1815,9 +1815,9 @@
 4	10	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 1	29	sam-app/analyze_metric_frequency/outliers.py
 1	1	sam-app/run_tests_ci.sh
---1585259737--2020-03-26T17:55:37-04:00--GitHub
+^^1585259737--2020-03-26T17:55:37-04:00--GitHub
 
---1585350951--2020-03-27T19:15:51-04:00--Steve Ziegler
+^^1585350951--2020-03-27T19:15:51-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
@@ -1826,21 +1826,21 @@
 20	5	sam-app/run_tests_ci.sh
 9	0	sam-app/tests/integration/{test_integration_analyze_metrics.py => test_integration_analyze_metrics.py_}
 25	12	sam-app/tests/unit/test_unit_analyze_metrics.py
---1585352402--2020-03-27T19:40:02-04:00--Steve Ziegler
+^^1585352402--2020-03-27T19:40:02-04:00--Steve Ziegler
 
 
 23	1	sam-app/template.yaml
---1585352811--2020-03-27T19:46:51-04:00--Steve Ziegler
+^^1585352811--2020-03-27T19:46:51-04:00--Steve Ziegler
 
 
 2	3	sam-app/template.yaml
---1585354267--2020-03-27T20:11:07-04:00--Steve Ziegler
+^^1585354267--2020-03-27T20:11:07-04:00--Steve Ziegler
 
 
 2	2	sam-app/template.yaml
---1585355276--2020-03-27T20:27:56-04:00--GitHub
+^^1585355276--2020-03-27T20:27:56-04:00--GitHub
 
---1585407858--2020-03-28T11:04:18-04:00--Steve Ziegler
+^^1585407858--2020-03-28T11:04:18-04:00--Steve Ziegler
 
 
 2	2	build/{post_deploy_and_end_to_end_test.sh => post_deploy.sh}
@@ -1849,50 +1849,50 @@
 18	0	buildspec_end_to_end_test.yml
 1	1	initial_setup/initial_deploy.sh
 72	0	initial_setup/initial_infra.yaml
---1585408288--2020-03-28T11:11:28-04:00--Steve Ziegler
+^^1585408288--2020-03-28T11:11:28-04:00--Steve Ziegler
 
 
 2	1	buildspec_end_to_end_test.yml
---1585408605--2020-03-28T11:16:45-04:00--Steve Ziegler
+^^1585408605--2020-03-28T11:16:45-04:00--Steve Ziegler
 
 
 1	1	build/post_end_to_end_testing.sh
---1585409296--2020-03-28T11:28:16-04:00--Steve Ziegler
+^^1585409296--2020-03-28T11:28:16-04:00--Steve Ziegler
 
 
 5	3	sam-app/analyze_metric_frequency/README.md
---1585409946--2020-03-28T11:39:06-04:00--Steve Ziegler
+^^1585409946--2020-03-28T11:39:06-04:00--Steve Ziegler
 
 
 1	1	initial_setup/initial_infra.yaml
---1585422280--2020-03-28T15:04:40-04:00--Steve Ziegler
+^^1585422280--2020-03-28T15:04:40-04:00--Steve Ziegler
 
 
 6	1	buildspec.yml
---1585422501--2020-03-28T15:08:21-04:00--Steve Ziegler
+^^1585422501--2020-03-28T15:08:21-04:00--Steve Ziegler
 
 
 1	1	buildspec.yml
---1585423051--2020-03-28T15:17:31-04:00--GitHub
+^^1585423051--2020-03-28T15:17:31-04:00--GitHub
 
---1585492604--2020-03-29T10:36:44-04:00--Steve Ziegler
+^^1585492604--2020-03-29T10:36:44-04:00--Steve Ziegler
 
 
 2	0	sam-app/tests/integration/test_integration_analyze_metrics.py_
---1585492855--2020-03-29T10:40:55-04:00--GitHub
+^^1585492855--2020-03-29T10:40:55-04:00--GitHub
 
---1585756529--2020-04-01T11:55:29-04:00--GitHub
+^^1585756529--2020-04-01T11:55:29-04:00--GitHub
 
---1585797311--2020-04-01T23:15:11-04:00--Steve Ziegler
+^^1585797311--2020-04-01T23:15:11-04:00--Steve Ziegler
 
 
 1	1	development.md
 1	1	sam-app/analyze_metric_frequency/app.py
 1	2	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 2	1303	sam-app/tests/unit/test_unit_analyze_metrics.py
---1585949558--2020-04-03T17:32:38-04:00--GitHub
+^^1585949558--2020-04-03T17:32:38-04:00--GitHub
 
---1585952088--2020-04-03T18:14:48-04:00--Steve Ziegler
+^^1585952088--2020-04-03T18:14:48-04:00--Steve Ziegler
 
 
 1	1	sam-app/analyze_metric_frequency/app.py
@@ -1903,120 +1903,120 @@
 1	1	sam-app/run_tests_ci.sh
 5	0	sam-app/tests/integration/test_integration_analyze_metrics.py_
 12	9	sam-app/tests/unit/test_unit_analyze_metrics.py
---1585955514--2020-04-03T19:11:54-04:00--Steve Ziegler
+^^1585955514--2020-04-03T19:11:54-04:00--Steve Ziegler
 
 
 18	1	sam-app/process_alarms/app.py
 1	1	sam-app/run_tests_ci.sh
 32	26	sam-app/tests/unit/test_unit_process_alarms.py
---1586004057--2020-04-04T08:40:57-04:00--Steve Ziegler
+^^1586004057--2020-04-04T08:40:57-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/{aws_metric_statistics.py => alarm_metric_statistics.py}
 10	4	sam-app/process_alarms/app.py
 1	1	sam-app/run_tests_ci.sh
 131	4	sam-app/tests/unit/test_unit_process_alarms.py
---1586005831--2020-04-04T09:10:31-04:00--GitHub
+^^1586005831--2020-04-04T09:10:31-04:00--GitHub
 
---1586005990--2020-04-04T09:13:10-04:00--Steve Ziegler
+^^1586005990--2020-04-04T09:13:10-04:00--Steve Ziegler
 
 
 2	2	sam-app/add_ec2_alarms/ec2_alarm_snippet.yaml
 4	0	sam-app/process_alarms/app.py
 0	6	sam-app/template.yaml
 0	5	sam-app/tests/integration/test_integration_analyze_metrics.py_
---1586008226--2020-04-04T09:50:26-04:00--Steve Ziegler
+^^1586008226--2020-04-04T09:50:26-04:00--Steve Ziegler
 
 
 14	1	sam-app/process_alarms/app.py
 53	0	sam-app/tests/unit/test_unit_process_alarms.py
---1586009122--2020-04-04T10:05:22-04:00--GitHub
+^^1586009122--2020-04-04T10:05:22-04:00--GitHub
 
---1586182513--2020-04-06T10:15:13-04:00--GitHub
+^^1586182513--2020-04-06T10:15:13-04:00--GitHub
 
---1586188109--2020-04-06T11:48:29-04:00--Steve Ziegler
+^^1586188109--2020-04-06T11:48:29-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
 7	0	sam-app/template.yaml
 6	0	sam-app/tests/unit/test_unit_process_alarms.py
---1586189408--2020-04-06T12:10:08-04:00--Steve Ziegler
+^^1586189408--2020-04-06T12:10:08-04:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1586192720--2020-04-06T13:05:20-04:00--Steve Ziegler
+^^1586192720--2020-04-06T13:05:20-04:00--Steve Ziegler
 
 
 7	2	sam-app/template.yaml
---1586193490--2020-04-06T13:18:10-04:00--Steve Ziegler
+^^1586193490--2020-04-06T13:18:10-04:00--Steve Ziegler
 
 
 2	2	sam-app/template.yaml
---1586198896--2020-04-06T14:48:16-04:00--Steve Ziegler
+^^1586198896--2020-04-06T14:48:16-04:00--Steve Ziegler
 
 
 0	2	build/post_deploy.sh
 0	4	sam-app/template.yaml
---1586200657--2020-04-06T15:17:37-04:00--GitHub
+^^1586200657--2020-04-06T15:17:37-04:00--GitHub
 
---1586222197--2020-04-06T21:16:37-04:00--Steve Ziegler
+^^1586222197--2020-04-06T21:16:37-04:00--Steve Ziegler
 
 
 16	0	sam-app/process_alarms/outliers.py
---1586223605--2020-04-06T21:40:05-04:00--Steve Ziegler
+^^1586223605--2020-04-06T21:40:05-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
---1586225078--2020-04-06T22:04:38-04:00--GitHub
+^^1586225078--2020-04-06T22:04:38-04:00--GitHub
 
---1586285963--2020-04-07T14:59:23-04:00--GitHub
+^^1586285963--2020-04-07T14:59:23-04:00--GitHub
 
---1586294591--2020-04-07T17:23:11-04:00--Steve Ziegler
+^^1586294591--2020-04-07T17:23:11-04:00--Steve Ziegler
 
 
 16	8	sam-app/process_alarms/app.py
 159	0	sam-app/tests/unit/test_unit_process_alarms.py
---1586295061--2020-04-07T17:31:01-04:00--GitHub
+^^1586295061--2020-04-07T17:31:01-04:00--GitHub
 
---1586350038--2020-04-08T08:47:18-04:00--Nik Weinmeister
+^^1586350038--2020-04-08T08:47:18-04:00--Nik Weinmeister
 
 
 9	1	accounts_config/accounts_config.json
---1586350239--2020-04-08T08:50:39-04:00--GitHub
+^^1586350239--2020-04-08T08:50:39-04:00--GitHub
 
---1586350316--2020-04-08T08:51:56-04:00--Nik Weinmeister
-
-
-1	1	accounts_config/accounts_config.json
---1586350557--2020-04-08T08:55:57-04:00--GitHub
-
---1586351847--2020-04-08T09:17:27-04:00--Nik Weinmeister
+^^1586350316--2020-04-08T08:51:56-04:00--Nik Weinmeister
 
 
 1	1	accounts_config/accounts_config.json
---1586352707--2020-04-08T09:31:47-04:00--GitHub
+^^1586350557--2020-04-08T08:55:57-04:00--GitHub
 
---1586813764--2020-04-13T17:36:04-04:00--Steve Ziegler
+^^1586351847--2020-04-08T09:17:27-04:00--Nik Weinmeister
+
+
+1	1	accounts_config/accounts_config.json
+^^1586352707--2020-04-08T09:31:47-04:00--GitHub
+
+^^1586813764--2020-04-13T17:36:04-04:00--Steve Ziegler
 
 
 4	1	sam-app/process_alarms/app.py
---1586819820--2020-04-13T19:17:00-04:00--GitHub
+^^1586819820--2020-04-13T19:17:00-04:00--GitHub
 
---1586831777--2020-04-13T22:36:17-04:00--Steve Ziegler
+^^1586831777--2020-04-13T22:36:17-04:00--Steve Ziegler
 
 
 0	5	sam-app/process_alarms/app.py
 0	25	sam-app/tests/unit/test_unit_process_alarms.py
---1586832521--2020-04-13T22:48:41-04:00--GitHub
+^^1586832521--2020-04-13T22:48:41-04:00--GitHub
 
---1586875609--2020-04-14T10:46:49-04:00--GitHub
+^^1586875609--2020-04-14T10:46:49-04:00--GitHub
 
---1586877877--2020-04-14T11:24:37-04:00--rdiveley
+^^1586877877--2020-04-14T11:24:37-04:00--rdiveley
 
 
 3	0	.vscode/settings.json
 1	1	accounts_config/accounts_config.json
---1586994742--2020-04-15T19:52:22-04:00--Steve Ziegler
+^^1586994742--2020-04-15T19:52:22-04:00--Steve Ziegler
 
 
 33	36	sam-app/add_cw_log_error_metric/AbstractResourceFunctions.py
@@ -2096,205 +2096,205 @@
 76	50	sam-app/tests/unit/test_unit_process_pipeline_failures.py
 93	69	sam-app/tests/unit/test_unit_process_pipeline_successful_events.py
 3	0	useful_scripts/mac/run_full_black_formatting.sh
---1586995245--2020-04-15T20:00:45-04:00--GitHub
+^^1586995245--2020-04-15T20:00:45-04:00--GitHub
 
---1587001300--2020-04-15T21:41:40-04:00--Steve Ziegler
+^^1587001300--2020-04-15T21:41:40-04:00--Steve Ziegler
 
 
 20	2	sam-app/run_tests_ci.sh
---1587003014--2020-04-15T22:10:14-04:00--GitHub
+^^1587003014--2020-04-15T22:10:14-04:00--GitHub
 
---1587042916--2020-04-16T09:15:16-04:00--Steve Ziegler
+^^1587042916--2020-04-16T09:15:16-04:00--Steve Ziegler
 
 
 12	1	development.md
---1587051336--2020-04-16T11:35:36-04:00--GitHub
+^^1587051336--2020-04-16T11:35:36-04:00--GitHub
 
---1587127666--2020-04-17T08:47:46-04:00--Steve Ziegler
+^^1587127666--2020-04-17T08:47:46-04:00--Steve Ziegler
 
 
 2	3	sam-app/add_cw_log_error_metric/app.py
 63	1	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 591	0	sam-app/tests/unit/test_unit_analyze_metrics.py
 34	0	sam-app/tests/unit/test_unit_analyze_metrics_refactor.py_
---1587131689--2020-04-17T09:54:49-04:00--Steve Ziegler
+^^1587131689--2020-04-17T09:54:49-04:00--Steve Ziegler
 
 
 3	33	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 40	10	sam-app/process_alarms/alarm_metric_statistics.py
 65	0	sam-app/tests/unit/test_unit_process_alarms_refactor.py_
---1587134861--2020-04-17T10:47:41-04:00--Steve Ziegler
+^^1587134861--2020-04-17T10:47:41-04:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1587136521--2020-04-17T11:15:21-04:00--Steve Ziegler
+^^1587136521--2020-04-17T11:15:21-04:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1587141843--2020-04-17T12:44:03-04:00--Steve Ziegler
+^^1587141843--2020-04-17T12:44:03-04:00--Steve Ziegler
 
 
 0	2	sam-app/analyze_metric_frequency/aws_metric_statistics.py
---1587142970--2020-04-17T13:02:50-04:00--GitHub
+^^1587142970--2020-04-17T13:02:50-04:00--GitHub
 
---1587144241--2020-04-17T13:24:01-04:00--Steve Ziegler
+^^1587144241--2020-04-17T13:24:01-04:00--Steve Ziegler
 
 
 2	2	sam-app/add_cw_log_error_metric/cloudwatch_metric_snippet.yaml
---1587150810--2020-04-17T15:13:30-04:00--GitHub
+^^1587150810--2020-04-17T15:13:30-04:00--GitHub
 
---1587155135--2020-04-17T16:25:35-04:00--Steve Ziegler
+^^1587155135--2020-04-17T16:25:35-04:00--Steve Ziegler
 
 
 6	1	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 6	1	sam-app/process_alarms/alarm_metric_statistics.py
---1587156607--2020-04-17T16:50:07-04:00--Steve Ziegler
+^^1587156607--2020-04-17T16:50:07-04:00--Steve Ziegler
 
 
 0	591	sam-app/tests/unit/test_unit_analyze_metrics.py
 0	34	sam-app/tests/unit/test_unit_analyze_metrics_refactor.py_
 0	65	sam-app/tests/unit/test_unit_process_alarms_refactor.py_
---1587157232--2020-04-17T17:00:32-04:00--GitHub
+^^1587157232--2020-04-17T17:00:32-04:00--GitHub
 
---1587159254--2020-04-17T17:34:14-04:00--Steve Ziegler
+^^1587159254--2020-04-17T17:34:14-04:00--Steve Ziegler
 
 
 4	2	sam-app/fake_cw_log_errors/app.py
 11	6	sam-app/tests/end_to_end/test_end_to_end.py
---1587160865--2020-04-17T18:01:05-04:00--Steve Ziegler
+^^1587160865--2020-04-17T18:01:05-04:00--Steve Ziegler
 
 
 1	1	sam-app/fake_cw_log_errors/app.py
 1	1	sam-app/tests/end_to_end/test_end_to_end.py
---1587178594--2020-04-17T22:56:34-04:00--GitHub
+^^1587178594--2020-04-17T22:56:34-04:00--GitHub
 
---1587395274--2020-04-20T11:07:54-04:00--GitHub
+^^1587395274--2020-04-20T11:07:54-04:00--GitHub
 
---1587395567--2020-04-20T11:12:47-04:00--Steve Ziegler
+^^1587395567--2020-04-20T11:12:47-04:00--Steve Ziegler
 
 
 2	2	development.md
 2	1	sam-app/requirements_ci_testing.txt
---1587400656--2020-04-20T12:37:36-04:00--Steve Ziegler
+^^1587400656--2020-04-20T12:37:36-04:00--Steve Ziegler
 
 
 10	4	sam-app/process_alarms/app.py
---1587401418--2020-04-20T12:50:18-04:00--Steve Ziegler
+^^1587401418--2020-04-20T12:50:18-04:00--Steve Ziegler
 
 
 2	2	sam-app/process_alarms/app.py
---1587408312--2020-04-20T14:45:12-04:00--Nik Weinmeister
+^^1587408312--2020-04-20T14:45:12-04:00--Nik Weinmeister
 
 
 2	1	sam-app/process_alarms/Alert.py
 3	1	sam-app/tests/unit/test_unit_process_alarms.py
---1587408954--2020-04-20T14:55:54-04:00--Nik Weinmeister
+^^1587408954--2020-04-20T14:55:54-04:00--Nik Weinmeister
 
 
 3	2	sam-app/tests/unit/test_unit_process_alarms.py
---1587409056--2020-04-20T14:57:36-04:00--Nik Weinmeister
+^^1587409056--2020-04-20T14:57:36-04:00--Nik Weinmeister
 
 
 1	1	sam-app/tests/unit/test_unit_process_alarms.py
---1587409441--2020-04-20T15:04:01-04:00--Nik Weinmeister
+^^1587409441--2020-04-20T15:04:01-04:00--Nik Weinmeister
 
 
 1	9	accounts_config/accounts_config.json
---1587409466--2020-04-20T15:04:26-04:00--Nik Weinmeister
+^^1587409466--2020-04-20T15:04:26-04:00--Nik Weinmeister
 
 
 2	2	accounts_config/accounts_config.json
---1587412132--2020-04-20T15:48:52-04:00--GitHub
+^^1587412132--2020-04-20T15:48:52-04:00--GitHub
 
---1587413572--2020-04-20T16:12:52-04:00--Nik Weinmeister
+^^1587413572--2020-04-20T16:12:52-04:00--Nik Weinmeister
 
 
 4	2	sam-app/process_alarms/EventContext.py
 1	1	sam-app/run_tests_ci.sh
 18	7	sam-app/tests/unit/test_unit_process_alarms.py
---1587413619--2020-04-20T16:13:39-04:00--Nik Weinmeister
+^^1587413619--2020-04-20T16:13:39-04:00--Nik Weinmeister
 
 
 1	0	sam-app/process_alarms/EventContext.py
---1587413645--2020-04-20T16:14:05-04:00--Nik Weinmeister
+^^1587413645--2020-04-20T16:14:05-04:00--Nik Weinmeister
 
 
 1	1	sam-app/run_tests_ci.sh
---1587414001--2020-04-20T16:20:01-04:00--Nik Weinmeister
+^^1587414001--2020-04-20T16:20:01-04:00--Nik Weinmeister
 
 
 1	1	sam-app/process_alarms/EventContext.py
 3	3	sam-app/tests/unit/test_unit_process_alarms.py
---1587414860--2020-04-20T16:34:20-04:00--Nik Weinmeister
+^^1587414860--2020-04-20T16:34:20-04:00--Nik Weinmeister
 
 
 2	2	sam-app/process_alarms/EventContext.py
---1587415439--2020-04-20T16:43:59-04:00--GitHub
+^^1587415439--2020-04-20T16:43:59-04:00--GitHub
 
---1587416683--2020-04-20T17:04:43-04:00--Nik Weinmeister
+^^1587416683--2020-04-20T17:04:43-04:00--Nik Weinmeister
 
 
 9	1	accounts_config/accounts_config.json
---1587470667--2020-04-21T08:04:27-04:00--GitHub
+^^1587470667--2020-04-21T08:04:27-04:00--GitHub
 
---1587473694--2020-04-21T08:54:54-04:00--GitHub
+^^1587473694--2020-04-21T08:54:54-04:00--GitHub
 
---1587473846--2020-04-21T08:57:26-04:00--Steve Ziegler
+^^1587473846--2020-04-21T08:57:26-04:00--Steve Ziegler
 
 
 4	0	sam-app/process_alarms/app.py
 1	1	sam-app/run_tests_ci.sh
 55	0	sam-app/tests/unit/test_unit_process_alarms.py
---1587474720--2020-04-21T09:12:00-04:00--Steve Ziegler
+^^1587474720--2020-04-21T09:12:00-04:00--Steve Ziegler
 
---1587475781--2020-04-21T09:29:41-04:00--Steve Ziegler
+^^1587475781--2020-04-21T09:29:41-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1587476746--2020-04-21T09:45:46-04:00--GitHub
+^^1587476746--2020-04-21T09:45:46-04:00--GitHub
 
---1587478601--2020-04-21T10:16:41-04:00--GitHub
+^^1587478601--2020-04-21T10:16:41-04:00--GitHub
 
---1587482571--2020-04-21T11:22:51-04:00--Steve Ziegler
+^^1587482571--2020-04-21T11:22:51-04:00--Steve Ziegler
 
 
 3	2	sam-app/fake_cw_log_errors/app.py
 3	3	sam-app/process_alarms/app.py
---1587482831--2020-04-21T11:27:11-04:00--Nik Weinmeister
+^^1587482831--2020-04-21T11:27:11-04:00--Nik Weinmeister
 
 
 6	1	sam-app/process_selected_infra_change_events/app.py
---1587483228--2020-04-21T11:33:48-04:00--Nik Weinmeister
+^^1587483228--2020-04-21T11:33:48-04:00--Nik Weinmeister
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
---1587484722--2020-04-21T11:58:42-04:00--Steve Ziegler
+^^1587484722--2020-04-21T11:58:42-04:00--Steve Ziegler
 
 
 1	1	sam-app/tests/end_to_end/test_end_to_end.py
---1587487285--2020-04-21T12:41:25-04:00--GitHub
+^^1587487285--2020-04-21T12:41:25-04:00--GitHub
 
---1587487339--2020-04-21T12:42:19-04:00--Steve Ziegler
+^^1587487339--2020-04-21T12:42:19-04:00--Steve Ziegler
 
---1587488025--2020-04-21T12:53:45-04:00--GitHub
+^^1587488025--2020-04-21T12:53:45-04:00--GitHub
 
---1587489699--2020-04-21T13:21:39-04:00--Steve Ziegler
+^^1587489699--2020-04-21T13:21:39-04:00--Steve Ziegler
 
 
 2	2	sam-app/tests/end_to_end/test_end_to_end.py
---1587490574--2020-04-21T13:36:14-04:00--GitHub
+^^1587490574--2020-04-21T13:36:14-04:00--GitHub
 
---1587491540--2020-04-21T13:52:20-04:00--GitHub
+^^1587491540--2020-04-21T13:52:20-04:00--GitHub
 
---1587495780--2020-04-21T15:03:00-04:00--Steve Ziegler
+^^1587495780--2020-04-21T15:03:00-04:00--Steve Ziegler
 
 
 1	1	sam-app/tests/end_to_end/test_end_to_end.py
---1587496628--2020-04-21T15:17:08-04:00--GitHub
+^^1587496628--2020-04-21T15:17:08-04:00--GitHub
 
---1587499808--2020-04-21T16:10:08-04:00--GitHub
+^^1587499808--2020-04-21T16:10:08-04:00--GitHub
 
---1587744573--2020-04-24T12:09:33-04:00--Steve Ziegler
+^^1587744573--2020-04-24T12:09:33-04:00--Steve Ziegler
 
 
 3	2	sam-app/analyze_metric_frequency/app.py
@@ -2302,19 +2302,19 @@
 1	1	sam-app/run_tests_ci.sh
 2	1	sam-app/tests/end_to_end/test_end_to_end.py
 29	29	sam-app/tests/integration/test_integration_analyze_metrics.py_
---1587744833--2020-04-24T12:13:53-04:00--Steve Ziegler
+^^1587744833--2020-04-24T12:13:53-04:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1587745473--2020-04-24T12:24:33-04:00--Steve Ziegler
+^^1587745473--2020-04-24T12:24:33-04:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1587746574--2020-04-24T12:42:54-04:00--Steve Ziegler
+^^1587746574--2020-04-24T12:42:54-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1587903834--2020-04-26T08:23:54-04:00--Steve Ziegler
+^^1587903834--2020-04-26T08:23:54-04:00--Steve Ziegler
 
 
 20	0	sam-app/create_outlier_chart/README.md
@@ -2324,72 +2324,72 @@
 5	0	sam-app/create_outlier_chart/run_tests.sh
 14	0	sam-app/create_outlier_chart/tests/test_integration_fake_cw_log_errors.py
 10	0	sam-app/template.yaml
---1587903862--2020-04-26T08:24:22-04:00--Steve Ziegler
+^^1587903862--2020-04-26T08:24:22-04:00--Steve Ziegler
 
 
 0	14	sam-app/create_outlier_chart/tests/test_integration_fake_cw_log_errors.py
---1587906137--2020-04-26T09:02:17-04:00--Steve Ziegler
+^^1587906137--2020-04-26T09:02:17-04:00--Steve Ziegler
 
 
 30	0	build/check_test_coverage.py
 1	0	build/pre_run_tests.sh
 2	2	sam-app/run_tests_ci.sh
 26	0	sam-app/tests/unit/test_unit_create_outlier_chart.py
---1587908135--2020-04-26T09:35:35-04:00--Steve Ziegler
+^^1587908135--2020-04-26T09:35:35-04:00--Steve Ziegler
 
 
 1	0	build/check_test_coverage.py
 10	0	build/pre_run_tests.sh
 3	0	sam-app/run_tests_ci.sh
 2	2	sam-app/tests/unit/test_unit_create_outlier_chart.py
---1587908610--2020-04-26T09:43:30-04:00--Steve Ziegler
+^^1587908610--2020-04-26T09:43:30-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1587908979--2020-04-26T09:49:39-04:00--Steve Ziegler
+^^1587908979--2020-04-26T09:49:39-04:00--Steve Ziegler
 
 
 4	8	sam-app/create_outlier_chart/README.md
---1587910479--2020-04-26T10:14:39-04:00--GitHub
+^^1587910479--2020-04-26T10:14:39-04:00--GitHub
 
---1587910886--2020-04-26T10:21:26-04:00--Steve Ziegler
+^^1587910886--2020-04-26T10:21:26-04:00--Steve Ziegler
 
 
 2	0	sam-app/create_outlier_chart/requirements.txt
---1588012796--2020-04-27T14:39:56-04:00--Steve Ziegler
+^^1588012796--2020-04-27T14:39:56-04:00--Steve Ziegler
 
 
 36	1	sam-app/create_outlier_chart/app.py
 1	1	sam-app/run_tests_ci.sh
 17	1	sam-app/tests/unit/test_unit_create_outlier_chart.py
---1588013682--2020-04-27T14:54:42-04:00--Steve Ziegler
+^^1588013682--2020-04-27T14:54:42-04:00--Steve Ziegler
 
 
 1	1	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 0	1	sam-app/tests/integration/test_integration_analyze_metrics.py_ => useful_scripts/mac/test_integration_analyze_metrics.py
---1588013787--2020-04-27T14:56:27-04:00--GitHub
+^^1588013787--2020-04-27T14:56:27-04:00--GitHub
 
---1588014006--2020-04-27T15:00:06-04:00--Steve Ziegler
+^^1588014006--2020-04-27T15:00:06-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1588014185--2020-04-27T15:03:05-04:00--GitHub
+^^1588014185--2020-04-27T15:03:05-04:00--GitHub
 
---1588016306--2020-04-27T15:38:26-04:00--GitHub
+^^1588016306--2020-04-27T15:38:26-04:00--GitHub
 
---1588080449--2020-04-28T09:27:29-04:00--rdiveley
+^^1588080449--2020-04-28T09:27:29-04:00--rdiveley
 
---1588093792--2020-04-28T13:09:52-04:00--GitHub
+^^1588093792--2020-04-28T13:09:52-04:00--GitHub
 
---1588112192--2020-04-28T18:16:32-04:00--Steve Ziegler
+^^1588112192--2020-04-28T18:16:32-04:00--Steve Ziegler
 
 
 38	38	accounts_config/accounts_config.json
---1588112342--2020-04-28T18:19:02-04:00--Steve Ziegler
+^^1588112342--2020-04-28T18:19:02-04:00--Steve Ziegler
 
---1588124021--2020-04-28T21:33:41-04:00--Steve Ziegler
+^^1588124021--2020-04-28T21:33:41-04:00--Steve Ziegler
 
---1588165016--2020-04-29T08:56:56-04:00--Steve Ziegler
+^^1588165016--2020-04-29T08:56:56-04:00--Steve Ziegler
 
 
 1	1	.vscode/settings.json
@@ -2397,92 +2397,92 @@
 1	0	sam-app/process_alarms/EventContext.py
 17	2	sam-app/process_alarms/app.py
 2	0	sam-app/run_tests_ci.sh
---1588165046--2020-04-29T08:57:26-04:00--Steve Ziegler
+^^1588165046--2020-04-29T08:57:26-04:00--Steve Ziegler
 
---1588169118--2020-04-29T10:05:18-04:00--Steve Ziegler
+^^1588169118--2020-04-29T10:05:18-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
 1	1	sam-app/tests/unit/test_unit_create_outlier_chart.py
---1588170746--2020-04-29T10:32:26-04:00--GitHub
+^^1588170746--2020-04-29T10:32:26-04:00--GitHub
 
---1588175727--2020-04-29T11:55:27-04:00--GitHub
+^^1588175727--2020-04-29T11:55:27-04:00--GitHub
 
---1588176366--2020-04-29T12:06:06-04:00--Steve Ziegler
+^^1588176366--2020-04-29T12:06:06-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
---1588176430--2020-04-29T12:07:10-04:00--GitHub
+^^1588176430--2020-04-29T12:07:10-04:00--GitHub
 
---1588186434--2020-04-29T14:53:54-04:00--GitHub
+^^1588186434--2020-04-29T14:53:54-04:00--GitHub
 
---1588283831--2020-04-30T17:57:11-04:00--Nik Weinmeister
+^^1588283831--2020-04-30T17:57:11-04:00--Nik Weinmeister
 
 
 7	1	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588283877--2020-04-30T17:57:57-04:00--Nik Weinmeister
+^^1588283877--2020-04-30T17:57:57-04:00--Nik Weinmeister
 
 
 0	1	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588348204--2020-05-01T11:50:04-04:00--Les Green
+^^1588348204--2020-05-01T11:50:04-04:00--Les Green
 
 
 11	2	accounts_config/accounts_config.json
---1588349917--2020-05-01T12:18:37-04:00--Les Green
+^^1588349917--2020-05-01T12:18:37-04:00--Les Green
 
 
 1	1	initial_setup/initial_deploy.sh
---1588353067--2020-05-01T13:11:07-04:00--Nik Weinmeister
+^^1588353067--2020-05-01T13:11:07-04:00--Nik Weinmeister
 
 
 11	1	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588356369--2020-05-01T14:06:09-04:00--Nik Weinmeister
+^^1588356369--2020-05-01T14:06:09-04:00--Nik Weinmeister
 
 
 4	5	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588357056--2020-05-01T14:17:36-04:00--Nik Weinmeister
+^^1588357056--2020-05-01T14:17:36-04:00--Nik Weinmeister
 
 
 2	1	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588360400--2020-05-01T15:13:20-04:00--Nik Weinmeister
+^^1588360400--2020-05-01T15:13:20-04:00--Nik Weinmeister
 
 
 4	3	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588360576--2020-05-01T15:16:16-04:00--GitHub
+^^1588360576--2020-05-01T15:16:16-04:00--GitHub
 
---1588360967--2020-05-01T15:22:47-04:00--GitHub
+^^1588360967--2020-05-01T15:22:47-04:00--GitHub
 
---1588364256--2020-05-01T16:17:36-04:00--Nik Weinmeister
-
-
-1	0	sam-app/template.yaml
---1588364293--2020-05-01T16:18:13-04:00--Nik Weinmeister
+^^1588364256--2020-05-01T16:17:36-04:00--Nik Weinmeister
 
 
 1	0	sam-app/template.yaml
---1588364499--2020-05-01T16:21:39-04:00--Nik Weinmeister
+^^1588364293--2020-05-01T16:18:13-04:00--Nik Weinmeister
+
+
+1	0	sam-app/template.yaml
+^^1588364499--2020-05-01T16:21:39-04:00--Nik Weinmeister
 
 
 0	1	sam-app/template.yaml
---1588364859--2020-05-01T16:27:39-04:00--GitHub
+^^1588364859--2020-05-01T16:27:39-04:00--GitHub
 
---1588364965--2020-05-01T16:29:25-04:00--GitHub
+^^1588364965--2020-05-01T16:29:25-04:00--GitHub
 
---1588605605--2020-05-04T11:20:05-04:00--GitHub
+^^1588605605--2020-05-04T11:20:05-04:00--GitHub
 
 
 1	17	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588605930--2020-05-04T11:25:30-04:00--Nik Weinmeister
+^^1588605930--2020-05-04T11:25:30-04:00--Nik Weinmeister
 
 
 0	1	sam-app/template.yaml
---1588606051--2020-05-04T11:27:31-04:00--GitHub
+^^1588606051--2020-05-04T11:27:31-04:00--GitHub
 
---1588620539--2020-05-04T15:28:59-04:00--Daniel Chang
+^^1588620539--2020-05-04T15:28:59-04:00--Daniel Chang
 
 
 8	4	sam-app/process_selected_infra_change_events/app.py
---1588625492--2020-05-04T16:51:32-04:00--Steve Ziegler
+^^1588625492--2020-05-04T16:51:32-04:00--Steve Ziegler
 
 
 59	16	sam-app/add_cw_log_error_metric/app.py
@@ -2490,13 +2490,13 @@
 1	1	sam-app/run_tests_ci.sh
 54	0	sam-app/tests/integration/test_integration_add_cw_log_error_metric.py
 2	0	sam-app/tests/unit/test_unit_add_cw_log_error_metric_CloudFormationReplicator.py
---1588625628--2020-05-04T16:53:48-04:00--GitHub
+^^1588625628--2020-05-04T16:53:48-04:00--GitHub
 
---1588626683--2020-05-04T17:11:23-04:00--Steve Ziegler
+^^1588626683--2020-05-04T17:11:23-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1588626821--2020-05-04T17:13:41-04:00--Steve Ziegler
+^^1588626821--2020-05-04T17:13:41-04:00--Steve Ziegler
 
 
 0	41	sam-app/add_cw_log_error_metric/cloudwatch_log_metric.yaml
@@ -2505,173 +2505,173 @@
 0	463	sam-app/add_ec2_alarms/tests/test_unit_EC2Alarms.py
 0	93	sam-app/add_ec2_alarms/tests/test_unit_add_ec2_alarms.py
 0	56	sam-app/add_ec2_alarms/tests/test_unit_filter_list_by_regex_pattern.py
---1588626984--2020-05-04T17:16:24-04:00--Steve Ziegler
+^^1588626984--2020-05-04T17:16:24-04:00--Steve Ziegler
 
 
 0	0	{sam-app/tests/integration => useful_scripts/mac}/test_integration_add_cw_log_error_metric.py
---1588627040--2020-05-04T17:17:20-04:00--GitHub
+^^1588627040--2020-05-04T17:17:20-04:00--GitHub
 
---1588629980--2020-05-04T18:06:20-04:00--Steve Ziegler
-
-
-1	1	sam-app/add_cw_log_error_metric/app.py
---1588630876--2020-05-04T18:21:16-04:00--Steve Ziegler
+^^1588629980--2020-05-04T18:06:20-04:00--Steve Ziegler
 
 
 1	1	sam-app/add_cw_log_error_metric/app.py
---1588631895--2020-05-04T18:38:15-04:00--Steve Ziegler
+^^1588630876--2020-05-04T18:21:16-04:00--Steve Ziegler
+
+
+1	1	sam-app/add_cw_log_error_metric/app.py
+^^1588631895--2020-05-04T18:38:15-04:00--Steve Ziegler
 
 
 1	0	sam-app/add_cw_log_error_metric/app.py
---1588682861--2020-05-05T08:47:41-04:00--Steve Ziegler
+^^1588682861--2020-05-05T08:47:41-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
---1588682906--2020-05-05T08:48:26-04:00--GitHub
+^^1588682906--2020-05-05T08:48:26-04:00--GitHub
 
---1588684853--2020-05-05T09:20:53-04:00--GitHub
+^^1588684853--2020-05-05T09:20:53-04:00--GitHub
 
---1588695253--2020-05-05T12:14:13-04:00--GitHub
+^^1588695253--2020-05-05T12:14:13-04:00--GitHub
 
---1588714073--2020-05-05T17:27:53-04:00--Nik Weinmeister
+^^1588714073--2020-05-05T17:27:53-04:00--Nik Weinmeister
 
 
 24	0	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588714298--2020-05-05T17:31:38-04:00--Nik Weinmeister
+^^1588714298--2020-05-05T17:31:38-04:00--Nik Weinmeister
 
 
 1	2	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588715118--2020-05-05T17:45:18-04:00--Nik Weinmeister
+^^1588715118--2020-05-05T17:45:18-04:00--Nik Weinmeister
 
 
 3	2	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588716604--2020-05-05T18:10:04-04:00--Nik Weinmeister
+^^1588716604--2020-05-05T18:10:04-04:00--Nik Weinmeister
 
 
 9	1	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588716658--2020-05-05T18:10:58-04:00--Nik Weinmeister
+^^1588716658--2020-05-05T18:10:58-04:00--Nik Weinmeister
 
 
 1	0	sam-app/template.yaml
---1588716782--2020-05-05T18:13:02-04:00--Nik Weinmeister
+^^1588716782--2020-05-05T18:13:02-04:00--Nik Weinmeister
 
 
 0	1	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588768806--2020-05-06T08:40:06-04:00--Nik Weinmeister
+^^1588768806--2020-05-06T08:40:06-04:00--Nik Weinmeister
 
 
 3	2	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1588784583--2020-05-06T17:03:03+00:00--Nick Gompper, ICF
+^^1588784583--2020-05-06T17:03:03+00:00--Nick Gompper, ICF
 
 
 9	0	accounts_config/accounts_config.json
---1588789688--2020-05-06T14:28:08-04:00--GitHub
+^^1588789688--2020-05-06T14:28:08-04:00--GitHub
 
---1588789941--2020-05-06T18:32:21+00:00--ngompper-ICF
+^^1588789941--2020-05-06T18:32:21+00:00--ngompper-ICF
 
 
 25	7	initial_setup/initial_deploy.sh
---1588859611--2020-05-07T09:53:31-04:00--GitHub
+^^1588859611--2020-05-07T09:53:31-04:00--GitHub
 
---1588864858--2020-05-07T15:20:58+00:00--Nick Gompper, ICF
+^^1588864858--2020-05-07T15:20:58+00:00--Nick Gompper, ICF
 
---1588877106--2020-05-07T14:45:06-04:00--Steve Ziegler
+^^1588877106--2020-05-07T14:45:06-04:00--Steve Ziegler
 
 
 3	0	sam-app/add_cw_log_error_metric/LogMetricFilters.py
 58	0	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/run_tests_ci.sh
 134	0	sam-app/tests/integration/test_integration_add_cw_log_error_metric.py
---1588907724--2020-05-07T23:15:24-04:00--Steve Ziegler
+^^1588907724--2020-05-07T23:15:24-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
 127	53	sam-app/tests/unit/test_unit_process_alarms.py
---1588907795--2020-05-07T23:16:35-04:00--GitHub
+^^1588907795--2020-05-07T23:16:35-04:00--GitHub
 
---1588908814--2020-05-07T23:33:34-04:00--GitHub
+^^1588908814--2020-05-07T23:33:34-04:00--GitHub
 
---1588957988--2020-05-08T13:13:08-04:00--GitHub
+^^1588957988--2020-05-08T13:13:08-04:00--GitHub
 
---1588966925--2020-05-08T15:42:05-04:00--Steve Ziegler
+^^1588966925--2020-05-08T15:42:05-04:00--Steve Ziegler
 
 
 7	2	sam-app/process_alarms/app.py
 1	1	sam-app/run_tests_ci.sh
 28	3	sam-app/tests/unit/test_unit_process_alarms.py
---1589026709--2020-05-09T08:18:29-04:00--Steve Ziegler
+^^1589026709--2020-05-09T08:18:29-04:00--Steve Ziegler
 
 
 10	1	sam-app/process_alarms/app.py
 1	1	sam-app/run_tests_ci.sh
 716	616	sam-app/tests/unit/test_unit_process_alarms.py
---1589026966--2020-05-09T08:22:46-04:00--Steve Ziegler
+^^1589026966--2020-05-09T08:22:46-04:00--Steve Ziegler
 
 
 488	489	sam-app/tests/unit/test_unit_process_alarms.py
---1589027009--2020-05-09T08:23:29-04:00--GitHub
+^^1589027009--2020-05-09T08:23:29-04:00--GitHub
 
---1589029970--2020-05-09T09:12:50-04:00--Steve Ziegler
+^^1589029970--2020-05-09T09:12:50-04:00--Steve Ziegler
 
 
 3	1	sam-app/process_alarms/alarm_metric_statistics.py
---1589030032--2020-05-09T09:13:52-04:00--GitHub
+^^1589030032--2020-05-09T09:13:52-04:00--GitHub
 
---1589030899--2020-05-09T09:28:19-04:00--Steve Ziegler
+^^1589030899--2020-05-09T09:28:19-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/alarm_metric_statistics.py
---1589030950--2020-05-09T09:29:10-04:00--GitHub
+^^1589030950--2020-05-09T09:29:10-04:00--GitHub
 
---1589033782--2020-05-09T10:16:22-04:00--Steve Ziegler
+^^1589033782--2020-05-09T10:16:22-04:00--Steve Ziegler
 
 
 4	2	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 44	0	sam-app/tests/integration/test_integration_analyze_metrics.py
---1589034374--2020-05-09T10:26:14-04:00--Steve Ziegler
+^^1589034374--2020-05-09T10:26:14-04:00--Steve Ziegler
 
 
 4	0	sam-app/analyze_metric_frequency/aws_metric_statistics.py
 3	0	sam-app/process_alarms/alarm_metric_statistics.py
 1	1	sam-app/run_tests_ci.sh
---1589034489--2020-05-09T10:28:09-04:00--Steve Ziegler
+^^1589034489--2020-05-09T10:28:09-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1589034782--2020-05-09T10:33:02-04:00--GitHub
+^^1589034782--2020-05-09T10:33:02-04:00--GitHub
 
---1589042339--2020-05-09T12:38:59-04:00--Steve Ziegler
+^^1589042339--2020-05-09T12:38:59-04:00--Steve Ziegler
 
 
 0	44	sam-app/tests/integration/test_integration_analyze_metrics.py
---1589042410--2020-05-09T12:40:10-04:00--GitHub
+^^1589042410--2020-05-09T12:40:10-04:00--GitHub
 
---1589043405--2020-05-09T12:56:45-04:00--Steve Ziegler
+^^1589043405--2020-05-09T12:56:45-04:00--Steve Ziegler
 
 
 2	0	sam-app/tests/unit/test_unit_analyze_metrics.py
 197	197	sam-app/tests/unit/test_unit_process_alarms.py
---1589043466--2020-05-09T12:57:46-04:00--GitHub
+^^1589043466--2020-05-09T12:57:46-04:00--GitHub
 
---1589046451--2020-05-09T13:47:31-04:00--GitHub
+^^1589046451--2020-05-09T13:47:31-04:00--GitHub
 
---1589218637--2020-05-11T13:37:17-04:00--Steve Ziegler
+^^1589218637--2020-05-11T13:37:17-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/EventContext.py
---1589220010--2020-05-11T14:00:10-04:00--GitHub
+^^1589220010--2020-05-11T14:00:10-04:00--GitHub
 
---1589220593--2020-05-11T14:09:53-04:00--Steve Ziegler
+^^1589220593--2020-05-11T14:09:53-04:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1589220642--2020-05-11T14:10:42-04:00--GitHub
+^^1589220642--2020-05-11T14:10:42-04:00--GitHub
 
---1589221170--2020-05-11T14:19:30-04:00--GitHub
+^^1589221170--2020-05-11T14:19:30-04:00--GitHub
 
---1589225074--2020-05-11T15:24:34-04:00--GitHub
+^^1589225074--2020-05-11T15:24:34-04:00--GitHub
 
---1589561667--2020-05-15T12:54:27-04:00--Nik Weinmeister
+^^1589561667--2020-05-15T12:54:27-04:00--Nik Weinmeister
 
 
 3	2	sam-app/add_cw_log_error_metric/app.py
@@ -2681,435 +2681,435 @@
 3	2	sam-app/process_pipeline_failures/app.py
 3	2	sam-app/process_pipeline_successful_events/app.py
 3	2	sam-app/process_selected_infra_change_events/app.py
---1589565564--2020-05-15T13:59:24-04:00--GitHub
+^^1589565564--2020-05-15T13:59:24-04:00--GitHub
 
---1589569049--2020-05-15T14:57:29-04:00--Steve Ziegler
+^^1589569049--2020-05-15T14:57:29-04:00--Steve Ziegler
 
 
 9	0	sam-app/process_selected_infra_change_events/app.py
---1589569526--2020-05-15T15:05:26-04:00--GitHub
+^^1589569526--2020-05-15T15:05:26-04:00--GitHub
 
---1589570796--2020-05-15T15:26:36-04:00--Steve Ziegler
+^^1589570796--2020-05-15T15:26:36-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
---1589570933--2020-05-15T15:28:53-04:00--GitHub
+^^1589570933--2020-05-15T15:28:53-04:00--GitHub
 
---1589571698--2020-05-15T15:41:38-04:00--Steve Ziegler
+^^1589571698--2020-05-15T15:41:38-04:00--Steve Ziegler
 
 
 3	3	sam-app/process_selected_infra_change_events/app.py
---1589571766--2020-05-15T15:42:46-04:00--GitHub
+^^1589571766--2020-05-15T15:42:46-04:00--GitHub
 
---1589575288--2020-05-15T16:41:28-04:00--GitHub
+^^1589575288--2020-05-15T16:41:28-04:00--GitHub
 
---1589579578--2020-05-15T17:52:58-04:00--Steve Ziegler
+^^1589579578--2020-05-15T17:52:58-04:00--Steve Ziegler
 
 
 1	1	build/check_test_coverage.py
 0	0	sam-app/process_selected_infra_change_events/{EventInfo.py => EventInfoSelected.py}
 15	1	sam-app/process_selected_infra_change_events/app.py
 221	0	sam-app/tests/unit/test_unit_process_selected_infra_change_events.py
---1589579682--2020-05-15T17:54:42-04:00--GitHub
+^^1589579682--2020-05-15T17:54:42-04:00--GitHub
 
---1589580293--2020-05-15T18:04:53-04:00--GitHub
+^^1589580293--2020-05-15T18:04:53-04:00--GitHub
 
---1589580306--2020-05-15T18:05:06-04:00--GitHub
+^^1589580306--2020-05-15T18:05:06-04:00--GitHub
 
---1589806194--2020-05-18T08:49:54-04:00--GitHub
+^^1589806194--2020-05-18T08:49:54-04:00--GitHub
 
---1589830568--2020-05-18T15:36:08-04:00--Steve Ziegler
+^^1589830568--2020-05-18T15:36:08-04:00--Steve Ziegler
 
 
 6	1	sam-app/process_alarms/Alert.py
 41	0	sam-app/tests/unit/test_unit_process_alarms.py
---1589830666--2020-05-18T15:37:46-04:00--GitHub
+^^1589830666--2020-05-18T15:37:46-04:00--GitHub
 
---1589831622--2020-05-18T15:53:42-04:00--Steve Ziegler
+^^1589831622--2020-05-18T15:53:42-04:00--Steve Ziegler
 
 
 2	2	sam-app/process_alarms/Alert.py
 1	1	sam-app/tests/unit/test_unit_process_alarms.py
---1589831657--2020-05-18T15:54:17-04:00--GitHub
+^^1589831657--2020-05-18T15:54:17-04:00--GitHub
 
---1589831700--2020-05-18T15:55:00-04:00--GitHub
+^^1589831700--2020-05-18T15:55:00-04:00--GitHub
 
---1589890793--2020-05-19T08:19:53-04:00--Steve Ziegler
-
-
-4	10	sam-app/process_selected_infra_change_events/app.py
---1589890967--2020-05-19T08:22:47-04:00--Steve Ziegler
+^^1589890793--2020-05-19T08:19:53-04:00--Steve Ziegler
 
 
 4	10	sam-app/process_selected_infra_change_events/app.py
---1589891007--2020-05-19T08:23:27-04:00--GitHub
+^^1589890967--2020-05-19T08:22:47-04:00--Steve Ziegler
 
---1589893467--2020-05-19T09:04:27-04:00--GitHub
 
---1589899641--2020-05-19T10:47:21-04:00--GitHub
+4	10	sam-app/process_selected_infra_change_events/app.py
+^^1589891007--2020-05-19T08:23:27-04:00--GitHub
 
---1589914708--2020-05-19T14:58:28-04:00--GitHub
+^^1589893467--2020-05-19T09:04:27-04:00--GitHub
 
---1589923639--2020-05-19T17:27:19-04:00--Steve Ziegler
+^^1589899641--2020-05-19T10:47:21-04:00--GitHub
+
+^^1589914708--2020-05-19T14:58:28-04:00--GitHub
+
+^^1589923639--2020-05-19T17:27:19-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
---1589923745--2020-05-19T17:29:05-04:00--GitHub
+^^1589923745--2020-05-19T17:29:05-04:00--GitHub
 
---1589923829--2020-05-19T17:30:29-04:00--GitHub
+^^1589923829--2020-05-19T17:30:29-04:00--GitHub
 
---1589929168--2020-05-19T18:59:28-04:00--Steve Ziegler
+^^1589929168--2020-05-19T18:59:28-04:00--Steve Ziegler
 
 
 11	4	sam-app/add_cw_log_error_metric/LogMetricFilters.py
 13	5	sam-app/add_cw_log_error_metric/app.py
 5	3	sam-app/tests/integration/test_integration_add_cw_log_error_metric.py
---1590013050--2020-05-20T18:17:30-04:00--Steve Ziegler
+^^1590013050--2020-05-20T18:17:30-04:00--Steve Ziegler
 
 
 11	7	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/tests/integration/test_integration_add_cw_log_error_metric.py
---1590013189--2020-05-20T18:19:49-04:00--GitHub
+^^1590013189--2020-05-20T18:19:49-04:00--GitHub
 
---1590013825--2020-05-20T18:30:25-04:00--Steve Ziegler
+^^1590013825--2020-05-20T18:30:25-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1590013974--2020-05-20T18:32:54-04:00--GitHub
+^^1590013974--2020-05-20T18:32:54-04:00--GitHub
 
---1590013982--2020-05-20T18:33:02-04:00--GitHub
+^^1590013982--2020-05-20T18:33:02-04:00--GitHub
 
---1590156877--2020-05-22T10:14:37-04:00--Steve Ziegler
+^^1590156877--2020-05-22T10:14:37-04:00--Steve Ziegler
 
 
 6	0	sam-app/process_alarms/Alert.py
 63	0	sam-app/process_alarms/AlertContext.py
 1	1	sam-app/run_tests_ci.sh
 122	0	sam-app/tests/integration/test_integration_process_alarms.py
---1590157374--2020-05-22T10:22:54-04:00--Steve Ziegler
+^^1590157374--2020-05-22T10:22:54-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
 28	0	sam-app/tests/unit/test_unit_process_alarms.py
 1	0	{sam-app/tests/integration => useful_scripts}/test_integration_process_alarms.py
---1590157474--2020-05-22T10:24:34-04:00--Steve Ziegler
+^^1590157474--2020-05-22T10:24:34-04:00--Steve Ziegler
 
 
 0	5	sam-app/process_alarms/AlertContext.py
---1590157675--2020-05-22T10:27:55-04:00--GitHub
+^^1590157675--2020-05-22T10:27:55-04:00--GitHub
 
---1590161941--2020-05-22T11:39:01-04:00--GitHub
+^^1590161941--2020-05-22T11:39:01-04:00--GitHub
 
---1590163832--2020-05-22T12:10:32-04:00--Steve Ziegler
+^^1590163832--2020-05-22T12:10:32-04:00--Steve Ziegler
 
 
 4	1	sam-app/process_alarms/EventContext.py
---1590163884--2020-05-22T12:11:24-04:00--GitHub
+^^1590163884--2020-05-22T12:11:24-04:00--GitHub
 
---1590167631--2020-05-22T13:13:51-04:00--GitHub
+^^1590167631--2020-05-22T13:13:51-04:00--GitHub
 
---1590180254--2020-05-22T16:44:14-04:00--Steve Ziegler
+^^1590180254--2020-05-22T16:44:14-04:00--Steve Ziegler
 
 
 2	2	sam-app/add_ec2_alarms/ec2_alarm_snippet.yaml
---1590180353--2020-05-22T16:45:53-04:00--GitHub
+^^1590180353--2020-05-22T16:45:53-04:00--GitHub
 
---1590251538--2020-05-23T12:32:18-04:00--Steve Ziegler
+^^1590251538--2020-05-23T12:32:18-04:00--Steve Ziegler
 
 
 13	3	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/run_tests_ci.sh
 1	0	sam-app/template.yaml
 2	0	sam-app/tests/integration/test_integration_add_cw_log_error_metric.py
---1590253145--2020-05-23T12:59:05-04:00--Steve Ziegler
+^^1590253145--2020-05-23T12:59:05-04:00--Steve Ziegler
 
 
 2	1	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/run_tests_ci.sh
 4	4	sam-app/tests/integration/{test_integration_add_cw_log_error_metric.py => test_integration_add_cw_log_error_metric.py_}
---1590253207--2020-05-23T13:00:07-04:00--GitHub
+^^1590253207--2020-05-23T13:00:07-04:00--GitHub
 
---1590253748--2020-05-23T13:09:08-04:00--Steve Ziegler
+^^1590253748--2020-05-23T13:09:08-04:00--Steve Ziegler
 
 
 1	1	build/check_test_coverage.py
 0	0	sam-app/tests/integration/{test_integration_add_cw_log_error_metric.py_ => test_integration_add_cw_log_error_metric.py}
---1590253801--2020-05-23T13:10:01-04:00--GitHub
+^^1590253801--2020-05-23T13:10:01-04:00--GitHub
 
---1590254481--2020-05-23T13:21:21-04:00--Steve Ziegler
+^^1590254481--2020-05-23T13:21:21-04:00--Steve Ziegler
 
 
 7	1	sam-app/template.yaml
---1590254747--2020-05-23T13:25:47-04:00--GitHub
+^^1590254747--2020-05-23T13:25:47-04:00--GitHub
 
---1590255644--2020-05-23T13:40:44-04:00--Steve Ziegler
+^^1590255644--2020-05-23T13:40:44-04:00--Steve Ziegler
 
 
 6	7	sam-app/template.yaml
---1590255699--2020-05-23T13:41:39-04:00--GitHub
+^^1590255699--2020-05-23T13:41:39-04:00--GitHub
 
---1590258896--2020-05-23T14:34:56-04:00--Steve Ziegler
+^^1590258896--2020-05-23T14:34:56-04:00--Steve Ziegler
 
 
 0	0	sam-app/tests/integration/{test_integration_add_cw_log_error_metric.py => test_integration_add_cw_log_error_metric.py_}
---1590258957--2020-05-23T14:35:57-04:00--GitHub
+^^1590258957--2020-05-23T14:35:57-04:00--GitHub
 
---1590508191--2020-05-26T11:49:51-04:00--Steve Ziegler
+^^1590508191--2020-05-26T11:49:51-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
 1	1	sam-app/tests/end_to_end/test_end_to_end.py
---1590510187--2020-05-26T12:23:07-04:00--Steve Ziegler
+^^1590510187--2020-05-26T12:23:07-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/app.py
---1590525186--2020-05-26T16:33:06-04:00--Steve Ziegler
+^^1590525186--2020-05-26T16:33:06-04:00--Steve Ziegler
 
 
 5	4	sam-app/process_alarms/LocalTime.py
 15	10	sam-app/process_alarms/app.py
 31	0	sam-app/tests/unit/test_unit_process_alarms.py
---1590526180--2020-05-26T16:49:40-04:00--GitHub
+^^1590526180--2020-05-26T16:49:40-04:00--GitHub
 
---1590527357--2020-05-26T17:09:17-04:00--GitHub
+^^1590527357--2020-05-26T17:09:17-04:00--GitHub
 
---1590592474--2020-05-27T11:14:34-04:00--Steve Ziegler
+^^1590592474--2020-05-27T11:14:34-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_alarms/LocalTime.py
 3	1	sam-app/template.yaml
---1590592559--2020-05-27T11:15:59-04:00--GitHub
+^^1590592559--2020-05-27T11:15:59-04:00--GitHub
 
---1590592588--2020-05-27T11:16:28-04:00--GitHub
+^^1590592588--2020-05-27T11:16:28-04:00--GitHub
 
---1590595268--2020-05-27T12:01:08-04:00--Steve Ziegler
+^^1590595268--2020-05-27T12:01:08-04:00--Steve Ziegler
 
 
 2	2	sam-app/fake_cw_log_errors/app.py
---1590595346--2020-05-27T12:02:26-04:00--GitHub
+^^1590595346--2020-05-27T12:02:26-04:00--GitHub
 
---1590595373--2020-05-27T12:02:53-04:00--GitHub
+^^1590595373--2020-05-27T12:02:53-04:00--GitHub
 
---1590605955--2020-05-27T14:59:15-04:00--GitHub
+^^1590605955--2020-05-27T14:59:15-04:00--GitHub
 
---1590677274--2020-05-28T10:47:54-04:00--Steve Ziegler
+^^1590677274--2020-05-28T10:47:54-04:00--Steve Ziegler
 
 
 1	3	sam-app/process_selected_infra_change_events/app.py
---1590677464--2020-05-28T10:51:04-04:00--GitHub
+^^1590677464--2020-05-28T10:51:04-04:00--GitHub
 
---1590677966--2020-05-28T10:59:26-04:00--GitHub
+^^1590677966--2020-05-28T10:59:26-04:00--GitHub
 
---1590688001--2020-05-28T13:46:41-04:00--GitHub
+^^1590688001--2020-05-28T13:46:41-04:00--GitHub
 
---1590689064--2020-05-28T14:04:24-04:00--GitHub
+^^1590689064--2020-05-28T14:04:24-04:00--GitHub
 
---1590689073--2020-05-28T14:04:33-04:00--GitHub
+^^1590689073--2020-05-28T14:04:33-04:00--GitHub
 
---1590714446--2020-05-28T21:07:26-04:00--Steve Ziegler
+^^1590714446--2020-05-28T21:07:26-04:00--Steve Ziegler
 
 
 19	0	useful_scripts/mac/stream_log_events.sh
---1590714452--2020-05-28T21:07:32-04:00--Steve Ziegler
+^^1590714452--2020-05-28T21:07:32-04:00--Steve Ziegler
 
---1590714474--2020-05-28T21:07:54-04:00--Steve Ziegler
+^^1590714474--2020-05-28T21:07:54-04:00--Steve Ziegler
 
 
 1	1	useful_scripts/mac/stream_log_events.sh
---1590714590--2020-05-28T21:09:50-04:00--Steve Ziegler
+^^1590714590--2020-05-28T21:09:50-04:00--Steve Ziegler
 
 
 1	3	sam-app/process_selected_infra_change_events/app.py
---1590714663--2020-05-28T21:11:03-04:00--Steve Ziegler
+^^1590714663--2020-05-28T21:11:03-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
---1590716373--2020-05-28T21:39:33-04:00--Steve Ziegler
+^^1590716373--2020-05-28T21:39:33-04:00--Steve Ziegler
 
 
 31	0	sam-app/add_cw_log_error_metric/app.py
 1	0	sam-app/template.yaml
---1590716802--2020-05-28T21:46:42-04:00--GitHub
+^^1590716802--2020-05-28T21:46:42-04:00--GitHub
 
---1590716810--2020-05-28T21:46:50-04:00--GitHub
+^^1590716810--2020-05-28T21:46:50-04:00--GitHub
 
---1590718195--2020-05-28T22:09:55-04:00--Steve Ziegler
+^^1590718195--2020-05-28T22:09:55-04:00--Steve Ziegler
 
 
 25	8	sam-app/add_cw_log_error_metric/LogMetricFilters.py
 2	2	sam-app/add_cw_log_error_metric/app.py
 15	0	sam-app/tests/unit/test_unit_add_cw_log_error_metric.py
---1590718266--2020-05-28T22:11:06-04:00--Steve Ziegler
+^^1590718266--2020-05-28T22:11:06-04:00--Steve Ziegler
 
---1590718412--2020-05-28T22:13:32-04:00--GitHub
+^^1590718412--2020-05-28T22:13:32-04:00--GitHub
 
---1590719967--2020-05-28T22:39:27-04:00--Steve Ziegler
+^^1590719967--2020-05-28T22:39:27-04:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1590720051--2020-05-28T22:40:51-04:00--GitHub
+^^1590720051--2020-05-28T22:40:51-04:00--GitHub
 
---1590720974--2020-05-28T22:56:14-04:00--Steve Ziegler
+^^1590720974--2020-05-28T22:56:14-04:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1590721167--2020-05-28T22:59:27-04:00--GitHub
+^^1590721167--2020-05-28T22:59:27-04:00--GitHub
 
---1590766148--2020-05-29T11:29:08-04:00--Steve Ziegler
+^^1590766148--2020-05-29T11:29:08-04:00--Steve Ziegler
 
 
 4	3	sam-app/add_cw_log_error_metric/app.py
 18	0	useful_scripts/mac/stream_log_events.py
---1590766343--2020-05-29T11:32:23-04:00--GitHub
+^^1590766343--2020-05-29T11:32:23-04:00--GitHub
 
---1590775531--2020-05-29T14:05:31-04:00--GitHub
+^^1590775531--2020-05-29T14:05:31-04:00--GitHub
 
---1590775617--2020-05-29T14:06:57-04:00--GitHub
+^^1590775617--2020-05-29T14:06:57-04:00--GitHub
 
---1590783937--2020-05-29T20:25:37+00:00--Nick Gompper, ICF
+^^1590783937--2020-05-29T20:25:37+00:00--Nick Gompper, ICF
 
---1590817106--2020-05-30T05:38:26+00:00--Nick Gompper, ICF
+^^1590817106--2020-05-30T05:38:26+00:00--Nick Gompper, ICF
 
---1590817381--2020-05-30T05:43:01+00:00--Nick Gompper, ICF
+^^1590817381--2020-05-30T05:43:01+00:00--Nick Gompper, ICF
 
 
 2	2	initial_setup/initial_deploy.sh
---1590817572--2020-05-30T05:46:12+00:00--Nick Gompper, ICF
+^^1590817572--2020-05-30T05:46:12+00:00--Nick Gompper, ICF
 
 
 2	2	accounts_config/accounts_config.json
---1590844993--2020-05-30T13:23:13+00:00--Nick Gompper, ICF
+^^1590844993--2020-05-30T13:23:13+00:00--Nick Gompper, ICF
 
 
 24	8	initial_setup/initial_deploy.sh
---1591020544--2020-06-01T10:09:04-04:00--GitHub
+^^1591020544--2020-06-01T10:09:04-04:00--GitHub
 
---1591026100--2020-06-01T11:41:40-04:00--Steve Ziegler
+^^1591026100--2020-06-01T11:41:40-04:00--Steve Ziegler
 
 
 6	0	useful_scripts/mac/stream_log_events.py
---1591028775--2020-06-01T12:26:15-04:00--Steve Ziegler
+^^1591028775--2020-06-01T12:26:15-04:00--Steve Ziegler
 
 
 0	5	sam-app/add_cw_log_error_metric/app.py
---1591030127--2020-06-01T12:48:47-04:00--Steve Ziegler
+^^1591030127--2020-06-01T12:48:47-04:00--Steve Ziegler
 
 
 3	2	sam-app/add_cw_log_error_metric/app.py
---1591030328--2020-06-01T12:52:08-04:00--GitHub
+^^1591030328--2020-06-01T12:52:08-04:00--GitHub
 
---1591031648--2020-06-01T13:14:08-04:00--GitHub
+^^1591031648--2020-06-01T13:14:08-04:00--GitHub
 
---1591034267--2020-06-01T13:57:47-04:00--GitHub
+^^1591034267--2020-06-01T13:57:47-04:00--GitHub
 
---1591042734--2020-06-01T16:18:54-04:00--Steve Ziegler
+^^1591042734--2020-06-01T16:18:54-04:00--Steve Ziegler
 
 
 4	2	sam-app/process_alarms/app.py
---1591043481--2020-06-01T16:31:21-04:00--GitHub
+^^1591043481--2020-06-01T16:31:21-04:00--GitHub
 
---1591114814--2020-06-02T12:20:14-04:00--Steve Ziegler
+^^1591114814--2020-06-02T12:20:14-04:00--Steve Ziegler
 
 
 2	1	.gitignore
 20	0	useful_scripts/mac/get_all_logs.sh
---1591120387--2020-06-02T13:53:07-04:00--Steve Ziegler
+^^1591120387--2020-06-02T13:53:07-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
 -	-	.DS_Store => useful_scripts/.DS_Store
 -	-	.DS_Store => useful_scripts/mac/.DS_Store
 2	2	useful_scripts/mac/get_all_logs.sh
---1591120713--2020-06-02T13:58:33-04:00--Steve Ziegler
+^^1591120713--2020-06-02T13:58:33-04:00--Steve Ziegler
 
 
 19	0	sam-app/template.yaml
---1591120846--2020-06-02T14:00:46-04:00--Steve Ziegler
+^^1591120846--2020-06-02T14:00:46-04:00--Steve Ziegler
 
 
 0	1	sam-app/template.yaml
---1591123850--2020-06-02T14:50:50-04:00--GitHub
+^^1591123850--2020-06-02T14:50:50-04:00--GitHub
 
---1591125601--2020-06-02T15:20:01-04:00--Steve Ziegler
+^^1591125601--2020-06-02T15:20:01-04:00--Steve Ziegler
 
 
 3	1	sam-app/process_selected_infra_change_events/app.py
---1591126489--2020-06-02T15:34:49-04:00--GitHub
+^^1591126489--2020-06-02T15:34:49-04:00--GitHub
 
---1591127307--2020-06-02T15:48:27-04:00--Steve Ziegler
+^^1591127307--2020-06-02T15:48:27-04:00--Steve Ziegler
 
 
 6	1	sam-app/process_selected_infra_change_events/app.py
---1591127442--2020-06-02T15:50:42-04:00--Steve Ziegler
+^^1591127442--2020-06-02T15:50:42-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
---1591127486--2020-06-02T15:51:26-04:00--GitHub
+^^1591127486--2020-06-02T15:51:26-04:00--GitHub
 
---1591135624--2020-06-02T18:07:04-04:00--Steve Ziegler
+^^1591135624--2020-06-02T18:07:04-04:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
---1591135684--2020-06-02T18:08:04-04:00--GitHub
+^^1591135684--2020-06-02T18:08:04-04:00--GitHub
 
---1591148158--2020-06-02T21:35:58-04:00--GitHub
+^^1591148158--2020-06-02T21:35:58-04:00--GitHub
 
---1591150162--2020-06-02T22:09:22-04:00--Steve Ziegler
+^^1591150162--2020-06-02T22:09:22-04:00--Steve Ziegler
 
 
 5	7	sam-app/process_selected_infra_change_events/app.py
 -	-	useful_scripts/.DS_Store
---1591150254--2020-06-02T22:10:54-04:00--GitHub
+^^1591150254--2020-06-02T22:10:54-04:00--GitHub
 
---1591150817--2020-06-02T22:20:17-04:00--Steve Ziegler
+^^1591150817--2020-06-02T22:20:17-04:00--Steve Ziegler
 
 
 2	4	sam-app/tests/unit/test_unit_process_selected_infra_change_events.py
---1591150870--2020-06-02T22:21:10-04:00--GitHub
+^^1591150870--2020-06-02T22:21:10-04:00--GitHub
 
---1591151971--2020-06-02T22:39:31-04:00--GitHub
+^^1591151971--2020-06-02T22:39:31-04:00--GitHub
 
---1591189258--2020-06-03T09:00:58-04:00--GitHub
+^^1591189258--2020-06-03T09:00:58-04:00--GitHub
 
---1592315241--2020-06-16T09:47:21-04:00--Nik Weinmeister
+^^1592315241--2020-06-16T09:47:21-04:00--Nik Weinmeister
 
 
 21	4	sam-app/process_alarms/app.py
 46	54	sam-app/tests/unit/test_unit_process_alarms.py
---1592315342--2020-06-16T09:49:02-04:00--Nik Weinmeister
+^^1592315342--2020-06-16T09:49:02-04:00--Nik Weinmeister
 
 
 1	2	sam-app/process_alarms/app.py
---1592316127--2020-06-16T10:02:07-04:00--Nik Weinmeister
+^^1592316127--2020-06-16T10:02:07-04:00--Nik Weinmeister
 
 
 4	2	sam-app/process_alarms/app.py
---1592318566--2020-06-16T10:42:46-04:00--Nik Weinmeister
+^^1592318566--2020-06-16T10:42:46-04:00--Nik Weinmeister
 
 
 11	10	sam-app/process_alarms/app.py
 3	2	sam-app/tests/unit/test_unit_process_alarms.py
---1592319090--2020-06-16T10:51:30-04:00--Nik Weinmeister
+^^1592319090--2020-06-16T10:51:30-04:00--Nik Weinmeister
 
 
 5	3	sam-app/process_alarms/app.py
 18	0	sam-app/tests/unit/test_unit_process_alarms.py
---1592319192--2020-06-16T10:53:12-04:00--Nik Weinmeister
+^^1592319192--2020-06-16T10:53:12-04:00--Nik Weinmeister
 
 
 0	1	sam-app/process_alarms/app.py
---1592319589--2020-06-16T10:59:49-04:00--Nik Weinmeister
+^^1592319589--2020-06-16T10:59:49-04:00--Nik Weinmeister
 
 
 2	2	sam-app/process_alarms/app.py
 1	4	sam-app/tests/unit/test_unit_process_alarms.py
---1592319637--2020-06-16T11:00:37-04:00--Nik Weinmeister
+^^1592319637--2020-06-16T11:00:37-04:00--Nik Weinmeister
 
 
 1	4	sam-app/tests/unit/test_unit_process_alarms.py
---1592319927--2020-06-16T11:05:27-04:00--GitHub
+^^1592319927--2020-06-16T11:05:27-04:00--GitHub
 
---1592582051--2020-06-19T11:54:11-04:00--Nik Weinmeister
+^^1592582051--2020-06-19T11:54:11-04:00--Nik Weinmeister
 
 
 82	0	sam-app/daily_error_report/EventContext.py
@@ -3119,51 +3119,51 @@
 0	0	sam-app/daily_error_report/requirements.txt
 5	0	sam-app/daily_error_report/run_tests.sh
 14	0	sam-app/daily_error_report/tests/test_integration_fake_daily_error_report.py
---1592582883--2020-06-19T12:08:03-04:00--Nik Weinmeister
+^^1592582883--2020-06-19T12:08:03-04:00--Nik Weinmeister
 
 
 47	0	sam-app/template.yaml
---1592583090--2020-06-19T12:11:30-04:00--Nik Weinmeister
+^^1592583090--2020-06-19T12:11:30-04:00--Nik Weinmeister
 
 
 1	1	sam-app/template.yaml
---1592583123--2020-06-19T12:12:03-04:00--Nik Weinmeister
+^^1592583123--2020-06-19T12:12:03-04:00--Nik Weinmeister
 
 
 1	1	sam-app/template.yaml
---1592583169--2020-06-19T12:12:49-04:00--Nik Weinmeister
+^^1592583169--2020-06-19T12:12:49-04:00--Nik Weinmeister
 
 
 3	2	sam-app/daily_error_report/EventContext.py
 1	2	sam-app/daily_error_report/app.py
---1592583188--2020-06-19T12:13:08-04:00--Nik Weinmeister
+^^1592583188--2020-06-19T12:13:08-04:00--Nik Weinmeister
 
 
 1	3	sam-app/daily_error_report/app.py
---1592584746--2020-06-19T12:39:06-04:00--Nik Weinmeister
+^^1592584746--2020-06-19T12:39:06-04:00--Nik Weinmeister
 
 
 4	22	sam-app/template.yaml
---1592584816--2020-06-19T12:40:16-04:00--Nik Weinmeister
+^^1592584816--2020-06-19T12:40:16-04:00--Nik Weinmeister
 
 
 0	13	sam-app/template.yaml
---1592584953--2020-06-19T12:42:33-04:00--Nik Weinmeister
+^^1592584953--2020-06-19T12:42:33-04:00--Nik Weinmeister
 
 
 1	1	sam-app/daily_error_report/EventContext.py
 2	3	sam-app/daily_error_report/app.py
---1592587187--2020-06-19T13:19:47-04:00--Nik Weinmeister
+^^1592587187--2020-06-19T13:19:47-04:00--Nik Weinmeister
 
 
 1	1	sam-app/daily_error_report/{EventContext.py => DEREventContext.py}
 22	16	sam-app/daily_error_report/app.py
---1592587697--2020-06-19T13:28:17-04:00--Nik Weinmeister
+^^1592587697--2020-06-19T13:28:17-04:00--Nik Weinmeister
 
 
 0	14	sam-app/daily_error_report/tests/test_integration_fake_daily_error_report.py
 1	1	sam-app/run_tests_ci.sh
---1592588131--2020-06-19T13:35:31-04:00--Nik Weinmeister
+^^1592588131--2020-06-19T13:35:31-04:00--Nik Weinmeister
 
 
 1	1	sam-app/{daily_error_report/DEREventContext.py => daily_infra_change_report/DICREventContext.py}
@@ -3175,188 +3175,188 @@
 1	1	sam-app/run_tests_ci.sh
 3	3	sam-app/template.yaml
 106	0	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1592832930--2020-06-22T09:35:30-04:00--GitHub
+^^1592832930--2020-06-22T09:35:30-04:00--GitHub
 
---1592841399--2020-06-22T11:56:39-04:00--Nik Weinmeister
+^^1592841399--2020-06-22T11:56:39-04:00--Nik Weinmeister
 
 
 24	0	sam-app/template.yaml
---1592841496--2020-06-22T11:58:16-04:00--Nik Weinmeister
+^^1592841496--2020-06-22T11:58:16-04:00--Nik Weinmeister
 
 
 1	1	sam-app/template.yaml
---1592846603--2020-06-22T13:23:23-04:00--Steve Ziegler
+^^1592846603--2020-06-22T13:23:23-04:00--Steve Ziegler
 
 
 10	2	useful_scripts/mac/get_all_logs.sh
---1592846966--2020-06-22T13:29:26-04:00--GitHub
+^^1592846966--2020-06-22T13:29:26-04:00--GitHub
 
---1592850981--2020-06-22T14:36:21-04:00--Nik Weinmeister
+^^1592850981--2020-06-22T14:36:21-04:00--Nik Weinmeister
 
 
 2	0	sam-app/daily_infra_change_report/requirements.txt
---1592851172--2020-06-22T14:39:32-04:00--GitHub
+^^1592851172--2020-06-22T14:39:32-04:00--GitHub
 
---1592855303--2020-06-22T15:48:23-04:00--Nik Weinmeister
+^^1592855303--2020-06-22T15:48:23-04:00--Nik Weinmeister
 
 
 13	0	sam-app/template.yaml
---1592855767--2020-06-22T15:56:07-04:00--GitHub
+^^1592855767--2020-06-22T15:56:07-04:00--GitHub
 
---1592927225--2020-06-23T11:47:05-04:00--Steve Ziegler
+^^1592927225--2020-06-23T11:47:05-04:00--Steve Ziegler
 
 
 2	0	useful_scripts/mac/get_incoming_phone_calls.sh
---1592935265--2020-06-23T14:01:05-04:00--Nik Weinmeister
+^^1592935265--2020-06-23T14:01:05-04:00--Nik Weinmeister
 
 
 24	2	sam-app/add_cw_log_error_metric/app.py
 33	0	sam-app/tests/unit/test_unit_add_cw_log_error_metric.py
---1592935357--2020-06-23T14:02:37-04:00--Nik Weinmeister
+^^1592935357--2020-06-23T14:02:37-04:00--Nik Weinmeister
 
 
 1	3	sam-app/add_cw_log_error_metric/app.py
---1592947717--2020-06-23T17:28:37-04:00--Steve Ziegler
+^^1592947717--2020-06-23T17:28:37-04:00--Steve Ziegler
 
 
 1	1	useful_scripts/mac/get_incoming_phone_calls.sh
---1593024891--2020-06-24T14:54:51-04:00--Nik Weinmeister
+^^1593024891--2020-06-24T14:54:51-04:00--Nik Weinmeister
 
 
 51	0	useful_scripts/get_failing_lambdas.py
---1593025060--2020-06-24T14:57:40-04:00--Nik Weinmeister
+^^1593025060--2020-06-24T14:57:40-04:00--Nik Weinmeister
 
 
 2	2	useful_scripts/get_failing_lambdas.py
---1593025741--2020-06-24T15:09:01-04:00--Nik Weinmeister
+^^1593025741--2020-06-24T15:09:01-04:00--Nik Weinmeister
 
 
 1	1	useful_scripts/get_failing_lambdas.py
---1593025989--2020-06-24T15:13:09-04:00--Nik Weinmeister
+^^1593025989--2020-06-24T15:13:09-04:00--Nik Weinmeister
 
 
 6	0	useful_scripts/get_failing_lambdas.py
---1593026535--2020-06-24T15:22:15-04:00--GitHub
+^^1593026535--2020-06-24T15:22:15-04:00--GitHub
 
---1593030351--2020-06-24T16:25:51-04:00--Nik Weinmeister
+^^1593030351--2020-06-24T16:25:51-04:00--Nik Weinmeister
 
 
 1	1	sam-app/daily_infra_change_report/DICREventContext.py
---1593030545--2020-06-24T16:29:05-04:00--GitHub
+^^1593030545--2020-06-24T16:29:05-04:00--GitHub
 
---1593097501--2020-06-25T11:05:01-04:00--Nik Weinmeister
+^^1593097501--2020-06-25T11:05:01-04:00--Nik Weinmeister
 
 
 55	12	sam-app/daily_infra_change_report/DICREventContext.py
 2	17	sam-app/daily_infra_change_report/app.py
 36	48	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1593099555--2020-06-25T11:39:15-04:00--GitHub
+^^1593099555--2020-06-25T11:39:15-04:00--GitHub
 
---1593100144--2020-06-25T11:49:04-04:00--GitHub
+^^1593100144--2020-06-25T11:49:04-04:00--GitHub
 
---1593104734--2020-06-25T13:05:34-04:00--Nik Weinmeister
+^^1593104734--2020-06-25T13:05:34-04:00--Nik Weinmeister
 
 
 2	2	sam-app/daily_infra_change_report/DICREventContext.py
---1593105346--2020-06-25T13:15:46-04:00--Nik Weinmeister
+^^1593105346--2020-06-25T13:15:46-04:00--Nik Weinmeister
 
 
 16	18	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1593105429--2020-06-25T13:17:09-04:00--Nik Weinmeister
+^^1593105429--2020-06-25T13:17:09-04:00--Nik Weinmeister
 
 
 2	2	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1593105497--2020-06-25T13:18:17-04:00--GitHub
+^^1593105497--2020-06-25T13:18:17-04:00--GitHub
 
---1593106464--2020-06-25T13:34:24-04:00--Nik Weinmeister
+^^1593106464--2020-06-25T13:34:24-04:00--Nik Weinmeister
 
 
 4	2	sam-app/daily_infra_change_report/DICREventContext.py
 2	2	sam-app/daily_infra_change_report/app.py
---1593106564--2020-06-25T13:36:04-04:00--Nik Weinmeister
+^^1593106564--2020-06-25T13:36:04-04:00--Nik Weinmeister
 
 
 0	2	sam-app/daily_infra_change_report/DICREventContext.py
---1593107543--2020-06-25T13:52:23-04:00--Nik Weinmeister
+^^1593107543--2020-06-25T13:52:23-04:00--Nik Weinmeister
 
 
 3	1	sam-app/daily_infra_change_report/app.py
---1593107559--2020-06-25T13:52:39-04:00--Nik Weinmeister
+^^1593107559--2020-06-25T13:52:39-04:00--Nik Weinmeister
 
 
 0	2	sam-app/daily_infra_change_report/app.py
---1593107769--2020-06-25T13:56:09-04:00--GitHub
+^^1593107769--2020-06-25T13:56:09-04:00--GitHub
 
---1593199356--2020-06-26T15:22:36-04:00--GitHub
+^^1593199356--2020-06-26T15:22:36-04:00--GitHub
 
---1593435934--2020-06-29T09:05:34-04:00--Nik Weinmeister
+^^1593435934--2020-06-29T09:05:34-04:00--Nik Weinmeister
 
 
 8	1	sam-app/daily_infra_change_report/DICREventContext.py
 5	0	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1593435968--2020-06-29T09:06:08-04:00--Nik Weinmeister
+^^1593435968--2020-06-29T09:06:08-04:00--Nik Weinmeister
 
 
 0	1	sam-app/daily_infra_change_report/DICREventContext.py
---1593443289--2020-06-29T11:08:09-04:00--Nik Weinmeister
+^^1593443289--2020-06-29T11:08:09-04:00--Nik Weinmeister
 
 
 1	1	sam-app/daily_infra_change_report/DICREventContext.py
---1593443649--2020-06-29T11:14:09-04:00--Nik Weinmeister
+^^1593443649--2020-06-29T11:14:09-04:00--Nik Weinmeister
 
 
 1	0	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1593469207--2020-06-29T18:20:07-04:00--GitHub
+^^1593469207--2020-06-29T18:20:07-04:00--GitHub
 
---1593469307--2020-06-29T18:21:47-04:00--GitHub
+^^1593469307--2020-06-29T18:21:47-04:00--GitHub
 
---1594052807--2020-07-06T12:26:47-04:00--GitHub
+^^1594052807--2020-07-06T12:26:47-04:00--GitHub
 
---1594052837--2020-07-06T12:27:17-04:00--GitHub
+^^1594052837--2020-07-06T12:27:17-04:00--GitHub
 
---1594055805--2020-07-06T13:16:45-04:00--GitHub
+^^1594055805--2020-07-06T13:16:45-04:00--GitHub
 
---1594127106--2020-07-07T09:05:06-04:00--Nik Weinmeister
+^^1594127106--2020-07-07T09:05:06-04:00--Nik Weinmeister
 
 
 6	2	sam-app/daily_infra_change_report/DICREventContext.py
---1594127190--2020-07-07T09:06:30-04:00--Nik Weinmeister
+^^1594127190--2020-07-07T09:06:30-04:00--Nik Weinmeister
 
 
 0	4	sam-app/daily_infra_change_report/DICREventContext.py
---1594127739--2020-07-07T09:15:39-04:00--Nik Weinmeister
+^^1594127739--2020-07-07T09:15:39-04:00--Nik Weinmeister
 
 
 3	1	sam-app/daily_infra_change_report/DICREventContext.py
---1594128097--2020-07-07T09:21:37-04:00--Nik Weinmeister
+^^1594128097--2020-07-07T09:21:37-04:00--Nik Weinmeister
 
 
 5	0	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1594129204--2020-07-07T09:40:04-04:00--GitHub
+^^1594129204--2020-07-07T09:40:04-04:00--GitHub
 
---1595006728--2020-07-17T13:25:28-04:00--Steve Ziegler
+^^1595006728--2020-07-17T13:25:28-04:00--Steve Ziegler
 
 
 8	8	accounts_config/accounts_config.json
---1595006774--2020-07-17T13:26:14-04:00--GitHub
+^^1595006774--2020-07-17T13:26:14-04:00--GitHub
 
---1595856600--2020-07-27T09:30:00-04:00--Nik Weinmeister
+^^1595856600--2020-07-27T09:30:00-04:00--Nik Weinmeister
 
 
 1	1	accounts_config/accounts_config.json
---1595857558--2020-07-27T09:45:58-04:00--GitHub
+^^1595857558--2020-07-27T09:45:58-04:00--GitHub
 
---1595949461--2020-07-28T11:17:41-04:00--Nik Weinmeister
+^^1595949461--2020-07-28T11:17:41-04:00--Nik Weinmeister
 
 
 8	0	accounts_config/accounts_config.json
---1595950684--2020-07-28T11:38:04-04:00--GitHub
+^^1595950684--2020-07-28T11:38:04-04:00--GitHub
 
---1596771503--2020-08-06T23:38:23-04:00--Steve Ziegler
+^^1596771503--2020-08-06T23:38:23-04:00--Steve Ziegler
 
 
 5	5	useful_scripts/mac/get_all_logs.sh
---1596901267--2020-08-08T11:41:07-04:00--Steve Ziegler
+^^1596901267--2020-08-08T11:41:07-04:00--Steve Ziegler
 
 
 9	0	useful_scripts/mac/create_master_log_file.sh
@@ -6044,7 +6044,7 @@
 0	0	useful_scripts/mac/r8/_aws_rds_cluster_reg8cc-prod-cluster_error.txt
 81072	0	useful_scripts/mac/r8/all_sorted.txt
 15	0	useful_scripts/mac/split_sorted.awk
---1596905738--2020-08-08T12:55:38-04:00--Steve Ziegler
+^^1596905738--2020-08-08T12:55:38-04:00--Steve Ziegler
 
 
 0	600742	useful_scripts/mac/fh/2020-08-05/all_sorted.txt
@@ -6838,47 +6838,47 @@
 1	0	useful_scripts/mac/get_all_logs.sh
 12	0	useful_scripts/mac/searchlogs.sh
 1	1	useful_scripts/mac/split_sorted.awk
---1596907644--2020-08-08T13:27:24-04:00--Steve Ziegler
+^^1596907644--2020-08-08T13:27:24-04:00--Steve Ziegler
 
 
 16	5	useful_scripts/mac/searchlogs.sh
 11	0	useful_scripts/mac/sort_ag_counts.awk
---1596908325--2020-08-08T13:38:45-04:00--Steve Ziegler
+^^1596908325--2020-08-08T13:38:45-04:00--Steve Ziegler
 
 
 0	251714	useful_scripts/mac/fh/2020-08-05/all_sorted_2020-08-05.txt
 3	3	useful_scripts/mac/searchlogs.sh
---1597072505--2020-08-10T11:15:05-04:00--Nik Weinmeister
+^^1597072505--2020-08-10T11:15:05-04:00--Nik Weinmeister
 
 
 9	0	accounts_config/accounts_config.json
---1597072583--2020-08-10T11:16:23-04:00--Nik Weinmeister
+^^1597072583--2020-08-10T11:16:23-04:00--Nik Weinmeister
 
 
 1	1	accounts_config/accounts_config.json
---1597072730--2020-08-10T11:18:50-04:00--Nik Weinmeister
+^^1597072730--2020-08-10T11:18:50-04:00--Nik Weinmeister
 
 
 3	3	accounts_config/accounts_config.json
---1597080259--2020-08-10T13:24:19-04:00--Nik Weinmeister
+^^1597080259--2020-08-10T13:24:19-04:00--Nik Weinmeister
 
 
 1	1	accounts_config/accounts_config.json
---1597091103--2020-08-10T16:25:03-04:00--GitHub
+^^1597091103--2020-08-10T16:25:03-04:00--GitHub
 
---1597254723--2020-08-12T13:52:03-04:00--White
+^^1597254723--2020-08-12T13:52:03-04:00--White
 
 
 13	13	accounts_config/accounts_config.json
---1597255186--2020-08-12T13:59:46-04:00--GitHub
+^^1597255186--2020-08-12T13:59:46-04:00--GitHub
 
---1597262132--2020-08-12T15:55:32-04:00--Steve Ziegler
+^^1597262132--2020-08-12T15:55:32-04:00--Steve Ziegler
 
 
 3	1	.gitignore
 1	6	useful_scripts/mac/get_all_logs.sh
 6	5	useful_scripts/mac/searchlogs.sh
---1597335577--2020-08-13T12:19:37-04:00--Steve Ziegler
+^^1597335577--2020-08-13T12:19:37-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
@@ -10355,76 +10355,76 @@
 0	0	useful_scripts/mac/r8/_aws_lambda_reg8cc-stage-stack-LoadBalancerLink-LambdaFunction-I0CWQ16AM79V.txt
 0	0	useful_scripts/mac/r8/_aws_rds_cluster_reg8cc-prod-cluster_error.txt
 0	81072	useful_scripts/mac/r8/all_sorted.txt
---1597340032--2020-08-13T13:33:52-04:00--GitHub
+^^1597340032--2020-08-13T13:33:52-04:00--GitHub
 
---1597499487--2020-08-15T09:51:27-04:00--Steve Ziegler
+^^1597499487--2020-08-15T09:51:27-04:00--Steve Ziegler
 
 
 48	0	sam-app/add_cw_log_error_metric/LocalTime.py
 47	5	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/run_tests_ci.sh
 27	7	sam-app/tests/unit/test_unit_add_cw_log_error_metric.py
---1597503400--2020-08-15T10:56:40-04:00--Steve Ziegler
+^^1597503400--2020-08-15T10:56:40-04:00--Steve Ziegler
 
 
 34	4	sam-app/process_alarms/app.py
 1	1	sam-app/run_tests_ci.sh
 42	8	sam-app/tests/unit/test_unit_process_alarms.py
---1597503483--2020-08-15T10:58:03-04:00--GitHub
+^^1597503483--2020-08-15T10:58:03-04:00--GitHub
 
---1597504703--2020-08-15T11:18:23-04:00--Steve Ziegler
+^^1597504703--2020-08-15T11:18:23-04:00--Steve Ziegler
 
 
 5	1	build/post_end_to_end_testing.sh
---1597505197--2020-08-15T11:26:37-04:00--Steve Ziegler
+^^1597505197--2020-08-15T11:26:37-04:00--Steve Ziegler
 
 
 1	0	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1597505249--2020-08-15T11:27:29-04:00--GitHub
+^^1597505249--2020-08-15T11:27:29-04:00--GitHub
 
---1597592091--2020-08-16T11:34:51-04:00--Steve Ziegler
+^^1597592091--2020-08-16T11:34:51-04:00--Steve Ziegler
 
 
 92	0	build/force_delete_cw_alarms_and_metrics.py
---1597697635--2020-08-17T16:53:55-04:00--Steve Ziegler
+^^1597697635--2020-08-17T16:53:55-04:00--Steve Ziegler
 
 
 0	0	useful_scripts/mac/{stream_log_events.py => stream_log_events.sh}
 6	3	useful_scripts/mac/{stream_log_events.py => stream_log_events_ec2.sh}
---1597697871--2020-08-17T16:57:51-04:00--GitHub
+^^1597697871--2020-08-17T16:57:51-04:00--GitHub
 
---1597760535--2020-08-18T10:22:15-04:00--Steve Ziegler
+^^1597760535--2020-08-18T10:22:15-04:00--Steve Ziegler
 
 
 2	2	useful_scripts/mac/stream_log_events_ec2.sh
---1597762426--2020-08-18T10:53:46-04:00--Steve Ziegler
+^^1597762426--2020-08-18T10:53:46-04:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
---1597762559--2020-08-18T10:55:59-04:00--GitHub
+^^1597762559--2020-08-18T10:55:59-04:00--GitHub
 
---1597763919--2020-08-18T11:18:39-04:00--Steve Ziegler
+^^1597763919--2020-08-18T11:18:39-04:00--Steve Ziegler
 
 
 5	1	sam-app/template.yaml
 2	2	useful_scripts/mac/stream_log_events_ec2.sh
---1597764369--2020-08-18T11:26:09-04:00--GitHub
+^^1597764369--2020-08-18T11:26:09-04:00--GitHub
 
---1597765472--2020-08-18T11:44:32-04:00--GitHub
+^^1597765472--2020-08-18T11:44:32-04:00--GitHub
 
---1597772115--2020-08-18T13:35:15-04:00--Steve Ziegler
+^^1597772115--2020-08-18T13:35:15-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
 2	0	README.md
 -	-	docs/alert_email_example.png
---1597772232--2020-08-18T13:37:12-04:00--GitHub
+^^1597772232--2020-08-18T13:37:12-04:00--GitHub
 
---1597772565--2020-08-18T13:42:45-04:00--GitHub
+^^1597772565--2020-08-18T13:42:45-04:00--GitHub
 
---1597843660--2020-08-19T09:27:40-04:00--GitHub
+^^1597843660--2020-08-19T09:27:40-04:00--GitHub
 
---1597936057--2020-08-20T11:07:37-04:00--Steve Ziegler
+^^1597936057--2020-08-20T11:07:37-04:00--Steve Ziegler
 
 
 45	0	sam-app/add_cw_log_error_metric/LogMetricFilters.py
@@ -10438,138 +10438,138 @@
 1	1	sam-app/run_tests_ci.sh
 27	7	sam-app/tests/unit/test_unit_add_cw_log_error_metric.py
 114	0	sam-app/tests/unit/test_unit_add_cw_log_error_metric_LogMetricFilters.py
---1597937354--2020-08-20T11:29:14-04:00--Steve Ziegler
+^^1597937354--2020-08-20T11:29:14-04:00--Steve Ziegler
 
 
 12	2	sam-app/add_cw_log_error_metric/LogMetricFilters.py
 47	30	sam-app/tests/unit/test_unit_add_cw_log_error_metric_LogMetricFilters.py
---1597937870--2020-08-20T11:37:50-04:00--Steve Ziegler
+^^1597937870--2020-08-20T11:37:50-04:00--Steve Ziegler
 
 
 13	3	sam-app/add_cw_log_error_metric/app.py
 1	1	sam-app/run_tests_ci.sh
---1597937968--2020-08-20T11:39:28-04:00--GitHub
+^^1597937968--2020-08-20T11:39:28-04:00--GitHub
 
---1598126012--2020-08-22T15:53:32-04:00--Steve Ziegler
+^^1598126012--2020-08-22T15:53:32-04:00--Steve Ziegler
 
 
 1	1	sam-app/add_cw_log_error_metric/app.py
 2	0	sam-app/template.yaml
---1598126332--2020-08-22T15:58:52-04:00--GitHub
+^^1598126332--2020-08-22T15:58:52-04:00--GitHub
 
---1598132930--2020-08-22T17:48:50-04:00--Steve Ziegler
+^^1598132930--2020-08-22T17:48:50-04:00--Steve Ziegler
 
 
 1	1	sam-app/template.yaml
 1	1	useful_scripts/mac/stream_log_events_ec2.sh
---1598132967--2020-08-22T17:49:27-04:00--GitHub
+^^1598132967--2020-08-22T17:49:27-04:00--GitHub
 
---1598191279--2020-08-23T10:01:19-04:00--Steve Ziegler
+^^1598191279--2020-08-23T10:01:19-04:00--Steve Ziegler
 
 
 1	0	sam-app/template.yaml
 1	1	useful_scripts/mac/stream_log_events_ec2.sh
---1598191364--2020-08-23T10:02:44-04:00--GitHub
+^^1598191364--2020-08-23T10:02:44-04:00--GitHub
 
---1598192935--2020-08-23T10:28:55-04:00--Steve Ziegler
+^^1598192935--2020-08-23T10:28:55-04:00--Steve Ziegler
 
 
 4	0	sam-app/add_cw_log_error_metric/LogMetricFilters.py
 0	26	sam-app/process_pipeline_successful_events/tests/test_unit_EventInfo.py
 0	20	sam-app/process_pipeline_successful_events/tests/test_unit_ProjectInfo.py
 0	43	sam-app/process_pipeline_successful_events/tests/test_unit_process_pipeline_successes.py
---1598193000--2020-08-23T10:30:00-04:00--GitHub
+^^1598193000--2020-08-23T10:30:00-04:00--GitHub
 
---1598194246--2020-08-23T10:50:46-04:00--Steve Ziegler
+^^1598194246--2020-08-23T10:50:46-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
 4	0	build/build_sam_app.sh
 92	0	build/force_delete_cw_alarms_and_metrics.py
---1598194301--2020-08-23T10:51:41-04:00--GitHub
+^^1598194301--2020-08-23T10:51:41-04:00--GitHub
 
---1598195148--2020-08-23T11:05:48-04:00--Steve Ziegler
+^^1598195148--2020-08-23T11:05:48-04:00--Steve Ziegler
 
 
 1	0	initial_setup/initial_infra.yaml
---1598195199--2020-08-23T11:06:39-04:00--GitHub
+^^1598195199--2020-08-23T11:06:39-04:00--GitHub
 
---1598199286--2020-08-23T12:14:46-04:00--Steve Ziegler
+^^1598199286--2020-08-23T12:14:46-04:00--Steve Ziegler
 
 
 6	4	build/force_delete_cw_alarms_and_metrics.py
 12	5	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1598199474--2020-08-23T12:17:54-04:00--GitHub
+^^1598199474--2020-08-23T12:17:54-04:00--GitHub
 
---1598202705--2020-08-23T13:11:45-04:00--Steve Ziegler
+^^1598202705--2020-08-23T13:11:45-04:00--Steve Ziegler
 
 
 5	3	sam-app/add_cw_log_error_metric/LogMetricFilters.py
 1	1	useful_scripts/mac/stream_log_events_ec2.sh
---1598202805--2020-08-23T13:13:25-04:00--GitHub
+^^1598202805--2020-08-23T13:13:25-04:00--GitHub
 
---1598204598--2020-08-23T13:43:18-04:00--Steve Ziegler
+^^1598204598--2020-08-23T13:43:18-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
 10	10	sam-app/tests/unit/test_unit_add_cw_log_error_metric_LogMetricFilters.py
---1598204680--2020-08-23T13:44:40-04:00--Steve Ziegler
+^^1598204680--2020-08-23T13:44:40-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1598204729--2020-08-23T13:45:29-04:00--GitHub
+^^1598204729--2020-08-23T13:45:29-04:00--GitHub
 
---1598210599--2020-08-23T15:23:19-04:00--Steve Ziegler
+^^1598210599--2020-08-23T15:23:19-04:00--Steve Ziegler
 
---1598211644--2020-08-23T15:40:44-04:00--Steve Ziegler
+^^1598211644--2020-08-23T15:40:44-04:00--Steve Ziegler
 
 
 1	1	sam-app/add_cw_log_error_metric/requirements.txt
---1598212543--2020-08-23T15:55:43-04:00--GitHub
+^^1598212543--2020-08-23T15:55:43-04:00--GitHub
 
---1598212551--2020-08-23T15:55:51-04:00--GitHub
+^^1598212551--2020-08-23T15:55:51-04:00--GitHub
 
---1598213265--2020-08-23T16:07:45-04:00--Steve Ziegler
+^^1598213265--2020-08-23T16:07:45-04:00--Steve Ziegler
 
 
 2	2	build/force_delete_cw_alarms_and_metrics.py
---1598215614--2020-08-23T16:46:54-04:00--Steve Ziegler
+^^1598215614--2020-08-23T16:46:54-04:00--Steve Ziegler
 
 
 2	2	sam-app/add_cw_log_error_metric/LogMetricFilters.py
---1598217769--2020-08-23T17:22:49-04:00--GitHub
+^^1598217769--2020-08-23T17:22:49-04:00--GitHub
 
---1598295784--2020-08-24T15:03:04-04:00--GitHub
+^^1598295784--2020-08-24T15:03:04-04:00--GitHub
 
---1598303748--2020-08-24T17:15:48-04:00--Steve Ziegler
+^^1598303748--2020-08-24T17:15:48-04:00--Steve Ziegler
 
 
 0	4	build/build_sam_app.sh
 5	0	build/post_deploy.sh
 1	1	useful_scripts/mac/stream_log_events_ec2.sh
---1598538263--2020-08-27T10:24:23-04:00--Steve Ziegler
+^^1598538263--2020-08-27T10:24:23-04:00--Steve Ziegler
 
 
 11	0	sam-app/add_cw_log_error_metric/README.md
---1598552391--2020-08-27T14:19:51-04:00--GitHub
+^^1598552391--2020-08-27T14:19:51-04:00--GitHub
 
---1598554672--2020-08-27T14:57:52-04:00--Steve Ziegler
+^^1598554672--2020-08-27T14:57:52-04:00--Steve Ziegler
 
 
 1	0	build/post_deploy.sh
---1598554851--2020-08-27T15:00:51-04:00--GitHub
+^^1598554851--2020-08-27T15:00:51-04:00--GitHub
 
---1598556933--2020-08-27T15:35:33-04:00--Steve Ziegler
+^^1598556933--2020-08-27T15:35:33-04:00--Steve Ziegler
 
 
 1	5	build/post_end_to_end_testing.sh
---1598557029--2020-08-27T15:37:09-04:00--GitHub
+^^1598557029--2020-08-27T15:37:09-04:00--GitHub
 
---1598557934--2020-08-27T15:52:14-04:00--Steve Ziegler
+^^1598557934--2020-08-27T15:52:14-04:00--Steve Ziegler
 
 
 5	1	build/post_end_to_end_testing.sh
---1598803487--2020-08-30T12:04:47-04:00--Steve Ziegler
+^^1598803487--2020-08-30T12:04:47-04:00--Steve Ziegler
 
 
 20	0	sam-app/queue_forensics_requests/README.md
@@ -10577,17 +10577,17 @@
 51	0	sam-app/queue_forensics_requests/app.py
 0	0	sam-app/queue_forensics_requests/requirements.txt
 31	0	sam-app/tests/unit/test_unit_queue_forensics_requests.py
---1598891197--2020-08-31T12:26:37-04:00--GitHub
+^^1598891197--2020-08-31T12:26:37-04:00--GitHub
 
---1598897305--2020-08-31T14:08:25-04:00--Steve Ziegler
+^^1598897305--2020-08-31T14:08:25-04:00--Steve Ziegler
 
 
 6	0	initial_setup/initial_infra.yaml
---1598897527--2020-08-31T14:12:07-04:00--GitHub
+^^1598897527--2020-08-31T14:12:07-04:00--GitHub
 
---1598898503--2020-08-31T14:28:23-04:00--GitHub
+^^1598898503--2020-08-31T14:28:23-04:00--GitHub
 
---1598899022--2020-08-31T14:37:02-04:00--Steve Ziegler
+^^1598899022--2020-08-31T14:37:02-04:00--Steve Ziegler
 
 
 0	55	sam-app/auto_tagger/tests/test_integration_auto_tagger.py
@@ -10599,38 +10599,38 @@
 0	26	sam-app/process_selected_infra_change_events/tests/test_unit_EventInfo.py
 0	20	sam-app/process_selected_infra_change_events/tests/test_unit_ProjectInfo.py
 0	362	sam-app/process_selected_infra_change_events/tests/test_unit_process_selected_infra_change_events.py
---1598904705--2020-08-31T16:11:45-04:00--Steve Ziegler
+^^1598904705--2020-08-31T16:11:45-04:00--Steve Ziegler
 
 
 1	0	build/post_end_to_end_testing.sh
---1598904876--2020-08-31T16:14:36-04:00--GitHub
+^^1598904876--2020-08-31T16:14:36-04:00--GitHub
 
---1598907085--2020-08-31T16:51:25-04:00--Steve Ziegler
+^^1598907085--2020-08-31T16:51:25-04:00--Steve Ziegler
 
 
 4	0	build/post_end_to_end_testing.sh
---1598907275--2020-08-31T16:54:35-04:00--GitHub
+^^1598907275--2020-08-31T16:54:35-04:00--GitHub
 
---1599068363--2020-09-02T13:39:23-04:00--GitHub
+^^1599068363--2020-09-02T13:39:23-04:00--GitHub
 
---1599068969--2020-09-02T13:49:29-04:00--Steve Ziegler
+^^1599068969--2020-09-02T13:49:29-04:00--Steve Ziegler
 
 
 -	-	sam-app/tests/end_to_end/AWSCLIV2.pkg
---1599068969--2020-09-02T13:49:29-04:00--Steve Ziegler
+^^1599068969--2020-09-02T13:49:29-04:00--Steve Ziegler
 
---1599069032--2020-09-02T13:50:32-04:00--Steve Ziegler
+^^1599069032--2020-09-02T13:50:32-04:00--Steve Ziegler
 
 
 0	6	sam-app/add_cw_log_error_metric/README.md
---1599069077--2020-09-02T13:51:17-04:00--GitHub
+^^1599069077--2020-09-02T13:51:17-04:00--GitHub
 
---1600098271--2020-09-14T11:44:31-04:00--Steve Ziegler
+^^1600098271--2020-09-14T11:44:31-04:00--Steve Ziegler
 
 
 10	0	useful_scripts/mac/fatherhood_alarm_tagging/tag_alarms.sh
 0	0	useful_scripts/mac/fatherhood_alarm_tagging/tag_resouces.json
---1600105598--2020-09-14T13:46:38-04:00--Steve Ziegler
+^^1600105598--2020-09-14T13:46:38-04:00--Steve Ziegler
 
 
 1	0	useful_scripts/mac/fatherhood_alarm_tagging/alarm_list.text
@@ -10640,127 +10640,127 @@
 12	4	useful_scripts/mac/fatherhood_alarm_tagging/tag_alarms.sh
 0	0	useful_scripts/mac/fatherhood_alarm_tagging/tag_resouces.json
 8	0	useful_scripts/mac/fatherhood_alarm_tagging/tag_resources.json
---1600111600--2020-09-14T15:26:40-04:00--Steve Ziegler
+^^1600111600--2020-09-14T15:26:40-04:00--Steve Ziegler
 
 
 2	1	useful_scripts/mac/fatherhood_alarm_tagging/alarm_list.txt
 100	20	useful_scripts/mac/fatherhood_alarm_tagging/new_lines.txt
 99	19	useful_scripts/mac/fatherhood_alarm_tagging/ops_only.txt
 1	0	useful_scripts/mac/fatherhood_alarm_tagging/tag_alarms.sh
---1600116813--2020-09-14T16:53:33-04:00--Steve Ziegler
+^^1600116813--2020-09-14T16:53:33-04:00--Steve Ziegler
 
 
 23	1	sam-app/add_cw_log_error_metric/app.py
 29	25	sam-app/tests/integration/test_integration_add_cw_log_error_metric.py_
---1600117336--2020-09-14T17:02:16-04:00--Steve Ziegler
+^^1600117336--2020-09-14T17:02:16-04:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1600117486--2020-09-14T17:04:46-04:00--GitHub
+^^1600117486--2020-09-14T17:04:46-04:00--GitHub
 
---1600120310--2020-09-14T17:51:50-04:00--GitHub
+^^1600120310--2020-09-14T17:51:50-04:00--GitHub
 
---1601414020--2020-09-29T17:13:40-04:00--Steve Ziegler
+^^1601414020--2020-09-29T17:13:40-04:00--Steve Ziegler
 
 
 15	6	accounts_config/accounts_config.json
---1601414281--2020-09-29T17:18:01-04:00--GitHub
+^^1601414281--2020-09-29T17:18:01-04:00--GitHub
 
---1601415318--2020-09-29T17:35:18-04:00--GitHub
+^^1601415318--2020-09-29T17:35:18-04:00--GitHub
 
---1601417383--2020-09-29T18:09:43-04:00--Steve Ziegler
+^^1601417383--2020-09-29T18:09:43-04:00--Steve Ziegler
 
 
 2	2	initial_setup/initial_deploy.sh
---1601417433--2020-09-29T18:10:33-04:00--Steve Ziegler
+^^1601417433--2020-09-29T18:10:33-04:00--Steve Ziegler
 
 
 1	1	accounts_config/accounts_config.json
---1601417533--2020-09-29T18:12:13-04:00--GitHub
+^^1601417533--2020-09-29T18:12:13-04:00--GitHub
 
---1601503435--2020-09-30T18:03:55-04:00--Steve Ziegler
-
-
-1	1	sam-app/process_selected_infra_change_events/EventInfoSelected.py
---1601503627--2020-09-30T18:07:07-04:00--GitHub
-
---1601504400--2020-09-30T18:20:00-04:00--Steve Ziegler
+^^1601503435--2020-09-30T18:03:55-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/EventInfoSelected.py
---1601504547--2020-09-30T18:22:27-04:00--GitHub
+^^1601503627--2020-09-30T18:07:07-04:00--GitHub
 
---1601505444--2020-09-30T18:37:24-04:00--GitHub
+^^1601504400--2020-09-30T18:20:00-04:00--Steve Ziegler
 
---1601561260--2020-10-01T10:07:40-04:00--Steve Ziegler
+
+1	1	sam-app/process_selected_infra_change_events/EventInfoSelected.py
+^^1601504547--2020-09-30T18:22:27-04:00--GitHub
+
+^^1601505444--2020-09-30T18:37:24-04:00--GitHub
+
+^^1601561260--2020-10-01T10:07:40-04:00--Steve Ziegler
 
 
 15	3	sam-app/tests/end_to_end/test_end_to_end.py
---1601562274--2020-10-01T10:24:34-04:00--Steve Ziegler
+^^1601562274--2020-10-01T10:24:34-04:00--Steve Ziegler
 
 
 0	94	build/force_delete_cw_alarms_and_metrics.py
 0	5	build/post_deploy.sh
---1601562369--2020-10-01T10:26:09-04:00--GitHub
+^^1601562369--2020-10-01T10:26:09-04:00--GitHub
 
---1601565705--2020-10-01T11:21:45-04:00--GitHub
+^^1601565705--2020-10-01T11:21:45-04:00--GitHub
 
---1601575872--2020-10-01T14:11:12-04:00--GitHub
+^^1601575872--2020-10-01T14:11:12-04:00--GitHub
 
---1601585004--2020-10-01T16:43:24-04:00--Steve Ziegler
+^^1601585004--2020-10-01T16:43:24-04:00--Steve Ziegler
 
 
 70	0	build/convert_s3_events_to_athena_format.py
---1601664206--2020-10-02T14:43:26-04:00--Steve Ziegler
+^^1601664206--2020-10-02T14:43:26-04:00--Steve Ziegler
 
 
 1	3	build/convert_s3_events_to_athena_format.py
 4	0	build/post_deploy.sh
---1601907175--2020-10-05T10:12:55-04:00--Steve Ziegler
+^^1601907175--2020-10-05T10:12:55-04:00--Steve Ziegler
 
 
 13	2	build/convert_s3_events_to_athena_format.py
---1601914933--2020-10-05T12:22:13-04:00--Steve Ziegler
+^^1601914933--2020-10-05T12:22:13-04:00--Steve Ziegler
 
 
 9	0	sam-app/process_selected_infra_change_events/app.py
 1	1	sam-app/run_tests_ci.sh
 59	1	sam-app/tests/unit/test_unit_process_selected_infra_change_events.py
---1601914962--2020-10-05T12:22:42-04:00--Steve Ziegler
+^^1601914962--2020-10-05T12:22:42-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1601915775--2020-10-05T12:36:15-04:00--Steve Ziegler
+^^1601915775--2020-10-05T12:36:15-04:00--Steve Ziegler
 
 
 11	11	sam-app/process_selected_infra_change_events/app.py
 2	7	sam-app/tests/unit/test_unit_process_selected_infra_change_events.py
---1601916646--2020-10-05T12:50:46-04:00--GitHub
+^^1601916646--2020-10-05T12:50:46-04:00--GitHub
 
---1601917735--2020-10-05T13:08:55-04:00--Steve Ziegler
+^^1601917735--2020-10-05T13:08:55-04:00--Steve Ziegler
 
 
 1	1	sam-app/process_selected_infra_change_events/app.py
---1601917822--2020-10-05T13:10:22-04:00--GitHub
+^^1601917822--2020-10-05T13:10:22-04:00--GitHub
 
---1601919426--2020-10-05T13:37:06-04:00--Steve Ziegler
+^^1601919426--2020-10-05T13:37:06-04:00--Steve Ziegler
 
 
 6	2	sam-app/process_selected_infra_change_events/app.py
---1601919489--2020-10-05T13:38:09-04:00--GitHub
+^^1601919489--2020-10-05T13:38:09-04:00--GitHub
 
---1601921564--2020-10-05T14:12:44-04:00--Steve Ziegler
+^^1601921564--2020-10-05T14:12:44-04:00--Steve Ziegler
 
 
 7	8	sam-app/process_selected_infra_change_events/app.py
 60	0	sam-app/tests/unit/test_unit_process_selected_infra_change_events.py
---1601921661--2020-10-05T14:14:21-04:00--GitHub
+^^1601921661--2020-10-05T14:14:21-04:00--GitHub
 
---1601923164--2020-10-05T14:39:24-04:00--GitHub
+^^1601923164--2020-10-05T14:39:24-04:00--GitHub
 
---1601928146--2020-10-05T16:02:26-04:00--GitHub
+^^1601928146--2020-10-05T16:02:26-04:00--GitHub
 
---1601994207--2020-10-06T10:23:27-04:00--Steve Ziegler
+^^1601994207--2020-10-06T10:23:27-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
@@ -10774,31 +10774,31 @@
 0	1	sam-app/tests/unit/test_unit_add_cw_log_error_metric_LogMetricFilters.py
 58	50	sam-app/tests/unit/test_unit_daily_infra_change_report.py
 99	100	sam-app/tests/unit/test_unit_process_selected_infra_change_events.py
---1601994549--2020-10-06T10:29:09-04:00--GitHub
+^^1601994549--2020-10-06T10:29:09-04:00--GitHub
 
---1601995040--2020-10-06T10:37:20-04:00--Steve Ziegler
-
-
-1	1	sam-app/run_tests_ci.sh
---1601995350--2020-10-06T10:42:30-04:00--GitHub
-
---1601995960--2020-10-06T10:52:40-04:00--Steve Ziegler
+^^1601995040--2020-10-06T10:37:20-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1601995995--2020-10-06T10:53:15-04:00--Steve Ziegler
+^^1601995350--2020-10-06T10:42:30-04:00--GitHub
+
+^^1601995960--2020-10-06T10:52:40-04:00--Steve Ziegler
+
+
+1	1	sam-app/run_tests_ci.sh
+^^1601995995--2020-10-06T10:53:15-04:00--Steve Ziegler
 
 
 1	1	initial_setup/initial_infra.yaml
---1601996042--2020-10-06T10:54:02-04:00--GitHub
+^^1601996042--2020-10-06T10:54:02-04:00--GitHub
 
---1601996971--2020-10-06T11:09:31-04:00--Steve Ziegler
+^^1601996971--2020-10-06T11:09:31-04:00--Steve Ziegler
 
 
 2	0	sam-app/run_tests_ci.sh
---1601997033--2020-10-06T11:10:33-04:00--GitHub
+^^1601997033--2020-10-06T11:10:33-04:00--GitHub
 
---1601997347--2020-10-06T11:15:47-04:00--Steve Ziegler
+^^1601997347--2020-10-06T11:15:47-04:00--Steve Ziegler
 
 
 3	3	sam-app/add_cw_log_error_metric/AbstractResourceFunctions.py
@@ -10809,24 +10809,24 @@
 4	2	sam-app/add_ec2_alarms/app.py
 2	1	sam-app/tests/unit/test_unit_daily_infra_change_report.py
 3	1	sam-app/tests/unit/test_unit_process_alarms.py
---1601997565--2020-10-06T11:19:25-04:00--GitHub
+^^1601997565--2020-10-06T11:19:25-04:00--GitHub
 
---1601998589--2020-10-06T11:36:29-04:00--GitHub
+^^1601998589--2020-10-06T11:36:29-04:00--GitHub
 
---1602099319--2020-10-07T15:35:19-04:00--GitHub
+^^1602099319--2020-10-07T15:35:19-04:00--GitHub
 
---1602102325--2020-10-07T16:25:25-04:00--Steve Ziegler
+^^1602102325--2020-10-07T16:25:25-04:00--Steve Ziegler
 
 
 46	0	sam-app/daily_infra_change_report/aws_calls_daily.py
 1	1	sam-app/run_tests_ci.sh
 30	0	sam-app/tests/integration/test_aws_calls_daily.py
---1602105598--2020-10-07T17:19:58-04:00--Steve Ziegler
+^^1602105598--2020-10-07T17:19:58-04:00--Steve Ziegler
 
 
 23	16	sam-app/daily_infra_change_report/aws_calls_daily.py
 15	4	sam-app/tests/integration/test_aws_calls_daily.py
---1602277911--2020-10-09T17:11:51-04:00--Steve Ziegler
+^^1602277911--2020-10-09T17:11:51-04:00--Steve Ziegler
 
 
 24	14	sam-app/daily_infra_change_report/DICREventContext.py
@@ -10834,7 +10834,7 @@
 2	0	sam-app/daily_infra_change_report/create_call_graph.sh
 -	-	sam-app/daily_infra_change_report/myuses.png
 29	6	sam-app/tests/integration/test_aws_calls_daily.py
---1602280616--2020-10-09T17:56:56-04:00--Steve Ziegler
+^^1602280616--2020-10-09T17:56:56-04:00--Steve Ziegler
 
 
 3	0	sam-app/daily_infra_change_report/DICREventContext.py
@@ -10842,7 +10842,7 @@
 1	1	sam-app/run_tests_ci.sh
 3	6	sam-app/tests/integration/{test_aws_calls_daily.py => test_integration_aws_calls_daily.py}
 31	0	sam-app/tests/integration/test_integration_daily_infra_change_report.py_
---1602295790--2020-10-09T22:09:50-04:00--Steve Ziegler
+^^1602295790--2020-10-09T22:09:50-04:00--Steve Ziegler
 
 
 30	10	sam-app/daily_infra_change_report/app.py
@@ -10854,19 +10854,19 @@
 1	1	sam-app/run_tests_ci.sh
 2	1	sam-app/tests/integration/test_integration_aws_calls_daily.py
 116	49	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602298261--2020-10-09T22:51:01-04:00--Steve Ziegler
+^^1602298261--2020-10-09T22:51:01-04:00--Steve Ziegler
 
 
 74	4	sam-app/daily_infra_change_report/aws_calls_daily.py
 1	1	sam-app/run_tests_ci.sh
 3	3	sam-app/tests/integration/test_integration_aws_calls_daily.py
---1602298701--2020-10-09T22:58:21-04:00--Steve Ziegler
+^^1602298701--2020-10-09T22:58:21-04:00--Steve Ziegler
 
 
 9	0	sam-app/daily_infra_change_report/DICREventContext.py
 9	83	sam-app/daily_infra_change_report/aws_calls_daily.py
 3	2	sam-app/tests/integration/test_integration_aws_calls_daily.py
---1602300682--2020-10-09T23:31:22-04:00--Steve Ziegler
+^^1602300682--2020-10-09T23:31:22-04:00--Steve Ziegler
 
 
 17	3	sam-app/daily_infra_change_report/DICREventContext.py
@@ -10874,7 +10874,7 @@
 1	1	sam-app/run_tests_ci.sh
 1	0	sam-app/tests/integration/{test_integration_aws_calls_daily.py => test_integration_aws_calls_daily.py_}
 30	7	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602334315--2020-10-10T08:51:55-04:00--Steve Ziegler
+^^1602334315--2020-10-10T08:51:55-04:00--Steve Ziegler
 
 
 114	0	.vscode/.ropeproject/config.py
@@ -10890,7 +10890,7 @@
 -	-	sam-app/daily_infra_change_report/call_graph_neato.png
 0	8	sam-app/daily_infra_change_report/create_call_graph.sh
 127	60	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602336527--2020-10-10T09:28:47-04:00--Steve Ziegler
+^^1602336527--2020-10-10T09:28:47-04:00--Steve Ziegler
 
 
 -	-	sam-app/call-graph-daily_infra_change_report-dot.png
@@ -10899,11 +10899,11 @@
 6	5	sam-app/daily_infra_change_report/aws_calls_daily.py
 15	7	sam-app/tests/integration/{test_integration_daily_infra_change_report.py_ => test_integration_daily_infra_change_report.py}
 6	6	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602336678--2020-10-10T09:31:18-04:00--Steve Ziegler
+^^1602336678--2020-10-10T09:31:18-04:00--Steve Ziegler
 
 
 28	32	sam-app/daily_infra_change_report/DICREventContext.py
---1602341355--2020-10-10T10:49:15-04:00--Steve Ziegler
+^^1602341355--2020-10-10T10:49:15-04:00--Steve Ziegler
 
 
 -	-	sam-app/call-graph-daily_infra_change_report-dot.png
@@ -10912,25 +10912,25 @@
 6	0	sam-app/daily_infra_change_report/aws_calls_daily.py
 12	12	sam-app/tests/integration/{test_integration_daily_infra_change_report.py => test_integration_daily_infra_change_report.py_}
 53	0	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602785802--2020-10-15T14:16:42-04:00--Steve Ziegler
+^^1602785802--2020-10-15T14:16:42-04:00--Steve Ziegler
 
 
 -	-	sam-app/call-graph-daily_infra_change_report-dot.png
 -	-	sam-app/call-graph-daily_infra_change_report-fdp.png
 78	79	sam-app/daily_infra_change_report/DICREventContext.py
 1	1	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602786867--2020-10-15T14:34:27-04:00--Steve Ziegler
+^^1602786867--2020-10-15T14:34:27-04:00--Steve Ziegler
 
 
 2	2	sam-app/daily_infra_change_report/app.py
 8	0	sam-app/daily_infra_change_report/aws_calls_daily.py
 8	1	sam-app/run_tests_ci.sh
---1602787304--2020-10-15T14:41:44-04:00--Steve Ziegler
+^^1602787304--2020-10-15T14:41:44-04:00--Steve Ziegler
 
 
 1	3	sam-app/daily_infra_change_report/aws_calls_daily.py
 40	0	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602818094--2020-10-15T23:14:54-04:00--Steve Ziegler
+^^1602818094--2020-10-15T23:14:54-04:00--Steve Ziegler
 
 
 4	4	sam-app/daily_infra_change_report/DICREventContext.py
@@ -10939,126 +10939,126 @@
 1	1	sam-app/requirements_ci_testing.txt
 1	0	sam-app/run_tests_ci.sh
 208	186	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602818684--2020-10-15T23:24:44-04:00--Steve Ziegler
+^^1602818684--2020-10-15T23:24:44-04:00--Steve Ziegler
 
 
 20	12	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602818988--2020-10-15T23:29:48-04:00--Steve Ziegler
+^^1602818988--2020-10-15T23:29:48-04:00--Steve Ziegler
 
 
 22	14	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602819876--2020-10-15T23:44:36-04:00--Steve Ziegler
+^^1602819876--2020-10-15T23:44:36-04:00--Steve Ziegler
 
 
 54	12	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602865584--2020-10-16T12:26:24-04:00--Steve Ziegler
+^^1602865584--2020-10-16T12:26:24-04:00--Steve Ziegler
 
 
 18	1	sam-app/daily_infra_change_report/DICREventContext.py
 7	11	sam-app/daily_infra_change_report/app.py
 207	158	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602866268--2020-10-16T12:37:48-04:00--Steve Ziegler
+^^1602866268--2020-10-16T12:37:48-04:00--Steve Ziegler
 
 
 63	127	sam-app/daily_infra_change_report/DICREventContext.py
 147	147	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602867687--2020-10-16T13:01:27-04:00--Steve Ziegler
+^^1602867687--2020-10-16T13:01:27-04:00--Steve Ziegler
 
 
 3	6	sam-app/daily_infra_change_report/DICREventContext.py
 4	17	sam-app/daily_infra_change_report/aws_calls_daily.py
 0	6	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602871636--2020-10-16T14:07:16-04:00--Steve Ziegler
+^^1602871636--2020-10-16T14:07:16-04:00--Steve Ziegler
 
 
 1	1	sam-app/daily_infra_change_report/aws_calls_daily.py
 18	29	sam-app/tests/integration/{test_integration_aws_calls_daily.py_ => test_integration_aws_calls_daily.py}
---1602879853--2020-10-16T16:24:13-04:00--Steve Ziegler
+^^1602879853--2020-10-16T16:24:13-04:00--Steve Ziegler
 
 
 0	114	.vscode/.ropeproject/config.py
 -	-	.vscode/.ropeproject/objectdb
---1602879886--2020-10-16T16:24:46-04:00--Steve Ziegler
+^^1602879886--2020-10-16T16:24:46-04:00--Steve Ziegler
 
 
 1	0	.gitignore
---1602880113--2020-10-16T16:28:33-04:00--Steve Ziegler
+^^1602880113--2020-10-16T16:28:33-04:00--Steve Ziegler
 
 
 -	-	sam-app/call-graph-daily_infra_change_report-dot.png
 -	-	sam-app/call-graph-daily_infra_change_report-fdp.png
---1602880218--2020-10-16T16:30:18-04:00--Steve Ziegler
+^^1602880218--2020-10-16T16:30:18-04:00--Steve Ziegler
 
 
 1	1	sam-app/requirements_ci_testing.txt
---1602881325--2020-10-16T16:48:45-04:00--Steve Ziegler
+^^1602881325--2020-10-16T16:48:45-04:00--Steve Ziegler
 
 
 1	1	sam-app/daily_infra_change_report/app.py
 9	219	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602881672--2020-10-16T16:54:32-04:00--Steve Ziegler
+^^1602881672--2020-10-16T16:54:32-04:00--Steve Ziegler
 
 
 3	0	sam-app/daily_infra_change_report/app.py
---1602882180--2020-10-16T17:03:00-04:00--GitHub
+^^1602882180--2020-10-16T17:03:00-04:00--GitHub
 
---1602882439--2020-10-16T17:07:19-04:00--GitHub
+^^1602882439--2020-10-16T17:07:19-04:00--GitHub
 
---1602883063--2020-10-16T17:17:43-04:00--Steve Ziegler
+^^1602883063--2020-10-16T17:17:43-04:00--Steve Ziegler
 
 
 0	2	sam-app/daily_infra_change_report/app.py
 0	4	sam-app/tests/unit/test_unit_daily_infra_change_report.py
---1602883494--2020-10-16T17:24:54-04:00--Steve Ziegler
+^^1602883494--2020-10-16T17:24:54-04:00--Steve Ziegler
 
 
 1	0	sam-app/run_tests_ci.sh
---1602883837--2020-10-16T17:30:37-04:00--Steve Ziegler
+^^1602883837--2020-10-16T17:30:37-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1602884427--2020-10-16T17:40:27-04:00--Steve Ziegler
+^^1602884427--2020-10-16T17:40:27-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
---1603129268--2020-10-19T13:41:08-04:00--GitHub
+^^1603129268--2020-10-19T13:41:08-04:00--GitHub
 
---1603231244--2020-10-20T18:00:44-04:00--Steve Ziegler
+^^1603231244--2020-10-20T18:00:44-04:00--Steve Ziegler
 
 
 0	2	sam-app/daily_infra_change_report/DICREventContext.py
 2	1	sam-app/daily_infra_change_report/requirements.txt
---1603232124--2020-10-20T18:15:24-04:00--GitHub
+^^1603232124--2020-10-20T18:15:24-04:00--GitHub
 
---1603299207--2020-10-21T12:53:27-04:00--Steve Ziegler
+^^1603299207--2020-10-21T12:53:27-04:00--Steve Ziegler
 
 
 0	0	sam-app/tests/integration/{test_integration_aws_calls_daily.py => test_integration_aws_calls_daily.py_}
 13	17	sam-app/tests/integration/{test_integration_aws_calls_daily.py => test_integration_daily_infra_change_report.py}
 0	39	sam-app/tests/integration/test_integration_daily_infra_change_report.py_
---1603305314--2020-10-21T14:35:14-04:00--GitHub
+^^1603305314--2020-10-21T14:35:14-04:00--GitHub
 
---1603371400--2020-10-22T08:56:40-04:00--Steve Ziegler
+^^1603371400--2020-10-22T08:56:40-04:00--Steve Ziegler
 
 
 33	1	sam-app/tests/integration/test_integration_daily_infra_change_report.py
---1603392492--2020-10-22T14:48:12-04:00--GitHub
+^^1603392492--2020-10-22T14:48:12-04:00--GitHub
 
---1603394222--2020-10-22T15:17:02-04:00--Steve Ziegler
+^^1603394222--2020-10-22T15:17:02-04:00--Steve Ziegler
 
 
 7	7	sam-app/template.yaml
---1603394333--2020-10-22T15:18:53-04:00--GitHub
+^^1603394333--2020-10-22T15:18:53-04:00--GitHub
 
---1603394824--2020-10-22T15:27:04-04:00--Steve Ziegler
+^^1603394824--2020-10-22T15:27:04-04:00--Steve Ziegler
 
 
 11	11	sam-app/template.yaml
---1603394882--2020-10-22T15:28:02-04:00--GitHub
+^^1603394882--2020-10-22T15:28:02-04:00--GitHub
 
---1603489818--2020-10-23T17:50:18-04:00--GitHub
+^^1603489818--2020-10-23T17:50:18-04:00--GitHub
 
---1603850952--2020-10-27T22:09:12-04:00--Steve Ziegler
+^^1603850952--2020-10-27T22:09:12-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
@@ -11067,101 +11067,101 @@
 2	1	sam-app/run_tests_ci.sh
 47	0	sam-app/test_and_format.py
 1	1	sam-app/tests/unit/test_unit_add_cw_log_error_metric_CloudFormationReplicator.py
---1603855203--2020-10-27T23:20:03-04:00--Steve Ziegler
+^^1603855203--2020-10-27T23:20:03-04:00--Steve Ziegler
 
 
 11	5	sam-app/run_tests_ci.sh
 10	3	sam-app/test_and_format.py
 1	1	sam-app/tests/unit/test_unit_add_cw_log_error_metric_CloudFormationReplicator.py
---1603855412--2020-10-27T23:23:32-04:00--GitHub
+^^1603855412--2020-10-27T23:23:32-04:00--GitHub
 
---1603855455--2020-10-27T23:24:15-04:00--GitHub
+^^1603855455--2020-10-27T23:24:15-04:00--GitHub
 
---1603855933--2020-10-27T23:32:13-04:00--Steve Ziegler
+^^1603855933--2020-10-27T23:32:13-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
---1603855992--2020-10-27T23:33:12-04:00--Steve Ziegler
+^^1603855992--2020-10-27T23:33:12-04:00--Steve Ziegler
 
---1603856174--2020-10-27T23:36:14-04:00--GitHub
+^^1603856174--2020-10-27T23:36:14-04:00--GitHub
 
---1603856900--2020-10-27T23:48:20-04:00--Steve Ziegler
+^^1603856900--2020-10-27T23:48:20-04:00--Steve Ziegler
 
 
 2	0	sam-app/test_and_format.py
---1603857312--2020-10-27T23:55:12-04:00--Steve Ziegler
+^^1603857312--2020-10-27T23:55:12-04:00--Steve Ziegler
 
 
 0	1	sam-app/run_tests_ci.sh
---1603857520--2020-10-27T23:58:40-04:00--Steve Ziegler
+^^1603857520--2020-10-27T23:58:40-04:00--Steve Ziegler
 
 
 1	0	sam-app/run_tests_ci.sh
---1603857759--2020-10-28T00:02:39-04:00--Steve Ziegler
+^^1603857759--2020-10-28T00:02:39-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
---1603889939--2020-10-28T08:58:59-04:00--Steve Ziegler
+^^1603889939--2020-10-28T08:58:59-04:00--Steve Ziegler
 
 
 2	2	.gitignore
 10	0	docs/PULL_REQUEST_TEMPLATE.md
 38	0	sam-app/report_template.txt
 95	0	useful_scripts/mac/data_Unauthorized Activity Attempt.json
---1603891224--2020-10-28T09:20:24-04:00--Steve Ziegler
+^^1603891224--2020-10-28T09:20:24-04:00--Steve Ziegler
 
 
 1	1	sam-app/run_tests_ci.sh
---1603892257--2020-10-28T09:37:37-04:00--Steve Ziegler
+^^1603892257--2020-10-28T09:37:37-04:00--Steve Ziegler
 
 
 3	3	sam-app/test_and_format.py
---1603894764--2020-10-28T10:19:24-04:00--Steve Ziegler
+^^1603894764--2020-10-28T10:19:24-04:00--Steve Ziegler
 
 
 1	0	sam-app/run_tests_ci.sh
---1603895715--2020-10-28T10:35:15-04:00--Steve Ziegler
+^^1603895715--2020-10-28T10:35:15-04:00--Steve Ziegler
 
 
 2	2	sam-app/run_tests_ci.sh
---1603896520--2020-10-28T10:48:40-04:00--Steve Ziegler
+^^1603896520--2020-10-28T10:48:40-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
---1603896767--2020-10-28T10:52:47-04:00--Steve Ziegler
+^^1603896767--2020-10-28T10:52:47-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
---1603896996--2020-10-28T10:56:36-04:00--Steve Ziegler
+^^1603896996--2020-10-28T10:56:36-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
---1603905297--2020-10-28T13:14:57-04:00--Steve Ziegler
+^^1603905297--2020-10-28T13:14:57-04:00--Steve Ziegler
 
 
 1	1	.gitignore
 38	0	sam-app/report_template.txt
 3	2	sam-app/run_tests_ci.sh
 5	3	sam-app/test_and_format.py
---1603905782--2020-10-28T13:23:02-04:00--Steve Ziegler
+^^1603905782--2020-10-28T13:23:02-04:00--Steve Ziegler
 
 
 -	-	.DS_Store
---1603905934--2020-10-28T13:25:34-04:00--Steve Ziegler
+^^1603905934--2020-10-28T13:25:34-04:00--Steve Ziegler
 
---1603907771--2020-10-28T13:56:11-04:00--Steve Ziegler
+^^1603907771--2020-10-28T13:56:11-04:00--Steve Ziegler
 
 
 1	1	build/pre_run_tests.sh
---1603908273--2020-10-28T14:04:33-04:00--GitHub
+^^1603908273--2020-10-28T14:04:33-04:00--GitHub
 
---1604595138--2020-11-05T11:52:18-05:00--Steve Ziegler
+^^1604595138--2020-11-05T11:52:18-05:00--Steve Ziegler
 
 
 2	0	sam-app/template.yaml
---1604595390--2020-11-05T11:56:30-05:00--GitHub
+^^1604595390--2020-11-05T11:56:30-05:00--GitHub
 
---1604597018--2020-11-05T12:23:38-05:00--Steve Ziegler
+^^1604597018--2020-11-05T12:23:38-05:00--Steve Ziegler
 
 
 28	0	sam-app/reports/test_results.json_test_integration_auto_tagger.AutoTaggerIntegrationTest.html
@@ -11190,7 +11190,7 @@
 19	0	sam-app/reports/test_results.json_test_unit_process_pipeline_successful_events.ProjectInfoUnitTests.html
 34	0	sam-app/reports/test_results.json_test_unit_process_selected_infra_change_events.ProcessSelectedEventsTest.html
 2	0	sam-app/template.yaml
---1604597057--2020-11-05T12:24:17-05:00--Steve Ziegler
+^^1604597057--2020-11-05T12:24:17-05:00--Steve Ziegler
 
 
 0	28	sam-app/reports/test_results.json_test_integration_auto_tagger.AutoTaggerIntegrationTest.html
@@ -11218,7 +11218,7 @@
 0	19	sam-app/reports/test_results.json_test_unit_process_pipeline_successful_events.PipelineSuccessfulUnitTests.html
 0	19	sam-app/reports/test_results.json_test_unit_process_pipeline_successful_events.ProjectInfoUnitTests.html
 0	34	sam-app/reports/test_results.json_test_unit_process_selected_infra_change_events.ProcessSelectedEventsTest.html
---1604597146--2020-11-05T12:25:46-05:00--GitHub
+^^1604597146--2020-11-05T12:25:46-05:00--GitHub
 
---1604629604--2020-11-05T21:26:44-05:00--GitHub
+^^1604629604--2020-11-05T21:26:44-05:00--GitHub
 
