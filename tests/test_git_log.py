@@ -22,10 +22,10 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,author,file,churn_count,dir_1
-1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,8,
-1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,1,
-1576592605,2019-12-17T09:23:25-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,3,
+        expected = """epoch,timestamp,author,file,churn_count,dir_1,dir_2
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,8,,
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,1,sam-app,add_cw_log_error_metric
+1576592605,2019-12-17T09:23:25-05:00,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,3,sam-app,add_cw_log_error_metric
 """
         self.assertEqual(results, expected)
 
@@ -42,8 +42,8 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,author,file,churn_count,dir_1
-1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,2,
+        expected = """epoch,timestamp,author,file,churn_count,dir_1,dir_2
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",README.md,2,,
 """
         self.assertEqual(results, expected)
 
@@ -60,8 +60,8 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,author,file,churn_count,dir_1
-1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",test1/README.md,2,test1
+        expected = """epoch,timestamp,author,file,churn_count,dir_1,dir_2
+1576592170,2019-12-17T09:16:10-05:00,"Steve Ziegler",test1/README.md,2,test1,
 """
         self.assertEqual(results, expected)
 

@@ -13,7 +13,7 @@ def main(filename):
 def process_git_log(log):
     commits = log.split("^^")
 
-    result = "epoch,timestamp,author,file,churn_count,dir_1\n"
+    result = "epoch,timestamp,author,file,churn_count,dir_1,dir_2\n"
     for number, commit in enumerate(commits):
         if commit != "":
             commit_lines = commit.split("\n")
@@ -40,11 +40,15 @@ def process_git_log(log):
                 file = churn_line_parts[2]
                 file_dir_parts = file.split("/")
                 dir_1 = ""
-                if len(file_dir_parts) == 2:
+                dir_2 = ""
+                if len(file_dir_parts) >= 2:
                     dir_1 = file_dir_parts[0]
+                if len(file_dir_parts) >= 3:
+                    dir_2 = file_dir_parts[1]
 
                 result = (
-                    result + f'{epoch},{tmsp},"{author}",{file},{total_churn},{dir_1}\n'
+                    result
+                    + f'{epoch},{tmsp},"{author}",{file},{total_churn},{dir_1},{dir_2}\n'
                 )
 
     return result
