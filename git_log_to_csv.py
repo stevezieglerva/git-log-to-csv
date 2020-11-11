@@ -14,7 +14,7 @@ def main(filename):
 def process_git_log(log):
     commits = log.split("^^")
 
-    result = "epoch,timestamp,author,file,churn_count,dir_1,dir_2\n"
+    result = "epoch,timestamp,year,month,day,author,file,churn_count,dir_1,dir_2\n"
     for number, commit in enumerate(commits):
         if commit != "":
             commit_lines = commit.split("\n")
@@ -27,6 +27,9 @@ def process_git_log(log):
             tmsp_date = datetime.strptime(
                 tmsp.replace("-05:00", ""), "%Y-%m-%dT%H:%M:%S"
             )
+            year = tmsp_date.year
+            month = tmsp_date.month
+            day = tmsp_date.day
             author = commit_basics_parts[2]
             total_lines = len(commit_lines)
             for row_index in range(3, total_lines - 1):
@@ -54,7 +57,7 @@ def process_git_log(log):
 
                 result = (
                     result
-                    + f'{epoch},{tmsp},"{author}",{file},{total_churn},{dir_1},{dir_2}\n'
+                    + f'{epoch},{tmsp},{year},{month},{day},"{author}",{file},{total_churn},{dir_1},{dir_2}\n'
                 )
 
     return result
