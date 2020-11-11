@@ -1,0 +1,1 @@
+git log --reverse --all -M -C --numstat --format="--%ct--%cI--%cn%n" > git_log.txt
