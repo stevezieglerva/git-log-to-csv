@@ -1,3 +1,4 @@
+import re
 import sys
 from datetime import datetime
 
@@ -9,6 +10,11 @@ def main(filename):
 
     result = process_git_log(git_log_text)
     print(result)
+
+
+def strip_timezone_offset(timestamp_str):
+    timezone_offset_pattern = "-[0-9][0-9]:[0-9][0-9]$"
+    return re.sub(timezone_offset_pattern, "", timestamp_str)
 
 
 def process_git_log(log):
@@ -24,9 +30,7 @@ def process_git_log(log):
             tmsp = commit_basics_parts[1]
             # 2019-12-17T09:16:10-05:00
             # yyyy-mm-ddT
-            tmsp = tmsp.replace("+00:00", "")
-            tmsp = tmsp.replace("-04:00", "")
-            tmsp = tmsp.replace("-05:00", "")
+            tmsp = strip_timezone_offset(tmsp)
             tmsp_date = datetime.strptime(tmsp, "%Y-%m-%dT%H:%M:%S")
             day_only = tmsp_date.date()
             year = tmsp_date.year
