@@ -17,6 +17,13 @@ def strip_timezone_offset(timestamp_str):
     return re.sub(timezone_offset_pattern, "", timestamp_str)
 
 
+def get_churn_int_values_even_if_dash(text_number):
+    metric = 1
+    if text_number != "-":
+        metric = int(text_number)
+    return metric
+
+
 def process_git_log(log):
     commits = log.split("^^")
 
@@ -41,15 +48,8 @@ def process_git_log(log):
             for row_index in range(3, total_lines - 1):
                 churn_line = commit_lines[row_index]
                 churn_line_parts = churn_line.split("\t")
-                insertions = 1
-                insertions_str = churn_line_parts[0]
-                if insertions_str != "-":
-                    insertions = int(insertions_str)
-
-                deletions = 1
-                deletions_str = churn_line_parts[1]
-                if deletions_str != "-":
-                    deletions = int(deletions_str)
+                insertions = get_churn_int_values_even_if_dash(churn_line_parts[0])
+                deletions = get_churn_int_values_even_if_dash(churn_line_parts[1])
                 total_churn = insertions + deletions
 
                 file = churn_line_parts[2]
