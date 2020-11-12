@@ -24,6 +24,17 @@ def get_churn_int_values_even_if_dash(text_number):
     return metric
 
 
+def get_first_directories_from_filename(file):
+    file_dir_parts = file.split("/")
+    dir_1 = ""
+    dir_2 = ""
+    if len(file_dir_parts) >= 2:
+        dir_1 = file_dir_parts[0]
+    if len(file_dir_parts) >= 3:
+        dir_2 = file_dir_parts[1]
+    return (dir_1, dir_2)
+
+
 def process_git_log(log):
     commits = log.split("^^")
 
@@ -53,13 +64,7 @@ def process_git_log(log):
                 total_churn = insertions + deletions
 
                 file = churn_line_parts[2]
-                file_dir_parts = file.split("/")
-                dir_1 = ""
-                dir_2 = ""
-                if len(file_dir_parts) >= 2:
-                    dir_1 = file_dir_parts[0]
-                if len(file_dir_parts) >= 3:
-                    dir_2 = file_dir_parts[1]
+                dir_1, dir_2 = get_first_directories_from_filename(file)
 
                 result = (
                     result
