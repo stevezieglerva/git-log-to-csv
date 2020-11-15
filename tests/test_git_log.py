@@ -65,6 +65,24 @@ class UnitTests(unittest.TestCase):
 """
         self.assertEqual(results, expected)
 
+    def test_process__given_timezone_is_gmt__then_results_are_correct(self):
+        # Arrange
+        input = """^^1576592170--2019-12-17T09:16:10+00:00--Steve Ziegler
+
+
+1	1	README.md
+"""
+
+        # Act
+        results = process_git_log(input)
+        print(results)
+
+        # Assert
+        expected = """epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
+1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",README.md,2,,
+"""
+        self.assertEqual(results, expected)
+
 
 if __name__ == "__main__":
     unittest.main()

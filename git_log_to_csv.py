@@ -13,7 +13,7 @@ def main(filename):
 
 
 def strip_timezone_offset(timestamp_str):
-    timezone_offset_pattern = "-[0-9][0-9]:[0-9][0-9]$"
+    timezone_offset_pattern = "[+\-][0-9][0-9]:[0-9][0-9]$"
     return re.sub(timezone_offset_pattern, "", timestamp_str)
 
 
@@ -46,6 +46,7 @@ def process_git_log(log):
             commit_basics_parts = commit_basics.split("--")
             epoch = commit_basics_parts[0]
             tmsp = commit_basics_parts[1]
+
             # 2019-12-17T09:16:10-05:00
             # yyyy-mm-ddT
             tmsp = strip_timezone_offset(tmsp)
@@ -54,7 +55,9 @@ def process_git_log(log):
             year = tmsp_date.year
             month = tmsp_date.month
             day = tmsp_date.day
+
             author = commit_basics_parts[2]
+
             total_lines = len(commit_lines)
             for row_index in range(3, total_lines - 1):
                 churn_line = commit_lines[row_index]

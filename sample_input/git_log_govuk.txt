@@ -1,0 +1,5510 @@
+^^1584634972--2020-03-19T16:22:52+00:00--Bill Franklin
+
+
+29	0	.gitignore
+1	0	.rspec
+1	0	.ruby-version
+29	0	Gemfile
+299	0	Gemfile.lock
+1	0	Procfile
+22	0	README.md
+11	0	Rakefile
+2	0	app/assets/config/manifest.js
+0	0	app/assets/images/.keep
+15	0	app/assets/stylesheets/application.css
+4	0	app/controllers/application_controller.rb
+0	0	app/controllers/concerns/.keep
+4	0	app/helpers/application_helper.rb
+9	0	app/jobs/application_job.rb
+5	0	app/models/application_record.rb
+0	0	app/models/concerns/.keep
+14	0	app/views/layouts/application.html.erb
+6	0	bin/rails
+6	0	bin/rake
+35	0	bin/setup
+7	0	config.ru
+38	0	config/application.rb
+6	0	config/boot.rb
+20	0	config/database.yml
+7	0	config/environment.rb
+57	0	config/environments/development.rb
+107	0	config/environments/production.rb
+41	0	config/environments/test.rb
+9	0	config/initializers/application_controller_renderer.rb
+14	0	config/initializers/assets.rb
+10	0	config/initializers/backtrace_silencers.rb
+33	0	config/initializers/content_security_policy.rb
+7	0	config/initializers/cookies_serializer.rb
+6	0	config/initializers/filter_parameter_logging.rb
+17	0	config/initializers/inflections.rb
+5	0	config/initializers/mime_types.rb
+17	0	config/initializers/wrap_parameters.rb
+33	0	config/locales/en.yml
+41	0	config/puma.rb
+6	0	config/routes.rb
+8	0	config/secrets.yml
+18	0	db/schema.rb
+1	0	db/seeds.rb
+0	0	lib/assets/.keep
+0	0	lib/tasks/.keep
+7	0	lib/tasks/lint.rake
+0	0	log/.keep
+67	0	public/404.html
+67	0	public/422.html
+66	0	public/500.html
+0	0	public/apple-touch-icon-precomposed.png
+0	0	public/apple-touch-icon.png
+0	0	public/favicon.ico
+1	0	public/robots.txt
+17	0	spec/spec_helper.rb
+0	0	vendor/.keep
+^^1584639770--2020-03-19T17:42:50+00:00--Bill Franklin
+
+
+2	2	Gemfile
+0	0	app/assets/javascripts/application.js
+31	0	app/assets/stylesheets/_reset.scss
+0	15	app/assets/stylesheets/application.css
+3	0	app/assets/stylesheets/application.scss
+4	0	app/assets/stylesheets/form.css
+5	0	app/assets/stylesheets/modules/full-page-width.scss
+5	0	app/controllers/form_controller.rb
+4	0	app/helpers/form_helper.rb
+9	0	app/views/application/_breadcrumbs.html.erb
+18	0	app/views/application/_header.html.erb
+16	0	app/views/form/show.html.erb
+19	9	app/views/layouts/application.html.erb
+1	1	config/initializers/assets.rb
+2	0	config/routes.rb
+3	3	db/schema.rb
+6	0	spec/controllers/form_controller_spec.rb
+17	0	spec/helpers/form_helper_spec.rb
+^^1584639879--2020-03-19T18:44:39+01:00--GitHub
+
+^^1584701049--2020-03-20T10:44:09+00:00--Bruce Bolt
+
+
+13	3	README.md
+^^1584701159--2020-03-20T11:45:59+01:00--GitHub
+
+^^1584701346--2020-03-20T10:49:06+00:00--Richard Towers
+
+
+3	0	.cfignore
+12	0	manifest.yml
+^^1584701346--2020-03-20T10:49:06+00:00--Richard Towers
+
+
+1	0	Gemfile
+6	0	Gemfile.lock
+10	0	README.md
+100	0	concourse/pipeline.yml
+^^1584702290--2020-03-20T11:04:50+00:00--Richard Towers
+
+
+1	1	concourse/pipeline.yml
+^^1584702310--2020-03-20T11:05:10+00:00--GitHub
+
+^^1584704894--2020-03-20T11:48:14+00:00--Bruce Bolt
+
+
+8	0	db/migrate/20200320105826_create_form_responses.rb
+9	4	db/schema.rb
+^^1584705133--2020-03-20T12:52:13+01:00--GitHub
+
+^^1584705893--2020-03-20T12:04:53+00:00--Bruce Bolt
+
+
+3	6	app/views/form/show.html.erb
+4	1	config/locales/en.yml
+^^1584706105--2020-03-20T13:08:25+01:00--GitHub
+
+^^1584707445--2020-03-20T12:30:45+00:00--OllieJC
+
+
+1	1	config/puma.rb
+^^1584707635--2020-03-20T12:33:55+00:00--Richard Towers
+
+
+1	0	manifest.yml
+^^1584708388--2020-03-20T12:46:28+00:00--GitHub
+
+^^1584708700--2020-03-20T12:51:40+00:00--OllieJC
+
+
+19	7	README.md
+^^1584709609--2020-03-20T13:06:49+00:00--GitHub
+
+^^1584709642--2020-03-20T13:07:22+00:00--GitHub
+
+^^1584710277--2020-03-20T13:17:57+00:00--Alex
+
+
+2	0	app/assets/javascripts/application.js
+0	31	app/assets/stylesheets/_reset.scss
+0	2	app/assets/stylesheets/application.scss
+0	4	app/assets/stylesheets/form.css
+0	5	app/assets/stylesheets/modules/full-page-width.scss
+1	0	app/assets/stylesheets/print.scss
+0	18	app/views/application/_header.html.erb
+2	1	app/views/form/show.html.erb
+29	22	app/views/layouts/application.html.erb
+1	1	config/initializers/assets.rb
+^^1584710277--2020-03-20T13:17:57+00:00--Alex
+
+
+1	0	app/views/layouts/application.html.erb
+^^1584710277--2020-03-20T13:17:57+00:00--Alex
+
+
+1	0	app/views/layouts/application.html.erb
+^^1584710277--2020-03-20T13:17:57+00:00--Alex
+
+
+4	0	app/views/layouts/application.html.erb
+^^1584710277--2020-03-20T13:17:57+00:00--Alex
+
+
+6	2	app/views/layouts/application.html.erb
+^^1584710277--2020-03-20T13:17:57+00:00--Alex
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1584710665--2020-03-20T13:24:25+00:00--GitHub
+
+^^1584713027--2020-03-20T14:03:47+00:00--Bruce Bolt
+
+
+2	0	app/models/form_response.rb
+4	0	spec/models/form_response_spec.rb
+^^1584713749--2020-03-20T15:15:49+01:00--GitHub
+
+^^1584714725--2020-03-20T14:32:05+00:00--Bill Franklin
+
+
+2	1	Gemfile
+14	9	Gemfile.lock
+7	0	app/controllers/application_controller.rb
+10	0	app/controllers/coronavirus_form/check_answers_controller.rb
+7	0	app/controllers/coronavirus_form/start_controller.rb
+7	0	app/controllers/coronavirus_form/thank_you_controller.rb
+41	0	app/controllers/coronavirus_form/which_goods_controller.rb
+39	0	app/controllers/coronavirus_form/which_services_controller.rb
+0	5	app/controllers/form_controller.rb
+71	0	app/helpers/field_validation_helper.rb
+0	4	app/helpers/form_helper.rb
+5	0	app/views/coronavirus_form/_validation_error.html.erb
+9	0	app/views/coronavirus_form/check_answers.html.erb
+2	1	app/views/{form/show.html.erb => coronavirus_form/start.html.erb}
+14	0	app/views/coronavirus_form/thank_you.html.erb
+67	0	app/views/coronavirus_form/which_goods.html.erb
+29	0	app/views/coronavirus_form/which_services.html.erb
+60	31	config/locales/en.yml
+16	1	config/routes.rb
+2	0	db/migrate/20200320105826_create_form_responses.rb
+7	7	db/schema.rb
+14	0	spec/controllers/coronavirus-form/check_answers_controller_spec.rb
+14	0	spec/controllers/coronavirus-form/start_controller_spec.rb
+14	0	spec/controllers/coronavirus-form/thank_you_controller_spec.rb
+50	0	spec/controllers/coronavirus-form/which_goods_controller_spec.rb
+50	0	spec/controllers/coronavirus-form/which_services_controller_spec.rb
+0	6	spec/controllers/form_controller_spec.rb
+0	17	spec/helpers/form_helper_spec.rb
+^^1584715026--2020-03-20T15:37:06+01:00--GitHub
+
+^^1584715740--2020-03-20T14:49:00+00:00--Bill Franklin
+
+
+26	0	app.json
+8	0	app/controllers/application_controller.rb
+^^1584717057--2020-03-20T16:10:57+01:00--GitHub
+
+^^1584718679--2020-03-20T15:37:59+00:00--Alex
+
+
+10	11	app/views/coronavirus_form/thank_you.html.erb
+1	1	config/locales/en.yml
+^^1584718999--2020-03-20T15:43:19+00:00--GitHub
+
+^^1584719618--2020-03-20T15:53:38+00:00--Bruce Bolt
+
+
+40	0	app/controllers/coronavirus_form/medical_equipment_controller.rb
+34	0	app/views/coronavirus_form/medical_equipment.html.erb
+1	1	app/views/coronavirus_form/start.html.erb
+7	0	config/locales/en.yml
+9	0	config/routes.rb
+54	0	spec/controllers/coronavirus-form/medical_equipment_controller_spec.rb
+^^1584719659--2020-03-20T16:54:19+01:00--GitHub
+
+^^1584723219--2020-03-20T16:53:39+00:00--Leena Gupte
+
+
+1	1	spec/models/form_response_spec.rb
+^^1584723502--2020-03-20T16:58:22+00:00--GitHub
+
+^^1584725099--2020-03-20T17:24:59+00:00--Issy Long
+
+
+8	0	.rubocop.yml
+^^1584725191--2020-03-20T17:26:31+00:00--Issy Long
+
+
+17	17	Gemfile
+1	1	Rakefile
+1	1	app/controllers/application_controller.rb
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+3	3	app/controllers/coronavirus_form/medical_equipment_controller.rb
+1	1	app/controllers/coronavirus_form/start_controller.rb
+1	1	app/controllers/coronavirus_form/thank_you_controller.rb
+4	4	app/controllers/coronavirus_form/which_goods_controller.rb
+4	4	app/controllers/coronavirus_form/which_services_controller.rb
+7	7	app/helpers/field_validation_helper.rb
+8	8	config/application.rb
+3	3	config/boot.rb
+1	1	config/environment.rb
+2	2	config/environments/development.rb
+2	2	config/environments/production.rb
+1	1	config/environments/test.rb
+1	1	config/initializers/assets.rb
+5	5	config/puma.rb
+15	15	config/routes.rb
+4	4	lib/tasks/lint.rake
+4	4	spec/controllers/coronavirus-form/check_answers_controller_spec.rb
+21	21	spec/controllers/coronavirus-form/medical_equipment_controller_spec.rb
+4	4	spec/controllers/coronavirus-form/start_controller_spec.rb
+4	4	spec/controllers/coronavirus-form/thank_you_controller_spec.rb
+14	14	spec/controllers/coronavirus-form/which_goods_controller_spec.rb
+13	13	spec/controllers/coronavirus-form/which_services_controller_spec.rb
+1	1	spec/models/form_response_spec.rb
+6	6	spec/spec_helper.rb
+^^1584725193--2020-03-20T17:26:33+00:00--Issy Long
+
+
+1	1	app/controllers/coronavirus_form/which_goods_controller.rb
+1	1	app/controllers/coronavirus_form/which_services_controller.rb
+4	4	app/helpers/field_validation_helper.rb
+^^1584725194--2020-03-20T17:26:34+00:00--Issy Long
+
+
+1	1	Gemfile
+^^1584725195--2020-03-20T17:26:35+00:00--Issy Long
+
+
+1	1	config/routes.rb
+^^1584725196--2020-03-20T17:26:36+00:00--Issy Long
+
+
+1	1	config/environments/development.rb
+1	1	config/environments/test.rb
+^^1584725197--2020-03-20T17:26:37+00:00--Issy Long
+
+
+1	1	app/controllers/application_controller.rb
+1	1	app/controllers/coronavirus_form/medical_equipment_controller.rb
+1	1	app/controllers/coronavirus_form/which_goods_controller.rb
+1	1	app/controllers/coronavirus_form/which_services_controller.rb
+^^1584725198--2020-03-20T17:26:38+00:00--Issy Long
+
+
+0	1	app/controllers/application_controller.rb
+^^1584725199--2020-03-20T17:26:39+00:00--Issy Long
+
+
+1	1	app/helpers/field_validation_helper.rb
+^^1584725200--2020-03-20T17:26:40+00:00--Issy Long
+
+
+1	1	config/environments/development.rb
+^^1584725201--2020-03-20T17:26:41+00:00--Issy Long
+
+
+1	1	lib/tasks/lint.rake
+^^1584725495--2020-03-20T17:31:35+00:00--GitHub
+
+^^1584728598--2020-03-20T18:23:18+00:00--Richard Towers
+
+
+6	0	.travis.yml
+1	0	Gemfile
+5	0	Gemfile.lock
+^^1584729605--2020-03-20T18:40:05+00:00--Richard Towers
+
+
+17	30	concourse/pipeline.yml
+^^1584730250--2020-03-20T18:50:50+00:00--GitHub
+
+^^1584738457--2020-03-20T21:07:37+00:00--Richard Towers
+
+
+3	1	concourse/pipeline.yml
+3	0	manifest.yml
+^^1584738532--2020-03-20T21:08:52+00:00--GitHub
+
+^^1584738957--2020-03-20T21:15:57+00:00--Bill Franklin
+
+
+37	0	app/controllers/coronavirus_form/hotel_rooms_controller.rb
+29	0	app/views/coronavirus_form/hotel_rooms.html.erb
+9	0	config/locales/en.yml
+3	0	config/routes.rb
+51	0	spec/controllers/coronavirus-form/hotel_rooms_controller_spec.rb
+^^1584778068--2020-03-21T09:07:48+01:00--GitHub
+
+^^1584778747--2020-03-21T08:19:07+00:00--Bruce Bolt
+
+
+6	11	app/views/coronavirus_form/medical_equipment.html.erb
+^^1584778875--2020-03-21T09:21:15+01:00--GitHub
+
+^^1584780114--2020-03-21T08:41:54+00:00--Bill Franklin
+
+
+37	0	app/controllers/coronavirus_form/offer_food_controller.rb
+29	0	app/views/coronavirus_form/offer_food.html.erb
+7	0	config/locales/en.yml
+3	0	config/routes.rb
+51	0	spec/controllers/coronavirus-form/offer_food_controller_spec.rb
+^^1584780526--2020-03-21T09:48:46+01:00--GitHub
+
+^^1584780969--2020-03-21T08:56:09+00:00--Bruce Bolt
+
+
+6	6	config/routes.rb
+3	3	spec/controllers/coronavirus-form/medical_equipment_controller_spec.rb
+^^1584781275--2020-03-21T10:01:15+01:00--GitHub
+
+^^1584782440--2020-03-21T09:20:40+00:00--Richard Towers
+
+
+1	0	manifest.yml
+^^1584788673--2020-03-21T11:04:33+00:00--Leena Gupte
+
+
+0	37	app/controllers/coronavirus_form/hotel_rooms_controller.rb
+0	40	app/controllers/coronavirus_form/medical_equipment_controller.rb
+0	37	app/controllers/coronavirus_form/offer_food_controller.rb
+0	7	app/controllers/coronavirus_form/thank_you_controller.rb
+0	41	app/controllers/coronavirus_form/which_goods_controller.rb
+0	39	app/controllers/coronavirus_form/which_services_controller.rb
+0	29	app/views/coronavirus_form/hotel_rooms.html.erb
+0	29	app/views/coronavirus_form/medical_equipment.html.erb
+0	29	app/views/coronavirus_form/offer_food.html.erb
+1	1	app/views/coronavirus_form/start.html.erb
+0	13	app/views/coronavirus_form/thank_you.html.erb
+0	67	app/views/coronavirus_form/which_goods.html.erb
+0	29	app/views/coronavirus_form/which_services.html.erb
+0	67	config/locales/en.yml
+0	23	config/routes.rb
+0	51	spec/controllers/coronavirus-form/hotel_rooms_controller_spec.rb
+0	54	spec/controllers/coronavirus-form/medical_equipment_controller_spec.rb
+0	51	spec/controllers/coronavirus-form/offer_food_controller_spec.rb
+0	14	spec/controllers/coronavirus-form/thank_you_controller_spec.rb
+0	50	spec/controllers/coronavirus-form/which_goods_controller_spec.rb
+0	50	spec/controllers/coronavirus-form/which_services_controller_spec.rb
+^^1584788787--2020-03-21T11:06:27+00:00--Leena Gupte
+
+
+2	2	config/locales/en.yml
+^^1584789295--2020-03-21T11:14:55+00:00--GitHub
+
+^^1584789649--2020-03-21T11:20:49+00:00--Richard Towers
+
+
+1	1	app.json
+24	24	concourse/pipeline.yml
+2	2	manifest.yml
+^^1584789752--2020-03-21T11:22:32+00:00--GitHub
+
+^^1584791974--2020-03-21T11:59:34+00:00--GitHub
+
+
+1	0	manifest.yml
+^^1584792479--2020-03-21T12:07:59+00:00--GitHub
+
+^^1584795207--2020-03-21T12:53:27+00:00--Leena Gupte
+
+
+0	0	spec/controllers/{coronavirus-form => coronavirus_form}/check_answers_controller_spec.rb
+0	0	spec/controllers/{coronavirus-form => coronavirus_form}/start_controller_spec.rb
+^^1584795891--2020-03-21T13:04:51+00:00--Leena Gupte
+
+
+36	0	app/controllers/coronavirus_form/nhs_letter_controller.rb
+28	0	app/views/coronavirus_form/nhs_letter.html.erb
+9	0	config/locales/en.yml
+2	0	config/routes.rb
+44	0	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1584796914--2020-03-21T13:21:54+00:00--GitHub
+
+^^1584797232--2020-03-21T13:27:12+00:00--Leena Gupte
+
+
+2	0	app/controllers/coronavirus_form/nhs_letter_controller.rb
+10	3	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1584797505--2020-03-21T13:31:45+00:00--GitHub
+
+^^1584800891--2020-03-21T14:28:11+00:00--Leena Gupte
+
+
+38	0	app/controllers/coronavirus_form/virus_test_controller.rb
+28	0	app/views/coronavirus_form/virus_test.html.erb
+9	0	config/locales/en.yml
+3	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/virus_test_controller_spec.rb
+^^1584801421--2020-03-21T14:37:01+00:00--GitHub
+
+^^1584802036--2020-03-21T14:47:16+00:00--Issy Long
+
+
+6	8	app/controllers/coronavirus_form/{nhs_letter_controller.rb => medical_conditions_controller.rb}
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+30	0	app/views/coronavirus_form/medical_conditions.html.erb
+22	0	config/locales/en.yml
+3	0	config/routes.rb
+44	0	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1584802308--2020-03-21T14:51:48+00:00--GitHub
+
+
+2	2	app/views/coronavirus_form/medical_conditions.html.erb
+^^1584802330--2020-03-21T14:52:10+00:00--GitHub
+
+
+1	2	config/locales/en.yml
+^^1584802551--2020-03-21T14:55:51+00:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1584803178--2020-03-21T15:06:18+00:00--GitHub
+
+^^1584803514--2020-03-21T15:11:54+00:00--Sean Rankine
+
+
+7	0	app/controllers/coronavirus_form/confirmation_controller.rb
+4	0	app/views/coronavirus_form/confirmation.html.erb
+2	0	config/locales/en.yml
+3	0	config/routes.rb
+14	0	spec/controllers/coronavirus_form/confirmation_controller_spec.rb
+^^1584803656--2020-03-21T15:14:16+00:00--GitHub
+
+^^1584803760--2020-03-21T15:16:00+00:00--Sean Rankine
+
+
+19	0	app/controllers/coronavirus_form/check_answers_controller.rb
+30	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1584803785--2020-03-21T15:16:25+00:00--Bruce Bolt
+
+
+38	0	app/controllers/coronavirus_form/addiction_controller.rb
+28	0	app/views/coronavirus_form/addiction.html.erb
+8	1	config/locales/en.yml
+3	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/addiction_controller_spec.rb
+^^1584804011--2020-03-21T16:20:11+01:00--GitHub
+
+^^1584804287--2020-03-21T15:24:47+00:00--Leena Gupte
+
+
+38	0	app/controllers/coronavirus_form/temperature_or_cough_controller.rb
+29	0	app/views/coronavirus_form/temperature_or_cough.html.erb
+8	0	config/locales/en.yml
+3	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/temperature_or_cough_controller_spec.rb
+^^1584804412--2020-03-21T15:26:52+00:00--GitHub
+
+^^1584805498--2020-03-21T15:44:58+00:00--Bill Franklin
+
+
+48	0	app/controllers/coronavirus_form/name_controller.rb
+10	0	app/helpers/error_items_helper.rb
+45	0	app/views/coronavirus_form/name.html.erb
+8	0	config/locales/en.yml
+4	0	config/routes.rb
+77	0	spec/controllers/coronavirus_form/name_controller_spec.rb
+^^1584805603--2020-03-21T16:46:43+01:00--GitHub
+
+^^1584806646--2020-03-21T16:04:06+00:00--GitHub
+
+^^1584806772--2020-03-21T16:06:12+00:00--Bill Franklin
+
+
+9	7	app/controllers/coronavirus_form/{medical_conditions_controller.rb => dietary_requirements_controller.rb}
+2	0	app/controllers/coronavirus_form/medical_conditions_controller.rb
+30	0	app/views/coronavirus_form/dietary_requirements.html.erb
+9	0	config/locales/en.yml
+4	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+^^1584807324--2020-03-21T17:15:24+01:00--GitHub
+
+^^1584807709--2020-03-21T16:21:49+00:00--Sean Rankine
+
+
+0	1	.cfignore
+1	1	Procfile
+0	1	config/database.yml
+^^1584807899--2020-03-21T16:24:59+00:00--GitHub
+
+^^1584807924--2020-03-21T16:25:24+00:00--Bill Franklin
+
+
+1	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+6	6	app/controllers/coronavirus_form/{dietary_requirements_controller.rb => essential_supplies_controller.rb}
+30	0	app/views/coronavirus_form/essential_supplies.html.erb
+9	0	config/locales/en.yml
+4	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+^^1584808018--2020-03-21T16:26:58+00:00--Huw Diprose
+
+
+51	51	Gemfile.lock
+^^1584808203--2020-03-21T16:30:03+00:00--GitHub
+
+^^1584808563--2020-03-21T17:36:03+01:00--GitHub
+
+^^1584808598--2020-03-21T16:36:38+00:00--Huw Diprose
+
+
+3	0	Gemfile
+11	1	Gemfile.lock
+^^1584808616--2020-03-21T16:36:56+00:00--Bill Franklin
+
+
+38	0	app/controllers/coronavirus_form/carry_supplies_controller.rb
+29	0	app/views/coronavirus_form/carry_supplies.html.erb
+8	0	config/locales/en.yml
+4	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+^^1584809162--2020-03-21T16:46:02+00:00--GitHub
+
+^^1584809198--2020-03-21T17:46:38+01:00--GitHub
+
+^^1584809486--2020-03-21T16:51:26+00:00--Bruce Bolt
+
+
+39	0	app/controllers/coronavirus_form/contact_details_controller.rb
+51	0	app/views/coronavirus_form/contact_details.html.erb
+9	0	config/locales/en.yml
+3	0	config/routes.rb
+47	0	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+^^1584809622--2020-03-21T17:53:42+01:00--GitHub
+
+^^1584810522--2020-03-21T17:08:42+00:00--Bill Franklin
+
+
+1	0	app/views/layouts/application.html.erb
+^^1584810811--2020-03-21T18:13:31+01:00--GitHub
+
+^^1584810992--2020-03-21T17:16:32+00:00--Issy Long
+
+
+4	0	.rubocop.yml
+^^1584811142--2020-03-21T17:19:02+00:00--GitHub
+
+^^1584811301--2020-03-21T17:21:41+00:00--Sean Rankine
+
+
+6	2	app/controllers/coronavirus_form/check_answers_controller.rb
+7	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1584811687--2020-03-21T17:28:07+00:00--Bill Franklin
+
+
+2	0	app/views/coronavirus_form/confirmation.html.erb
+6	1	config/locales/en.yml
+^^1584811822--2020-03-21T18:30:22+01:00--GitHub
+
+^^1584813479--2020-03-21T17:57:59+00:00--GitHub
+
+^^1584816021--2020-03-21T18:40:21+00:00--Bill Franklin
+
+
+7	0	app/controllers/coronavirus_form/not_eligible_medical_controller.rb
+7	0	app/controllers/coronavirus_form/not_eligible_supplies_controller.rb
+10	0	app/views/coronavirus_form/not_eligible_medical.html.erb
+10	0	app/views/coronavirus_form/not_eligible_supplies.html.erb
+14	0	config/locales/en.yml
+6	0	config/routes.rb
+14	0	spec/controllers/coronavirus_form/not_eligible_medical_controller_spec.rb
+14	0	spec/controllers/coronavirus_form/not_eligible_supplies_controller_spec.rb
+^^1584816130--2020-03-21T18:42:10+00:00--Bill Franklin
+
+
+1	0	app/views/layouts/application.html.erb
+^^1584816336--2020-03-21T18:45:36+00:00--Huw Diprose
+
+
+87	0	app/controllers/coronavirus_form/support_address_controller.rb
+1	1	app/helpers/error_items_helper.rb
+70	0	app/views/coronavirus_form/support_address.html.erb
+15	0	config/locales/en.yml
+5	1	config/routes.rb
+87	0	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1584817229--2020-03-21T20:00:29+01:00--GitHub
+
+^^1584817264--2020-03-21T20:01:04+01:00--GitHub
+
+^^1584818490--2020-03-21T19:21:30+00:00--Issy Long
+
+
+40	0	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+30	0	app/views/coronavirus_form/know_nhs_number.html.erb
+11	0	config/locales/en.yml
+3	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+^^1584818595--2020-03-21T19:23:15+00:00--GitHub
+
+^^1584865770--2020-03-22T08:29:30+00:00--Richard Towers
+
+
+1	0	Gemfile
+2	0	Gemfile.lock
+0	1	app/views/layouts/application.html.erb
+4	1	config/environments/production.rb
+^^1584868017--2020-03-22T09:06:57+00:00--Issy Long
+
+
+1	0	app/views/coronavirus_form/addiction.html.erb
+1	0	app/views/coronavirus_form/know_nhs_number.html.erb
+1	0	app/views/coronavirus_form/medical_conditions.html.erb
+1	0	app/views/coronavirus_form/nhs_letter.html.erb
+1	0	app/views/coronavirus_form/temperature_or_cough.html.erb
+1	0	app/views/coronavirus_form/virus_test.html.erb
+5	0	config/locales/en.yml
+^^1584868334--2020-03-22T09:12:14+00:00--GitHub
+
+^^1584868434--2020-03-22T09:13:54+00:00--GitHub
+
+^^1584868462--2020-03-22T09:14:22+00:00--Bill Franklin
+
+
+43	0	app/controllers/coronavirus_form/date_of_birth_controller.rb
+13	0	app/helpers/field_validation_helper.rb
+1	0	app/views/coronavirus_form/contact_details.html.erb
+47	0	app/views/coronavirus_form/date_of_birth.html.erb
+6	0	config/locales/en.yml
+4	0	config/routes.rb
+64	0	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+^^1584868890--2020-03-22T09:21:30+00:00--GitHub
+
+^^1584868940--2020-03-22T09:22:20+00:00--GitHub
+
+^^1584871236--2020-03-22T10:00:36+00:00--Huw Diprose
+
+
+35	25	config/routes.rb
+^^1584871282--2020-03-22T10:01:22+00:00--GitHub
+
+^^1584872305--2020-03-22T10:18:25+00:00--Huw Diprose
+
+
+38	0	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+30	0	app/views/coronavirus_form/basic_care_needs.erb
+8	0	config/locales/en.yml
+2	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+^^1584872674--2020-03-22T10:24:34+00:00--GitHub
+
+^^1584873192--2020-03-22T10:33:12+00:00--Bill Franklin
+
+
+1	1	app/controllers/coronavirus_form/addiction_controller.rb
+1	1	app/controllers/coronavirus_form/carry_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/contact_details_controller.rb
+1	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+1	1	app/controllers/coronavirus_form/medical_conditions_controller.rb
+1	1	app/controllers/coronavirus_form/name_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+1	1	app/controllers/coronavirus_form/support_address_controller.rb
+1	1	app/controllers/coronavirus_form/temperature_or_cough_controller.rb
+1	1	app/controllers/coronavirus_form/virus_test_controller.rb
+2	2	spec/controllers/coronavirus_form/addiction_controller_spec.rb
+2	0	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+2	0	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+3	3	spec/controllers/coronavirus_form/name_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/temperature_or_cough_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/virus_test_controller_spec.rb
+^^1584873192--2020-03-22T10:33:12+00:00--Bill Franklin
+
+
+4	0	app/controllers/application_controller.rb
+1	0	app/controllers/coronavirus_form/addiction_controller.rb
+1	0	app/controllers/coronavirus_form/carry_supplies_controller.rb
+1	0	app/controllers/coronavirus_form/contact_details_controller.rb
+1	0	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	0	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+1	0	app/controllers/coronavirus_form/essential_supplies_controller.rb
+1	0	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+1	0	app/controllers/coronavirus_form/medical_conditions_controller.rb
+1	0	app/controllers/coronavirus_form/name_controller.rb
+1	0	app/controllers/coronavirus_form/nhs_letter_controller.rb
+1	0	app/controllers/coronavirus_form/support_address_controller.rb
+1	0	app/controllers/coronavirus_form/temperature_or_cough_controller.rb
+1	0	app/controllers/coronavirus_form/virus_test_controller.rb
+^^1584873258--2020-03-22T10:34:18+00:00--Bill Franklin
+
+
+2	1	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+2	2	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+^^1584873392--2020-03-22T11:36:32+01:00--GitHub
+
+^^1584876470--2020-03-22T11:27:50+00:00--Ian James
+
+
+139	137	config/locales/en.yml
+^^1584876538--2020-03-22T11:28:58+00:00--Ian James
+
+
+1	1	spec/controllers/coronavirus_form/addiction_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/temperature_or_cough_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/virus_test_controller_spec.rb
+^^1584876597--2020-03-22T11:29:57+00:00--Ian James
+
+
+1	1	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+2	2	app/controllers/coronavirus_form/name_controller.rb
+2	2	app/controllers/coronavirus_form/support_address_controller.rb
+9	9	app/helpers/field_validation_helper.rb
+^^1584877366--2020-03-22T11:42:46+00:00--Ian James
+
+
+7	5	app/views/coronavirus_form/addiction.html.erb
+8	6	app/views/coronavirus_form/basic_care_needs.erb
+10	7	app/views/coronavirus_form/carry_supplies.html.erb
+11	8	app/views/coronavirus_form/contact_details.html.erb
+6	4	app/views/coronavirus_form/date_of_birth.html.erb
+14	11	app/views/coronavirus_form/dietary_requirements.html.erb
+11	8	app/views/coronavirus_form/essential_supplies.html.erb
+22	18	app/views/coronavirus_form/know_nhs_number.html.erb
+17	14	app/views/coronavirus_form/medical_conditions.html.erb
+14	9	app/views/coronavirus_form/name.html.erb
+8	5	app/views/coronavirus_form/nhs_letter.html.erb
+15	8	app/views/coronavirus_form/support_address.html.erb
+12	7	app/views/coronavirus_form/temperature_or_cough.html.erb
+7	5	app/views/coronavirus_form/virus_test.html.erb
+^^1584877428--2020-03-22T11:43:48+00:00--Nick Colley
+
+
+11	0	app/views/application/_error_summary.html.erb
+0	5	app/views/coronavirus_form/_validation_error.html.erb
+1	0	app/views/layouts/application.html.erb
+^^1584878018--2020-03-22T11:53:38+00:00--GitHub
+
+^^1584878432--2020-03-22T12:00:32+00:00--GitHub
+
+^^1584879972--2020-03-22T12:26:12+00:00--Richard Towers
+
+
+15	15	concourse/pipeline.yml
+^^1584880153--2020-03-22T12:29:13+00:00--GitHub
+
+^^1584881162--2020-03-22T12:46:02+00:00--Richard Towers
+
+
+6	0	concourse/pipeline.yml
+2	0	manifest.yml
+^^1584881202--2020-03-22T12:46:42+00:00--Bill Franklin
+
+
+2	0	Gemfile
+40	0	Gemfile.lock
+^^1584881202--2020-03-22T12:46:42+00:00--Bill Franklin
+
+
+9	0	config/cucumber.yml
+78	0	lib/tasks/cucumber.rake
+11	0	script/cucumber
+^^1584881322--2020-03-22T12:48:42+00:00--Bill Franklin
+
+
+18	0	features/form.feature
+0	0	features/step_definitions/.gitkeep
+21	0	features/step_definitions/base_steps.rb
+8	0	features/step_definitions/basic_care_needs_steps.rb
+12	0	features/step_definitions/start_page_steps.rb
+59	0	features/support/env.rb
+^^1584881617--2020-03-22T12:53:37+00:00--GitHub
+
+^^1584881850--2020-03-22T12:57:30+00:00--Huw Diprose
+
+
+35	0	app/controllers/coronavirus_form/nhs_number_controller.rb
+38	0	app/views/coronavirus_form/nhs_number.html.erb
+8	1	config/locales/en.yml
+2	0	config/routes.rb
+49	0	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+^^1584881965--2020-03-22T12:59:25+00:00--Huw Diprose
+
+
+39	0	app/helpers/nhs_number_validator_helper.rb
+58	0	spec/helpers/nhs_number_validator_helper_spec.rb
+^^1584883033--2020-03-22T13:17:13+00:00--Huw Diprose
+
+
+26	7	app/controllers/coronavirus_form/nhs_number_controller.rb
+33	7	app/helpers/nhs_number_validator_helper.rb
+10	8	app/views/coronavirus_form/nhs_number.html.erb
+6	2	config/locales/en.yml
+22	12	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+31	15	spec/helpers/nhs_number_validator_helper_spec.rb
+^^1584883061--2020-03-22T13:17:41+00:00--Leena Gupte
+
+
+26	0	app/controllers/coronavirus_form/check_answers_controller.rb
+20	2	app/views/coronavirus_form/check_answers.html.erb
+3	1	config/locales/en.yml
+^^1584883141--2020-03-22T13:19:01+00:00--GitHub
+
+^^1584884114--2020-03-22T14:35:14+01:00--GitHub
+
+^^1584884186--2020-03-22T13:36:26+00:00--Huw Diprose
+
+
+30	23	config/routes.rb
+^^1584884352--2020-03-22T13:39:12+00:00--GitHub
+
+^^1584884700--2020-03-22T13:45:00+00:00--Ian James
+
+
+2	1	app/views/coronavirus_form/check_answers.html.erb
+^^1584885201--2020-03-22T13:53:21+00:00--Leena Gupte
+
+
+39	0	app/controllers/coronavirus_form/live_in_england_controller.rb
+29	0	app/views/coronavirus_form/live_in_england.html.erb
+7	0	config/locales/en.yml
+2	0	config/routes.rb
+51	0	spec/controllers/coronavirus_form/live_in_england_controller_spec.rb
+^^1584885341--2020-03-22T13:55:41+00:00--Bill Franklin
+
+
+2	2	app/controllers/coronavirus_form/essential_supplies_controller.rb
+7	7	app/controllers/coronavirus_form/{essential_supplies_controller.rb => supermarkets_controller.rb}
+33	0	app/views/coronavirus_form/supermarkets.html.erb
+9	0	config/locales/en.yml
+2	0	config/routes.rb
+1	1	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+13	13	spec/controllers/coronavirus_form/{essential_supplies_controller_spec.rb => supermarkets_controller_spec.rb}
+^^1584885688--2020-03-22T15:01:28+01:00--GitHub
+
+^^1584885730--2020-03-22T14:02:10+00:00--GitHub
+
+^^1584885924--2020-03-22T14:05:24+00:00--Huw Diprose
+
+
+4	0	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+0	1	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1584885928--2020-03-22T14:05:28+00:00--GitHub
+
+^^1584886147--2020-03-22T14:09:07+00:00--Bill Franklin
+
+
+1	0	Gemfile
+1	0	Gemfile.lock
+2	1	concourse/pipeline.yml
+4	0	config/application.rb
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+3	0	app/views/coronavirus_form/name.html.erb
+2	0	config/locales/en.yml
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+1	1	config/locales/en.yml
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+1	1	config/locales/en.yml
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+13	6	app/helpers/field_validation_helper.rb
+3	0	app/views/coronavirus_form/date_of_birth.html.erb
+4	8	config/locales/en.yml
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+2	1	app/views/coronavirus_form/addiction.html.erb
+2	1	app/views/coronavirus_form/basic_care_needs.erb
+2	1	app/views/coronavirus_form/carry_supplies.html.erb
+1	0	app/views/coronavirus_form/contact_details.html.erb
+2	1	app/views/coronavirus_form/date_of_birth.html.erb
+2	1	app/views/coronavirus_form/dietary_requirements.html.erb
+2	1	app/views/coronavirus_form/essential_supplies.html.erb
+2	1	app/views/coronavirus_form/know_nhs_number.html.erb
+2	1	app/views/coronavirus_form/medical_conditions.html.erb
+2	1	app/views/coronavirus_form/name.html.erb
+2	1	app/views/coronavirus_form/nhs_letter.html.erb
+2	1	app/views/coronavirus_form/support_address.html.erb
+2	1	app/views/coronavirus_form/temperature_or_cough.html.erb
+2	1	app/views/coronavirus_form/virus_test.html.erb
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+6	8	app/controllers/coronavirus_form/support_address_controller.rb
+5	0	app/views/coronavirus_form/support_address.html.erb
+5	2	config/locales/en.yml
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+4	3	config/locales/en.yml
+^^1584886202--2020-03-22T14:10:02+00:00--Nick Colley
+
+
+10	11	app/helpers/field_validation_helper.rb
+^^1584886256--2020-03-22T15:10:56+01:00--GitHub
+
+^^1584886294--2020-03-22T14:11:34+00:00--GitHub
+
+^^1584886536--2020-03-22T15:15:36+01:00--GitHub
+
+^^1584886644--2020-03-22T14:17:24+00:00--Nick Colley
+
+
+17	13	app/views/coronavirus_form/medical_conditions.html.erb
+^^1584886780--2020-03-22T14:19:40+00:00--Bevan Loon
+
+
+1	2	app/controllers/coronavirus_form/nhs_number_controller.rb
+^^1584887085--2020-03-22T14:24:45+00:00--Bill Franklin
+
+
+2	2	app/views/coronavirus_form/support_address.html.erb
+^^1584887176--2020-03-22T14:26:16+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/nhs_letter_controller.rb
+^^1584887237--2020-03-22T14:27:17+00:00--GitHub
+
+^^1584887297--2020-03-22T15:28:17+01:00--GitHub
+
+^^1584887356--2020-03-22T14:29:16+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/name_controller.rb
+^^1584887433--2020-03-22T14:30:33+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/date_of_birth_controller.rb
+^^1584887529--2020-03-22T14:32:09+00:00--Issy Long
+
+
+1	1	app/controllers/coronavirus_form/support_address_controller.rb
+^^1584887722--2020-03-22T14:35:22+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/contact_details_controller.rb
+^^1584887733--2020-03-22T14:35:33+00:00--Nick Colley
+
+
+1	1	app/views/layouts/application.html.erb
+1	0	config/locales/en.yml
+^^1584887848--2020-03-22T14:37:28+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/medical_conditions_controller.rb
+^^1584887895--2020-03-22T14:38:15+00:00--GitHub
+
+^^1584887924--2020-03-22T14:38:44+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+^^1584888016--2020-03-22T14:40:16+00:00--Issy Long
+
+
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+^^1584888081--2020-03-22T14:41:21+00:00--Issy Long
+
+
+1	1	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+^^1584888302--2020-03-22T14:45:02+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+^^1584889190--2020-03-22T14:59:50+00:00--Issy Long
+
+
+1	1	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/name_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1584889222--2020-03-22T15:00:22+00:00--Nick Colley
+
+
+7	0	app/assets/stylesheets/application.scss
+1	1	config/locales/en.yml
+^^1584889509--2020-03-22T15:05:09+00:00--GitHub
+
+^^1584889595--2020-03-22T15:06:35+00:00--Leena Gupte
+
+
+7	0	app/controllers/coronavirus_form/not_eligible_england_controller.rb
+0	7	app/controllers/coronavirus_form/not_eligible_supplies_controller.rb
+10	0	app/views/coronavirus_form/not_eligible_england.html.erb
+0	10	app/views/coronavirus_form/not_eligible_supplies.html.erb
+9	6	config/locales/en.yml
+2	2	config/routes.rb
+2	2	spec/controllers/coronavirus_form/{not_eligible_supplies_controller_spec.rb => not_eligible_england_controller_spec.rb}
+^^1584889755--2020-03-22T15:09:15+00:00--Huw Diprose
+
+
+7	10	config/routes.rb
+^^1584890050--2020-03-22T15:14:10+00:00--Nick Colley
+
+
+2	1	lib/tasks/lint.rake
+^^1584890067--2020-03-22T15:14:27+00:00--GitHub
+
+^^1584890088--2020-03-22T15:14:48+00:00--Huw Diprose
+
+
+91	91	config/locales/en.yml
+^^1584890109--2020-03-22T15:15:09+00:00--Huw Diprose
+
+
+1	36	config/locales/en.yml
+^^1584890197--2020-03-22T15:16:37+00:00--GitHub
+
+^^1584890441--2020-03-22T15:20:41+00:00--Huw Diprose
+
+
+0	39	app/controllers/coronavirus_form/addiction_controller.rb
+0	32	app/views/coronavirus_form/addiction.html.erb
+0	51	spec/controllers/coronavirus_form/addiction_controller_spec.rb
+^^1584890460--2020-03-22T15:21:00+00:00--Huw Diprose
+
+
+0	39	app/controllers/coronavirus_form/supermarkets_controller.rb
+0	33	app/views/coronavirus_form/supermarkets.html.erb
+0	51	spec/controllers/coronavirus_form/supermarkets_controller_spec.rb
+^^1584890478--2020-03-22T15:21:18+00:00--Huw Diprose
+
+
+0	39	app/controllers/coronavirus_form/temperature_or_cough_controller.rb
+0	36	app/views/coronavirus_form/temperature_or_cough.html.erb
+0	51	spec/controllers/coronavirus_form/temperature_or_cough_controller_spec.rb
+^^1584890490--2020-03-22T15:21:30+00:00--Huw Diprose
+
+
+0	39	app/controllers/coronavirus_form/virus_test_controller.rb
+0	32	app/views/coronavirus_form/virus_test.html.erb
+0	51	spec/controllers/coronavirus_form/virus_test_controller_spec.rb
+^^1584890499--2020-03-22T15:21:39+00:00--Richard Towers
+
+
+34	50	concourse/pipeline.yml
+41	0	concourse/tasks/deploy-to-govuk-paas.yml
+16	0	concourse/tasks/smoke-test.yml
+^^1584890506--2020-03-22T15:21:46+00:00--Huw Diprose
+
+
+0	16	config/routes.rb
+^^1584890622--2020-03-22T15:23:42+00:00--GitHub
+
+
+1	1	config/routes.rb
+^^1584890776--2020-03-22T15:26:16+00:00--GitHub
+
+^^1584890849--2020-03-22T15:27:29+00:00--GitHub
+
+^^1584890881--2020-03-22T15:28:01+00:00--Richard Towers
+
+
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1584891061--2020-03-22T15:31:01+00:00--GitHub
+
+^^1584891089--2020-03-22T15:31:29+00:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/carry_supplies_controller.rb
+1	1	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+^^1584891113--2020-03-22T16:31:53+01:00--GitHub
+
+^^1584891217--2020-03-22T15:33:37+00:00--GitHub
+
+^^1584891307--2020-03-22T15:35:07+00:00--Sean Rankine
+
+
+1	0	Gemfile
+20	1	Gemfile.lock
+6	1	app/controllers/coronavirus_form/check_answers_controller.rb
+0	5	app/models/application_record.rb
+8	1	app/models/form_response.rb
+1	1	config/application.rb
+2	2	config/environments/development.rb
+1	1	config/environments/production.rb
+7	0	config/initializers/aws.rb
+11	0	config/initializers/dynamoid.rb
+^^1584891307--2020-03-22T15:35:07+00:00--Sean Rankine
+
+
+1	1	app/models/form_response.rb
+0	7	config/initializers/aws.rb
+16	4	config/initializers/dynamoid.rb
+^^1584891307--2020-03-22T15:35:07+00:00--Sean Rankine
+
+
+1	1	Gemfile
+6	2	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+4	0	spec/spec_helper.rb
+16	0	spec/support/dynamoid_helper.rb
+^^1584891307--2020-03-22T15:35:07+00:00--Sean Rankine
+
+
+2	2	.travis.yml
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+^^1584891316--2020-03-22T15:35:16+00:00--Issy Long
+
+
+0	7	app/controllers/coronavirus_form/start_controller.rb
+0	15	app/views/coronavirus_form/start.html.erb
+1	2	config/routes.rb
+0	14	spec/controllers/coronavirus_form/start_controller_spec.rb
+^^1584891335--2020-03-22T15:35:35+00:00--Sean Rankine
+
+
+0	1	Gemfile
+2	3	Gemfile.lock
+1	1	Procfile
+0	10	db/migrate/20200320105826_create_form_responses.rb
+0	23	db/schema.rb
+^^1584891395--2020-03-22T15:36:35+00:00--Ian James
+
+
+7	0	app/controllers/coronavirus_form/privacy_controller.rb
+8	0	app/views/coronavirus_form/privacy.html.erb
+71	1	config/locales/en.yml
+2	0	config/routes.rb
+^^1584891396--2020-03-22T15:36:36+00:00--Issy Long
+
+
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+1	1	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1584891661--2020-03-22T15:41:01+00:00--Issy Long
+
+
+1	7	features/form.feature
+0	12	features/step_definitions/start_page_steps.rb
+^^1584891704--2020-03-22T15:41:44+00:00--GitHub
+
+^^1584891812--2020-03-22T15:43:32+00:00--Issy Long
+
+
+1	5	config/locales/en.yml
+^^1584891957--2020-03-22T15:45:57+00:00--GitHub
+
+^^1584892218--2020-03-22T15:50:18+00:00--Leena Gupte
+
+
+2	0	app/controllers/coronavirus_form/live_in_england_controller.rb
+7	2	spec/controllers/coronavirus_form/live_in_england_controller_spec.rb
+^^1584892309--2020-03-22T15:51:49+00:00--Sean Rankine
+
+
+0	1	Gemfile
+0	2	Gemfile.lock
+6	6	features/support/env.rb
+^^1584892504--2020-03-22T15:55:04+00:00--Nick Colley
+
+
+2	1	app/views/coronavirus_form/live_in_england.html.erb
+2	1	app/views/coronavirus_form/nhs_number.html.erb
+^^1584892542--2020-03-22T15:55:42+00:00--Nick Colley
+
+
+1	0	config/locales/en.yml
+^^1584892631--2020-03-22T15:57:11+00:00--Nick Colley
+
+
+4	4	config/locales/en.yml
+^^1584892668--2020-03-22T15:57:48+00:00--Nick Colley
+
+
+1	1	config/locales/en.yml
+^^1584892933--2020-03-22T16:02:13+00:00--Sean Rankine
+
+
+2	0	concourse/pipeline.yml
+1	0	manifest.yml
+^^1584893117--2020-03-22T16:05:17+00:00--GitHub
+
+^^1584893270--2020-03-22T16:07:50+00:00--Leena Gupte
+
+
+2	0	app/controllers/coronavirus_form/medical_conditions_controller.rb
+7	2	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+^^1584893400--2020-03-22T16:10:00+00:00--Bevan Loon
+
+
+1	1	app/views/coronavirus_form/nhs_number.html.erb
+2	2	config/routes.rb
+1	1	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+^^1584893616--2020-03-22T16:13:36+00:00--GitHub
+
+^^1584893730--2020-03-22T16:15:30+00:00--GitHub
+
+^^1584893939--2020-03-22T16:18:59+00:00--GitHub
+
+^^1584894250--2020-03-22T16:24:10+00:00--GitHub
+
+^^1584894334--2020-03-22T16:25:34+00:00--Rory Malcolm
+
+
+9	20	README.md
+^^1584894461--2020-03-22T16:27:41+00:00--Ian James
+
+
+22	4	app/controllers/coronavirus_form/check_answers_controller.rb
+^^1584894593--2020-03-22T16:29:53+00:00--Richard Towers
+
+
+1	0	concourse/pipeline.yml
+^^1584894619--2020-03-22T16:30:19+00:00--GitHub
+
+^^1584894677--2020-03-22T16:31:17+00:00--GitHub
+
+^^1584895138--2020-03-22T16:38:58+00:00--Huw Diprose
+
+
+1	0	app/views/coronavirus_form/nhs_number.html.erb
+^^1584895444--2020-03-22T16:44:04+00:00--Issy Long
+
+
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+^^1584895592--2020-03-22T16:46:32+00:00--Ian James
+
+
+3	3	app/controllers/coronavirus_form/check_answers_controller.rb
+^^1584895598--2020-03-22T16:46:38+00:00--Bruce Bolt
+
+
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+2	2	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+16	3	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+^^1584895754--2020-03-22T17:49:14+01:00--GitHub
+
+^^1584895997--2020-03-22T16:53:17+00:00--GitHub
+
+^^1584896057--2020-03-22T17:54:17+01:00--GitHub
+
+^^1584896538--2020-03-22T17:02:18+00:00--GitHub
+
+^^1584896542--2020-03-22T17:02:22+00:00--Bill Franklin
+
+
+5	3	config/locales/en.yml
+^^1584896725--2020-03-22T18:05:25+01:00--GitHub
+
+^^1584898560--2020-03-22T17:36:00+00:00--Sean Rankine
+
+
+9	1	app/views/coronavirus_form/check_answers.html.erb
+1	0	config/locales/en.yml
+^^1584898783--2020-03-22T17:39:43+00:00--GitHub
+
+^^1584899429--2020-03-22T17:50:29+00:00--Ian James
+
+
+1	1	config/locales/en.yml
+^^1584899808--2020-03-22T17:56:48+00:00--Sean Rankine
+
+
+3	3	app/controllers/coronavirus_form/check_answers_controller.rb
+4	4	app/models/form_response.rb
+3	3	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1584899893--2020-03-22T17:58:13+00:00--Ian James
+
+
+1	1	app/views/coronavirus_form/dietary_requirements.html.erb
+^^1584900002--2020-03-22T18:00:02+00:00--GitHub
+
+^^1584900047--2020-03-22T18:00:47+00:00--GitHub
+
+^^1584900128--2020-03-22T18:02:08+00:00--Ian James
+
+
+1	1	app/views/coronavirus_form/essential_supplies.html.erb
+^^1584900385--2020-03-22T18:06:25+00:00--Bruce Bolt
+
+
+1	1	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+1	1	app/controllers/coronavirus_form/carry_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/contact_details_controller.rb
+1	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+1	1	app/controllers/coronavirus_form/medical_conditions_controller.rb
+1	1	app/controllers/coronavirus_form/name_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_number_controller.rb
+1	1	app/controllers/coronavirus_form/support_address_controller.rb
+32	32	config/routes.rb
+2	2	features/step_definitions/basic_care_needs_steps.rb
+2	2	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+3	3	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+3	3	spec/controllers/coronavirus_form/live_in_england_controller_spec.rb
+3	3	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+3	3	spec/controllers/coronavirus_form/name_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1584900506--2020-03-22T18:08:26+00:00--Nick Colley
+
+
+2	1	app/views/coronavirus_form/know_nhs_number.html.erb
+2	0	app/views/coronavirus_form/nhs_number.html.erb
+^^1584900676--2020-03-22T18:11:16+00:00--GitHub
+
+^^1584901078--2020-03-22T18:17:58+00:00--Bill Franklin
+
+
+2	2	config/puma.rb
+^^1584901150--2020-03-22T18:19:10+00:00--Toby Lorne
+
+
+2	2	concourse/pipeline.yml
+^^1584901259--2020-03-22T18:20:59+00:00--GitHub
+
+^^1584901322--2020-03-22T18:22:02+00:00--Richard Towers
+
+
+4	0	concourse/pipeline.yml
+5	0	concourse/tasks/deploy-to-govuk-paas.yml
+0	2	manifest.yml
+^^1584901322--2020-03-22T18:22:02+00:00--Richard Towers
+
+
+2	2	concourse/pipeline.yml
+^^1584901322--2020-03-22T18:22:02+00:00--Richard Towers
+
+
+2	2	concourse/tasks/deploy-to-govuk-paas.yml
+^^1584901322--2020-03-22T18:22:02+00:00--Richard Towers
+
+
+0	2	concourse/pipeline.yml
+0	2	concourse/tasks/deploy-to-govuk-paas.yml
+1	0	manifest.yml
+^^1584901408--2020-03-22T18:23:28+00:00--Richard Towers
+
+
+2	0	concourse/pipeline.yml
+2	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1584901502--2020-03-22T19:25:02+01:00--GitHub
+
+^^1584901506--2020-03-22T18:25:06+00:00--Nick Colley
+
+
+7	0	app/assets/stylesheets/application.scss
+^^1584902142--2020-03-22T18:35:42+00:00--Nick Colley
+
+
+0	4	app/views/layouts/application.html.erb
+^^1584902469--2020-03-22T18:41:09+00:00--GitHub
+
+^^1584902552--2020-03-22T19:42:32+01:00--GitHub
+
+^^1584902736--2020-03-22T18:45:36+00:00--GitHub
+
+^^1584904331--2020-03-22T19:12:11+00:00--Richard Towers
+
+
+1	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1584904480--2020-03-22T19:14:40+00:00--GitHub
+
+^^1584904870--2020-03-22T19:21:10+00:00--GitHub
+
+^^1584905689--2020-03-22T19:34:49+00:00--Bruce Bolt
+
+
+2	2	app/controllers/coronavirus_form/live_in_england_controller.rb
+7	0	spec/controllers/coronavirus_form/live_in_england_controller_spec.rb
+^^1584905947--2020-03-22T19:39:07+00:00--Mark Green
+
+
+23	17	config/locales/en.yml
+^^1584906018--2020-03-22T20:40:18+01:00--GitHub
+
+^^1584906180--2020-03-22T19:43:00+00:00--Mark Green
+
+
+0	1	config/locales/en.yml
+^^1584906494--2020-03-22T19:48:14+00:00--Mark Green
+
+
+3	1	config/locales/en.yml
+^^1584906701--2020-03-22T19:51:41+00:00--Bruce Bolt
+
+
+3	1	app/helpers/field_validation_helper.rb
+^^1584906831--2020-03-22T19:53:51+00:00--Bruce Bolt
+
+
+1	0	app/controllers/coronavirus_form/support_address_controller.rb
+27	0	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1584906850--2020-03-22T19:54:10+00:00--Toby Lorne
+
+
+9	1	config/environments/production.rb
+^^1584906917--2020-03-22T19:55:17+00:00--Mark Green
+
+
+12	12	config/locales/en.yml
+^^1584906983--2020-03-22T19:56:23+00:00--Mark Green
+
+
+2	4	config/locales/en.yml
+^^1584907172--2020-03-22T19:59:32+00:00--GitHub
+
+^^1584908667--2020-03-22T20:24:27+00:00--Nick Colley
+
+
+3	0	app/views/coronavirus_form/support_address.html.erb
+2	0	config/locales/en.yml
+^^1584908959--2020-03-22T21:29:19+01:00--GitHub
+
+^^1584909009--2020-03-22T20:30:09+00:00--Mark Green
+
+
+3	1	config/locales/en.yml
+^^1584909072--2020-03-22T20:31:12+00:00--Mark Green
+
+
+1	1	config/locales/en.yml
+^^1584909244--2020-03-22T20:34:04+00:00--Bruce Bolt
+
+
+2	2	app/controllers/coronavirus_form/medical_conditions_controller.rb
+8	1	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+^^1584909608--2020-03-22T20:40:08+00:00--GitHub
+
+^^1584909720--2020-03-22T21:42:00+01:00--GitHub
+
+^^1584909768--2020-03-22T20:42:48+00:00--Ian James
+
+
+1	0	Gemfile
+7	0	Gemfile.lock
+4	0	config/environments/production.rb
+^^1584909768--2020-03-22T20:42:48+00:00--Ian James
+
+
+30	1	app/assets/stylesheets/application.scss
+^^1584910524--2020-03-22T20:55:24+00:00--GitHub
+
+^^1584910899--2020-03-22T21:01:39+00:00--GitHub
+
+^^1584911714--2020-03-22T21:15:14+00:00--Leena Gupte
+
+
+3	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+^^1584911834--2020-03-22T21:17:14+00:00--Sean Rankine
+
+
+80	56	public/404.html
+75	55	public/500.html
+3	0	public/govuk-frontend-3.6.0.min.css
+^^1584911900--2020-03-22T21:18:20+00:00--Issy Long
+
+
+10	1	app/views/layouts/application.html.erb
+2	0	config/locales/en.yml
+^^1584912148--2020-03-22T21:22:28+00:00--GitHub
+
+^^1584912274--2020-03-22T21:24:34+00:00--GitHub
+
+^^1584912293--2020-03-22T21:24:53+00:00--GitHub
+
+^^1584912897--2020-03-22T21:34:57+00:00--Leena Gupte
+
+
+2	0	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+10	0	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+^^1584914073--2020-03-22T21:54:33+00:00--Leena Gupte
+
+
+2	1	.rubocop.yml
+^^1584914221--2020-03-22T21:57:01+00:00--Bevan Loon
+
+
+1	0	.rubocop.yml
+^^1584914222--2020-03-22T21:57:02+00:00--GitHub
+
+^^1584914311--2020-03-22T21:58:31+00:00--Nick Colley
+
+
+1	1	app/assets/stylesheets/application.scss
+1	1	config/locales/en.yml
+^^1584914338--2020-03-22T21:58:58+00:00--Nick Colley
+
+
+6	0	app/views/coronavirus_form/contact_details.html.erb
+2	0	app/views/coronavirus_form/name.html.erb
+4	0	app/views/coronavirus_form/support_address.html.erb
+^^1584914338--2020-03-22T21:58:58+00:00--Nick Colley
+
+
+6	3	app/views/coronavirus_form/date_of_birth.html.erb
+^^1584914352--2020-03-22T21:59:12+00:00--Nick Colley
+
+
+6	0	app/controllers/coronavirus_form/not_eligible_england_controller.rb
+6	0	app/controllers/coronavirus_form/not_eligible_medical_controller.rb
+4	0	app/views/coronavirus_form/not_eligible_england.html.erb
+4	0	app/views/coronavirus_form/not_eligible_medical.html.erb
+^^1584914432--2020-03-22T22:00:32+00:00--GitHub
+
+^^1584914457--2020-03-22T22:00:57+00:00--GitHub
+
+^^1584914484--2020-03-22T22:01:24+00:00--GitHub
+
+^^1584914494--2020-03-22T22:01:34+00:00--Bruce Bolt
+
+
+37	0	spec/helpers/field_validation_helper_spec.rb
+^^1584914495--2020-03-22T22:01:35+00:00--Bruce Bolt
+
+
+7	0	app/helpers/field_validation_helper.rb
+1	0	config/locales/en.yml
+15	0	spec/helpers/field_validation_helper_spec.rb
+^^1584914496--2020-03-22T22:01:36+00:00--Bruce Bolt
+
+
+1	0	Gemfile
+2	0	Gemfile.lock
+5	0	app/helpers/field_validation_helper.rb
+7	0	spec/helpers/field_validation_helper_spec.rb
+^^1584914497--2020-03-22T22:01:37+00:00--Bruce Bolt
+
+
+1	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	1	app/helpers/field_validation_helper.rb
+11	11	spec/helpers/field_validation_helper_spec.rb
+^^1584914498--2020-03-22T22:01:38+00:00--GitHub
+
+^^1584914498--2020-03-22T22:01:38+00:00--Bruce Bolt
+
+
+7	0	app/helpers/field_validation_helper.rb
+1	0	config/locales/en.yml
+15	0	spec/helpers/field_validation_helper_spec.rb
+^^1584914518--2020-03-22T22:01:58+00:00--GitHub
+
+^^1584914675--2020-03-22T23:04:35+01:00--GitHub
+
+^^1584914678--2020-03-22T22:04:38+00:00--Leena Gupte
+
+
+0	1	.rubocop.yml
+^^1584914842--2020-03-22T22:07:22+00:00--GitHub
+
+^^1584916697--2020-03-22T22:38:17+00:00--Richard Towers
+
+
+2	0	concourse/pipeline.yml
+2	0	concourse/tasks/deploy-to-govuk-paas.yml
+1	0	manifest.yml
+^^1584916904--2020-03-22T22:41:44+00:00--GitHub
+
+^^1584918128--2020-03-22T23:02:08+00:00--Nick Colley
+
+
+2	2	app/views/coronavirus_form/basic_care_needs.erb
+2	2	app/views/coronavirus_form/carry_supplies.html.erb
+1	1	app/views/coronavirus_form/contact_details.html.erb
+0	1	app/views/coronavirus_form/date_of_birth.html.erb
+2	2	app/views/coronavirus_form/dietary_requirements.html.erb
+2	2	app/views/coronavirus_form/essential_supplies.html.erb
+2	2	app/views/coronavirus_form/know_nhs_number.html.erb
+2	2	app/views/coronavirus_form/live_in_england.html.erb
+2	3	app/views/coronavirus_form/medical_conditions.html.erb
+0	1	app/views/coronavirus_form/name.html.erb
+2	2	app/views/coronavirus_form/nhs_letter.html.erb
+1	1	app/views/coronavirus_form/nhs_number.html.erb
+1	2	app/views/coronavirus_form/support_address.html.erb
+^^1584919207--2020-03-22T23:20:07+00:00--Sean Rankine
+
+
+0	1	.gitignore
+-	-	public/assets/fonts/bold-affa96571d-v2.woff
+-	-	public/assets/fonts/bold-b542beb274-v2.woff2
+-	-	public/assets/fonts/light-94a07e06a1-v2.woff2
+-	-	public/assets/fonts/light-f591b13f7d-v2.woff
+-	-	public/assets/images/govuk-crest-2x.png
+-	-	public/assets/images/govuk-crest.png
+-	-	public/assets/images/govuk-logotype-crown.png
+^^1584919423--2020-03-22T23:23:43+00:00--GitHub
+
+^^1584921791--2020-03-23T00:03:11+00:00--Matt Hobbs
+
+
+1	1	config/environments/production.rb
+^^1584924481--2020-03-23T00:48:01+00:00--GitHub
+
+^^1584945622--2020-03-23T06:40:22+00:00--Richard Towers
+
+
+0	1	config/environments/production.rb
+^^1584948137--2020-03-23T07:22:17+00:00--Bruce Bolt
+
+
+3	0	app/views/coronavirus_form/contact_details.html.erb
+^^1584949050--2020-03-23T07:37:30+00:00--Bruce Bolt
+
+
+4	4	app/controllers/coronavirus_form/contact_details_controller.rb
+3	3	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+^^1584949375--2020-03-23T07:42:55+00:00--GitHub
+
+^^1584951514--2020-03-23T08:18:34+00:00--Richard Towers
+
+
+1	0	config/initializers/dynamoid.rb
+^^1584951773--2020-03-23T08:22:53+00:00--Mark Green
+
+
+6	6	config/locales/en.yml
+^^1584952065--2020-03-23T08:27:45+00:00--GitHub
+
+^^1584952202--2020-03-23T08:30:02+00:00--Mark Green
+
+
+1	1	config/locales/en.yml
+^^1584952601--2020-03-23T08:36:41+00:00--Mark Green
+
+
+3	3	config/locales/en.yml
+^^1584952767--2020-03-23T08:39:27+00:00--Issy Long
+
+
+4	0	app/views/coronavirus_form/name.html.erb
+^^1584952872--2020-03-23T08:41:12+00:00--Mark Green
+
+
+2	2	config/locales/en.yml
+^^1584952971--2020-03-23T08:42:51+00:00--Issy Long
+
+
+1	0	app/views/coronavirus_form/nhs_letter.html.erb
+^^1584953313--2020-03-23T08:48:33+00:00--Mark Green
+
+
+1	0	config/locales/en.yml
+^^1584953356--2020-03-23T08:49:16+00:00--Issy Long
+
+
+8	7	app/views/coronavirus_form/name.html.erb
+^^1584953461--2020-03-23T08:51:01+00:00--Mark Green
+
+
+1	1	config/locales/en.yml
+^^1584953974--2020-03-23T08:59:34+00:00--GitHub
+
+
+1	1	app/views/coronavirus_form/support_address.html.erb
+^^1584954001--2020-03-23T09:00:01+00:00--GitHub
+
+^^1584954110--2020-03-23T09:01:50+00:00--Nick Colley
+
+
+18	0	app/assets/stylesheets/application.scss
+0	1	app/views/coronavirus_form/check_answers.html.erb
+1	1	app/views/layouts/application.html.erb
+^^1584954118--2020-03-23T09:01:58+00:00--GitHub
+
+^^1584954123--2020-03-23T09:02:03+00:00--Mark Green
+
+
+1	1	config/locales/en.yml
+^^1584954142--2020-03-23T09:02:22+00:00--GitHub
+
+^^1584954350--2020-03-23T09:05:50+00:00--GitHub
+
+^^1584954607--2020-03-23T09:10:07+00:00--GitHub
+
+^^1584954618--2020-03-23T09:10:18+00:00--GitHub
+
+^^1584954715--2020-03-23T09:11:55+00:00--Alex
+
+
+1	0	app/views/coronavirus_form/contact_details.html.erb
+1	0	app/views/coronavirus_form/date_of_birth.html.erb
+2	1	app/views/coronavirus_form/name.html.erb
+1	0	app/views/coronavirus_form/nhs_number.html.erb
+2	1	app/views/coronavirus_form/support_address.html.erb
+^^1584955177--2020-03-23T09:19:37+00:00--Bruce Bolt
+
+
+1	1	app/views/coronavirus_form/nhs_number.html.erb
+^^1584955459--2020-03-23T10:24:19+01:00--GitHub
+
+^^1584956055--2020-03-23T09:34:15+00:00--GitHub
+
+^^1584960681--2020-03-23T10:51:21+00:00--Bill Franklin
+
+
+2	0	concourse/pipeline.yml
+3	0	concourse/tasks/deploy-to-govuk-paas.yml
+0	2	manifest.yml
+^^1584962028--2020-03-23T12:13:48+01:00--GitHub
+
+
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1584970602--2020-03-23T13:36:42+00:00--Nick Colley
+
+
+3	0	config/environments/production.rb
+^^1584971915--2020-03-23T13:58:35+00:00--Nick Colley
+
+
+0	0	app/assets/favicon.ico
+1	1	app/views/layouts/application.html.erb
+^^1584972404--2020-03-23T14:06:44+00:00--GitHub
+
+^^1584972421--2020-03-23T14:07:01+00:00--GitHub
+
+^^1584972563--2020-03-23T14:09:23+00:00--Nick Colley
+
+
+-	-	app/assets/favicon.ico
+1	1	app/views/layouts/application.html.erb
+^^1584972727--2020-03-23T14:12:07+00:00--Nick Colley
+
+
+-	-	app/assets/favicon.ico
+^^1584973358--2020-03-23T14:22:38+00:00--GitHub
+
+^^1584974459--2020-03-23T14:40:59+00:00--Nick Colley
+
+
+-	-	app/assets/favicon.ico
+1	1	app/views/layouts/application.html.erb
+-	-	public/favicon.ico
+^^1584975311--2020-03-23T14:55:11+00:00--GitHub
+
+^^1585048563--2020-03-24T11:16:03+00:00--GitHub
+
+
+1	1	Gemfile
+5	5	Gemfile.lock
+^^1585052933--2020-03-24T12:28:53+00:00--GitHub
+
+^^1585054576--2020-03-24T12:56:16+00:00--Ian James
+
+
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+^^1585055190--2020-03-24T13:06:30+00:00--GitHub
+
+^^1585055282--2020-03-24T13:08:02+00:00--Leena Gupte
+
+
+3	0	app/controllers/application_controller.rb
+0	3	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+0	3	app/controllers/coronavirus_form/carry_supplies_controller.rb
+0	2	app/controllers/coronavirus_form/check_answers_controller.rb
+0	3	app/controllers/coronavirus_form/contact_details_controller.rb
+0	3	app/controllers/coronavirus_form/date_of_birth_controller.rb
+0	3	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+0	3	app/controllers/coronavirus_form/essential_supplies_controller.rb
+0	3	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+0	3	app/controllers/coronavirus_form/live_in_england_controller.rb
+0	3	app/controllers/coronavirus_form/medical_conditions_controller.rb
+0	3	app/controllers/coronavirus_form/name_controller.rb
+0	3	app/controllers/coronavirus_form/nhs_letter_controller.rb
+0	2	app/controllers/coronavirus_form/nhs_number_controller.rb
+0	3	app/controllers/coronavirus_form/support_address_controller.rb
+^^1585055328--2020-03-24T13:08:48+00:00--Richard Towers
+
+
+13	0	concourse/pipeline.yml
+3	0	concourse/tasks/smoke-test.yml
+^^1585055748--2020-03-24T13:15:48+00:00--Leena Gupte
+
+
+3	3	app/controllers/coronavirus_form/contact_details_controller.rb
+3	3	app/controllers/coronavirus_form/date_of_birth_controller.rb
+3	3	app/controllers/coronavirus_form/name_controller.rb
+5	5	app/controllers/coronavirus_form/support_address_controller.rb
+8	0	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585056536--2020-03-24T13:28:56+00:00--Richard Towers
+
+
+3	1	concourse/pipeline.yml
+^^1585056929--2020-03-24T13:35:29+00:00--GitHub
+
+^^1585057502--2020-03-24T13:45:02+00:00--GitHub
+
+^^1585058635--2020-03-24T14:03:55+00:00--GitHub
+
+^^1585058719--2020-03-24T14:05:19+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1585058915--2020-03-24T14:08:35+00:00--GitHub
+
+^^1585066009--2020-03-24T16:06:49+00:00--GitHub
+
+
+3	2	config/locales/en.yml
+^^1585066322--2020-03-24T16:12:02+00:00--Leena Gupte
+
+
+1	0	config/initializers/session_store.rb
+^^1585066388--2020-03-24T16:13:08+00:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1585066829--2020-03-24T16:20:29+00:00--GitHub
+
+^^1585067390--2020-03-24T16:29:50+00:00--Leena Gupte
+
+
+4	0	app/views/coronavirus_form/check_answers.html.erb
+^^1585070436--2020-03-24T17:20:36+00:00--GitHub
+
+^^1585076647--2020-03-24T19:04:07+00:00--Ian James
+
+
+1	0	app/views/coronavirus_form/carry_supplies.html.erb
+2	0	config/locales/en.yml
+^^1585107208--2020-03-25T03:33:28+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1585126366--2020-03-25T08:52:46+00:00--GitHub
+
+^^1585128309--2020-03-25T09:25:09+00:00--Ben Thorner
+
+
+1	1	README.md
+^^1585128486--2020-03-25T09:28:06+00:00--GitHub
+
+^^1585132968--2020-03-25T10:42:48+00:00--GitHub
+
+^^1585136864--2020-03-25T11:47:44+00:00--Huw Diprose
+
+
+1	1	config/environments/production.rb
+0	1	config/initializers/dynamoid.rb
+^^1585140072--2020-03-25T12:41:12+00:00--Richard Towers
+
+
+3	0	Gemfile
+6	0	Gemfile.lock
+4	0	concourse/pipeline.yml
+17	0	concourse/tasks/run-cucumber-specs.yml
+17	10	features/form.feature
+0	21	features/step_definitions/base_steps.rb
+0	8	features/step_definitions/basic_care_needs_steps.rb
+20	0	features/step_definitions/step_definitions.rb
+13	57	features/support/env.rb
+^^1585146529--2020-03-25T14:28:49+00:00--Richard Towers
+
+
+1	1	features/step_definitions/step_definitions.rb
+6	4	features/support/env.rb
+^^1585147250--2020-03-25T14:40:50+00:00--Mark Green
+
+
+2	2	config/locales/en.yml
+^^1585148118--2020-03-25T14:55:18+00:00--GitHub
+
+^^1585152183--2020-03-25T16:03:03+00:00--GitHub
+
+^^1585153590--2020-03-25T16:26:30+00:00--Sean Rankine
+
+
+10	0	app/controllers/application_controller.rb
+3	7	app/controllers/coronavirus_form/check_answers_controller.rb
+2	0	app/controllers/coronavirus_form/live_in_england_controller.rb
+2	0	app/controllers/coronavirus_form/privacy_controller.rb
+6	0	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+6	0	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/confirmation_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/name_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/not_eligible_england_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/not_eligible_medical_controller_spec.rb
+7	0	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585153629--2020-03-25T16:27:09+00:00--Sean Rankine
+
+
+8	0	features/step_definitions/live_in_england_steps.rb
+^^1585153629--2020-03-25T16:27:09+00:00--Sean Rankine
+
+
+1	1	features/step_definitions/live_in_england_steps.rb
+2	5	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/confirmation_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/name_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/not_eligible_england_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/not_eligible_medical_controller_spec.rb
+2	5	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+6	0	spec/support/shared_examples_for_controllers.rb
+^^1585153629--2020-03-25T16:27:09+00:00--Sean Rankine
+
+
+2	0	app/controllers/coronavirus_form/confirmation_controller.rb
+0	4	spec/controllers/coronavirus_form/confirmation_controller_spec.rb
+^^1585153959--2020-03-25T16:32:39+00:00--Sean Rankine
+
+
+3	6	features/form.feature
+0	8	features/step_definitions/live_in_england_steps.rb
+^^1585153960--2020-03-25T16:32:40+00:00--Sean Rankine
+
+
+14	0	spec/controllers/coronavirus_form/privacy_controller_spec.rb
+^^1585154288--2020-03-25T16:38:08+00:00--GitHub
+
+^^1585154642--2020-03-25T16:44:02+00:00--Richard Towers
+
+
+6	4	concourse/pipeline.yml
+9	2	concourse/tasks/run-cucumber-specs.yml
+^^1585155371--2020-03-25T16:56:11+00:00--Sean Rankine
+
+
+1	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1585156345--2020-03-25T17:12:25+00:00--GitHub
+
+^^1585156408--2020-03-25T17:13:28+00:00--GitHub
+
+^^1585160440--2020-03-25T18:20:40+00:00--Mark Green
+
+
+2	1	config/locales/en.yml
+^^1585160748--2020-03-25T18:25:48+00:00--GitHub
+
+^^1585193625--2020-03-26T03:33:45+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1585209499--2020-03-26T07:58:19+00:00--GitHub
+
+^^1585219780--2020-03-26T10:49:40+00:00--Sean Rankine
+
+
+9	3	features/form.feature
+11	7	features/step_definitions/step_definitions.rb
+^^1585222247--2020-03-26T11:30:47+00:00--Sean Rankine
+
+
+26	0	features/form.feature
+30	4	features/step_definitions/step_definitions.rb
+^^1585234833--2020-03-26T15:00:33+00:00--Sean Rankine
+
+
+37	20	features/form.feature
+7	23	features/step_definitions/{step_definitions.rb => question_step_definitions.rb}
+7	28	features/step_definitions/step_definitions.rb
+^^1585235576--2020-03-26T15:12:56+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1585235839--2020-03-26T15:17:19+00:00--GitHub
+
+^^1585241477--2020-03-26T16:51:17+00:00--GitHub
+
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+4	4	app/controllers/coronavirus_form/check_answers_controller.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+2	44	app/controllers/coronavirus_form/check_answers_controller.rb
+4	36	app/{controllers/coronavirus_form/check_answers_controller.rb => helpers/answers_helper.rb}
+1	1	app/views/coronavirus_form/check_answers.html.erb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+16	8	app/helpers/answers_helper.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+43	0	spec/helpers/answers_helper_spec.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+36	0	spec/helpers/answers_helper_spec.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+15	0	spec/helpers/answers_helper_spec.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+15	0	spec/helpers/answers_helper_spec.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+8	0	spec/helpers/answers_helper_spec.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+15	0	spec/helpers/answers_helper_spec.rb
+^^1585241588--2020-03-26T16:53:08+00:00--Leena Gupte
+
+
+5	11	app/helpers/answers_helper.rb
+2	2	spec/helpers/answers_helper_spec.rb
+^^1585241824--2020-03-26T16:57:04+00:00--GitHub
+
+^^1585243076--2020-03-26T17:17:56+00:00--Ian James
+
+
+1	1	public/404.html
+1	1	public/500.html
+3	0	public/assets/error-pages.85f433bf6332a1245653b92b44d2430a55810be0.min.css
+0	3	public/govuk-frontend-3.6.0.min.css
+^^1585245788--2020-03-26T18:03:08+00:00--Leena Gupte
+
+
+1	1	app/helpers/answers_helper.rb
+6	0	spec/helpers/answers_helper_spec.rb
+^^1585245985--2020-03-26T18:06:25+00:00--GitHub
+
+^^1585313731--2020-03-27T12:55:31+00:00--Mark Green
+
+
+1	1	config/locales/en.yml
+^^1585314045--2020-03-27T13:00:45+00:00--GitHub
+
+^^1585319087--2020-03-27T14:24:47+00:00--Leena Gupte
+
+
+1	1	config/initializers/session_store.rb
+^^1585320620--2020-03-27T14:50:20+00:00--GitHub
+
+^^1585325997--2020-03-27T16:19:57+00:00--Leena Gupte
+
+
+1	1	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+1	1	app/controllers/coronavirus_form/carry_supplies_controller.rb
+3	3	app/controllers/coronavirus_form/contact_details_controller.rb
+3	3	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+1	1	app/controllers/coronavirus_form/live_in_england_controller.rb
+1	1	app/controllers/coronavirus_form/medical_conditions_controller.rb
+3	3	app/controllers/coronavirus_form/name_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_number_controller.rb
+5	5	app/controllers/coronavirus_form/support_address_controller.rb
+16	0	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+17	0	spec/controllers/coronavirus_form/name_controller_spec.rb
+20	0	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585327580--2020-03-27T16:46:20+00:00--GitHub
+
+
+1	0	config/locales/en.yml
+^^1585327880--2020-03-27T16:51:20+00:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1585328083--2020-03-27T16:54:43+00:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1585329828--2020-03-27T17:23:48+00:00--GitHub
+
+^^1585412335--2020-03-28T16:18:55+00:00--GitHub
+
+
+1	0	concourse/pipeline.yml
+^^1585412575--2020-03-28T16:22:55+00:00--GitHub
+
+
+1	0	concourse/pipeline.yml
+^^1585415858--2020-03-28T17:17:38+00:00--ChrisBAshton
+
+
+20	4	config/locales/en.yml
+^^1585416014--2020-03-28T17:20:14+00:00--GitHub
+
+^^1585417076--2020-03-28T17:37:56+00:00--Issy Long
+
+
+1	1	config/locales/en.yml
+^^1585417650--2020-03-28T17:47:30+00:00--GitHub
+
+^^1585421630--2020-03-28T18:53:50+00:00--Andrew White
+
+
+1	1	Gemfile
+4	6	Gemfile.lock
+^^1585426297--2020-03-28T20:11:37+00:00--Richard Towers
+
+
+2	0	.dockerignore
+22	6	concourse/pipeline.yml
+5	15	concourse/tasks/run-cucumber-specs.yml
+27	0	features/Dockerfile
+9	0	features/support/env.rb
+^^1585430655--2020-03-28T21:24:15+00:00--Andrew White
+
+
+52	50	config/routes.rb
+^^1585430676--2020-03-28T21:24:36+00:00--Andrew White
+
+
+3	1	app/controllers/application_controller.rb
+4	11	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+3	12	app/controllers/coronavirus_form/carry_supplies_controller.rb
+2	2	app/controllers/coronavirus_form/check_answers_controller.rb
+0	4	app/controllers/coronavirus_form/confirmation_controller.rb
+3	10	app/controllers/coronavirus_form/contact_details_controller.rb
+4	7	app/controllers/coronavirus_form/date_of_birth_controller.rb
+4	11	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+4	11	app/controllers/coronavirus_form/essential_supplies_controller.rb
+5	12	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+5	12	app/controllers/coronavirus_form/live_in_england_controller.rb
+5	12	app/controllers/coronavirus_form/medical_conditions_controller.rb
+4	7	app/controllers/coronavirus_form/name_controller.rb
+4	11	app/controllers/coronavirus_form/nhs_letter_controller.rb
+3	10	app/controllers/coronavirus_form/nhs_number_controller.rb
+0	4	app/controllers/coronavirus_form/not_eligible_england_controller.rb
+0	4	app/controllers/coronavirus_form/not_eligible_medical_controller.rb
+0	4	app/controllers/coronavirus_form/privacy_controller.rb
+6	9	app/controllers/coronavirus_form/support_address_controller.rb
+^^1585430687--2020-03-28T21:24:47+00:00--Andrew White
+
+
+3	1	app/controllers/application_controller.rb
+4	1	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+4	1	app/controllers/coronavirus_form/carry_supplies_controller.rb
+4	1	app/controllers/coronavirus_form/contact_details_controller.rb
+4	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+4	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+4	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+4	1	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+4	1	app/controllers/coronavirus_form/live_in_england_controller.rb
+4	1	app/controllers/coronavirus_form/medical_conditions_controller.rb
+4	1	app/controllers/coronavirus_form/name_controller.rb
+4	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+4	1	app/controllers/coronavirus_form/nhs_number_controller.rb
+4	1	app/controllers/coronavirus_form/support_address_controller.rb
+^^1585539413--2020-03-30T03:36:53+00:00--GitHub
+
+
+3	2	Gemfile.lock
+^^1585554256--2020-03-30T08:44:16+01:00--GitHub
+
+^^1585558191--2020-03-30T09:49:51+01:00--GitHub
+
+^^1585558472--2020-03-30T09:54:32+01:00--GitHub
+
+^^1585558515--2020-03-30T09:55:15+01:00--GitHub
+
+^^1585558805--2020-03-30T10:00:05+01:00--Richard Towers
+
+
+2	2	concourse/pipeline.yml
+^^1585558832--2020-03-30T10:00:32+01:00--GitHub
+
+^^1585560373--2020-03-30T10:26:13+01:00--GitHub
+
+^^1585560406--2020-03-30T10:26:46+01:00--GitHub
+
+^^1585561367--2020-03-30T10:42:47+01:00--Leena Gupte
+
+
+7	1	app/helpers/answers_helper.rb
+20	1	spec/helpers/answers_helper_spec.rb
+^^1585562245--2020-03-30T10:57:25+01:00--GitHub
+
+^^1585565072--2020-03-30T11:44:32+01:00--Richard Towers
+
+
+19	1	concourse/pipeline.yml
+^^1585565473--2020-03-30T11:51:13+01:00--Leena Gupte
+
+
+5	0	app/controllers/coronavirus_form/session_expired_controller.rb
+17	0	app/views/coronavirus_form/session_expired.html.erb
+6	0	config/locales/en.yml
+2	0	config/routes.rb
+14	0	spec/controllers/coronavirus_form/session_expired_controller_spec.rb
+^^1585565473--2020-03-30T11:51:13+01:00--Leena Gupte
+
+
+7	0	app/controllers/application_controller.rb
+1	0	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+2	0	spec/controllers/coronavirus_form/live_in_england_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/name_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+9	0	spec/support/shared_examples_for_controllers.rb
+^^1585566749--2020-03-30T12:12:29+01:00--Ian James
+
+
+5	0	app/controllers/coronavirus_form/accessibility_statement_controller.rb
+8	0	app/views/coronavirus_form/accessibility_statement.html.erb
+5	1	app/views/layouts/application.html.erb
+21	2	config/locales/en.yml
+1	0	config/routes.rb
+^^1585568551--2020-03-30T12:42:31+01:00--Ian James
+
+
+14	0	spec/controllers/coronavirus_form/accessibility_statement_controller_spec.rb
+^^1585569473--2020-03-30T12:57:53+01:00--GitHub
+
+^^1585569537--2020-03-30T12:58:57+01:00--Leena Gupte
+
+
+1	1	app/helpers/answers_helper.rb
+11	0	spec/helpers/answers_helper_spec.rb
+^^1585572998--2020-03-30T13:56:38+01:00--GitHub
+
+^^1585573080--2020-03-30T13:58:00+01:00--GitHub
+
+^^1585576125--2020-03-30T14:48:45+01:00--Leena Gupte
+
+
+1	1	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+1	1	app/controllers/coronavirus_form/contact_details_controller.rb
+1	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+1	1	app/controllers/coronavirus_form/live_in_england_controller.rb
+1	1	app/controllers/coronavirus_form/medical_conditions_controller.rb
+1	1	app/controllers/coronavirus_form/name_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_number_controller.rb
+1	1	app/controllers/coronavirus_form/support_address_controller.rb
+^^1585576210--2020-03-30T14:50:10+01:00--Leena Gupte
+
+
+8	8	app/controllers/coronavirus_form/date_of_birth_controller.rb
+3	3	app/views/coronavirus_form/date_of_birth.html.erb
+^^1585576367--2020-03-30T14:52:47+01:00--Leena Gupte
+
+
+7	7	app/controllers/coronavirus_form/name_controller.rb
+3	3	app/views/coronavirus_form/name.html.erb
+^^1585576367--2020-03-30T14:52:47+01:00--Leena Gupte
+
+
+1	1	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1585576367--2020-03-30T14:52:47+01:00--Leena Gupte
+
+
+3	3	app/views/coronavirus_form/contact_details.html.erb
+13	5	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+^^1585576419--2020-03-30T14:53:39+01:00--Leena Gupte
+
+
+6	6	app/controllers/coronavirus_form/date_of_birth_controller.rb
+3	3	app/views/coronavirus_form/date_of_birth.html.erb
+10	2	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+^^1585576461--2020-03-30T14:54:21+01:00--Leena Gupte
+
+
+4	4	app/controllers/coronavirus_form/name_controller.rb
+3	3	app/views/coronavirus_form/name.html.erb
+8	8	spec/controllers/coronavirus_form/name_controller_spec.rb
+^^1585576507--2020-03-30T14:55:07+01:00--Leena Gupte
+
+
+10	10	app/controllers/coronavirus_form/support_address_controller.rb
+5	5	app/views/coronavirus_form/support_address.html.erb
+13	13	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585576602--2020-03-30T14:56:42+01:00--Leena Gupte
+
+
+4	4	app/controllers/coronavirus_form/contact_details_controller.rb
+3	3	app/views/coronavirus_form/contact_details.html.erb
+^^1585576623--2020-03-30T14:57:03+01:00--GitHub
+
+^^1585576711--2020-03-30T14:58:31+01:00--Sean Rankine
+
+
+1	1	config/environments/production.rb
+1	0	config/initializers/dynamoid.rb
+^^1585576713--2020-03-30T14:58:33+01:00--Sean Rankine
+
+
+1	1	config/initializers/filter_parameter_logging.rb
+^^1585577391--2020-03-30T15:09:51+01:00--Sean Rankine
+
+
+1	1	config/environments/production.rb
+^^1585577499--2020-03-30T15:11:39+01:00--Richard Towers
+
+
+3	3	concourse/pipeline.yml
+^^1585578977--2020-03-30T15:36:17+01:00--Leena Gupte
+
+
+5	1	app/controllers/coronavirus_form/contact_details_controller.rb
+3	3	app/controllers/coronavirus_form/date_of_birth_controller.rb
+2	2	app/controllers/coronavirus_form/name_controller.rb
+8	7	app/controllers/coronavirus_form/support_address_controller.rb
+^^1585578977--2020-03-30T15:36:17+01:00--Leena Gupte
+
+
+1	1	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/name_controller_spec.rb
+^^1585578977--2020-03-30T15:36:17+01:00--Leena Gupte
+
+
+3	3	app/controllers/coronavirus_form/contact_details_controller.rb
+^^1585578977--2020-03-30T15:36:17+01:00--Leena Gupte
+
+
+1	1	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585578977--2020-03-30T15:36:17+01:00--Leena Gupte
+
+
+1	1	app/controllers/coronavirus_form/support_address_controller.rb
+^^1585578977--2020-03-30T15:36:17+01:00--Leena Gupte
+
+
+1	1	app/controllers/coronavirus_form/contact_details_controller.rb
+^^1585578977--2020-03-30T15:36:17+01:00--Leena Gupte
+
+
+0	1	app/controllers/coronavirus_form/support_address_controller.rb
+2	2	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585579352--2020-03-30T15:42:32+01:00--GitHub
+
+^^1585579806--2020-03-30T15:50:06+01:00--Leena Gupte
+
+
+5	5	app/helpers/answers_helper.rb
+28	28	spec/helpers/answers_helper_spec.rb
+^^1585580180--2020-03-30T15:56:20+01:00--Leena Gupte
+
+
+3	3	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+^^1585580194--2020-03-30T15:56:34+01:00--Leena Gupte
+
+
+3	3	spec/controllers/coronavirus_form/name_controller_spec.rb
+^^1585580212--2020-03-30T15:56:52+01:00--Leena Gupte
+
+
+5	5	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585581719--2020-03-30T16:21:59+01:00--Sean Rankine
+
+
+2	0	Gemfile
+26	0	Gemfile.lock
+12	0	config/initializers/asset_sync.rb
+^^1585581744--2020-03-30T16:22:24+01:00--Sean Rankine
+
+
+2	0	concourse/pipeline.yml
+1	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1585581936--2020-03-30T16:25:36+01:00--GitHub
+
+^^1585582237--2020-03-30T16:30:37+01:00--Leena Gupte
+
+
+3	3	app/controllers/coronavirus_form/date_of_birth_controller.rb
+^^1585582251--2020-03-30T16:30:51+01:00--Leena Gupte
+
+
+1	1	app/controllers/coronavirus_form/nhs_number_controller.rb
+^^1585582276--2020-03-30T16:31:16+01:00--Leena Gupte
+
+
+3	3	app/views/coronavirus_form/contact_details.html.erb
+5	5	app/views/coronavirus_form/support_address.html.erb
+^^1585583200--2020-03-30T16:46:40+01:00--Leena Gupte
+
+
+0	5	app/controllers/coronavirus_form/name_controller.rb
+3	3	app/views/coronavirus_form/name.html.erb
+^^1585583415--2020-03-30T16:50:15+01:00--Leena Gupte
+
+
+0	5	app/controllers/coronavirus_form/support_address_controller.rb
+^^1585583454--2020-03-30T16:50:54+01:00--Leena Gupte
+
+
+0	5	app/controllers/coronavirus_form/date_of_birth_controller.rb
+3	3	app/views/coronavirus_form/date_of_birth.html.erb
+^^1585596196--2020-03-30T20:23:16+01:00--Ian James
+
+
+2	2	app/assets/javascripts/application.js
+^^1585641632--2020-03-31T09:00:32+01:00--Mark Green
+
+
+1	1	config/locales/en.yml
+^^1585644935--2020-03-31T09:55:35+01:00--GitHub
+
+
+34	31	config/locales/en.yml
+^^1585645069--2020-03-31T09:57:49+01:00--Sean Rankine
+
+
+1	0	Gemfile
+6	0	Gemfile.lock
+7	0	config/initializers/lograge.rb
+^^1585645511--2020-03-31T10:05:11+01:00--GitHub
+
+^^1585646050--2020-03-31T10:14:10+01:00--GitHub
+
+
+3	2	config/locales/en.yml
+^^1585647451--2020-03-31T10:37:31+01:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1585647616--2020-03-31T10:40:16+01:00--GitHub
+
+^^1585650657--2020-03-31T11:30:57+01:00--GitHub
+
+^^1585650739--2020-03-31T10:32:19+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1585653655--2020-03-31T12:20:55+01:00--GitHub
+
+^^1585654549--2020-03-31T12:35:49+01:00--Bruce Bolt
+
+
+1	1	app/controllers/coronavirus_form/contact_details_controller.rb
+1	1	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+2	2	app/controllers/coronavirus_form/medical_conditions_controller.rb
+1	1	app/controllers/coronavirus_form/name_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+2	6	features/form.feature
+1	1	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1585657964--2020-03-31T13:32:44+01:00--Leena Gupte
+
+
+5	5	app/helpers/answers_helper.rb
+3	3	app/views/coronavirus_form/contact_details.html.erb
+3	3	app/views/coronavirus_form/date_of_birth.html.erb
+3	3	app/views/coronavirus_form/name.html.erb
+5	5	app/views/coronavirus_form/support_address.html.erb
+20	20	spec/helpers/answers_helper_spec.rb
+^^1585658449--2020-03-31T13:40:49+01:00--GitHub
+
+^^1585659456--2020-03-31T13:57:36+01:00--GitHub
+
+^^1585659743--2020-03-31T14:02:23+01:00--GitHub
+
+^^1585662644--2020-03-31T14:50:44+01:00--Sean Rankine
+
+
+0	1	Gemfile
+0	2	Gemfile.lock
+0	12	config/environments/production.rb
+^^1585662686--2020-03-31T14:51:26+01:00--Sean Rankine
+
+
+1	0	config/initializers/lograge.rb
+^^1585666112--2020-03-31T15:48:32+01:00--GitHub
+
+^^1585739748--2020-04-01T12:15:48+01:00--GitHub
+
+^^1585739850--2020-04-01T12:17:30+01:00--Issy Long
+
+
+7	0	concourse/pipeline.yml
+^^1585744928--2020-04-01T13:42:08+01:00--GitHub
+
+^^1585745040--2020-04-01T13:44:00+01:00--Richard Towers
+
+
+1	1	concourse/pipeline.yml
+^^1585745163--2020-04-01T13:46:03+01:00--GitHub
+
+^^1585745200--2020-04-01T13:46:40+01:00--Richard Towers
+
+
+0	13	concourse/pipeline.yml
+^^1585747592--2020-04-01T14:26:32+01:00--Huw Diprose
+
+
+5	1	app/controllers/application_controller.rb
+^^1585747901--2020-04-01T14:31:41+01:00--GitHub
+
+^^1585754787--2020-04-01T16:26:27+01:00--Alex
+
+
+8	13	app/views/coronavirus_form/check_answers.html.erb
+5	5	config/locales/en.yml
+^^1585756079--2020-04-01T16:47:59+01:00--GitHub
+
+^^1585761384--2020-04-01T18:16:24+01:00--GitHub
+
+^^1585816639--2020-04-02T09:37:19+01:00--GitHub
+
+^^1585816678--2020-04-02T09:37:58+01:00--GitHub
+
+^^1585817387--2020-04-02T09:49:47+01:00--Ian James
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1585817726--2020-04-02T09:55:26+01:00--GitHub
+
+^^1585830576--2020-04-02T13:29:36+01:00--Huw Diprose
+
+
+22	22	config/routes.rb
+^^1585832363--2020-04-02T13:59:23+01:00--GitHub
+
+^^1585884962--2020-04-03T03:36:02+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1585901469--2020-04-03T09:11:09+01:00--GitHub
+
+^^1585921734--2020-04-03T14:48:54+01:00--Bill Franklin
+
+
+1	21	app/controllers/coronavirus_form/support_address_controller.rb
+0	1	config/locales/en.yml
+0	11	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1585922045--2020-04-03T14:54:05+01:00--Bill Franklin
+
+
+11	0	.gitignore
+^^1585922243--2020-04-03T15:57:23+02:00--GitHub
+
+^^1585922356--2020-04-03T15:59:16+02:00--GitHub
+
+^^1585923586--2020-04-03T15:19:46+01:00--Bruce Bolt
+
+
+4	0	.rubocop.yml
+4	0	config/environments/development.rb
+7	0	config/environments/production.rb
+^^1585923909--2020-04-03T15:25:09+01:00--Bill Franklin
+
+
+3	0	.gitignore
+^^1585924050--2020-04-03T15:27:30+01:00--Bill Franklin
+
+
+0	3	.gitignore
+-	-	public/assets/bold-affa96571d-v2-5a2a925237869837d1afdd0a70ffded0717296d2d25885865d19c0da7f3ece5d.woff
+-	-	public/assets/bold-b542beb274-v2-06eba01b1af0f4014b484c711771fef1db30becbf0edf481498da1e4958d3d47.woff2
+-	-	public/assets/govuk-crest-2x-c6548884b516041752fc4156a50f084ca387b1e37e4f4668cd109058d924b197.png
+-	-	public/assets/govuk-crest-bb9e22aff7881b895c2ceb41d9340804451c474b883f09fe1b4026e76456f44b.png
+-	-	public/assets/govuk-logotype-crown-0cdbde943be3a6518a5d7c00b607d134f4d5e3d0e8c68a1bfa2dc81f1f3edc4e.png
+-	-	public/assets/light-94a07e06a1-v2-eedfb3c2f7945caebd0b15522b59d6c7f01be17fecd6102fd76452ad4042f7b0.woff2
+-	-	public/assets/light-f591b13f7d-v2-091aa3008e57dfeea899e33243c1d4ea95bab658f1cc2191679193bcbfac0b7b.woff
+^^1585924414--2020-04-03T15:33:34+01:00--GitHub
+
+^^1585925302--2020-04-03T16:48:22+02:00--GitHub
+
+^^1585928692--2020-04-03T16:44:52+01:00--Bruce Bolt
+
+
+5	16	app/views/coronavirus_form/nhs_number.html.erb
+4	3	config/locales/en.yml
+^^1586144144--2020-04-06T03:35:44+00:00--GitHub
+
+
+1	1	Gemfile
+8	8	Gemfile.lock
+^^1586144200--2020-04-06T03:36:40+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1586156152--2020-04-06T07:55:52+01:00--GitHub
+
+^^1586156332--2020-04-06T07:58:52+01:00--GitHub
+
+^^1586156416--2020-04-06T07:00:16+00:00--GitHub
+
+
+3	3	Gemfile.lock
+^^1586161089--2020-04-06T09:18:09+01:00--GitHub
+
+^^1586161631--2020-04-06T09:27:11+01:00--GitHub
+
+^^1586162327--2020-04-06T09:38:47+01:00--Bruce Bolt
+
+
+2	2	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+^^1586162328--2020-04-06T09:38:48+01:00--Bruce Bolt
+
+
+2	1	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1586162367--2020-04-06T09:39:27+01:00--Bruce Bolt
+
+
+1	0	app/controllers/application_controller.rb
+6	3	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+5	3	app/controllers/coronavirus_form/carry_supplies_controller.rb
+10	7	app/controllers/coronavirus_form/contact_details_controller.rb
+12	7	app/controllers/coronavirus_form/date_of_birth_controller.rb
+6	3	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+6	3	app/controllers/coronavirus_form/essential_supplies_controller.rb
+14	7	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+8	4	app/controllers/coronavirus_form/live_in_england_controller.rb
+8	4	app/controllers/coronavirus_form/medical_conditions_controller.rb
+10	5	app/controllers/coronavirus_form/name_controller.rb
+6	3	app/controllers/coronavirus_form/nhs_letter_controller.rb
+6	3	app/controllers/coronavirus_form/nhs_number_controller.rb
+17	12	app/controllers/coronavirus_form/support_address_controller.rb
+2	2	app/helpers/field_validation_helper.rb
+1	1	app/views/coronavirus_form/basic_care_needs.erb
+1	1	app/views/coronavirus_form/carry_supplies.html.erb
+3	3	app/views/coronavirus_form/contact_details.html.erb
+3	3	app/views/coronavirus_form/date_of_birth.html.erb
+1	1	app/views/coronavirus_form/dietary_requirements.html.erb
+1	1	app/views/coronavirus_form/essential_supplies.html.erb
+1	1	app/views/coronavirus_form/know_nhs_number.html.erb
+1	1	app/views/coronavirus_form/live_in_england.html.erb
+3	3	app/views/coronavirus_form/medical_conditions.html.erb
+3	3	app/views/coronavirus_form/name.html.erb
+1	1	app/views/coronavirus_form/nhs_letter.html.erb
+1	1	app/views/coronavirus_form/nhs_number.html.erb
+5	5	app/views/coronavirus_form/support_address.html.erb
+^^1586162546--2020-04-06T09:42:26+01:00--GitHub
+
+^^1586162933--2020-04-06T09:48:53+01:00--Bruce Bolt
+
+
+2	2	app/controllers/coronavirus_form/live_in_england_controller.rb
+2	2	app/controllers/coronavirus_form/medical_conditions_controller.rb
+^^1586163046--2020-04-06T09:50:46+01:00--Bruce Bolt
+
+
+0	12	app/helpers/field_validation_helper.rb
+^^1586163359--2020-04-06T09:55:59+01:00--GitHub
+
+^^1586230392--2020-04-07T03:33:12+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1586248198--2020-04-07T09:29:58+01:00--GitHub
+
+^^1586269364--2020-04-07T15:22:44+01:00--Bill Franklin
+
+
+1	2	concourse/pipeline.yml
+^^1586270657--2020-04-07T16:44:17+02:00--GitHub
+
+^^1586358887--2020-04-08T16:14:47+01:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1586363785--2020-04-08T17:36:25+01:00--GitHub
+
+^^1586423555--2020-04-09T10:12:35+01:00--Bill Franklin
+
+
+14	16	config/locales/en.yml
+^^1586423766--2020-04-09T10:16:06+01:00--Bill Franklin
+
+
+1	1	config/locales/en.yml
+^^1586424585--2020-04-09T11:29:45+02:00--GitHub
+
+^^1586427288--2020-04-09T11:14:48+01:00--Issy Long
+
+
+5	5	config/locales/en.yml
+^^1586427806--2020-04-09T11:23:26+01:00--GitHub
+
+^^1586438755--2020-04-09T14:25:55+01:00--Issy Long
+
+
+0	1	manifest.yml
+^^1586460242--2020-04-09T20:24:02+01:00--GitHub
+
+^^1586489339--2020-04-10T03:28:59+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1586682120--2020-04-12T10:02:00+01:00--GitHub
+
+^^1586692649--2020-04-12T12:57:29+01:00--Bruce Bolt
+
+
+8	5	config/locales/en.yml
+3	3	features/form.feature
+7	2	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+^^1586692650--2020-04-12T12:57:30+01:00--Bruce Bolt
+
+
+6	0	app/controllers/coronavirus_form/check_answers_controller.rb
+16	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1586692651--2020-04-12T12:57:31+01:00--Bruce Bolt
+
+
+3	3	config/locales/en.yml
+^^1586692652--2020-04-12T12:57:32+01:00--Bruce Bolt
+
+
+9	2	app/controllers/coronavirus_form/nhs_letter_controller.rb
+8	2	features/form.feature
+12	2	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1586692653--2020-04-12T12:57:33+01:00--Bruce Bolt
+
+
+2	1	app/helpers/answers_helper.rb
+15	0	spec/helpers/answers_helper_spec.rb
+^^1586692654--2020-04-12T12:57:34+01:00--Bruce Bolt
+
+
+1	1	app/controllers/coronavirus_form/name_controller.rb
+^^1586696478--2020-04-12T14:01:18+01:00--GitHub
+
+^^1586697532--2020-04-12T14:18:52+01:00--Bruce Bolt
+
+
+1	1	app/controllers/coronavirus_form/name_controller.rb
+^^1586697565--2020-04-12T14:19:25+01:00--Bruce Bolt
+
+
+1	2	app/helpers/answers_helper.rb
+0	15	spec/helpers/answers_helper_spec.rb
+^^1586697575--2020-04-12T14:19:35+01:00--Bruce Bolt
+
+
+2	9	app/controllers/coronavirus_form/nhs_letter_controller.rb
+2	8	features/form.feature
+2	12	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1586698272--2020-04-12T14:31:12+01:00--GitHub
+
+^^1586700095--2020-04-12T15:01:35+01:00--Bruce Bolt
+
+
+26	26	config/locales/en.yml
+^^1586701319--2020-04-12T15:21:59+01:00--GitHub
+
+^^1586748639--2020-04-13T03:30:39+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1586748692--2020-04-13T03:31:32+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1586768571--2020-04-13T10:02:51+01:00--GitHub
+
+^^1586772135--2020-04-13T11:02:15+01:00--GitHub
+
+^^1586857314--2020-04-14T10:41:54+01:00--Huw Diprose
+
+
+38	0	.github/workflows/tests.yml
+3	0	.travis.yml
+2	0	README.md
+^^1586857684--2020-04-14T10:48:04+01:00--GitHub
+
+^^1586861870--2020-04-14T11:57:50+01:00--Leena Gupte
+
+
+1	1	app/controllers/coronavirus_form/support_address_controller.rb
+5	5	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1586870127--2020-04-14T14:15:27+01:00--GitHub
+
+^^1586949215--2020-04-15T12:13:35+01:00--Leena Gupte
+
+
+1	7	.github/workflows/tests.yml
+^^1586949867--2020-04-15T12:24:27+01:00--GitHub
+
+^^1587027090--2020-04-16T09:51:30+01:00--Bill Franklin
+
+
+25	0	app/assets/javascripts/analytics.js.erb
+7	0	app/assets/javascripts/application.js
+77	0	app/assets/javascripts/cookies.js
+4	0	app/assets/stylesheets/application.scss
+29	0	app/assets/stylesheets/cookie-settings.scss
+9	6	app/controllers/application_controller.rb
+19	0	app/controllers/coronavirus_form/cookies_controller.rb
+21	0	app/helpers/form_flow_helper.rb
+77	0	app/views/coronavirus_form/cookies.html.erb
+28	0	app/views/layouts/application.html.erb
+2	0	concourse/tasks/deploy-to-govuk-paas.yml
+2	0	config/environments/development.rb
+2	0	config/environments/production.rb
+2	0	config/environments/test.rb
+1	0	config/initializers/session_store.rb
+56	0	config/locales/en.yml
+1	0	config/routes.rb
+^^1587029143--2020-04-16T10:25:43+01:00--GitHub
+
+^^1587029861--2020-04-16T10:37:41+01:00--Issy Long
+
+
+9	0	.github/workflows/tests.yml
+^^1587030281--2020-04-16T10:44:41+01:00--GitHub
+
+^^1587032792--2020-04-16T11:26:32+01:00--Bill Franklin
+
+
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1587033143--2020-04-16T11:32:23+01:00--GitHub
+
+^^1587051527--2020-04-16T16:38:47+01:00--Issy Long
+
+
+2	2	.github/workflows/tests.yml
+^^1587052610--2020-04-16T16:56:50+01:00--GitHub
+
+^^1587053558--2020-04-16T17:12:38+01:00--Issy Long
+
+
+1	1	.github/workflows/tests.yml
+^^1587054081--2020-04-16T17:21:21+01:00--GitHub
+
+^^1587054721--2020-04-16T17:32:01+01:00--Leena Gupte
+
+
+2	2	config/database.yml
+^^1587055198--2020-04-16T17:39:58+01:00--GitHub
+
+^^1587107368--2020-04-17T08:09:28+01:00--Graham Lewis
+
+
+1	1	app/views/coronavirus_form/basic_care_needs.erb
+1	1	app/views/coronavirus_form/carry_supplies.html.erb
+1	1	app/views/coronavirus_form/contact_details.html.erb
+1	1	app/views/coronavirus_form/date_of_birth.html.erb
+1	1	app/views/coronavirus_form/dietary_requirements.html.erb
+1	1	app/views/coronavirus_form/essential_supplies.html.erb
+1	1	app/views/coronavirus_form/know_nhs_number.html.erb
+1	1	app/views/coronavirus_form/live_in_england.html.erb
+1	1	app/views/coronavirus_form/medical_conditions.html.erb
+1	1	app/views/coronavirus_form/name.html.erb
+1	1	app/views/coronavirus_form/nhs_letter.html.erb
+1	1	app/views/coronavirus_form/nhs_number.html.erb
+1	1	app/views/coronavirus_form/support_address.html.erb
+1	0	config/locales/en.yml
+^^1587109472--2020-04-17T08:44:32+01:00--Graham Lewis
+
+
+2	2	Gemfile
+11	27	Gemfile.lock
+8	4	concourse/pipeline.yml
+3	2	concourse/tasks/{run-cucumber-specs.yml => run-smoke-tests.yml}
+0	9	config/cucumber.yml
+40	0	config/environments/smoke_test.rb
+0	61	features/form.feature
+0	0	features/step_definitions/.gitkeep
+0	34	features/step_definitions/question_step_definitions.rb
+0	29	features/step_definitions/step_definitions.rb
+0	26	features/support/env.rb
+0	78	lib/tasks/cucumber.rake
+0	11	script/cucumber
+0	0	{features => spec}/Dockerfile
+78	0	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+13	5	spec/spec_helper.rb
+33	0	spec/support/env.rb
+148	0	spec/support/fill_in_the_form_steps.rb
+^^1587116746--2020-04-17T10:45:46+01:00--GitHub
+
+^^1587116826--2020-04-17T09:47:06+00:00--GitHub
+
+
+10	7	Gemfile.lock
+^^1587117607--2020-04-17T11:00:07+01:00--Bill Franklin
+
+
+12	5	app/controllers/coronavirus_form/check_answers_controller.rb
+2	0	config/application.rb
+9	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+2	2	spec/helpers/answers_helper_spec.rb
+1	1	spec/support/fill_in_the_form_steps.rb
+^^1587124232--2020-04-17T12:50:32+01:00--GitHub
+
+^^1587129144--2020-04-17T14:12:24+01:00--Bruce Bolt
+
+
+1	0	config/initializers/asset_sync.rb
+^^1587129145--2020-04-17T14:12:25+01:00--Bruce Bolt
+
+
+2	0	config/environments/production.rb
+^^1587129182--2020-04-17T14:13:02+01:00--Bruce Bolt
+
+
+4	0	app/controllers/application_controller.rb
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+10	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1587129972--2020-04-17T14:26:12+01:00--GitHub
+
+^^1587131268--2020-04-17T14:47:48+01:00--GitHub
+
+^^1587131428--2020-04-17T14:50:28+01:00--GitHub
+
+^^1587131513--2020-04-17T13:51:53+00:00--GitHub
+
+
+1	1	Gemfile
+4	4	Gemfile.lock
+^^1587131851--2020-04-17T14:57:31+01:00--Rosa Fox
+
+
+3	3	{spec => concourse}/Dockerfile
+1	1	concourse/pipeline.yml
+^^1587132094--2020-04-17T15:01:34+01:00--Rosa Fox
+
+
+0	9	.travis.yml
+^^1587133202--2020-04-17T15:20:02+01:00--GitHub
+
+^^1587133278--2020-04-17T15:21:18+01:00--Bill Franklin
+
+
+7	7	app/controllers/application_controller.rb
+^^1587133500--2020-04-17T15:25:00+01:00--GitHub
+
+^^1587135508--2020-04-17T15:58:28+01:00--GitHub
+
+^^1587141744--2020-04-17T17:42:24+01:00--Rosa Fox
+
+
+20	36	concourse/pipeline.yml
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+3	3	concourse/tasks/run-smoke-tests.yml
+^^1587141744--2020-04-17T17:42:24+01:00--Rosa Fox
+
+
+5	1	concourse/Dockerfile
+51	17	concourse/pipeline.yml
+^^1587142414--2020-04-17T17:53:34+01:00--GitHub
+
+
+0	1	concourse/Dockerfile
+^^1587143991--2020-04-17T18:19:51+01:00--GitHub
+
+
+13	13	concourse/pipeline.yml
+^^1587144163--2020-04-17T17:22:43+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1587146979--2020-04-17T19:09:39+01:00--GitHub
+
+^^1587384695--2020-04-20T13:11:35+01:00--Graham Lewis
+
+
+5	0	app/assets/stylesheets/cookie-settings.scss
+26	28	app/views/coronavirus_form/cookies.html.erb
+23	22	config/locales/en.yml
+^^1587386899--2020-04-20T13:48:19+01:00--GitHub
+
+^^1587388709--2020-04-20T14:18:29+01:00--GitHub
+
+^^1587390537--2020-04-20T14:48:57+01:00--Huw Diprose
+
+
+2	1	concourse/pipeline.yml
+^^1587390836--2020-04-20T14:53:56+01:00--Leena Gupte
+
+
+1	1	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+4	4	spec/controllers/coronavirus_form/live_in_england_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/name_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/not_eligible_england_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/not_eligible_medical_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1587390837--2020-04-20T14:53:57+01:00--Leena Gupte
+
+
+1	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1587390837--2020-04-20T14:53:57+01:00--Leena Gupte
+
+
+13	13	spec/helpers/field_validation_helper_spec.rb
+^^1587391098--2020-04-20T14:58:18+01:00--GitHub
+
+^^1587391851--2020-04-20T15:10:51+01:00--GitHub
+
+^^1587407957--2020-04-20T19:39:17+01:00--Bill Franklin
+
+
+2	2	spec/support/env.rb
+^^1587458478--2020-04-21T09:41:18+01:00--GitHub
+
+^^1587474491--2020-04-21T14:08:11+01:00--Bruce Bolt
+
+
+4	0	app/helpers/field_validation_helper.rb
+12	0	spec/helpers/field_validation_helper_spec.rb
+1	1	spec/support/fill_in_the_form_steps.rb
+^^1587483431--2020-04-21T16:37:11+01:00--GitHub
+
+^^1587522661--2020-04-22T02:31:01+00:00--GitHub
+
+
+2	2	Gemfile.lock
+^^1587544512--2020-04-22T09:35:12+01:00--GitHub
+
+^^1587554011--2020-04-22T12:13:31+01:00--Richard Towers
+
+
+19	0	.github/PULL_REQUEST_TEMPLATE.md
+^^1587554659--2020-04-22T12:24:19+01:00--GitHub
+
+^^1587554898--2020-04-22T11:28:18+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1587560033--2020-04-22T13:53:53+01:00--GitHub
+
+
+1	3	config/locales/en.yml
+^^1587560364--2020-04-22T13:59:24+01:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1587560818--2020-04-22T14:06:58+01:00--GitHub
+
+^^1587563075--2020-04-22T14:44:35+01:00--GitHub
+
+^^1587566453--2020-04-22T14:40:53+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1587567667--2020-04-22T16:01:07+01:00--GitHub
+
+^^1587627914--2020-04-23T08:45:14+01:00--Bruce Bolt
+
+
+1	0	Gemfile
+2	0	Gemfile.lock
+^^1587630207--2020-04-23T09:23:27+01:00--Bruce Bolt
+
+
+8	0	app/helpers/field_validation_helper.rb
+1	0	config/locales/en.yml
+22	0	spec/helpers/field_validation_helper_spec.rb
+^^1587630209--2020-04-23T09:23:29+01:00--Bruce Bolt
+
+
+5	5	app/controllers/coronavirus_form/contact_details_controller.rb
+20	8	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+2	2	spec/support/fill_in_the_form_steps.rb
+^^1587635497--2020-04-23T10:51:37+01:00--Bruce Bolt
+
+
+8	2	app/controllers/coronavirus_form/contact_details_controller.rb
+6	6	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+^^1587638214--2020-04-23T11:36:54+01:00--GitHub
+
+^^1587651831--2020-04-23T14:23:51+00:00--GitHub
+
+
+1	1	Gemfile
+5	4	Gemfile.lock
+^^1587659927--2020-04-23T17:38:47+01:00--Issy Long
+
+
+0	1	.github/workflows/tests.yml
+^^1587660426--2020-04-23T17:47:06+01:00--GitHub
+
+^^1587665551--2020-04-23T19:12:31+01:00--Ian James
+
+
+2	0	.github/labeler.yml
+11	0	.github/workflows/labeler.yml
+^^1587667128--2020-04-23T19:38:48+01:00--GitHub
+
+^^1587699043--2020-04-24T03:30:43+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1587715793--2020-04-24T09:09:53+01:00--GitHub
+
+^^1587715808--2020-04-24T09:10:08+01:00--GitHub
+
+^^1587726175--2020-04-24T12:02:55+01:00--Issy Long
+
+
+1	1	app/helpers/field_validation_helper.rb
+1	1	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+22	0	spec/helpers/field_validation_helper_spec.rb
+^^1587726237--2020-04-24T12:03:57+01:00--Issy Long
+
+
+2	2	spec/helpers/field_validation_helper_spec.rb
+^^1587727547--2020-04-24T11:25:47+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1587728742--2020-04-24T12:45:42+01:00--GitHub
+
+^^1587733286--2020-04-24T14:01:26+01:00--Jon Hallam
+
+
+3	0	config/locales/en.yml
+^^1587733425--2020-04-24T14:03:45+01:00--GitHub
+
+^^1587735840--2020-04-24T14:44:00+01:00--GitHub
+
+^^1587901863--2020-04-26T12:51:03+01:00--Issy Long
+
+
+2	3	.github/workflows/tests.yml
+^^1587976950--2020-04-27T09:42:30+01:00--GitHub
+
+^^1587982366--2020-04-27T11:12:46+01:00--Issy Long
+
+
+0	3	.github/workflows/tests.yml
+^^1587984709--2020-04-27T11:51:49+01:00--GitHub
+
+^^1587991860--2020-04-27T13:51:00+01:00--Bruce Bolt
+
+
+16	2	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	1	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+^^1588059499--2020-04-28T08:38:19+01:00--GitHub
+
+^^1588070849--2020-04-28T10:47:29+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1588076918--2020-04-28T13:28:38+01:00--Bruce Bolt
+
+
+0	1	spec/controllers/coronavirus_form/name_controller_spec.rb
+^^1588077110--2020-04-28T13:31:50+01:00--GitHub
+
+^^1588099913--2020-04-28T19:51:53+01:00--Bill Franklin
+
+
+2	0	app/helpers/field_validation_helper.rb
+2	2	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+^^1588151729--2020-04-29T10:15:29+01:00--GitHub
+
+^^1588169807--2020-04-29T14:16:47+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1588170697--2020-04-29T15:31:37+01:00--Bruce Bolt
+
+
+1	1	app/helpers/answers_helper.rb
+3	3	app/helpers/field_validation_helper.rb
+3	1	app/helpers/nhs_number_validator_helper.rb
+1	1	spec/controllers/coronavirus_form/name_controller_spec.rb
+^^1588171290--2020-04-29T15:41:30+01:00--GitHub
+
+^^1588255838--2020-04-30T15:10:38+01:00--GitHub
+
+
+9	6	config/locales/en.yml
+^^1588256135--2020-04-30T15:15:35+01:00--GitHub
+
+^^1588256327--2020-04-30T15:18:47+01:00--Rosa Fox
+
+
+2	0	Gemfile
+2	0	Gemfile.lock
+4	0	concourse/tasks/deploy-to-govuk-paas.yml
+2	0	concourse/tasks/run-smoke-tests.yml
+4	1	config.ru
+4	0	config/environments/development.rb
+3	0	config/environments/production.rb
+4	0	config/environments/test.rb
+21	0	helpers/application_config.rb
+31	0	spec/requests/view_metrics_spec.rb
+^^1588256327--2020-04-30T15:18:47+01:00--Rosa Fox
+
+
+4	0	.rubocop.yml
+^^1588259247--2020-04-30T16:07:27+01:00--Bill Franklin
+
+
+1	0	manifest.yml
+^^1588316544--2020-05-01T08:02:24+01:00--Bruce Bolt
+
+
+1	1	config/locales/en.yml
+^^1588321973--2020-05-01T09:32:53+01:00--GitHub
+
+^^1588324838--2020-05-01T10:20:38+01:00--GitHub
+
+^^1588326793--2020-05-01T10:53:13+01:00--GitHub
+
+^^1588336378--2020-05-01T13:32:58+01:00--Bill Franklin
+
+
+2	0	Gemfile
+2	0	Gemfile.lock
+4	0	concourse/tasks/deploy-to-govuk-paas.yml
+2	0	concourse/tasks/run-smoke-tests.yml
+4	1	config.ru
+4	0	config/environments/development.rb
+3	0	config/environments/production.rb
+4	0	config/environments/test.rb
+21	0	helpers/application_config.rb
+31	0	spec/requests/view_metrics_spec.rb
+^^1588336378--2020-05-01T13:32:58+01:00--Bill Franklin
+
+
+4	0	.rubocop.yml
+^^1588336378--2020-05-01T13:32:58+01:00--Bill Franklin
+
+
+1	0	manifest.yml
+^^1588336477--2020-05-01T13:34:37+01:00--Bill Franklin
+
+
+2	2	concourse/pipeline.yml
+3	3	helpers/application_config.rb
+17	17	spec/requests/view_metrics_spec.rb
+^^1588336481--2020-05-01T13:34:41+01:00--Bill Franklin
+
+
+2	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1588589108--2020-05-04T11:45:08+01:00--Bill Franklin
+
+
+0	3	helpers/application_config.rb
+1	11	spec/requests/view_metrics_spec.rb
+^^1588589314--2020-05-04T11:48:34+01:00--GitHub
+
+^^1588590451--2020-05-04T11:07:31+00:00--GitHub
+
+
+1	1	Gemfile
+5	5	Gemfile.lock
+^^1588591657--2020-05-04T12:27:37+01:00--Bruce Bolt
+
+
+1	0	manifest.yml
+^^1588591658--2020-05-04T12:27:38+01:00--Bruce Bolt
+
+
+1	0	Gemfile
+10	0	Gemfile.lock
+1	0	Procfile
+14	0	README.md
+2	0	config/application.rb
+8	1	config/environments/development.rb
+16	0	config/environments/production.rb
+^^1588591659--2020-05-04T12:27:39+01:00--Bruce Bolt
+
+
+2	0	concourse/pipeline.yml
+2	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1588591660--2020-05-04T12:27:40+01:00--Bruce Bolt
+
+
+4	0	concourse/pipeline.yml
+5	0	concourse/tasks/deploy-to-govuk-paas.yml
+2	0	config/secrets.yml
+^^1588591661--2020-05-04T12:27:41+01:00--Bruce Bolt
+
+
+1	0	Gemfile
+4	0	Gemfile.lock
+^^1588596523--2020-05-04T13:48:43+01:00--Bruce Bolt
+
+
+35	0	config/locales/en.yml
+^^1588596525--2020-05-04T13:48:45+01:00--Bruce Bolt
+
+
+2	0	config/environments/production.rb
+^^1588596526--2020-05-04T13:48:46+01:00--Bruce Bolt
+
+
+15	0	README.md
+11	0	app/jobs/email_delivery_job.rb
+2	0	app/mailers/application_mailer.rb
+9	0	app/mailers/coronavirus_form_mailer.rb
+3	0	app/views/coronavirus_form_mailer/confirmation_email.text.erb
+1	1	config/application.rb
+4	0	config/environments/development.rb
+4	0	config/environments/test.rb
+5	0	config/initializers/mailer.rb
+30	0	lib/notify_delivery_method.rb
+17	0	spec/mailers/coronavirus_form_mailer_spec.rb
+^^1588596527--2020-05-04T13:48:47+01:00--Bruce Bolt
+
+
+3	0	config/sidekiq.yml
+^^1588596527--2020-05-04T13:48:47+01:00--Bruce Bolt
+
+
+24	1	app/controllers/coronavirus_form/check_answers_controller.rb
+1	0	app/mailers/coronavirus_form_mailer.rb
+1	1	app/views/coronavirus_form_mailer/confirmation_email.text.erb
+27	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+5	1	spec/mailers/coronavirus_form_mailer_spec.rb
+^^1588596528--2020-05-04T13:48:48+01:00--Bruce Bolt
+
+
+1	1	config/locales/en.yml
+^^1588597353--2020-05-04T14:02:33+01:00--GitHub
+
+^^1588598103--2020-05-04T14:15:03+01:00--GitHub
+
+^^1588604215--2020-05-04T15:56:55+01:00--Leena Gupte
+
+
+4	0	config/application.rb
+^^1588604256--2020-05-04T15:57:36+01:00--Leena Gupte
+
+
+3	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1588604256--2020-05-04T15:57:36+01:00--Leena Gupte
+
+
+17	0	app/helpers/address_helper.rb
+^^1588604296--2020-05-04T15:58:16+01:00--Leena Gupte
+
+
+3	0	Gemfile
+13	0	Gemfile.lock
+37	0	spec/helpers/address_helper_spec.rb
+5	0	spec/spec_helper.rb
+5	0	spec/support/vcr_config.rb
+625	0	spec/vcr/address/200_estate_block.yml
+121	0	spec/vcr/address/200_individual_building.yml
+^^1588604296--2020-05-04T15:58:16+01:00--Leena Gupte
+
+
+5	0	app/errors/address_lookup_error.rb
+2	0	app/helpers/address_helper.rb
+^^1588604296--2020-05-04T15:58:16+01:00--Leena Gupte
+
+
+6	0	spec/helpers/address_helper_spec.rb
+40	0	spec/vcr/address/400_response.yml
+^^1588604296--2020-05-04T15:58:16+01:00--Leena Gupte
+
+
+8	0	spec/helpers/address_helper_spec.rb
+34	0	spec/vcr/address/401_response.yml
+^^1588604296--2020-05-04T15:58:16+01:00--Leena Gupte
+
+
+11	0	spec/helpers/address_helper_spec.rb
+35	0	spec/vcr/address/404_response.yml
+^^1588604296--2020-05-04T15:58:16+01:00--Leena Gupte
+
+
+7	0	spec/helpers/address_helper_spec.rb
+42	0	spec/vcr/address/500_response.yml
+^^1588604296--2020-05-04T15:58:16+01:00--Leena Gupte
+
+
+20	0	spec/helpers/address_helper_spec.rb
+^^1588604393--2020-05-04T15:59:53+01:00--Leena Gupte
+
+
+8	4	README.md
+46	0	docs/testing/testing_with_vcr.md
+^^1588604393--2020-05-04T15:59:53+01:00--Leena Gupte
+
+
+16	0	docs/external_apis/ordnance_survey.md
+^^1588605054--2020-05-04T16:10:54+01:00--Bruce Bolt
+
+
+4	0	config/locales/en.yml
+^^1588605324--2020-05-04T16:15:24+01:00--GitHub
+
+^^1588605784--2020-05-04T16:23:04+01:00--GitHub
+
+^^1588606413--2020-05-04T16:33:33+01:00--Leena Gupte
+
+
+1	0	Gemfile
+1	0	Gemfile.lock
+^^1588606826--2020-05-04T16:40:26+01:00--GitHub
+
+^^1588607350--2020-05-04T16:49:10+01:00--Bruce Bolt
+
+
+0	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1588612189--2020-05-04T18:09:49+01:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1588613105--2020-05-04T18:25:05+01:00--GitHub
+
+^^1588669144--2020-05-05T08:59:04+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1588752793--2020-05-06T09:13:13+01:00--GitHub
+
+^^1588752809--2020-05-06T09:13:29+01:00--Bruce Bolt
+
+
+3	3	Gemfile.lock
+^^1588752847--2020-05-06T09:14:07+01:00--Bruce Bolt
+
+
+1	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+3	3	app/controllers/coronavirus_form/support_address_controller.rb
+1	1	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1588754984--2020-05-06T09:49:44+01:00--GitHub
+
+^^1588756221--2020-05-06T09:10:21+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1588768400--2020-05-06T13:33:20+01:00--Kevin Dew
+
+
+21	0	LICENCE
+4	0	README.md
+^^1588770930--2020-05-06T14:15:30+01:00--Bill Franklin
+
+
+1	1	app/helpers/field_validation_helper.rb
+1	1	config/locales/en.yml
+14	1	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+^^1588771436--2020-05-06T14:23:56+01:00--GitHub
+
+^^1588773153--2020-05-06T14:52:33+01:00--GitHub
+
+^^1588775722--2020-05-06T15:35:22+01:00--Graham Lewis
+
+
+18	6	docs/external_apis/ordnance_survey.md
+14	9	docs/testing/testing_with_vcr.md
+^^1588777125--2020-05-06T15:58:45+01:00--GitHub
+
+^^1588777990--2020-05-06T16:13:10+01:00--GitHub
+
+^^1588789452--2020-05-06T18:24:12+00:00--GitHub
+
+
+1	1	Gemfile
+52	52	Gemfile.lock
+^^1588842745--2020-05-07T10:12:25+01:00--GitHub
+
+^^1588870264--2020-05-07T17:51:04+01:00--Alex
+
+
+25	24	config/locales/en.yml
+^^1588870472--2020-05-07T17:54:32+01:00--GitHub
+
+^^1588935037--2020-05-08T11:50:37+01:00--Bruce Bolt
+
+
+4	0	app/jobs/email_delivery_job.rb
+^^1589108140--2020-05-10T11:55:40+01:00--Bruce Bolt
+
+
+2	2	app/views/coronavirus_form/accessibility_statement.html.erb
+1	1	app/views/coronavirus_form/basic_care_needs.erb
+1	1	app/views/coronavirus_form/carry_supplies.html.erb
+7	7	app/views/coronavirus_form/check_answers.html.erb
+2	2	app/views/coronavirus_form/confirmation.html.erb
+1	1	app/views/coronavirus_form/contact_details.html.erb
+3	3	app/views/coronavirus_form/cookies.html.erb
+1	1	app/views/coronavirus_form/date_of_birth.html.erb
+1	1	app/views/coronavirus_form/dietary_requirements.html.erb
+4	4	app/views/coronavirus_form/live_in_england.html.erb
+4	4	app/views/coronavirus_form/medical_conditions.html.erb
+1	1	app/views/coronavirus_form/name.html.erb
+1	1	app/views/coronavirus_form/nhs_letter.html.erb
+2	2	app/views/coronavirus_form/nhs_number.html.erb
+4	4	app/views/coronavirus_form/not_eligible_england.html.erb
+4	4	app/views/coronavirus_form/not_eligible_medical.html.erb
+2	2	app/views/coronavirus_form/privacy.html.erb
+3	3	app/views/coronavirus_form/session_expired.html.erb
+6	6	app/views/coronavirus_form/support_address.html.erb
+1	1	app/views/layouts/application.html.erb
+^^1589109095--2020-05-10T12:11:35+01:00--GitHub
+
+^^1589193463--2020-05-11T10:37:43+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1589194192--2020-05-11T11:49:52+01:00--Issy Long
+
+
+0	4	.rubocop.yml
+^^1589195655--2020-05-11T12:14:15+01:00--GitHub
+
+^^1589254206--2020-05-12T03:30:06+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1589271373--2020-05-12T09:16:13+01:00--GitHub
+
+^^1589360514--2020-05-13T10:01:54+01:00--Huw Diprose
+
+
+2	0	config/routes.rb
+8	0	spec/requests/start_spec.rb
+^^1589363366--2020-05-13T09:49:26+00:00--GitHub
+
+
+3	5	Gemfile.lock
+^^1589368619--2020-05-13T12:16:59+01:00--GitHub
+
+^^1589375798--2020-05-13T14:16:38+01:00--Bruce Bolt
+
+
+4	0	.rubocop.yml
+^^1589375883--2020-05-13T14:18:03+01:00--Bruce Bolt
+
+
+4	2	app/controllers/coronavirus_form/name_controller.rb
+7	3	app/controllers/coronavirus_form/support_address_controller.rb
+1	1	app/helpers/address_helper.rb
+5	3	app/jobs/email_delivery_job.rb
+2	1	config/initializers/mailer.rb
+7	3	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+8	7	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+16	12	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+^^1589378183--2020-05-13T14:56:23+01:00--Graham Lewis
+
+
+6	12	.github/workflows/{tests.yml => ci.yml}
+^^1589380922--2020-05-13T15:42:02+01:00--GitHub
+
+^^1589445509--2020-05-14T09:38:29+01:00--GitHub
+
+^^1589446199--2020-05-14T08:49:59+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1589448264--2020-05-14T10:24:24+01:00--GitHub
+
+^^1589452295--2020-05-14T11:31:35+01:00--GitHub
+
+
+3	1	config/locales/en.yml
+^^1589454107--2020-05-14T11:01:47+00:00--GitHub
+
+
+1	1	Gemfile
+5	15	Gemfile.lock
+^^1589455124--2020-05-14T12:18:44+01:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1589455136--2020-05-14T12:18:56+01:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1589455835--2020-05-14T12:30:35+01:00--GitHub
+
+^^1589460025--2020-05-14T12:40:25+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1589461771--2020-05-14T14:09:31+01:00--Dan Williams
+
+
+39	0	lib/sidekiq_stats_prometheus_exporter.rb
+^^1589461872--2020-05-14T14:11:12+01:00--Dan Williams
+
+
+2	2	helpers/application_config.rb
+^^1589462470--2020-05-14T14:21:10+01:00--Dan Williams
+
+
+1	1	helpers/application_config.rb
+28	30	lib/sidekiq_stats_prometheus_exporter.rb
+^^1589463325--2020-05-14T14:35:25+01:00--GitHub
+
+^^1589463330--2020-05-14T14:35:30+01:00--Dan Williams
+
+
+1	0	spec/requests/view_metrics_spec.rb
+^^1589472246--2020-05-14T17:04:06+01:00--Leena Gupte
+
+
+1	0	Gemfile
+3	0	Gemfile.lock
+^^1589472246--2020-05-14T17:04:06+01:00--Leena Gupte
+
+
+171	0	config/schemas/form_response.json
+^^1589472246--2020-05-14T17:04:06+01:00--Leena Gupte
+
+
+38	0	spec/support/form_response_helper.rb
+^^1589472246--2020-05-14T17:04:06+01:00--Leena Gupte
+
+
+8	0	app/helpers/schema_helper.rb
+323	0	spec/helpers/schema_helper_spec.rb
+^^1589472246--2020-05-14T17:04:06+01:00--Leena Gupte
+
+
+9	0	app/controllers/coronavirus_form/check_answers_controller.rb
+1	0	app/errors/form_response_invalid_error.rb
+15	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1589472246--2020-05-14T17:04:06+01:00--Leena Gupte
+
+
+1	0	config/schemas/form_response.json
+^^1589531709--2020-05-15T09:35:09+01:00--Kevin Dew
+
+
+3	15	.github/workflows/ci.yml
+^^1589537417--2020-05-15T11:10:17+01:00--GitHub
+
+^^1589538576--2020-05-15T11:29:36+01:00--Leena Gupte
+
+
+3	0	config/schemas/form_response.json
+5	0	spec/helpers/schema_helper_spec.rb
+^^1589538890--2020-05-15T11:34:50+01:00--GitHub
+
+^^1589546455--2020-05-15T13:40:55+01:00--GitHub
+
+^^1589547080--2020-05-15T13:51:20+01:00--GitHub
+
+
+3	3	config/locales/en.yml
+^^1589547351--2020-05-15T13:55:51+01:00--GitHub
+
+^^1589548303--2020-05-15T14:11:43+01:00--Issy Long
+
+
+1	0	.scss-lint.yml
+1	1	Gemfile
+5	5	Gemfile.lock
+1	2	lib/tasks/lint.rake
+^^1589548564--2020-05-15T14:16:04+01:00--Issy Long
+
+
+29	28	app/assets/stylesheets/application.scss
+^^1589549326--2020-05-15T14:28:46+01:00--GitHub
+
+^^1589549406--2020-05-15T13:30:06+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1589555577--2020-05-15T16:12:57+01:00--GitHub
+
+^^1589558449--2020-05-15T17:00:49+01:00--Leena Gupte
+
+
+1	1	app/helpers/field_validation_helper.rb
+^^1589558856--2020-05-15T17:07:36+01:00--GitHub
+
+^^1589559023--2020-05-15T17:10:23+01:00--GitHub
+
+^^1589575449--2020-05-15T21:44:09+01:00--Issy Long
+
+
+1	1	.ruby-version
+1	1	Gemfile.lock
+1	1	concourse/Dockerfile
+^^1589655643--2020-05-16T19:00:43+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1589658505--2020-05-16T19:48:25+00:00--GitHub
+
+
+1	1	Gemfile
+7	7	Gemfile.lock
+^^1589772270--2020-05-18T03:24:30+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1589798332--2020-05-18T11:38:52+01:00--Leena Gupte
+
+
+1	0	Gemfile
+2	0	Gemfile.lock
+^^1589808699--2020-05-18T14:31:39+01:00--Leena Gupte
+
+
+7	0	app/helpers/field_validation_helper.rb
+13	0	spec/helpers/field_validation_helper_spec.rb
+^^1589809137--2020-05-18T14:38:57+01:00--Leena Gupte
+
+
+7	7	config/schemas/form_response.json
+^^1589809493--2020-05-18T14:44:53+01:00--GitHub
+
+^^1589876053--2020-05-19T09:14:13+01:00--GitHub
+
+^^1589876074--2020-05-19T09:14:34+01:00--GitHub
+
+^^1589876091--2020-05-19T09:14:51+01:00--GitHub
+
+^^1589876174--2020-05-19T08:16:14+00:00--GitHub
+
+
+50	50	Gemfile.lock
+^^1589876180--2020-05-19T08:16:20+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1589877294--2020-05-19T09:34:54+01:00--GitHub
+
+^^1589877307--2020-05-19T09:35:07+01:00--GitHub
+
+^^1589881724--2020-05-19T09:48:44+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1589885630--2020-05-19T11:53:50+01:00--GitHub
+
+^^1589886214--2020-05-19T12:03:34+01:00--GitHub
+
+^^1589888979--2020-05-19T12:49:39+01:00--Bruce Bolt
+
+
+1	1	README.md
+2	2	concourse/pipeline.yml
+2	2	concourse/tasks/deploy-to-govuk-paas.yml
+1	1	config/initializers/mailer.rb
+^^1589888980--2020-05-19T12:49:40+01:00--Bruce Bolt
+
+
+1	1	README.md
+5	1	app/mailers/coronavirus_form_mailer.rb
+1	1	config/environments/production.rb
+3	3	config/initializers/mailer.rb
+1	1	lib/{notify_delivery_method.rb => notify_email_delivery_method.rb}
+^^1589888980--2020-05-19T12:49:40+01:00--Bruce Bolt
+
+
+2	0	concourse/pipeline.yml
+2	0	concourse/tasks/deploy-to-govuk-paas.yml
+^^1589888981--2020-05-19T12:49:41+01:00--Bruce Bolt
+
+
+8	0	app/mailers/coronavirus_form_mailer.rb
+6	0	config/initializers/mailer.rb
+29	0	lib/notify_sms_delivery_method.rb
+14	0	spec/mailers/coronavirus_form_mailer_spec.rb
+^^1589888982--2020-05-19T12:49:42+01:00--Bruce Bolt
+
+
+16	0	config/locales/en.yml
+^^1589889353--2020-05-19T12:55:53+01:00--Bruce Bolt
+
+
+18	0	app/controllers/coronavirus_form/check_answers_controller.rb
+2	0	app/mailers/coronavirus_form_mailer.rb
+1	0	app/views/coronavirus_form_mailer/confirmation_sms.text.erb
+23	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+3	3	spec/mailers/coronavirus_form_mailer_spec.rb
+^^1589889356--2020-05-19T12:55:56+01:00--Bruce Bolt
+
+
+2	1	app/controllers/coronavirus_form/check_answers_controller.rb
+1	0	config/application.rb
+10	1	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+2	2	spec/support/fill_in_the_form_steps.rb
+^^1589889357--2020-05-19T12:55:57+01:00--Bruce Bolt
+
+
+4	3	README.md
+^^1589890316--2020-05-19T13:11:56+01:00--Graham Lewis
+
+
+1	0	app/assets/stylesheets/application.scss
+1	1	app/controllers/coronavirus_form/contact_details_controller.rb
+1	3	app/controllers/coronavirus_form/essential_supplies_controller.rb
+0	43	app/controllers/coronavirus_form/know_nhs_number_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_number_controller.rb
+0	37	app/views/coronavirus_form/know_nhs_number.html.erb
+15	4	app/views/coronavirus_form/nhs_number.html.erb
+10	18	config/locales/en.yml
+1	5	config/routes.rb
+1	1	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+0	83	spec/controllers/coronavirus_form/know_nhs_number_controller_spec.rb
+0	1	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+0	8	spec/support/fill_in_the_form_steps.rb
+^^1589893863--2020-05-19T14:11:03+01:00--Graham Lewis
+
+
+2	0	app/controllers/coronavirus_form/nhs_number_controller.rb
+6	1	config/locales/en.yml
+1	2	config/schemas/form_response.json
+5	0	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+^^1589893871--2020-05-19T14:11:11+01:00--Graham Lewis
+
+
+4	0	config/routes.rb
+^^1589895295--2020-05-19T14:34:55+01:00--Leena Gupte
+
+
+1	0	Gemfile
+5	0	Gemfile.lock
+^^1589897049--2020-05-19T15:04:09+01:00--GitHub
+
+^^1589900864--2020-05-19T16:07:44+01:00--Bruce Bolt
+
+
+11	0	spec/i18n_spec.rb
+^^1589901242--2020-05-19T16:14:02+01:00--Bruce Bolt
+
+
+2	4	config/locales/en.yml
+^^1589901313--2020-05-19T16:15:13+01:00--Leena Gupte
+
+
+71	0	config/initializers/truemail.rb
+^^1589901425--2020-05-19T16:17:05+01:00--GitHub
+
+^^1589901972--2020-05-19T16:26:12+01:00--GitHub
+
+^^1589901987--2020-05-19T16:26:27+01:00--Leena Gupte
+
+
+1	1	app/helpers/field_validation_helper.rb
+3	3	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+^^1589906363--2020-05-19T17:39:23+01:00--Leena Gupte
+
+
+1	1	config/initializers/truemail.rb
+^^1589928493--2020-05-19T22:48:13+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1589963565--2020-05-20T09:32:45+01:00--GitHub
+
+^^1589966568--2020-05-20T10:22:48+01:00--GitHub
+
+^^1589971722--2020-05-20T10:48:42+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1589974517--2020-05-20T12:35:17+01:00--GitHub
+
+^^1589974653--2020-05-20T11:37:33+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1590051301--2020-05-21T09:55:01+01:00--GitHub
+
+^^1590064456--2020-05-21T12:34:16+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1590065231--2020-05-21T13:47:11+01:00--GitHub
+
+^^1590065309--2020-05-21T12:48:29+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1590074555--2020-05-21T15:22:35+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1590075929--2020-05-21T16:45:29+01:00--Leena Gupte
+
+
+8	9	app/helpers/answers_helper.rb
+^^1590076769--2020-05-21T16:59:29+01:00--GitHub
+
+^^1590078602--2020-05-21T17:30:02+01:00--GitHub
+
+^^1590078912--2020-05-21T17:35:12+01:00--GitHub
+
+^^1590147906--2020-05-22T11:45:06+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1590315387--2020-05-24T11:16:27+01:00--GitHub
+
+^^1590315469--2020-05-24T10:17:49+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1590315720--2020-05-24T11:22:00+01:00--GitHub
+
+^^1590315807--2020-05-24T10:23:27+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1590316336--2020-05-24T11:32:16+01:00--GitHub
+
+^^1590483518--2020-05-26T09:58:38+01:00--Leena Gupte
+
+
+4	4	config/locales/en.yml
+2	2	config/schemas/form_response.json
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+3	0	app/controllers/coronavirus_form/nhs_letter_controller.rb
+0	1	config/schemas/form_response.json
+14	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+10	2	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+2	2	spec/helpers/schema_helper_spec.rb
+8	0	spec/support/fill_in_the_form_steps.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+2	0	app/controllers/coronavirus_form/name_controller.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+3	6	config/locales/en.yml
+1	3	config/schemas/form_response.json
+1	1	spec/support/fill_in_the_form_steps.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+0	6	app/controllers/coronavirus_form/check_answers_controller.rb
+0	16	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+21	12	config/locales/en.yml
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+1	1	app/views/coronavirus_form/confirmation.html.erb
+27	26	config/locales/en.yml
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+21	0	config/locales/en.yml
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+6	1	app/controllers/coronavirus_form/check_answers_controller.rb
+25	2	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+5	0	app/controllers/coronavirus_form/confirmation_controller.rb
+5	1	app/views/coronavirus_form/confirmation.html.erb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+1	1	app/helpers/answers_helper.rb
+15	0	spec/helpers/answers_helper_spec.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+8	3	app/controllers/coronavirus_form/nhs_letter_controller.rb
+11	0	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+3	3	app/controllers/coronavirus_form/nhs_letter_controller.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+1	1	app/views/coronavirus_form_mailer/confirmation_email.text.erb
+18	23	config/locales/en.yml
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+35	0	config/locales/en.yml
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+3	2	app/controllers/coronavirus_form/check_answers_controller.rb
+2	0	app/mailers/coronavirus_form_mailer.rb
+5	1	app/views/coronavirus_form_mailer/confirmation_email.text.erb
+7	1	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+23	1	spec/mailers/coronavirus_form_mailer_spec.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+9	20	config/locales/en.yml
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+1	1	app/views/coronavirus_form_mailer/confirmation_sms.text.erb
+7	8	config/locales/en.yml
+1	1	spec/i18n_spec.rb
+1	1	spec/mailers/coronavirus_form_mailer_spec.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+13	0	config/locales/en.yml
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+1	0	app/controllers/coronavirus_form/check_answers_controller.rb
+2	0	app/mailers/coronavirus_form_mailer.rb
+5	1	app/views/coronavirus_form_mailer/confirmation_sms.text.erb
+5	1	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+16	1	spec/mailers/coronavirus_form_mailer_spec.rb
+^^1590483519--2020-05-26T09:58:39+01:00--Leena Gupte
+
+
+19	6	README.md
+^^1590490214--2020-05-26T11:50:14+01:00--GitHub
+
+^^1590496993--2020-05-26T13:43:13+01:00--Bruce Bolt
+
+
+11	0	concourse/pipeline.yml
+^^1590497040--2020-05-26T13:44:00+01:00--Bruce Bolt
+
+
+11	0	concourse/pipeline.yml
+^^1590497049--2020-05-26T13:44:09+01:00--Bruce Bolt
+
+
+11	0	concourse/pipeline.yml
+^^1590497058--2020-05-26T13:44:18+01:00--Bruce Bolt
+
+
+11	0	concourse/pipeline.yml
+^^1590497067--2020-05-26T13:44:27+01:00--Bruce Bolt
+
+
+11	0	concourse/pipeline.yml
+^^1590498691--2020-05-26T14:11:31+01:00--GitHub
+
+^^1590573552--2020-05-27T10:59:12+01:00--Leena Gupte
+
+
+1	0	Gemfile
+2	0	Gemfile.lock
+^^1590590992--2020-05-27T14:49:52+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1590592185--2020-05-27T16:09:45+01:00--Steve Holmes
+
+
+5	1	app/controllers/coronavirus_form/check_answers_controller.rb
+0	15	config/schemas/form_response.json
+15	23	spec/helpers/schema_helper_spec.rb
+0	1	spec/support/form_response_helper.rb
+^^1590592185--2020-05-27T16:09:45+01:00--Steve Holmes
+
+
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+3	0	config/schemas/form_response.json
+5	2	spec/helpers/schema_helper_spec.rb
+^^1590593328--2020-05-27T16:28:48+01:00--Steve Holmes
+
+
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+0	3	config/schemas/form_response.json
+2	5	spec/helpers/schema_helper_spec.rb
+^^1590656761--2020-05-28T09:06:01+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1590657226--2020-05-28T10:13:46+01:00--GitHub
+
+^^1590657406--2020-05-28T10:16:46+01:00--GitHub
+
+^^1590657582--2020-05-28T10:19:42+01:00--Steve Holmes
+
+
+9	0	config/application.rb
+^^1590658065--2020-05-28T10:27:45+01:00--GitHub
+
+^^1590659801--2020-05-28T10:56:41+01:00--Bill Franklin
+
+
+6	2	concourse/tasks/run-smoke-tests.yml
+^^1590659915--2020-05-28T10:58:35+01:00--Leena Gupte
+
+
+9	0	app/helpers/field_validation_helper.rb
+17	0	spec/helpers/field_validation_helper_spec.rb
+^^1590659915--2020-05-28T10:58:35+01:00--Leena Gupte
+
+
+41	0	app/controllers/coronavirus_form/check_contact_details_controller.rb
+38	0	app/views/coronavirus_form/check_contact_details.html.erb
+5	0	config/locales/en.yml
+4	0	config/routes.rb
+68	0	spec/controllers/coronavirus_form/check_contact_details_controller_spec.rb
+^^1590659915--2020-05-28T10:58:35+01:00--Leena Gupte
+
+
+5	0	app/controllers/coronavirus_form/check_contact_details_controller.rb
+5	1	app/views/coronavirus_form/check_contact_details.html.erb
+2	0	config/locales/en.yml
+29	0	spec/views/coronavirus_form/check_contact_details.html.erb_spec.rb
+^^1590659915--2020-05-28T10:58:35+01:00--Leena Gupte
+
+
+1	1	app/helpers/answers_helper.rb
+6	0	spec/helpers/answers_helper_spec.rb
+^^1590659915--2020-05-28T10:58:35+01:00--Leena Gupte
+
+
+3	0	app/controllers/coronavirus_form/contact_details_controller.rb
+19	5	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+1	0	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+7	0	spec/support/fill_in_the_form_steps.rb
+^^1590660034--2020-05-28T11:00:34+01:00--GitHub
+
+^^1590742204--2020-05-29T09:50:04+01:00--GitHub
+
+^^1590743579--2020-05-29T10:12:59+01:00--GitHub
+
+^^1590754187--2020-05-29T13:09:47+01:00--Bill Franklin
+
+
+1	0	app/assets/stylesheets/application.scss
+27	0	app/controllers/coronavirus_form/address_lookup_controller.rb
+1	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+39	0	app/controllers/coronavirus_form/postcode_lookup_controller.rb
+32	18	app/controllers/coronavirus_form/support_address_controller.rb
+7	2	app/errors/address_lookup_error.rb
+5	0	app/errors/address_not_found_error.rb
+93	8	app/helpers/address_helper.rb
+39	0	app/views/coronavirus_form/address_lookup.html.erb
+50	0	app/views/coronavirus_form/postcode_lookup.html.erb
+15	0	config/locales/en.yml
+9	1	config/routes.rb
+71	0	spec/controllers/coronavirus_form/address_lookup_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+58	0	spec/controllers/coronavirus_form/postcode_lookup_controller_spec.rb
+11	3	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+3	1	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+8	0	spec/fixtures/address_data.yml
+198	50	spec/helpers/address_helper_spec.rb
+26	1	spec/support/fill_in_the_form_steps.rb
+0	625	spec/vcr/address/200_estate_block.yml
+0	35	spec/vcr/address/404_response.yml
+2	2	spec/vcr/{address/401_response.yml => postcode/invalid_api_key.yml}
+21	11	spec/vcr/{address/500_response.yml => postcode/no_addresses_found.yml}
+2	2	spec/vcr/{address/400_response.yml => postcode/non_existant.yml}
+3	3	spec/vcr/{address/200_individual_building.yml => postcode/valid_postcode.yml}
+7	41	spec/vcr/{address/200_individual_building.yml => uprn/valid_uprn.yml}
+^^1590754187--2020-05-29T13:09:47+01:00--Bill Franklin
+
+
+4	0	app/controllers/coronavirus_form/address_lookup_controller.rb
+9	2	app/controllers/coronavirus_form/support_address_controller.rb
+5	0	app/errors/address_auth_error.rb
+1	0	app/helpers/address_helper.rb
+15	0	spec/controllers/coronavirus_form/address_lookup_controller_spec.rb
+1	1	spec/helpers/address_helper_spec.rb
+^^1590754187--2020-05-29T13:09:47+01:00--Bill Franklin
+
+
+3	7	app/controllers/coronavirus_form/address_lookup_controller.rb
+1	3	app/controllers/coronavirus_form/postcode_lookup_controller.rb
+1	1	app/helpers/answers_helper.rb
+3	3	app/views/coronavirus_form/postcode_lookup.html.erb
+1	1	config/locales/en.yml
+0	11	spec/controllers/coronavirus_form/address_lookup_controller_spec.rb
+1	1	spec/support/fill_in_the_form_steps.rb
+^^1590770814--2020-05-29T17:46:54+01:00--Bill Franklin
+
+
+2	0	Gemfile
+8	0	Gemfile.lock
+2	0	concourse/pipeline.yml
+4	0	concourse/tasks/deploy-to-govuk-paas.yml
+4	0	config/application.rb
+2	0	config/environments/production.rb
+1	1	config/initializers/asset_sync.rb
+28	0	lib/tasks/error_pages.rake
+23	0	lib/upload_error_pages.rb
+30	0	spec/lib/upload_error_pages_spec.rb
+^^1591000073--2020-06-01T09:27:53+01:00--Graham Lewis
+
+
+0	1	Gemfile
+0	2	Gemfile.lock
+5	1	app/controllers/coronavirus_form/address_lookup_controller.rb
+1	0	app/errors/address_not_provided_error.rb
+7	8	app/helpers/address_helper.rb
+2	2	app/views/coronavirus_form/address_lookup.html.erb
+0	4	config/application.rb
+3	0	config/secrets.yml
+48	16	spec/controllers/coronavirus_form/address_lookup_controller_spec.rb
+1	1	spec/fixtures/address_data.yml
+7	25	spec/helpers/address_helper_spec.rb
+5	9	spec/support/fill_in_the_form_steps.rb
+1	1	spec/support/vcr_config.rb
+3	3	spec/vcr/postcode/invalid_api_key.yml
+3	3	spec/vcr/postcode/no_addresses_found.yml
+2	2	spec/vcr/postcode/non_existant.yml
+3	3	spec/vcr/postcode/valid_postcode.yml
+0	87	spec/vcr/uprn/valid_uprn.yml
+^^1591003981--2020-06-01T10:33:01+01:00--Graham Lewis
+
+
+4	0	app/views/coronavirus_form/postcode_lookup.html.erb
+2	1	config/locales/en.yml
+^^1591004340--2020-06-01T10:39:00+01:00--Leena Gupte
+
+
+2	5	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+4	1	app/controllers/coronavirus_form/carry_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+9	9	config/locales/en.yml
+6	6	config/routes.rb
+1	1	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+1	1	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+^^1591004340--2020-06-01T10:39:00+01:00--Leena Gupte
+
+
+3	1	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+14	3	app/controllers/coronavirus_form/essential_supplies_controller.rb
+16	2	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+^^1591004340--2020-06-01T10:39:00+01:00--Leena Gupte
+
+
+1	1	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+13	7	app/controllers/coronavirus_form/essential_supplies_controller.rb
+9	1	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+31	2	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+^^1591004379--2020-06-01T10:39:39+01:00--Leena Gupte
+
+
+9	1	app/helpers/answers_helper.rb
+14	24	spec/helpers/answers_helper_spec.rb
+^^1591004380--2020-06-01T10:39:40+01:00--Leena Gupte
+
+
+6	2	config/schemas/form_response.json
+10	0	spec/helpers/schema_helper_spec.rb
+^^1591005539--2020-06-01T10:58:59+01:00--GitHub
+
+^^1591014703--2020-06-01T12:31:43+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1591017638--2020-06-01T14:20:38+01:00--Steve Holmes
+
+
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+2	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+^^1591018716--2020-06-01T14:38:36+01:00--GitHub
+
+^^1591020972--2020-06-01T15:16:12+01:00--GitHub
+
+^^1591021224--2020-06-01T15:20:24+01:00--Graham Lewis
+
+
+1	1	app/helpers/field_validation_helper.rb
+^^1591027431--2020-06-01T17:03:51+01:00--GitHub
+
+
+1	1	config/locales/en.yml
+^^1591041102--2020-06-01T20:51:42+01:00--Bill Franklin
+
+
+1	0	app/controllers/coronavirus_form/check_contact_details_controller.rb
+11	0	spec/controllers/coronavirus_form/check_contact_details_controller_spec.rb
+^^1591041633--2020-06-01T21:00:33+01:00--GitHub
+
+^^1591068839--2020-06-02T03:33:59+00:00--GitHub
+
+
+1	1	Gemfile
+9	9	Gemfile.lock
+^^1591075734--2020-06-02T05:28:54+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1591082416--2020-06-02T08:20:16+01:00--Graham Lewis
+
+
+20	3	app/views/coronavirus_form/address_lookup.html.erb
+6	2	config/locales/en.yml
+^^1591088911--2020-06-02T10:08:31+01:00--GitHub
+
+^^1591089330--2020-06-02T10:15:30+01:00--GitHub
+
+^^1591090155--2020-06-02T10:29:15+01:00--Bill Franklin
+
+
+1	3	config/schemas/form_response.json
+0	10	spec/helpers/schema_helper_spec.rb
+^^1591090339--2020-06-02T10:32:19+01:00--GitHub
+
+^^1591091551--2020-06-02T10:52:31+01:00--Jon Hallam
+
+
+1	1	app/controllers/coronavirus_form/check_contact_details_controller.rb
+1	1	app/controllers/coronavirus_form/contact_details_controller.rb
+1	1	app/controllers/coronavirus_form/essential_supplies_controller.rb
+1	1	app/controllers/coronavirus_form/medical_conditions_controller.rb
+1	3	app/controllers/coronavirus_form/name_controller.rb
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+4	2	app/controllers/coronavirus_form/nhs_number_controller.rb
+1	1	spec/controllers/coronavirus_form/check_contact_details_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+2	2	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+1	1	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+2	2	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+^^1591091731--2020-06-02T10:55:31+01:00--GitHub
+
+^^1591107031--2020-06-02T15:10:31+01:00--GitHub
+
+^^1591107132--2020-06-02T15:12:12+01:00--GitHub
+
+^^1591108610--2020-06-02T14:36:50+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1591111321--2020-06-02T16:22:01+01:00--Bill Franklin
+
+
+1	0	app/controllers/coronavirus_form/address_lookup_controller.rb
+5	0	config/schemas/form_response.json
+16	0	spec/helpers/schema_helper_spec.rb
+1	0	spec/support/form_response_helper.rb
+^^1591111515--2020-06-02T16:25:15+01:00--GitHub
+
+^^1591111724--2020-06-02T16:28:44+01:00--GitHub
+
+^^1591185689--2020-06-03T13:01:29+01:00--Leena Gupte
+
+
+1	1	config/routes.rb
+6	0	spec/requests/start_spec.rb
+^^1591188397--2020-06-03T13:46:37+01:00--GitHub
+
+^^1591198566--2020-06-03T16:36:06+01:00--Rosa Fox
+
+
+1	0	Gemfile
+3	0	Gemfile.lock
+2	0	spec/spec_helper.rb
+^^1591200691--2020-06-03T17:11:31+01:00--Rosa Fox
+
+
+4	0	.github/workflows/ci.yml
+^^1591259941--2020-06-04T09:39:01+01:00--GitHub
+
+^^1591276146--2020-06-04T13:09:06+00:00--GitHub
+
+
+8	4	Gemfile.lock
+^^1591282113--2020-06-04T14:48:33+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1591286908--2020-06-04T17:08:28+01:00--Bill Franklin
+
+
+1	1	app/views/coronavirus_form/check_contact_details.html.erb
+^^1591287214--2020-06-04T17:13:34+01:00--GitHub
+
+^^1591293988--2020-06-04T19:06:28+01:00--Issy Long
+
+
+2	2	app/controllers/coronavirus_form/check_contact_details_controller.rb
+^^1591347640--2020-06-05T10:00:40+01:00--Graham Lewis
+
+
+-	-	docs/address_lookup/images/address_conversion.png
+0	0	docs/{external_apis/ordnance_survey.md => address_lookup/ordnance_survey_places_api.md}
+37	0	docs/address_lookup/the_address_lookup_process.md
+22	0	docs/address_lookup/what_is_a_uprn.md
+1	0	docs/testing/{testing_with_vcr.md => testing_apis_with_vcr.md}
+^^1591347775--2020-06-05T10:02:55+01:00--GitHub
+
+^^1591347816--2020-06-05T10:03:36+01:00--GitHub
+
+^^1591347999--2020-06-05T10:06:39+01:00--GitHub
+
+^^1591350555--2020-06-05T10:49:15+01:00--Bill Franklin
+
+
+4	4	app/views/coronavirus_form/name.html.erb
+21	0	spec/views/coronavirus_form/name.html.erb_spec.rb
+^^1591354159--2020-06-05T11:49:19+01:00--GitHub
+
+^^1591356186--2020-06-05T12:23:06+01:00--Rosa Fox
+
+
+11	0	app/assets/javascripts/analytics.js.erb
+2	0	concourse/tasks/deploy-to-govuk-paas.yml
+1	0	config/environments/development.rb
+1	0	config/environments/production.rb
+1	0	config/environments/test.rb
+^^1591358573--2020-06-05T13:02:53+01:00--GitHub
+
+^^1591362118--2020-06-05T14:01:58+01:00--Bill Franklin
+
+
+7	2	app/controllers/coronavirus_form/support_address_controller.rb
+^^1591366993--2020-06-05T15:23:13+01:00--GitHub
+
+^^1591371842--2020-06-05T16:44:02+01:00--GitHub
+
+^^1591612284--2020-06-08T10:31:24+00:00--GitHub
+
+
+1	1	Gemfile
+4	4	Gemfile.lock
+^^1591615093--2020-06-08T12:18:13+01:00--Bill Franklin
+
+
+3	4	Gemfile
+2	0	Gemfile.lock
+^^1591618568--2020-06-08T13:16:08+01:00--Bill Franklin
+
+
+1	1	Rakefile
+6	0	lib/tasks/brakeman.rake
+^^1591619924--2020-06-08T13:38:44+01:00--Bill Franklin
+
+
+1	2	app/controllers/coronavirus_form/address_lookup_controller.rb
+2	1	app/controllers/coronavirus_form/postcode_lookup_controller.rb
+1	1	app/views/coronavirus_form/address_lookup.html.erb
+4	4	spec/controllers/coronavirus_form/address_lookup_controller_spec.rb
+^^1591620053--2020-06-08T13:40:53+01:00--GitHub
+
+^^1591620478--2020-06-08T13:47:58+01:00--GitHub
+
+^^1591623573--2020-06-08T14:39:33+01:00--GitHub
+
+^^1591628894--2020-06-08T16:08:14+01:00--Graham Lewis
+
+
+30	10	app/helpers/address_helper.rb
+117	72	spec/helpers/address_helper_spec.rb
+^^1591629591--2020-06-08T16:19:51+01:00--GitHub
+
+^^1591631790--2020-06-08T16:56:30+01:00--Leena Gupte
+
+
+1	0	app/helpers/address_helper.rb
+22	0	spec/helpers/address_helper_spec.rb
+^^1591632049--2020-06-08T17:00:49+01:00--GitHub
+
+^^1591784774--2020-06-10T11:26:14+01:00--Graham Lewis
+
+
+3	2	app/helpers/address_helper.rb
+12	15	spec/helpers/address_helper_spec.rb
+^^1591788180--2020-06-10T12:23:00+01:00--GitHub
+
+^^1591805090--2020-06-10T16:04:50+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1591805242--2020-06-10T16:07:22+00:00--GitHub
+
+
+10	10	Gemfile.lock
+^^1591819440--2020-06-10T20:04:00+00:00--GitHub
+
+
+1	1	Gemfile
+6	6	Gemfile.lock
+^^1591859033--2020-06-11T08:03:53+01:00--GitHub
+
+^^1591863830--2020-06-11T09:23:50+01:00--GitHub
+
+^^1591864539--2020-06-11T09:35:39+01:00--GitHub
+
+^^1591864795--2020-06-11T09:39:55+01:00--GitHub
+
+^^1591865988--2020-06-11T08:59:48+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1591866566--2020-06-11T10:09:26+01:00--Alex Newton
+
+
+7	7	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+20	20	spec/support/fill_in_the_form_steps.rb
+^^1591866875--2020-06-11T10:14:35+01:00--GitHub
+
+^^1591883289--2020-06-11T14:48:09+01:00--GitHub
+
+^^1591884651--2020-06-11T15:10:51+01:00--Jon Hallam
+
+
+2	0	Gemfile
+6	0	Gemfile.lock
+1	0	app/controllers/application_controller.rb
+1	0	app/controllers/coronavirus_form/accessibility_statement_controller.rb
+1	0	app/controllers/coronavirus_form/address_lookup_controller.rb
+1	0	app/controllers/coronavirus_form/basic_care_needs_controller.rb
+1	0	app/controllers/coronavirus_form/carry_supplies_controller.rb
+1	0	app/controllers/coronavirus_form/check_answers_controller.rb
+1	0	app/controllers/coronavirus_form/check_contact_details_controller.rb
+1	0	app/controllers/coronavirus_form/confirmation_controller.rb
+1	0	app/controllers/coronavirus_form/contact_details_controller.rb
+1	0	app/controllers/coronavirus_form/cookies_controller.rb
+1	0	app/controllers/coronavirus_form/date_of_birth_controller.rb
+1	0	app/controllers/coronavirus_form/dietary_requirements_controller.rb
+1	0	app/controllers/coronavirus_form/essential_supplies_controller.rb
+1	0	app/controllers/coronavirus_form/live_in_england_controller.rb
+1	0	app/controllers/coronavirus_form/medical_conditions_controller.rb
+1	0	app/controllers/coronavirus_form/name_controller.rb
+1	0	app/controllers/coronavirus_form/nhs_letter_controller.rb
+1	0	app/controllers/coronavirus_form/nhs_number_controller.rb
+1	0	app/controllers/coronavirus_form/not_eligible_england_controller.rb
+1	0	app/controllers/coronavirus_form/not_eligible_medical_controller.rb
+1	0	app/controllers/coronavirus_form/postcode_lookup_controller.rb
+1	0	app/controllers/coronavirus_form/privacy_controller.rb
+1	0	app/controllers/coronavirus_form/session_expired_controller.rb
+1	0	app/controllers/coronavirus_form/support_address_controller.rb
+1	0	app/errors/address_auth_error.rb
+1	0	app/errors/address_lookup_error.rb
+1	0	app/errors/address_not_found_error.rb
+1	0	app/errors/address_not_provided_error.rb
+1	0	app/errors/form_response_invalid_error.rb
+4	3	app/helpers/address_helper.rb
+1	0	app/helpers/answers_helper.rb
+1	0	app/helpers/application_helper.rb
+1	0	app/helpers/error_items_helper.rb
+1	0	app/helpers/field_validation_helper.rb
+1	0	app/helpers/form_flow_helper.rb
+1	0	app/helpers/nhs_number_validator_helper.rb
+1	0	app/helpers/schema_helper.rb
+1	0	app/jobs/application_job.rb
+1	0	app/jobs/email_delivery_job.rb
+1	0	app/mailers/application_mailer.rb
+1	0	app/mailers/coronavirus_form_mailer.rb
+1	0	app/models/form_response.rb
+1	0	config/application.rb
+1	0	config/boot.rb
+1	0	config/environment.rb
+1	0	config/environments/development.rb
+1	0	config/environments/production.rb
+1	0	config/environments/smoke_test.rb
+1	0	config/environments/test.rb
+1	0	config/initializers/application_controller_renderer.rb
+1	0	config/initializers/asset_sync.rb
+1	0	config/initializers/assets.rb
+1	0	config/initializers/backtrace_silencers.rb
+1	0	config/initializers/content_security_policy.rb
+1	0	config/initializers/cookies_serializer.rb
+1	0	config/initializers/dynamoid.rb
+1	0	config/initializers/filter_parameter_logging.rb
+1	0	config/initializers/inflections.rb
+1	0	config/initializers/lograge.rb
+1	0	config/initializers/mailer.rb
+1	0	config/initializers/mime_types.rb
+1	0	config/initializers/session_store.rb
+1	0	config/initializers/wrap_parameters.rb
+1	0	config/puma.rb
+1	0	config/routes.rb
+1	0	db/seeds.rb
+1	0	helpers/application_config.rb
+1	0	lib/notify_email_delivery_method.rb
+1	0	lib/notify_sms_delivery_method.rb
+1	0	lib/sidekiq_stats_prometheus_exporter.rb
+1	0	lib/upload_error_pages.rb
+2	0	sorbet/config
+603	0	sorbet/rbi/gems/actioncable.rbi
+143	0	sorbet/rbi/gems/actionmailbox.rbi
+452	0	sorbet/rbi/gems/actionmailer.rbi
+3409	0	sorbet/rbi/gems/actionpack.rbi
+299	0	sorbet/rbi/gems/actiontext.rbi
+1437	0	sorbet/rbi/gems/actionview.rbi
+394	0	sorbet/rbi/gems/activejob.rbi
+758	0	sorbet/rbi/gems/activemodel.rbi
+4693	0	sorbet/rbi/gems/activerecord.rbi
+306	0	sorbet/rbi/gems/activestorage.rbi
+2645	0	sorbet/rbi/gems/activesupport.rbi
+199	0	sorbet/rbi/gems/addressable.rbi
+752	0	sorbet/rbi/gems/apparition.rbi
+218	0	sorbet/rbi/gems/asset_sync.rbi
+48	0	sorbet/rbi/gems/ast.rbi
+268	0	sorbet/rbi/gems/awesome_print.rbi
+73	0	sorbet/rbi/gems/aws-eventstream.rbi
+82	0	sorbet/rbi/gems/aws-partitions.rbi
+2527	0	sorbet/rbi/gems/aws-sdk-core.rbi
+3242	0	sorbet/rbi/gems/aws-sdk-dynamodb.rbi
+1850	0	sorbet/rbi/gems/aws-sdk-kms.rbi
+5580	0	sorbet/rbi/gems/aws-sdk-s3.rbi
+86	0	sorbet/rbi/gems/aws-sigv4.rbi
+202	0	sorbet/rbi/gems/bootsnap.rbi
+46	0	sorbet/rbi/gems/brakeman.rbi
+1041	0	sorbet/rbi/gems/byebug.rbi
+1943	0	sorbet/rbi/gems/capybara.rbi
+107	0	sorbet/rbi/gems/childprocess.rbi
+285	0	sorbet/rbi/gems/coderay.rbi
+1586	0	sorbet/rbi/gems/concurrent-ruby.rbi
+50	0	sorbet/rbi/gems/connection_pool.rbi
+62	0	sorbet/rbi/gems/crack.rbi
+93	0	sorbet/rbi/gems/crass.rbi
+137	0	sorbet/rbi/gems/diff-lcs.rbi
+32	0	sorbet/rbi/gems/docile.rbi
+52	0	sorbet/rbi/gems/domain_name.rbi
+1045	0	sorbet/rbi/gems/dynamoid.rbi
+27	0	sorbet/rbi/gems/erubi.rbi
+372	0	sorbet/rbi/gems/excon.rbi
+137	0	sorbet/rbi/gems/execjs.rbi
+617	0	sorbet/rbi/gems/faraday.rbi
+567	0	sorbet/rbi/gems/ffi.rbi
+1135	0	sorbet/rbi/gems/fog-aws.rbi
+602	0	sorbet/rbi/gems/fog-core.rbi
+24	0	sorbet/rbi/gems/fog-json.rbi
+19	0	sorbet/rbi/gems/fog-xml.rbi
+16	0	sorbet/rbi/gems/foreman.rbi
+52	0	sorbet/rbi/gems/formatador.rbi
+420	0	sorbet/rbi/gems/gds-api-adapters.rbi
+99	0	sorbet/rbi/gems/globalid.rbi
+99	0	sorbet/rbi/gems/govuk_app_config.rbi
+874	0	sorbet/rbi/gems/govuk_publishing_components.rbi
+66	0	sorbet/rbi/gems/hashdiff.rbi
+101	0	sorbet/rbi/gems/http-accept.rbi
+74	0	sorbet/rbi/gems/http-cookie.rbi
+192	0	sorbet/rbi/gems/i18n.rbi
+175	0	sorbet/rbi/gems/ipaddress.rbi
+412	0	sorbet/rbi/gems/jmespath.rbi
+406	0	sorbet/rbi/gems/json-schema.rbi
+221	0	sorbet/rbi/gems/jwt.rbi
+84	0	sorbet/rbi/gems/kgio.rbi
+255	0	sorbet/rbi/gems/kramdown.rbi
+48	0	sorbet/rbi/gems/libv8-7.3.492.27.1-x86_64-darwin.rbi
+31	0	sorbet/rbi/gems/link_header.rbi
+324	0	sorbet/rbi/gems/listen.rbi
+160	0	sorbet/rbi/gems/lograge.rbi
+95	0	sorbet/rbi/gems/logstasher.rbi
+131	0	sorbet/rbi/gems/loofah.rbi
+1583	0	sorbet/rbi/gems/mail.rbi
+18	0	sorbet/rbi/gems/mailcheck.rbi
+13	0	sorbet/rbi/gems/marcel.rbi
+64	0	sorbet/rbi/gems/method_source.rbi
+17	0	sorbet/rbi/gems/mime-types-data.rbi
+218	0	sorbet/rbi/gems/mime-types.rbi
+52	0	sorbet/rbi/gems/mini_mime.rbi
+89	0	sorbet/rbi/gems/mini_racer.rbi
+282	0	sorbet/rbi/gems/minitest.rbi
+175	0	sorbet/rbi/gems/msgpack.rbi
+87	0	sorbet/rbi/gems/multi_json.rbi
+72	0	sorbet/rbi/gems/multipart-post.rbi
+51	0	sorbet/rbi/gems/netrc.rbi
+68	0	sorbet/rbi/gems/nio4r.rbi
+1011	0	sorbet/rbi/gems/nokogiri.rbi
+168	0	sorbet/rbi/gems/notifications-ruby-client.rbi
+42	0	sorbet/rbi/gems/null_logger.rbi
+82	0	sorbet/rbi/gems/parallel.rbi
+955	0	sorbet/rbi/gems/parser.rbi
+34	0	sorbet/rbi/gems/plek.rbi
+154	0	sorbet/rbi/gems/prometheus-client.rbi
+72	0	sorbet/rbi/gems/pry-rails.rbi
+1949	0	sorbet/rbi/gems/pry.rbi
+104	0	sorbet/rbi/gems/public_suffix.rbi
+588	0	sorbet/rbi/gems/puma.rbi
+14	0	sorbet/rbi/gems/rack-cache.rbi
+47	0	sorbet/rbi/gems/rack-protection.rbi
+162	0	sorbet/rbi/gems/rack-test.rbi
+1052	0	sorbet/rbi/gems/rack.rbi
+41	0	sorbet/rbi/gems/rails-controller-testing.rbi
+68	0	sorbet/rbi/gems/rails-dom-testing.rbi
+92	0	sorbet/rbi/gems/rails-html-sanitizer.rbi
+550	0	sorbet/rbi/gems/railties.rbi
+118	0	sorbet/rbi/gems/rainbow.rbi
+37	0	sorbet/rbi/gems/raindrops.rbi
+671	0	sorbet/rbi/gems/rake.rbi
+31	0	sorbet/rbi/gems/rb-fsevent.rbi
+13	0	sorbet/rbi/gems/rb-inotify.rbi
+549	0	sorbet/rbi/gems/redis.rbi
+913	0	sorbet/rbi/gems/regexp_parser.rbi
+32	0	sorbet/rbi/gems/request_store.rbi
+454	0	sorbet/rbi/gems/rest-client.rbi
+618	0	sorbet/rbi/gems/rexml.rbi
+1487	0	sorbet/rbi/gems/rouge.rbi
+1947	0	sorbet/rbi/gems/rspec-core.rbi
+1125	0	sorbet/rbi/gems/rspec-expectations.rbi
+1099	0	sorbet/rbi/gems/rspec-mocks.rbi
+985	0	sorbet/rbi/gems/rspec-rails.rbi
+318	0	sorbet/rbi/gems/rspec-support.rbi
+1001	0	sorbet/rbi/gems/rubocop-ast.rbi
+775	0	sorbet/rbi/gems/rubocop-rails.rbi
+84	0	sorbet/rbi/gems/rubocop-rake.rbi
+964	0	sorbet/rbi/gems/rubocop-rspec.rbi
+6599	0	sorbet/rbi/gems/rubocop.rbi
+305	0	sorbet/rbi/gems/ruby-progressbar.rbi
+698	0	sorbet/rbi/gems/rubyzip.rbi
+124	0	sorbet/rbi/gems/safe_yaml.rbi
+74	0	sorbet/rbi/gems/sass-rails.rbi
+2308	0	sorbet/rbi/gems/sass.rbi
+15	0	sorbet/rbi/gems/scss_lint-govuk.rbi
+1053	0	sorbet/rbi/gems/scss_lint.rbi
+1604	0	sorbet/rbi/gems/selenium-webdriver.rbi
+607	0	sorbet/rbi/gems/sentry-raven.rbi
+303	0	sorbet/rbi/gems/sidekiq.rbi
+24	0	sorbet/rbi/gems/simplecov-cobertura.rbi
+35	0	sorbet/rbi/gems/simplecov-html.rbi
+361	0	sorbet/rbi/gems/simplecov.rbi
+106	0	sorbet/rbi/gems/sprockets-rails.rbi
+660	0	sorbet/rbi/gems/sprockets.rbi
+85	0	sorbet/rbi/gems/statsd-ruby.rbi
+36	0	sorbet/rbi/gems/telephone_number.rbi
+82	0	sorbet/rbi/gems/thread_safe.rbi
+82	0	sorbet/rbi/gems/tilt.rbi
+98	0	sorbet/rbi/gems/timecop.rbi
+406	0	sorbet/rbi/gems/tzinfo.rbi
+55	0	sorbet/rbi/gems/uglifier.rbi
+19	0	sorbet/rbi/gems/unf.rbi
+17	0	sorbet/rbi/gems/unicode-display_width.rbi
+250	0	sorbet/rbi/gems/unicorn.rbi
+577	0	sorbet/rbi/gems/vcr.rbi
+163	0	sorbet/rbi/gems/webdrivers.rbi
+555	0	sorbet/rbi/gems/webmock.rbi
+103	0	sorbet/rbi/gems/websocket-driver.rbi
+29	0	sorbet/rbi/gems/websocket-extensions.rbi
+159	0	sorbet/rbi/gems/xpath.rbi
+136	0	sorbet/rbi/gems/zeitwerk.rbi
+12193	0	sorbet/rbi/hidden-definitions/errors.txt
+20317	0	sorbet/rbi/hidden-definitions/hidden.rbi
+13	0	sorbet/rbi/sorbet-typed/lib/actionmailer/all/actionmailer.rbi
+954	0	sorbet/rbi/sorbet-typed/lib/actionpack/all/actionpack.rbi
+321	0	sorbet/rbi/sorbet-typed/lib/actionview/all/actionview.rbi
+597	0	sorbet/rbi/sorbet-typed/lib/activemodel/all/activemodel.rbi
+16	0	sorbet/rbi/sorbet-typed/lib/activerecord/>=5.2/activerecord.rbi
+50	0	sorbet/rbi/sorbet-typed/lib/activerecord/>=5/activerecord.rbi
+1450	0	sorbet/rbi/sorbet-typed/lib/activerecord/all/activerecord.rbi
+79	0	sorbet/rbi/sorbet-typed/lib/activerecord/all/model_schema.rbi
+36	0	sorbet/rbi/sorbet-typed/lib/activerecord/all/sanitization.rbi
+483	0	sorbet/rbi/sorbet-typed/lib/activerecord/~>6.0.0/activerecord.rbi
+82	0	sorbet/rbi/sorbet-typed/lib/activestorage/<=6.1/activestorage.rbi
+19	0	sorbet/rbi/sorbet-typed/lib/activestorage/>=6.0.0/activestorage.rbi
+177	0	sorbet/rbi/sorbet-typed/lib/activestorage/all/activestorage.rbi
+23	0	sorbet/rbi/sorbet-typed/lib/activesupport/>=6.0.0.rc1/activesupport.rbi
+1431	0	sorbet/rbi/sorbet-typed/lib/activesupport/all/activesupport.rbi
+108	0	sorbet/rbi/sorbet-typed/lib/minitest/all/minitest.rbi
+25	0	sorbet/rbi/sorbet-typed/lib/railties/all/railties.rbi
+276	0	sorbet/rbi/sorbet-typed/lib/rainbow/all/rainbow.rbi
+102	0	sorbet/rbi/sorbet-typed/lib/rubocop-ast/~>0.0.3/rubocop-ast.rbi
+328	0	sorbet/rbi/sorbet-typed/lib/rubocop-rails/~>2.5/rubocop-rails.rbi
+398	0	sorbet/rbi/sorbet-typed/lib/rubocop-rspec/~>1.39/rubocop-rspec.rbi
+2072	0	sorbet/rbi/sorbet-typed/lib/rubocop/~>0.85/rubocop.rbi
+63	0	sorbet/rbi/sorbet-typed/lib/sidekiq/all/sidekiq.rbi
+28	0	sorbet/rbi/todo.rbi
+1	0	spec/controllers/coronavirus_form/accessibility_statement_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/address_lookup_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/basic_care_needs_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/carry_supplies_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/check_answers_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/check_contact_details_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/confirmation_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/contact_details_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/date_of_birth_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/dietary_requirements_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/essential_supplies_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/live_in_england_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/medical_conditions_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/name_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/nhs_letter_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/nhs_number_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/not_eligible_england_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/not_eligible_medical_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/postcode_lookup_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/privacy_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/session_expired_controller_spec.rb
+1	0	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+1	0	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+1	0	spec/helpers/address_helper_spec.rb
+1	0	spec/helpers/answers_helper_spec.rb
+1	0	spec/helpers/field_validation_helper_spec.rb
+1	0	spec/helpers/nhs_number_validator_helper_spec.rb
+1	0	spec/helpers/schema_helper_spec.rb
+1	0	spec/i18n_spec.rb
+1	0	spec/lib/upload_error_pages_spec.rb
+1	0	spec/mailers/coronavirus_form_mailer_spec.rb
+1	0	spec/models/form_response_spec.rb
+1	0	spec/requests/start_spec.rb
+1	0	spec/requests/view_metrics_spec.rb
+1	0	spec/spec_helper.rb
+1	0	spec/support/dynamoid_helper.rb
+1	0	spec/support/env.rb
+1	0	spec/support/fill_in_the_form_steps.rb
+1	0	spec/support/form_response_helper.rb
+1	0	spec/support/shared_examples_for_controllers.rb
+1	0	spec/support/vcr_config.rb
+1	0	spec/views/coronavirus_form/check_contact_details.html.erb_spec.rb
+1	0	spec/views/coronavirus_form/name.html.erb_spec.rb
+^^1591884666--2020-06-11T15:11:06+01:00--Graham Lewis
+
+
+1	0	app/views/coronavirus_form/support_address.html.erb
+^^1591888826--2020-06-11T16:20:26+01:00--Leena Gupte
+
+
+4	0	README.md
+44	0	docs/how-to-deploy-breaking-changes.md
+^^1591904368--2020-06-11T19:39:28+00:00--GitHub
+
+
+5	5	Gemfile.lock
+^^1591946143--2020-06-12T08:15:43+01:00--GitHub
+
+^^1591946953--2020-06-12T08:29:13+01:00--Graham Lewis
+
+
+3	1	app/views/coronavirus_form/address_lookup.html.erb
+^^1591953342--2020-06-12T10:15:42+01:00--GitHub
+
+^^1591953648--2020-06-12T10:20:48+01:00--GitHub
+
+^^1591953870--2020-06-12T10:24:30+01:00--Graham Lewis
+
+
+13	5	app/controllers/coronavirus_form/support_address_controller.rb
+3	3	spec/controllers/coronavirus_form/support_address_controller_spec.rb
+^^1591953911--2020-06-12T10:25:11+01:00--GitHub
+
+^^1591954119--2020-06-12T10:28:39+01:00--Graham Lewis
+
+
+1	1	app/controllers/coronavirus_form/address_lookup_controller.rb
+8	0	app/helpers/address_helper.rb
+73	0	spec/helpers/address_helper_spec.rb
+^^1591955587--2020-06-12T10:53:07+01:00--GitHub
+
+^^1591966926--2020-06-12T14:02:06+01:00--Graham Lewis
+
+
+5	13	app/controllers/coronavirus_form/support_address_controller.rb
+8	0	app/helpers/address_helper.rb
+32	0	spec/helpers/address_helper_spec.rb
+^^1591970587--2020-06-12T15:03:07+01:00--GitHub
+
+^^1592217493--2020-06-15T11:38:13+01:00--Steve Holmes
+
+^^1592220350--2020-06-15T12:25:50+01:00--Steve Holmes
+
+
+1	0	Gemfile
+23	1	Gemfile.lock
+113	0	sorbet/rails-rbi/active_record_base.rbi
+175	0	sorbet/rails-rbi/active_record_relation.rbi
+21	0	sorbet/rails-rbi/pluck_to_tstruct.rbi
+198	0	sorbet/rails-rbi/routes.rbi
+27	0	sorbet/rails-rbi/type_assert.rbi
+7	0	sorbet/rails-rbi/typed_enum.rbi
+9	0	sorbet/rails-rbi/typed_params.rbi
+^^1592220545--2020-06-15T12:29:05+01:00--Steve Holmes
+
+
+1	1	app/controllers/coronavirus_form/live_in_england_controller.rb
+11	4	app/controllers/coronavirus_form/postcode_lookup_controller.rb
+^^1592222006--2020-06-15T12:53:26+01:00--Steve Holmes
+
+
+1	1	app/helpers/answers_helper.rb
+1	1	app/helpers/error_items_helper.rb
+1	1	app/helpers/field_validation_helper.rb
+1	1	app/helpers/nhs_number_validator_helper.rb
+47	0	sorbet/rails-rbi/helpers.rbi
+^^1592223758--2020-06-15T13:22:38+01:00--Steve Holmes
+
+
+16	2	app/controllers/coronavirus_form/live_in_england_controller.rb
+4	1	app/errors/address_auth_error.rb
+^^1592232278--2020-06-15T15:44:38+01:00--Steve Holmes
+
+
+12	10	app/controllers/coronavirus_form/nhs_letter_controller.rb
+^^1592232820--2020-06-15T15:53:40+01:00--Steve Holmes
+
+
+1	5	app/controllers/coronavirus_form/live_in_england_controller.rb
+^^1592233599--2020-06-15T16:06:39+01:00--Steve Holmes
+
+
+1	1	app/controllers/coronavirus_form/nhs_letter_controller.rb
+^^1592263046--2020-06-15T23:17:26+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1592299137--2020-06-16T10:18:57+01:00--GitHub
+
+^^1592317754--2020-06-16T15:29:14+01:00--Steve Holmes
+
+
+1	1	Gemfile
+2	2	app/controllers/coronavirus_form/live_in_england_controller.rb
+3	2	app/controllers/coronavirus_form/nhs_letter_controller.rb
+1	1	app/errors/address_auth_error.rb
+3	3	app/helpers/address_helper.rb
+^^1592323091--2020-06-16T15:58:11+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1592325582--2020-06-16T17:39:42+01:00--GitHub
+
+^^1592382641--2020-06-17T08:30:41+00:00--GitHub
+
+
+2	2	Gemfile.lock
+^^1592382969--2020-06-17T09:36:09+01:00--GitHub
+
+^^1592406096--2020-06-17T15:01:36+00:00--GitHub
+
+
+51	51	Gemfile.lock
+^^1592407165--2020-06-17T16:19:25+01:00--GitHub
+
+^^1592472119--2020-06-18T09:21:59+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1592513008--2020-06-18T20:43:28+00:00--GitHub
+
+
+1	1	Gemfile
+6	6	Gemfile.lock
+^^1592555366--2020-06-19T09:29:26+01:00--GitHub
+
+^^1592555717--2020-06-19T09:35:17+01:00--GitHub
+
+^^1592569617--2020-06-19T13:26:57+01:00--Rosa Fox
+
+
+3	6	concourse/Dockerfile
+^^1592572304--2020-06-19T14:11:44+01:00--Ian James
+
+
+21	0	app/assets/javascripts/analytics.js.erb
+^^1592572337--2020-06-19T14:12:17+01:00--Ian James
+
+
+3	0	Gemfile
+29	10	Gemfile.lock
+1	1	Rakefile
+0	0	spec/javascripts/helpers/.gitkeep
+145	0	spec/javascripts/support/jasmine.yml
+15	0	spec/javascripts/support/jasmine_helper.rb
+^^1592572339--2020-06-19T14:12:19+01:00--Ian James
+
+
+28	0	app/assets/javascripts/stripPII.js
+51	0	spec/javascripts/stripPII_spec.js
+^^1592572339--2020-06-19T14:12:19+01:00--Ian James
+
+
+4	21	app/assets/javascripts/analytics.js.erb
+2	1	app/assets/javascripts/application.js
+14	5	app/assets/javascripts/stripPII.js
+12	15	spec/javascripts/stripPII_spec.js
+^^1592579556--2020-06-19T16:12:36+01:00--GitHub
+
+^^1592772151--2020-06-21T20:42:31+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1592814008--2020-06-22T09:20:08+01:00--GitHub
+
+^^1592814090--2020-06-22T08:21:30+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1592818672--2020-06-22T10:37:52+01:00--GitHub
+
+^^1592839542--2020-06-22T16:25:42+01:00--GitHub
+
+^^1592841461--2020-06-22T16:57:41+01:00--Leena Gupte
+
+
+3	0	app/views/coronavirus_form/essential_supplies.html.erb
+3	0	config/locales/en.yml
+^^1592841461--2020-06-22T16:57:41+01:00--Leena Gupte
+
+
+10	8	config/locales/en.yml
+^^1592841462--2020-06-22T16:57:42+01:00--Leena Gupte
+
+
+8	9	config/locales/en.yml
+^^1592842171--2020-06-22T17:09:31+01:00--Leena Gupte
+
+
+4	4	config/locales/en.yml
+^^1592843400--2020-06-22T17:30:00+01:00--GitHub
+
+^^1592855412--2020-06-22T19:50:12+00:00--GitHub
+
+
+2	2	Gemfile.lock
+^^1592910092--2020-06-23T11:01:32+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1592916011--2020-06-23T12:40:11+00:00--GitHub
+
+
+4	4	Gemfile.lock
+^^1592917553--2020-06-23T14:05:53+01:00--GitHub
+
+^^1592918738--2020-06-23T14:25:38+01:00--GitHub
+
+^^1592918840--2020-06-23T13:27:20+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1592919105--2020-06-23T14:31:45+01:00--GitHub
+
+^^1592919353--2020-06-23T14:35:53+01:00--GitHub
+
+^^1592942956--2020-06-23T20:09:16+00:00--GitHub
+
+
+1	1	Gemfile
+5	5	Gemfile.lock
+^^1593074859--2020-06-25T09:47:39+01:00--GitHub
+
+^^1593097430--2020-06-25T15:03:50+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1593100230--2020-06-25T16:50:30+01:00--GitHub
+
+^^1593106167--2020-06-25T17:29:27+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1593126466--2020-06-25T23:07:46+00:00--GitHub
+
+
+1	1	Gemfile
+6	6	Gemfile.lock
+^^1593159856--2020-06-26T09:24:16+01:00--GitHub
+
+^^1593160583--2020-06-26T09:36:23+01:00--GitHub
+
+^^1593200226--2020-06-26T19:37:06+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1593409594--2020-06-29T05:46:34+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1593419680--2020-06-29T09:34:40+01:00--GitHub
+
+^^1593420548--2020-06-29T09:49:08+01:00--GitHub
+
+^^1593437868--2020-06-29T13:37:48+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1593438641--2020-06-29T14:50:41+01:00--GitHub
+
+^^1593539727--2020-06-30T17:55:27+00:00--GitHub
+
+
+1	1	Gemfile
+3	6	Gemfile.lock
+^^1593611857--2020-07-01T14:57:37+01:00--Rosa Fox
+
+
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1593614850--2020-07-01T15:47:30+01:00--GitHub
+
+^^1593615343--2020-07-01T15:55:43+01:00--GitHub
+
+^^1593684985--2020-07-02T11:16:25+01:00--Steve Holmes
+
+
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1593687531--2020-07-02T11:58:51+01:00--GitHub
+
+^^1593718887--2020-07-02T19:41:27+00:00--GitHub
+
+
+1	1	Gemfile
+5	5	Gemfile.lock
+^^1593773598--2020-07-03T11:53:18+01:00--Steve Holmes
+
+
+97	0	docs/rfc/rfc-vpf-001-question-routing.md
+^^1594022618--2020-07-06T09:03:38+01:00--GitHub
+
+^^1594112434--2020-07-07T10:00:34+01:00--Alex Newton
+
+
+1	1	config/schemas/form_response.json
+20	1	spec/features/filling_in_the_form/fill_in_the_form_spec.rb
+27	1	spec/support/fill_in_the_form_steps.rb
+^^1594197321--2020-07-08T09:35:21+01:00--GitHub
+
+^^1594237040--2020-07-08T19:37:20+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1594283836--2020-07-09T09:37:16+01:00--GitHub
+
+^^1594720123--2020-07-14T10:48:43+01:00--Graham Lewis
+
+
+3	3	app/views/layouts/application.html.erb
+18	14	config/initializers/content_security_policy.rb
+^^1594733716--2020-07-14T14:35:16+01:00--GitHub
+
+^^1594734078--2020-07-14T14:41:18+01:00--Graham Lewis
+
+
+19	0	config/initializers/feature_policy.rb
+^^1594741865--2020-07-14T16:51:05+01:00--Rosa Fox
+
+
+1	2	config/environments/production.rb
+^^1594742274--2020-07-14T16:57:54+01:00--GitHub
+
+^^1594743682--2020-07-14T16:21:22+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1594803973--2020-07-15T09:06:13+00:00--GitHub
+
+
+1	1	Gemfile
+7	7	Gemfile.lock
+^^1594911033--2020-07-16T15:50:33+01:00--ChrisBAshton
+
+
+24	0	.github/dependabot.yml
+^^1594981365--2020-07-17T11:22:45+01:00--GitHub
+
+^^1594985100--2020-07-17T12:25:00+01:00--GitHub
+
+^^1594985190--2020-07-17T11:26:30+00:00--GitHub
+
+
+4	6	Gemfile.lock
+^^1594985239--2020-07-17T12:27:19+01:00--GitHub
+
+^^1594985500--2020-07-17T12:31:40+01:00--GitHub
+
+^^1595000463--2020-07-17T16:41:03+01:00--Rob Nichols
+
+
+12	16	app/controllers/coronavirus_form/check_answers_controller.rb
+^^1595000684--2020-07-17T16:44:44+01:00--Rob Nichols
+
+
+1	1	Gemfile
+11	4	Gemfile.lock
+3	3	app/controllers/coronavirus_form/check_answers_controller.rb
+1	1	app/helpers/schema_helper.rb
+51	0	app/services/json_validator.rb
+0	336	spec/helpers/schema_helper_spec.rb
+584	0	spec/services/json_validator_spec.rb
+^^1595001186--2020-07-17T16:53:06+01:00--GitHub
+
+^^1595240889--2020-07-20T11:28:09+01:00--GitHub
+
+^^1595312504--2020-07-21T06:21:44+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1595312522--2020-07-21T06:22:02+00:00--GitHub
+
+
+12	12	Gemfile.lock
+^^1595314097--2020-07-21T07:48:17+01:00--GitHub
+
+^^1595327374--2020-07-21T11:29:34+01:00--Steve Holmes
+
+
+1	1	app/controllers/coronavirus_form/check_answers_controller.rb
+1	1	app/controllers/coronavirus_form/date_of_birth_controller.rb
+2	2	app/helpers/field_validation_helper.rb
+^^1595405103--2020-07-22T09:05:03+01:00--Jon Hallam
+
+
+1	1	concourse/pipeline.yml
+^^1595406836--2020-07-22T09:33:56+01:00--Alex Newton
+
+
+1	31	concourse/pipeline.yml
+^^1595514648--2020-07-23T15:30:48+01:00--GitHub
+
+^^1595516989--2020-07-23T16:09:49+01:00--GitHub
+
+^^1595570733--2020-07-24T06:05:33+00:00--GitHub
+
+
+1	1	Gemfile
+4	4	Gemfile.lock
+^^1595579044--2020-07-24T09:24:04+01:00--GitHub
+
+^^1595579882--2020-07-24T09:38:02+01:00--GitHub
+
+^^1595607068--2020-07-24T17:11:08+01:00--Rosa Fox
+
+
+34	0	docs/how-to-bring-back-this-service.md
+^^1595829731--2020-07-27T06:02:11+00:00--GitHub
+
+
+1	1	Gemfile
+3	27	Gemfile.lock
+^^1595838987--2020-07-27T09:36:27+01:00--GitHub
+
+^^1595847425--2020-07-27T10:57:05+00:00--GitHub
+
+
+1	1	Gemfile
+11	7	Gemfile.lock
+^^1595855011--2020-07-27T14:03:31+01:00--GitHub
+
+^^1596436547--2020-08-03T06:35:47+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1596441036--2020-08-03T08:50:36+01:00--GitHub
+
+^^1596467752--2020-08-03T16:15:52+01:00--Leena Gupte
+
+
+3	3	concourse/tasks/deploy-to-govuk-paas.yml
+^^1596610712--2020-08-05T06:58:32+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1596626381--2020-08-05T12:19:41+01:00--Leena Gupte
+
+
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1596626381--2020-08-05T12:19:41+01:00--Leena Gupte
+
+
+1	1	concourse/tasks/deploy-to-govuk-paas.yml
+^^1596633277--2020-08-05T14:14:37+01:00--GitHub
+
+^^1596781942--2020-08-07T06:32:22+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1597049109--2020-08-10T09:45:09+01:00--GitHub
+
+^^1597049124--2020-08-10T09:45:24+01:00--GitHub
+
+^^1597125288--2020-08-11T05:54:48+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1597222494--2020-08-12T09:54:54+01:00--GitHub
+
+^^1597334603--2020-08-13T17:03:23+01:00--Jon Hallam
+
+
+35	19	config/locales/en.yml
+^^1597335237--2020-08-13T17:13:57+01:00--GitHub
+
+^^1597662145--2020-08-17T12:02:25+01:00--GitHub
+
+
+7	2	config/locales/en.yml
+^^1597662812--2020-08-17T12:13:32+01:00--GitHub
+
+^^1597902673--2020-08-20T05:51:13+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1597929101--2020-08-20T14:11:41+01:00--GitHub
+
+^^1597989225--2020-08-21T05:53:45+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1597996349--2020-08-21T08:52:29+01:00--GitHub
+
+^^1598248920--2020-08-24T06:02:00+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1598255069--2020-08-24T08:44:29+01:00--GitHub
+
+^^1599197699--2020-09-04T05:34:59+00:00--GitHub
+
+
+1	1	Gemfile
+4	4	Gemfile.lock
+^^1599230988--2020-09-04T15:49:48+01:00--GitHub
+
+^^1599456526--2020-09-07T05:28:46+00:00--GitHub
+
+
+1	1	Gemfile
+4	4	Gemfile.lock
+^^1599456581--2020-09-07T05:29:41+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1599487123--2020-09-07T14:58:43+01:00--GitHub
+
+^^1599487670--2020-09-07T15:07:50+01:00--GitHub
+
+^^1599715323--2020-09-10T05:22:03+00:00--GitHub
+
+
+51	51	Gemfile.lock
+^^1599727244--2020-09-10T09:40:44+01:00--GitHub
+
+^^1600149276--2020-09-15T05:54:36+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1600162415--2020-09-15T10:33:35+01:00--GitHub
+
+^^1601358591--2020-09-29T05:49:51+00:00--GitHub
+
+
+1	1	Gemfile
+2	2	Gemfile.lock
+^^1602136266--2020-10-08T05:51:06+00:00--GitHub
+
+
+52	52	Gemfile.lock
+^^1602147557--2020-10-08T09:59:17+01:00--GitHub
+
+^^1602655171--2020-10-14T05:59:31+00:00--GitHub
+
+
+9	8	Gemfile.lock
+^^1602661677--2020-10-14T08:47:57+01:00--GitHub
+
+^^1602741407--2020-10-15T05:56:47+00:00--GitHub
+
+
+1	1	Gemfile
+4	4	Gemfile.lock
+^^1602749048--2020-10-15T09:04:08+01:00--GitHub
+
+^^1602827991--2020-10-16T05:59:51+00:00--GitHub
+
+
+1	1	Gemfile.lock
+^^1603089104--2020-10-19T06:31:44+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1603266669--2020-10-21T08:51:09+01:00--GitHub
+
+^^1603266962--2020-10-21T08:56:02+01:00--GitHub
+
+^^1603267018--2020-10-21T07:56:58+00:00--GitHub
+
+
+1	1	Gemfile
+3	3	Gemfile.lock
+^^1603462041--2020-10-23T15:07:21+01:00--Neil van Beinum
+
+
+125	0	.github/workflows/combine-prs.yml
+^^1604987726--2020-11-10T05:55:26+00:00--GitHub
+
+
+1	1	Gemfile
+4	4	Gemfile.lock
