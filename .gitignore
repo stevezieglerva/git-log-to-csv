@@ -134,3 +134,4 @@ results.csv
 /*.xlsx
 samples/react.csv
 samples/react.xlsx
+**/**/cw*.*
