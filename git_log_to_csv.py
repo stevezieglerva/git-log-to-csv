@@ -38,13 +38,13 @@ def get_first_directories_from_filename(file):
 def process_git_log(log):
     commits = log.split("^^")
 
-    result = "epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2\n"
+    result = "commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2\n"
     for number, commit in enumerate(commits):
         if commit != "":
             commit_lines = commit.split("\n")
             commit_basics = commit_lines[0]
             commit_basics_parts = commit_basics.split("--")
-            has = commit_basics_parts[0]
+            hash = commit_basics_parts[0]
             epoch = commit_basics_parts[1]
             tmsp = commit_basics_parts[2]
 
@@ -72,7 +72,7 @@ def process_git_log(log):
 
                 result = (
                     result
-                    + f'{epoch},{tmsp},{day_only},{year},{month},{day},"{author}",{file},{total_churn},{dir_1},{dir_2}\n'
+                    + f'{hash},{epoch},{tmsp},{day_only},{year},{month},{day},"{author}",{file},{total_churn},{dir_1},{dir_2}\n'
                 )
 
     return result

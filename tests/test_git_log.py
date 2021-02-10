@@ -22,10 +22,10 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
-1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",README.md,8,,
-1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,1,sam-app,add_cw_log_error_metric
-1576592605,2019-12-17T09:23:25,2019-12-17,2019,12,17,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,3,sam-app,add_cw_log_error_metric
+        expected = """commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
+c8ed1ef,1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",README.md,8,,
+c8ed1ef,1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,1,sam-app,add_cw_log_error_metric
+a999999,1576592605,2019-12-17T09:23:25,2019-12-17,2019,12,17,"Steve Ziegler",sam-app/add_cw_log_error_metric/CloudFormationReplicator.py,3,sam-app,add_cw_log_error_metric
 """
         self.assertEqual(results, expected)
 
@@ -42,8 +42,8 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
-1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",README.md,2,,
+        expected = """commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
+c8ed1ef,1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",README.md,2,,
 """
         self.assertEqual(results, expected)
 
@@ -60,8 +60,8 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
-1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",test1/README.md,2,test1,
+        expected = """commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
+c8ed1ef,1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",test1/README.md,2,test1,
 """
         self.assertEqual(results, expected)
 
@@ -78,8 +78,8 @@ class UnitTests(unittest.TestCase):
         print(results)
 
         # Assert
-        expected = """epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
-1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",README.md,2,,
+        expected = """commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
+c8ed1ef,1576592170,2019-12-17T09:16:10,2019-12-17,2019,12,17,"Steve Ziegler",README.md,2,,
 """
         self.assertEqual(results, expected)
 
