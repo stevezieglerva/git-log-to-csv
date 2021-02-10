@@ -1,6 +1,8 @@
 # git-log-to-csv
 This python script reads a pre-generated git log output text file and creates a CSV file of useful columns that can be use for further analysis. There are lots of existing tools that do this but seem to have been abandoned or require server software to present visualizations of the data. This script creates a CSV file that be analyzed or visualized by a separate process. 
 
+It was inspired by Adam Tornhill's [GOTO 2019 Prioritizing Technical Debt as if Time and Money Matters](https://www.youtube.com/watch?v=fl4aZ2KXBsQ) talk.
+
 
 ## Usage
 Create a git log text file with the required format. Navigate to desired local repo and run this command:
