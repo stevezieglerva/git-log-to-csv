@@ -6,12 +6,12 @@ from git_log_to_csv import *
 class UnitTests(unittest.TestCase):
     def test_process__given_two_commits_three_files__then_three_lines_created(self):
         # Arrange
-        input = """^^1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
+        input = """^^c8ed1ef--1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
 
 
 3	5	README.md
 0	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
-^^1576592605--2019-12-17T09:23:25-05:00--Steve Ziegler
+^^a999999--1576592605--2019-12-17T09:23:25-05:00--Steve Ziegler
 
 
 2	1	sam-app/add_cw_log_error_metric/CloudFormationReplicator.py
@@ -31,7 +31,7 @@ class UnitTests(unittest.TestCase):
 
     def test_process__given_insertion_is_dash__then_churn_set_to_two(self):
         # Arrange
-        input = """^^1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
+        input = """^^c8ed1ef--1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
 
 
 -	-	README.md
@@ -49,7 +49,7 @@ class UnitTests(unittest.TestCase):
 
     def test_process__given_file_in_one_dir__then_dir_1_correct(self):
         # Arrange
-        input = """^^1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
+        input = """^^c8ed1ef--1576592170--2019-12-17T09:16:10-05:00--Steve Ziegler
 
 
 -	-	test1/README.md
@@ -67,7 +67,7 @@ class UnitTests(unittest.TestCase):
 
     def test_process__given_timezone_is_gmt__then_results_are_correct(self):
         # Arrange
-        input = """^^1576592170--2019-12-17T09:16:10+00:00--Steve Ziegler
+        input = """^^c8ed1ef--1576592170--2019-12-17T09:16:10+00:00--Steve Ziegler
 
 
 1	1	README.md
