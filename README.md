@@ -82,7 +82,7 @@ Authors
 ![](samples/govuk_author.png)
 
 Dirs
-![](samples/govuk_dir.png)
+![](samples/govuk_dirs.png)
 
 Date
 ![](samples/govuk_date.png)
@@ -94,9 +94,10 @@ Authors
 ![](samples/react_author.png)
 
 Dirs
-![](samples/react_dir.png)
+![](samples/react_dir_1.png)
 
 Date
+I like how you can see when they put a lot of effort into documentation.
 ![](samples/react_date.png)
 
 
