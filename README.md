@@ -68,3 +68,36 @@ git_log_to_csv.py      58      7    88%
 88%
 🏆 Coverage is good
 ```
+
+## Samples
+
+### GovUK Coronavirus From   
+I analyzed the GovUK [govuk-coronavirus-vulnerable-people-form](https://github.com/jpluscplusm/govuk-coronavirus-vulnerable-people-form) repo since I had [written](https://www.linkedin.com/pulse/how-govuk-used-engineering-ux-help-extremely-steve-ziegler/) about it. Here are the raw text and csv files along with the Excel pivot tables used to create some visualizations.
+
+* [git_log_govuk.txt](samples/git_log_govuk.txt) raw git log  
+* [govuk.csv](samples/govuk.csv) resulting csv file
+* [govuk.xlsx](samples/govuk.xlsx) Excel with pivot tables and charts
+
+Authors
+![](samples/govuk_author.png)
+
+Dirs
+![](samples/govuk_dir.png)
+
+Date
+![](samples/govuk_date.png)
+
+### React 
+I also analyzed the React git log. For file size considerations, I've only included the raw [git log](samples/git_log_react.txt).
+
+Authors
+![](samples/react_author.png)
+
+Dirs
+![](samples/react_dir.png)
+
+Date
+![](samples/react_date.png)
+
+
+
