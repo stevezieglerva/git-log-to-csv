@@ -131,4 +131,4 @@ dmypy.json
 git-log-to-csv.code-workspace
 reports/**/**
 results.csv
-
+**/**/*.xlsx
