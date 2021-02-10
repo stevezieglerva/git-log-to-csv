@@ -20,7 +20,6 @@ def strip_timezone_offset(timestamp_str):
 def get_churn_int_values_even_if_dash(text_number):
     metric = 1
     if text_number.strip() != "-":
-        print(text_number)
         metric = int(text_number)
     return metric
 

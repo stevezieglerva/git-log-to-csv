@@ -34,9 +34,9 @@ python3 git_log_to_csv.py git_log.txt > results.csv
 
 The results.csv will look like this:
 ```
-commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2
-d7950ef,1584634972,2020-03-19T16:22:52,2020-03-19,2020,3,19,"Bill Franklin",.gitignore,29,,
-d7950ef,1584634972,2020-03-19T16:22:52,2020-03-19,2020,3,19,"Bill Franklin",.rspec,1,,
+commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2,dir_3,dir_4
+d7950ef,1584634972,2020-03-19T16:22:52,2020-03-19,2020,3,19,"Bill Franklin",.gitignore,29,,,,
+d7950ef,1584634972,2020-03-19T16:22:52,2020-03-19,2020,3,19,"Bill Franklin",.rspec,1,,,,
 ...
 ```
 
