@@ -19,26 +19,34 @@ def strip_timezone_offset(timestamp_str):
 
 def get_churn_int_values_even_if_dash(text_number):
     metric = 1
-    if text_number != "-":
+    if text_number.strip() != "-":
+        print(text_number)
         metric = int(text_number)
     return metric
 
 
 def get_first_directories_from_filename(file):
     file_dir_parts = file.split("/")
+    results = []
     dir_1 = ""
     dir_2 = ""
+    dir_3 = ""
+    dir_4 = ""
     if len(file_dir_parts) >= 2:
         dir_1 = file_dir_parts[0]
     if len(file_dir_parts) >= 3:
         dir_2 = file_dir_parts[1]
-    return (dir_1, dir_2)
+    if len(file_dir_parts) >= 4:
+        dir_3 = file_dir_parts[2]
+    if len(file_dir_parts) >= 5:
+        dir_4 = file_dir_parts[3]
+    return [dir_1, dir_2, dir_3, dir_4]
 
 
 def process_git_log(log):
     commits = log.split("^^")
 
-    result = "commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2\n"
+    result = "commit_hash,epoch,timestamp,date,year,month,day,author,file,churn_count,dir_1,dir_2,dir_3,dir_4\n"
     for number, commit in enumerate(commits):
         if commit != "":
             commit_lines = commit.split("\n")
@@ -68,11 +76,11 @@ def process_git_log(log):
                 total_churn = insertions + deletions
 
                 file = churn_line_parts[2]
-                dir_1, dir_2 = get_first_directories_from_filename(file)
+                dirs = get_first_directories_from_filename(file)
 
                 result = (
                     result
-                    + f'{hash},{epoch},{tmsp},{day_only},{year},{month},{day},"{author}",{file},{total_churn},{dir_1},{dir_2}\n'
+                    + f'{hash},{epoch},{tmsp},{day_only},{year},{month},{day},"{author}",{file},{total_churn},{dirs[0]},{dirs[1]},{dirs[2]},{dirs[3]}\n'
                 )
 
     return result
